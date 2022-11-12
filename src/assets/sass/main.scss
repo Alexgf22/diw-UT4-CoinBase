@@ -5,3 +5,89 @@ $color-secundario: rgba(204, 166, 31, 1);
 $color-terciario: rgba(105, 120, 255, 1);
 
 
+
+.menuNavegacionNav {
+
+ ul {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:center;
+    gap: 25px;
+    width: 100%;
+    border-bottom: 2px solid rgb(196, 182, 182);
+    padding: 10px;
+    padding-bottom:20px;
+ }
+
+
+  li {
+    /*text-decoration: underline #CC0000 3px;*/
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .listaCabecera {
+    font-size:14px;
+  }
+
+}
+
+
+
+#menuNavPag1 {
+    .PrimerEnlace {
+    text-decoration: none;
+    text-decoration: underline #CC0000 3px;
+
+  }
+}
+
+
+#menuNavPag2 {
+
+    .SegundoEnlace {
+        text-decoration: none;
+        text-decoration: underline #CC0000 3px;
+
+    }
+}
+
+
+#menuNavPag3 {
+    .TercerEnlace {
+    text-decoration: none;
+    text-decoration: underline #CC0000 3px;
+
+    }
+}
+
+
+
+.piePagina {
+    background-color: #3B3B3B;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding:10px;
+
+    p {
+        color:  #FFFFFF;
+        font-size: 12px;
+        margin-left: 120px;
+        font-family: Arial, Helvetica, sans-serif;    
+    }
+}
+
+
+.imagenPie {
+    margin-left: 120px;
+}
