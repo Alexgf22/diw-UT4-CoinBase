@@ -1,5 +1,55 @@
-h1 {
-  color: #00f;
+.menuNavegacionNav ul {
+  width: 100%;
+  border-bottom: 2px solid #c4b6b6;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 10px 10px 20px;
+  display: flex;
+}
+
+.menuNavegacionNav li {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+.menuNavegacionNav a {
+  color: #000;
+  text-decoration: none;
+}
+
+.menuNavegacionNav .listaCabecera {
+  font-size: 14px;
+}
+
+#menuNavPag1 .PrimerEnlace, #menuNavPag2 .SegundoEnlace, #menuNavPag3 .TercerEnlace {
+  text-decoration: underline #c00;
+  text-decoration-thickness: 3px;
+}
+
+.piePagina {
+  width: 100%;
+  background-color: #3b3b3b;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.piePagina p {
+  color: #fff;
+  margin-left: 120px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.imagenPie {
+  margin-left: 120px;
+}
+
+.titulo1cabecera {
+  color: #09ff00;
 }
 
 /*# sourceMappingURL=index.034b6250.css.map */
