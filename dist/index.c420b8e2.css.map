@@ -1,1 +1,1 @@
-{"mappings":"ACAA","sources":["index.c420b8e2.css","src/sass/main.scss"],"sourcesContent":["h1 {\n  color: #00f;\n}\n\n/*# sourceMappingURL=index.c420b8e2.css.map */\n","h1 {\r\n    color: blue;\r\n}"],"names":[],"version":3,"file":"index.c420b8e2.css.map"}
+{"mappings":"ACAA","sources":["index.c420b8e2.css","src/assets/sass/main.scss"],"sourcesContent":["h1 {\n  color: #00f;\n}\n\n/*# sourceMappingURL=index.c420b8e2.css.map */\n","h1 {\r\n    color: blue;\r\n}"],"names":[],"version":3,"file":"index.c420b8e2.css.map"}
