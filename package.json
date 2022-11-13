@@ -6,8 +6,7 @@
     "build": "parcel build",
     "clean": "rimraf dist .cache .cache-loader",
     "dev": "npm-run-all clean start",
-    "buildClear": "npm-run-all clean build",
-    "compile:sass": "node-sass src/sass/main.scss src/estilos_web/estilos.css --watch"
+    "buildClear": "npm-run-all clean build"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
