@@ -1,12 +1,28 @@
-.menuNavegacionNav ul {
+.logoPag {
+  width: 60px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
   width: 100%;
-  border-bottom: 2px solid #c4b6b6;
+  margin: 0;
+}
+
+.flexcabecera .listaCabecera {
   flex-flow: wrap;
   justify-content: center;
   align-items: center;
+  display: flex;
+}
+
+.menuNavegacionNav ul {
+  width: 100%;
+  border-bottom: 2px solid #c4b6b6;
   gap: 25px;
   padding: 10px 10px 20px;
-  display: flex;
 }
 
 .menuNavegacionNav li {
@@ -23,7 +39,7 @@
   font-size: 14px;
 }
 
-#menuNavPag1 .PrimerEnlace, #menuNavPag2 .SegundoEnlace, #menuNavPag3 .TercerEnlace {
+#menuNavPag2 .SegundoEnlace, #menuNavPag3 .TercerEnlace {
   text-decoration: underline #c00;
   text-decoration-thickness: 3px;
 }
@@ -46,15 +62,6 @@
 
 .imagenPie {
   margin-left: 120px;
-}
-
-.titulo1cabecera {
-  color: #09ff00;
-}
-
-.rezando {
-  color: purple;
-  font-size: 40px;
 }
 
 /*# sourceMappingURL=index.034b6250.css.map */

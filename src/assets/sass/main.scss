@@ -5,14 +5,35 @@ $color-secundario: rgba(204, 166, 31, 1);
 $color-terciario: rgba(105, 120, 255, 1);
 
 
+.logoPag {
+  width: 60px;
 
-.menuNavegacionNav {
+}
 
- ul {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+}
+
+.flexcabecera {
+
+  .listaCabecera {
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items:center;
+
+  }
+}
+
+.menuNavegacionNav {
+
+ ul {
+    
     gap: 25px;
     width: 100%;
     border-bottom: 2px solid rgb(196, 182, 182);
@@ -40,15 +61,6 @@ $color-terciario: rgba(105, 120, 255, 1);
 
 }
 
-
-
-#menuNavPag1 {
-    .PrimerEnlace {
-    text-decoration: none;
-    text-decoration: underline #CC0000 3px;
-
-  }
-}
 
 
 #menuNavPag2 {
@@ -92,12 +104,3 @@ $color-terciario: rgba(105, 120, 255, 1);
     margin-left: 120px;
 }
 
-.titulo1cabecera {
-  color: rgb(9, 255, 0);
-}
-
-
-.rezando {
-  color: purple;
-  font-size: 40px;
-}
