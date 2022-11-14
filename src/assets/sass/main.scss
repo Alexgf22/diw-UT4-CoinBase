@@ -19,27 +19,46 @@ body {
   margin: 0px;
 }
 
-.flexcabecera {
+.mainPagInicio {
+  width: 100%;
+  .imagenPagInicio {
+    width: 100%
+  }
+  .botonActivosPagInicio {
+    z-index: 1;
+    position: relative;
+    color:gold;
+  }
+}
+
+.cabecera {
+
+  background-color: $color-primario;
 
   .listaCabecera {
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items:center;
+    gap: 25px;
+    width: 100%;
+    border-bottom: 2px solid rgb(196, 182, 182);
+    padding: 10px;
+    padding-bottom:20px;
 
   }
 }
 
 .menuNavegacionNav {
 
- ul {
+ /*ul {
     
     gap: 25px;
     width: 100%;
     border-bottom: 2px solid rgb(196, 182, 182);
     padding: 10px;
     padding-bottom:20px;
- }
+ }*/
 
 
   li {
@@ -84,7 +103,7 @@ body {
 
 
 .piePagina {
-    background-color: #3B3B3B;
+    background-color: $color-primario;
     position: fixed;
     bottom: 0;
     left: 0;
