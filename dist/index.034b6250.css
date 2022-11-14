@@ -11,8 +11,16 @@ body {
   margin: 0;
 }
 
-.mainPagInicio, .mainPagInicio .imagenPagInicio {
+.nombrePag {
+  color: #fff;
+}
+
+.mainPagInicio {
   width: 100%;
+}
+
+.mainPagInicio .imagenPagInicio {
+  width: auto;
 }
 
 .mainPagInicio .botonActivosPagInicio {
@@ -22,27 +30,27 @@ body {
 }
 
 .cabecera {
+  width: 100%;
   background-color: #1b2580;
+  position: fixed;
 }
 
 .cabecera .listaCabecera {
   width: 100%;
-  border-bottom: 2px solid #c4b6b6;
   flex-flow: wrap;
   justify-content: center;
   align-items: center;
   gap: 25px;
-  padding: 10px 10px 20px;
   display: flex;
 }
 
 .menuNavegacionNav li {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Staatliches;
   list-style-type: none;
 }
 
 .menuNavegacionNav a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
