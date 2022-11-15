@@ -395,11 +395,15 @@ body {
     padding-bottom: 500px;
     width: 400px;
     background-color: $color-primario;
-    display:flex;
+    /*display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:0 auto;
+    margin:0 auto;*/
+
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
 
     h2 {
       font-family: $fuente-titulos;
@@ -462,7 +466,8 @@ body {
     align-items: center;
     justify-self: flex-end;
     gap: 30px;
-  
+
+    
     b {
       font-family: $fuente-titulos;
       font-size: 16px;

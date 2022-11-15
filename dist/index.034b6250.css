@@ -335,13 +335,10 @@ body {
   width: 140px;
   background-color: #fff;
   border-radius: .6em;
-  flex-direction: column;
-  justify-content: center;
-  justify-self: flex-end;
-  align-items: center;
-  gap: 30px;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%;
   padding: 6px;
-  display: flex;
+  display: grid;
 }
 
 .mainPagListado .contenedorBuscar b {
