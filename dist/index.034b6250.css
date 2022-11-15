@@ -307,12 +307,10 @@ body {
 .mainPagListado .contenedorCryptos {
   width: 400px;
   background-color: #1b2580;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%;
   padding-bottom: 500px;
-  display: flex;
+  display: grid;
 }
 
 .mainPagListado .contenedorCryptos h2 {
@@ -335,10 +333,13 @@ body {
   width: 140px;
   background-color: #fff;
   border-radius: .6em;
-  grid-template-rows: 33% 33% 33%;
-  grid-template-columns: 33% 33% 33%;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: flex-end;
+  align-items: center;
+  gap: 30px;
   padding: 6px;
-  display: grid;
+  display: flex;
 }
 
 .mainPagListado .contenedorBuscar b {
