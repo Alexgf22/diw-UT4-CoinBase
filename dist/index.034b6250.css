@@ -130,7 +130,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
   padding-top: 88px;
   padding-left: 30px;
   padding-right: 30px;
@@ -139,6 +138,7 @@ body {
 
 .mainPagRegistro .formularioRegistro h2 {
   color: #fff;
+  text-align: center;
   font-family: Inter, sans-serif;
   font-size: 18px;
 }
@@ -148,8 +148,10 @@ body {
 }
 
 .mainPagRegistro .formularioRegistro fieldset {
+  width: 400px;
   background-color: #1b2580;
   border: #cca61f;
+  margin: 0 auto;
 }
 
 .mainPagRegistro .formularioRegistro input {

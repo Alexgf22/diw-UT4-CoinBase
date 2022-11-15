@@ -187,16 +187,17 @@ body {
     padding-right: 30px;
     width: 100%;
     max-width: 600px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
     h2 {
       color: white;
       font-family: $fuente-parrafos;
       font-size: 18px;
+      text-align: center;
     }
 
     .flechaAbajo {
@@ -206,6 +207,8 @@ body {
     fieldset {
       background-color: $color-primario;
       border: $color-secundario;
+      width: 400px;
+      margin:0 auto;
     }
 
     input {
