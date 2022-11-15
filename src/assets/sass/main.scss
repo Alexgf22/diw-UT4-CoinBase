@@ -371,5 +371,18 @@ body {
       background-color: $color-primario;
       color: white;
     }
+
+    textarea {
+      background-color: $color-secundario;
+      height: 100px;
+    }
+
+    .iconoWhatsapp {
+      width: 18px;
+    }
+
+    .iconoGmail {
+      width: 18px;
+    }
   }
 

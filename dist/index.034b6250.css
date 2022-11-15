@@ -290,4 +290,13 @@ body {
   background-color: #1b2580;
 }
 
+.formularioContacto textarea {
+  height: 100px;
+  background-color: #cca61f;
+}
+
+.formularioContacto .iconoWhatsapp, .formularioContacto .iconoGmail {
+  width: 18px;
+}
+
 /*# sourceMappingURL=index.034b6250.css.map */
