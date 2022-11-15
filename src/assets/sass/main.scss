@@ -403,9 +403,37 @@ body {
     margin:0 auto;
   }
 
+
+}
+
+.contenedorCryptos {
+  h2 {
+    font-family: $fuente-titulos;
+    color: white;
+    font-size: 18px;
+  }
+}
+
+
+.contenedorBuscar {
+  width: 140px;
+  background-color: white;
+  padding: 6px;
+  border-radius: 0.6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  b {
+    font-family: $fuente-titulos;
+    font-size: 16px;
+  }
+
   .iconoBuscar {
     width: 18px;
   }
 
-}
+} 
 

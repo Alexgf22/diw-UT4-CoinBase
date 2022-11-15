@@ -315,4 +315,31 @@ body {
   display: flex;
 }
 
+.contenedorCryptos h2 {
+  color: #fff;
+  font-family: Staatliches;
+  font-size: 18px;
+}
+
+.contenedorBuscar {
+  width: 140px;
+  background-color: #fff;
+  border-radius: .6em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 6px;
+  display: flex;
+}
+
+.contenedorBuscar b {
+  font-family: Staatliches;
+  font-size: 16px;
+}
+
+.contenedorBuscar .iconoBuscar {
+  width: 18px;
+}
+
 /*# sourceMappingURL=index.034b6250.css.map */
