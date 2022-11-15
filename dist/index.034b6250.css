@@ -299,4 +299,20 @@ body {
   width: 18px;
 }
 
+.mainPagListado {
+  background-color: #6978ff;
+  padding-top: 255px;
+}
+
+.mainPagListado .contenedorCryptos {
+  width: 400px;
+  background-color: #1b2580;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 500px;
+  display: flex;
+}
+
 /*# sourceMappingURL=index.034b6250.css.map */

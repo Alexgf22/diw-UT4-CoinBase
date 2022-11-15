@@ -386,3 +386,22 @@ body {
     }
   }
 
+
+// Main página listado
+
+.mainPagListado {
+  background-color: $color-terciario;
+  padding-top: 255px;
+  .contenedorCryptos {
+    padding-bottom: 500px;
+    width: 400px;
+    background-color: $color-primario;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+  }
+
+}
+
