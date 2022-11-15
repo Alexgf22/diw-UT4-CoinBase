@@ -177,11 +177,74 @@ body {
 }
 
 
+// Main página registro
+
 .mainPagRegistro {
   background-color: $color-terciario;
   width: 100%;
 
   .formularioRegistro {
+    padding-top: 88px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    h2 {
+      color: white;
+      font-family: $fuente-parrafos;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .flechaAbajo {
+      width: 18px;
+    }
+
+    fieldset {
+      background-color: $color-primario;
+      border: $color-secundario;
+      width: 400px;
+      margin:0 auto;
+    }
+
+    input {
+      background-color: $color-secundario;
+      border: $color-secundario;
+    }
+
+    label {
+      color:white;
+      font-family: $fuente-parrafos;
+      font-size: 16px;
+    }
+
+    #BotonEnviar {
+      border-radius: 0.8em;
+      width: 80px;
+      height: 35px;
+      padding: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+
+
+// Main Página inicio sesión
+
+.mainPagInicioSesion {
+  background-color: $color-terciario;
+  width: 100%;
+
+  .formularioInicioSesion {
     padding-top: 88px;
     padding-left: 30px;
     padding-right: 30px;
