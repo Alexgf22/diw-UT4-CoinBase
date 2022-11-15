@@ -321,7 +321,13 @@ body {
   font-size: 18px;
 }
 
-.contenedorCryptos .logoBitcoin, .contenedorCryptos .logoCardano {
+.contenedorCryptos p {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+}
+
+.contenedorCryptos .logoBitcoin, .contenedorCryptos .logoCardano, .contenedorCryptos .logoTether, .contenedorCryptos .logoEthereum, .contenedorCryptos .logoSolana, .contenedorCryptos .logoBNB, .contenedorCryptos .logoLitecoin, .contenedorCryptos .logoChainlink, .contenedorCryptos .logoUSDCoin {
   width: 42px;
 }
 

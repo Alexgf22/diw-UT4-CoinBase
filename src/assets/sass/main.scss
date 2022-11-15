@@ -413,11 +413,45 @@ body {
     font-size: 18px;
   }
 
+  p {
+    color:white;
+    font-family: $fuente-parrafos;
+    font-size: 14px;
+  }
+
   .logoBitcoin {
     width: 42px;
   }
 
   .logoCardano {
+    width: 42px;
+  }
+
+  .logoTether {
+    width: 42px;
+  }
+
+  .logoEthereum {
+    width: 42px;
+  }
+
+  .logoSolana {
+    width: 42px;
+  }
+
+  .logoBNB {
+    width: 42px;
+  }
+
+  .logoLitecoin {
+    width: 42px;
+  }
+
+  .logoChainlink {
+    width: 42px;
+  }
+
+  .logoUSDCoin {
     width: 42px;
   }
 }
