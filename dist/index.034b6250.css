@@ -192,36 +192,36 @@ body {
   display: flex;
 }
 
-.formularioInicioSesion h2 {
+.mainPagInicioSesion .formularioInicioSesion h2 {
   color: #fff;
   text-align: center;
   font-family: Inter, sans-serif;
   font-size: 18px;
 }
 
-.formularioInicioSesion .flechaAbajo {
+.mainPagInicioSesion .formularioInicioSesion .flechaAbajo {
   width: 18px;
 }
 
-.formularioInicioSesion fieldset {
+.mainPagInicioSesion .formularioInicioSesion fieldset {
   width: 400px;
   background-color: #1b2580;
   border: #cca61f;
   margin: 0 auto;
 }
 
-.formularioInicioSesion input {
+.mainPagInicioSesion .formularioInicioSesion input {
   background-color: #cca61f;
   border: #cca61f;
 }
 
-.formularioInicioSesion label {
+.mainPagInicioSesion .formularioInicioSesion label {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 16px;
 }
 
-.formularioInicioSesion #BotonEnviar {
+.mainPagInicioSesion .formularioInicioSesion #BotonEnviar {
   width: 80px;
   height: 35px;
   border-radius: .8em;
@@ -246,36 +246,36 @@ body {
   display: flex;
 }
 
-.formularioContacto h2 {
+.mainPagContacto .formularioContacto h2 {
   color: #fff;
   text-align: center;
   font-family: Inter, sans-serif;
   font-size: 18px;
 }
 
-.formularioContacto .flechaAbajo {
+.mainPagContacto .formularioContacto .flechaAbajo {
   width: 18px;
 }
 
-.formularioContacto fieldset {
+.mainPagContacto .formularioContacto fieldset {
   width: 400px;
   background-color: #1b2580;
   border: #cca61f;
   margin: 0 auto;
 }
 
-.formularioContacto input {
+.mainPagContacto .formularioContacto input {
   background-color: #cca61f;
   border: #cca61f;
 }
 
-.formularioContacto label {
+.mainPagContacto .formularioContacto label {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 16px;
 }
 
-.formularioContacto #BotonEnviar {
+.mainPagContacto .formularioContacto #BotonEnviar {
   width: 80px;
   height: 35px;
   border-radius: .8em;
@@ -285,17 +285,17 @@ body {
   display: block;
 }
 
-.formularioContacto #telefonoContacto, .formularioContacto #gmailContacto {
+.mainPagContacto .formularioContacto #telefonoContacto, .mainPagContacto .formularioContacto #gmailContacto {
   color: #fff;
   background-color: #1b2580;
 }
 
-.formularioContacto textarea {
+.mainPagContacto .formularioContacto textarea {
   height: 100px;
   background-color: #cca61f;
 }
 
-.formularioContacto .iconoWhatsapp, .formularioContacto .iconoGmail {
+.mainPagContacto .formularioContacto .iconoWhatsapp, .mainPagContacto .formularioContacto .iconoGmail {
   width: 18px;
 }
 
@@ -315,23 +315,23 @@ body {
   display: flex;
 }
 
-.contenedorCryptos h2 {
+.mainPagListado .contenedorCryptos h2 {
   color: #fff;
   font-family: Staatliches;
   font-size: 18px;
 }
 
-.contenedorCryptos p {
+.mainPagListado .contenedorCryptos p {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 14px;
 }
 
-.contenedorCryptos .logoBitcoin, .contenedorCryptos .logoCardano, .contenedorCryptos .logoTether, .contenedorCryptos .logoEthereum, .contenedorCryptos .logoSolana, .contenedorCryptos .logoBNB, .contenedorCryptos .logoLitecoin, .contenedorCryptos .logoChainlink, .contenedorCryptos .logoUSDCoin {
+.mainPagListado .contenedorCryptos .logoBitcoin, .mainPagListado .contenedorCryptos .logoCardano, .mainPagListado .contenedorCryptos .logoTether, .mainPagListado .contenedorCryptos .logoEthereum, .mainPagListado .contenedorCryptos .logoSolana, .mainPagListado .contenedorCryptos .logoBNB, .mainPagListado .contenedorCryptos .logoLitecoin, .mainPagListado .contenedorCryptos .logoChainlink, .mainPagListado .contenedorCryptos .logoUSDCoin {
   width: 42px;
 }
 
-.contenedorBuscar {
+.mainPagListado .contenedorBuscar {
   width: 140px;
   background-color: #fff;
   border-radius: .6em;
@@ -344,12 +344,12 @@ body {
   display: flex;
 }
 
-.contenedorBuscar b {
+.mainPagListado .contenedorBuscar b {
   font-family: Staatliches;
   font-size: 16px;
 }
 
-.contenedorBuscar .iconoBuscar {
+.mainPagListado .contenedorBuscar .iconoBuscar {
   width: 18px;
 }
 

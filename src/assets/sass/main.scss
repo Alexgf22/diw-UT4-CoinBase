@@ -257,10 +257,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-}
-    
-  .formularioInicioSesion {
+
     h2 {
       color: white;
       font-family: $fuente-parrafos;
@@ -300,7 +297,9 @@ body {
       margin-right: auto;
     }
   }
-
+}
+    
+  
 
 // Main página contacto
 
@@ -319,10 +318,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-}
-    
-  .formularioContacto {
+
     h2 {
       color: white;
       font-family: $fuente-parrafos;
@@ -385,6 +381,8 @@ body {
       width: 18px;
     }
   }
+}
+    
 
 
 // Main página listado
@@ -392,6 +390,7 @@ body {
 .mainPagListado {
   background-color: $color-terciario;
   padding-top: 255px;
+
   .contenedorCryptos {
     padding-bottom: 500px;
     width: 400px;
@@ -401,82 +400,84 @@ body {
     justify-content: center;
     align-items: center;
     margin:0 auto;
+
+    h2 {
+      font-family: $fuente-titulos;
+      color: white;
+      font-size: 18px;
+    }
+  
+    p {
+      color:white;
+      font-family: $fuente-parrafos;
+      font-size: 14px;
+    }
+  
+    .logoBitcoin {
+      width: 42px;
+    }
+  
+    .logoCardano {
+      width: 42px;
+    }
+  
+    .logoTether {
+      width: 42px;
+    }
+  
+    .logoEthereum {
+      width: 42px;
+    }
+  
+    .logoSolana {
+      width: 42px;
+    }
+  
+    .logoBNB {
+      width: 42px;
+    }
+  
+    .logoLitecoin {
+      width: 42px;
+    }
+  
+    .logoChainlink {
+      width: 42px;
+    }
+  
+    .logoUSDCoin {
+      width: 42px;
+    }
   }
 
+
+  .contenedorBuscar {
+    width: 140px;
+    background-color: white;
+    padding: 6px;
+    border-radius: 0.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-end;
+    gap: 30px;
+  
+    b {
+      font-family: $fuente-titulos;
+      font-size: 16px;
+    }
+  
+    .iconoBuscar {
+      width: 18px;
+    }
+  
+  } 
 
 }
 
-.contenedorCryptos {
-  h2 {
-    font-family: $fuente-titulos;
-    color: white;
-    font-size: 18px;
-  }
-
-  p {
-    color:white;
-    font-family: $fuente-parrafos;
-    font-size: 14px;
-  }
-
-  .logoBitcoin {
-    width: 42px;
-  }
-
-  .logoCardano {
-    width: 42px;
-  }
-
-  .logoTether {
-    width: 42px;
-  }
-
-  .logoEthereum {
-    width: 42px;
-  }
-
-  .logoSolana {
-    width: 42px;
-  }
-
-  .logoBNB {
-    width: 42px;
-  }
-
-  .logoLitecoin {
-    width: 42px;
-  }
-
-  .logoChainlink {
-    width: 42px;
-  }
-
-  .logoUSDCoin {
-    width: 42px;
-  }
-}
 
 
-.contenedorBuscar {
-  width: 140px;
-  background-color: white;
-  padding: 6px;
-  border-radius: 0.6em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  justify-self: flex-end;
-  gap: 30px;
 
-  b {
-    font-family: $fuente-titulos;
-    font-size: 16px;
-  }
 
-  .iconoBuscar {
-    width: 18px;
-  }
-
-} 
 
