@@ -180,8 +180,48 @@ body {
 .mainPagRegistro {
   background-color: $color-terciario;
   width: 100%;
+
+  .formularioRegistro {
+    padding-top: 88px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      color: white;
+      font-family: $fuente-parrafos;
+      font-size: 18px;
+    }
+
+    .flechaAbajo {
+      width: 18px;
+    }
+
+    fieldset {
+      background-color: $color-primario;
+    }
+
+    input {
+      background-color: $color-secundario;
+    }
+
+    label {
+      color:white;
+      font-family: $fuente-parrafos;
+      font-size: 16px;
+    }
+
+    #BotonEnviar {
+      border-radius: 0.8em;
+      width: 80px;
+      height: 35px;
+      padding: 10px;
+    }
+  }
 }
-
-
-
-
