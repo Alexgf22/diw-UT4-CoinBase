@@ -34,17 +34,59 @@
 
     </header>
 
-
-    <main>
+    <main class="mainPagContacto">
         <section>
-            <article>
+            <form class="formularioContacto" method="post" action="mailto:iesrafaelalberti@prueba.es" enctype="text/plain">
+    
 
+                <fieldset>
+                    <!--<legend>Regístrate </legend>-->
+                    <h2>Contáctanos para las dudas:</h2>
+                    <img class="flechaAbajo" src="/🦆%20icon%20_arrow%20down_.bfca16d1.png">
+                    <p>
+                        <label for="name">Nombre:</label> 
+                        <input type="text" name="nombre" id="name" required="">
+                    </p>
+                    
 
-            </article>
+                    <p>
+                        <label for="email">Correo:</label>
+                        <input type="email" name="correo" id="email" required="">
+                    </p>
+    
+
+                    <p>
+                        <label for="duda">Duda:</label>
+                        <textarea name="doubt" id="duda" required="">
+
+                    </textarea></p>
+    
+                
+                <p>
+                    <label for="BotonEnviar"></label>
+                    <input type="submit" name="mandar" id="BotonEnviar" value="Enviar">
+                </p>
+
+                
+                <p>
+                    <label for="telefonoContacto">Teléfono contacto:</label> 
+                    <input type="tel" name="telnumberContacto" id="telefonoContacto" readonly="" value="+34 667 654 879">
+                </p>
+
+               
+                <p>
+                    <label for="gmailContacto">Correo contacto:</label> 
+                    <input type="text" name="correoContacto" id="gmailContacto" readonly="" value="alex@miempresa.com">
+                </p>
+
+            </fieldset>
+                   
+            </form>
 
 
         </section>
     </main>
+
 
 
     <footer class="piePagina">
@@ -57,7 +99,6 @@
 
         <a class="inviertePiePag" href="https://www.coinbase.com/trade">¡Invierte ahora y gana!</a>
     </footer>
-
 
 
 

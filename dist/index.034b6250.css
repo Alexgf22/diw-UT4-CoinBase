@@ -136,36 +136,36 @@ body {
   display: flex;
 }
 
-.mainPagRegistro .formularioRegistro h2 {
+.formularioRegistro h2 {
   color: #fff;
   text-align: center;
   font-family: Inter, sans-serif;
   font-size: 18px;
 }
 
-.mainPagRegistro .formularioRegistro .flechaAbajo {
+.formularioRegistro .flechaAbajo {
   width: 18px;
 }
 
-.mainPagRegistro .formularioRegistro fieldset {
+.formularioRegistro fieldset {
   width: 400px;
   background-color: #1b2580;
   border: #cca61f;
   margin: 0 auto;
 }
 
-.mainPagRegistro .formularioRegistro input {
+.formularioRegistro input {
   background-color: #cca61f;
   border: #cca61f;
 }
 
-.mainPagRegistro .formularioRegistro label {
+.formularioRegistro label {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 16px;
 }
 
-.mainPagRegistro .formularioRegistro #BotonEnviar {
+.formularioRegistro #BotonEnviar {
   width: 80px;
   height: 35px;
   border-radius: .8em;
@@ -173,6 +173,121 @@ body {
   margin-right: auto;
   padding: 10px;
   display: block;
+}
+
+.mainPagInicioSesion {
+  width: 100%;
+  background-color: #6978ff;
+}
+
+.mainPagInicioSesion .formularioInicioSesion {
+  width: 100%;
+  max-width: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 88px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+}
+
+.formularioInicioSesion h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+}
+
+.formularioInicioSesion .flechaAbajo {
+  width: 18px;
+}
+
+.formularioInicioSesion fieldset {
+  width: 400px;
+  background-color: #1b2580;
+  border: #cca61f;
+  margin: 0 auto;
+}
+
+.formularioInicioSesion input {
+  background-color: #cca61f;
+  border: #cca61f;
+}
+
+.formularioInicioSesion label {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+}
+
+.formularioInicioSesion #BotonEnviar {
+  width: 80px;
+  height: 35px;
+  border-radius: .8em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  display: block;
+}
+
+.mainPagContacto {
+  width: 100%;
+  background-color: #6978ff;
+}
+
+.mainPagContacto .formularioContacto {
+  width: 100%;
+  max-width: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 88px 30px 80px;
+  display: flex;
+}
+
+.formularioContacto h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+}
+
+.formularioContacto .flechaAbajo {
+  width: 18px;
+}
+
+.formularioContacto fieldset {
+  width: 400px;
+  background-color: #1b2580;
+  border: #cca61f;
+  margin: 0 auto;
+}
+
+.formularioContacto input {
+  background-color: #cca61f;
+  border: #cca61f;
+}
+
+.formularioContacto label {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+}
+
+.formularioContacto #BotonEnviar {
+  width: 80px;
+  height: 35px;
+  border-radius: .8em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  display: block;
+}
+
+.formularioContacto #telefonoContacto, .formularioContacto #gmailContacto {
+  color: #fff;
+  background-color: #1b2580;
 }
 
 /*# sourceMappingURL=index.034b6250.css.map */
