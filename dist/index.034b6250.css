@@ -321,12 +321,17 @@ body {
   font-size: 18px;
 }
 
+.contenedorCryptos .logoBitcoin, .contenedorCryptos .logoCardano {
+  width: 42px;
+}
+
 .contenedorBuscar {
   width: 140px;
   background-color: #fff;
   border-radius: .6em;
   flex-direction: column;
   justify-content: center;
+  justify-self: flex-end;
   align-items: center;
   gap: 30px;
   padding: 6px;

@@ -412,6 +412,14 @@ body {
     color: white;
     font-size: 18px;
   }
+
+  .logoBitcoin {
+    width: 42px;
+  }
+
+  .logoCardano {
+    width: 42px;
+  }
 }
 
 
@@ -424,6 +432,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  justify-self: flex-end;
   gap: 30px;
 
   b {
