@@ -117,51 +117,45 @@ body {
 
 .mainPagRegistro {
   width: 100%;
+  object-fit: cover;
   background-color: #6978ff;
 }
 
 .mainPagRegistro .formularioRegistro {
   width: 100%;
   max-width: 600px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 88px;
-  padding-left: 30px;
-  padding-right: 30px;
-  display: flex;
 }
 
-.formularioRegistro h2 {
+.mainPagRegistro .formularioRegistro h2 {
   color: #fff;
   text-align: center;
   font-family: Inter, sans-serif;
   font-size: 18px;
 }
 
-.formularioRegistro .flechaAbajo {
+.mainPagRegistro .formularioRegistro .flechaAbajo {
   width: 18px;
 }
 
-.formularioRegistro fieldset {
+.mainPagRegistro .formularioRegistro fieldset {
   width: 400px;
   background-color: #1b2580;
   border: #cca61f;
   margin: 0 auto;
 }
 
-.formularioRegistro input {
+.mainPagRegistro .formularioRegistro input {
   background-color: #cca61f;
   border: #cca61f;
 }
 
-.formularioRegistro label {
+.mainPagRegistro .formularioRegistro label {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 16px;
 }
 
-.formularioRegistro #BotonEnviar {
+.mainPagRegistro .formularioRegistro #BotonEnviar {
   width: 80px;
   height: 35px;
   border-radius: .8em;

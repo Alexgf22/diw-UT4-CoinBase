@@ -172,21 +172,15 @@ body {
 .mainPagRegistro {
   background-color: $color-terciario;
   width: 100%;
+  object-fit: cover;
 
   .formularioRegistro {
-    padding-top: 88px;
-    padding-left: 30px;
-    padding-right: 30px;
     width: 100%;
     max-width: 600px;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-  }
-}
-    
-  .formularioRegistro {
+    align-items: center;*/
 
     h2 {
       color: white;
@@ -227,8 +221,8 @@ body {
       margin-right: auto;
     }
   }
-
-
+}
+    
 
 
 // Main Página inicio sesión
