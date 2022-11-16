@@ -90,13 +90,6 @@ body {
   justify-self: center;
 }
 
-.mainPagInicio {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: relative;
-}
-
 .mainPagInicio .imagenPagInicio {
   width: 100%;
   object-fit: cover;
@@ -104,8 +97,11 @@ body {
 
 .mainPagInicio .contenedor-encimaImagen {
   text-align: center;
+  width: 150px;
   padding-top: 43%;
   position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .contenedor-encimaImagen {

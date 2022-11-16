@@ -134,49 +134,24 @@ body {
 
 
 .mainPagInicio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
-  /*background-image: url("../img/coinbase-1-1.png");*/
+
   .imagenPagInicio {
     width: 100%;
     object-fit: cover;
-    /*display:block;
-    margin-left:auto;
-    margin-right: auto;*/
   }
   
   .contenedor-encimaImagen {
     position: absolute;
     padding-top: 43%;
     text-align: center;
+    width: 130px;
 
   }
-
 }
 
 
-.contenedor-encimaImagen {
-  display:inline-block;
-  position:relative;
 
-  a {
-    position: absolute;
-    bottom:140px;
-    width: 120px;
-    height: 40px;
-    font-family: $fuente-titulos;
-    font-size: 14px;
-    left: 380px;
-    background-color:$color-secundario;
-    border-radius:0.5em;
-    color:rgb(0, 0, 0);
-    text-transform:uppercase;
-    padding:10px;
-  }
-
-}
 
 
 // Main página registro
