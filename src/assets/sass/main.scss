@@ -171,12 +171,13 @@ body {
 
 .mainPagRegistro {
   background-color: $color-terciario;
-  width: 100%;
-  object-fit: cover;
+  height: 250px;
+  /*object-fit: cover;*/
 
   .formularioRegistro {
-    width: 100%;
-    max-width: 600px;
+    width: 400px;
+    margin:0 auto;
+    margin-top: 20px;
     /*display: flex;
     flex-direction: column;
     justify-content: center;
