@@ -134,20 +134,33 @@ body {
 
 
 .mainPagInicio {
-  position: relative;
+
+  section {
+    position: relative;
+  }
 
   .imagenPagInicio {
     width: 100%;
+    margin-bottom: -5px;
     object-fit: cover;
   }
   
   .contenedor-encimaImagen {
     position: absolute;
-    padding-top: 43%;
+    top: 46%;
+    width: 100%;
     text-align: center;
-    width: 130px;
+
+    a {
+      background-color: $color-secundario;
+      color: black;
+      border-radius: 0.6em;
+      padding: 12px;
+      font-family: $fuente-titulos;
+    }
 
   }
+
 }
 
 
