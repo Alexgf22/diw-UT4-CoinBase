@@ -474,9 +474,40 @@ body {
   width: 100%;
   padding-top: 200px;
 
+
   .contenedorProducto {
     background-color: $color-primario;
     width: 400px;
+
+    h2 {
+      font-size: 22px;
+      font-family: $fuente-titulos;
+      color: white;
+    }
+
+    img {
+      width: 50px;
+    }
+
+    p {
+      font-size: 16px;
+      color: white;
+      font-family: $fuente-parrafos;
+    }
+
+    h3 {
+      color: white;
+      font-size: 16px;
+      font-family: $fuente-titulos;
+    }
+
+    .evolucionPrecio {
+      padding: 5px;
+      width: 40px;
+      background-color: $color-secundario;
+      border-radius: 0.6em;
+      color: black;
+    }
     
   }
 }

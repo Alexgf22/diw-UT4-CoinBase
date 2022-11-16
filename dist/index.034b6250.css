@@ -351,4 +351,34 @@ body {
   background-color: #1b2580;
 }
 
+.mainPagProducto .contenedorProducto h2 {
+  color: #fff;
+  font-family: Staatliches;
+  font-size: 22px;
+}
+
+.mainPagProducto .contenedorProducto img {
+  width: 50px;
+}
+
+.mainPagProducto .contenedorProducto p {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+}
+
+.mainPagProducto .contenedorProducto h3 {
+  color: #fff;
+  font-family: Staatliches;
+  font-size: 16px;
+}
+
+.mainPagProducto .contenedorProducto .evolucionPrecio {
+  width: 40px;
+  color: #000;
+  background-color: #cca61f;
+  border-radius: .6em;
+  padding: 5px;
+}
+
 /*# sourceMappingURL=index.034b6250.css.map */
