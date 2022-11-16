@@ -4,6 +4,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -18,7 +20,8 @@ body {
 .cabecera {
   width: 100%;
   background-color: #1b2580;
-  position: fixed;
+  padding: 10px;
+  position: sticky;
 }
 
 .cabecera .listaCabecera {
@@ -62,9 +65,7 @@ body {
   gap: 15px;
   padding: 10px;
   display: flex;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  position: sticky;
 }
 
 .piePagina a {
@@ -93,10 +94,18 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
+  position: relative;
 }
 
 .mainPagInicio .imagenPagInicio {
   width: 100%;
+  object-fit: cover;
+}
+
+.mainPagInicio .contenedor-encimaImagen {
+  text-align: center;
+  padding-top: 43%;
+  position: absolute;
 }
 
 .contenedor-encimaImagen {
@@ -349,6 +358,17 @@ body {
 
 .mainPagListado .contenedorBuscar .iconoBuscar {
   width: 18px;
+}
+
+.mainPagProducto {
+  width: 100%;
+  background-color: #6978ff;
+  padding-top: 200px;
+}
+
+.mainPagProducto .contenedorProducto {
+  width: 400px;
+  background-color: #1b2580;
 }
 
 /*# sourceMappingURL=index.034b6250.css.map */
