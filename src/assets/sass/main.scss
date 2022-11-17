@@ -239,18 +239,25 @@ body {
     padding-top: 88px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 40px;
     width: 100%;
     max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    //display: flex;
+    //flex-direction: column;
+    //justify-content: center;
+    //align-items: center;
+    margin: 0 auto;
+
 
     h2 {
       color: white;
       font-family: $fuente-parrafos;
       font-size: 18px;
       text-align: center;
+    }
+
+    h2::after {
+      content: "⬇";
     }
 
     .flechaAbajo {
