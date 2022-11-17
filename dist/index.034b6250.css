@@ -90,6 +90,10 @@ body {
   justify-self: center;
 }
 
+.piePagina .contenedorRedesSociales {
+  justify-self: flex-start;
+}
+
 .mainPagInicio section {
   position: relative;
 }
