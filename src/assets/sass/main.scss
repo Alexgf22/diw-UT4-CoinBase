@@ -176,38 +176,44 @@ body {
 .mainPagRegistro {
   background-color: $color-terciario;
   width: 100%;
-  /*object-fit: cover;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   .formularioRegistro {
-    width: 400px;
-    margin:0 auto;
-    margin-top: 20px;
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;*/
+    text-align: center;
 
     h2 {
       color: white;
       font-family: $fuente-parrafos;
       font-size: 18px;
       text-align: center;
+      padding-top: 30px;
     }
 
-    .flechaAbajo {
+    /*.flechaAbajo {
       width: 18px;
+    }*/
+
+    h2::after {
+      //content: "⬇";
+      content: "🡻"
     }
 
     fieldset {
       background-color: $color-primario;
       border: $color-secundario;
-      width: 400px;
-      margin:0 auto;
+      width: 550px;
+      height: 460px;
     }
 
     input {
       background-color: $color-secundario;
       border: $color-secundario;
+      width: 250px;
+      height: 30px;
     }
 
     label {
@@ -216,10 +222,15 @@ body {
       font-size: 16px;
     }
 
+    p {
+      padding: 6px;
+      padding-top: 28px;
+    }
+
     #BotonEnviar {
-      border-radius: 0.8em;
-      width: 80px;
-      height: 35px;
+      border-radius: 1.2em;
+      width: 96px;
+      height: 42px;
       padding: 10px;
       display: block;
       margin-left: auto;
