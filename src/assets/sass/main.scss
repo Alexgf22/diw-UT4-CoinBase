@@ -254,12 +254,14 @@ body {
     }
 
     h2::after {
-      content: "⬇";
+      //content: "⬇";
+      content: "🡻"
     }
 
-    .flechaAbajo {
+    /*.flechaAbajo {
       width: 18px;
-    }
+      margin-left: 150px;
+    }*/
 
     fieldset {
       background-color: $color-primario;

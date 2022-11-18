@@ -191,11 +191,7 @@ body {
 }
 
 .mainPagInicioSesion .formularioInicioSesion h2:after {
-  content: "⬇";
-}
-
-.mainPagInicioSesion .formularioInicioSesion .flechaAbajo {
-  width: 18px;
+  content: "🡻";
 }
 
 .mainPagInicioSesion .formularioInicioSesion fieldset {
