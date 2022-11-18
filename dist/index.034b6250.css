@@ -170,19 +170,22 @@ body {
 
 .mainPagInicioSesion {
   width: 100%;
+  min-height: 100vh;
   background-color: #6978ff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .mainPagInicioSesion .formularioInicioSesion {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 88px 30px 40px;
+  text-align: center;
 }
 
 .mainPagInicioSesion .formularioInicioSesion h2 {
   color: #fff;
   text-align: center;
+  padding-top: 30px;
   font-family: Inter, sans-serif;
   font-size: 18px;
 }
@@ -196,13 +199,15 @@ body {
 }
 
 .mainPagInicioSesion .formularioInicioSesion fieldset {
-  width: 400px;
+  width: 580px;
+  height: 300px;
   background-color: #1b2580;
   border: #cca61f;
-  margin: 0 auto;
 }
 
 .mainPagInicioSesion .formularioInicioSesion input {
+  width: 250px;
+  height: 30px;
   background-color: #cca61f;
   border: #cca61f;
 }
@@ -213,10 +218,14 @@ body {
   font-size: 16px;
 }
 
+.mainPagInicioSesion .formularioInicioSesion p {
+  padding: 28px 25px 25px;
+}
+
 .mainPagInicioSesion .formularioInicioSesion #BotonEnviar {
-  width: 80px;
+  width: 96px;
   height: 35px;
-  border-radius: .8em;
+  border-radius: 1.2em;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
