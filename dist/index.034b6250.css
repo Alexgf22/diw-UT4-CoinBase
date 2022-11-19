@@ -416,35 +416,85 @@ body {
 
 .mainPagProducto {
   width: 100%;
+  min-height: 100vh;
   background-color: #6978ff;
-  padding-top: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .mainPagProducto .contenedorProducto {
-  width: 400px;
+  width: 550px;
+  height: 360px;
   background-color: #1b2580;
+  padding: 10px;
 }
 
 .mainPagProducto .contenedorProducto h2 {
   color: #fff;
+  text-align: center;
+  padding-top: 36px;
   font-family: Staatliches;
   font-size: 22px;
 }
 
 .mainPagProducto .contenedorProducto img {
   width: 50px;
+  margin-left: 50px;
 }
 
 .mainPagProducto .contenedorProducto p {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 16px;
+  display: inline;
 }
 
 .mainPagProducto .contenedorProducto h3 {
   color: #fff;
   font-family: Staatliches;
   font-size: 16px;
+  display: inline;
+}
+
+.mainPagProducto .contenedorProducto .contenedorInfoCrypto {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto1 {
+  padding: 15px;
+}
+
+.mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto1 .tituloCrypto1 {
+  padding-right: 160px;
+}
+
+.mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto2 {
+  padding: 15px;
+}
+
+.mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto2 .tituloCrypto2 {
+  padding-right: 70px;
+}
+
+.mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto3 {
+  padding: 15px;
+}
+
+.mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto3 .tituloCrypto3 {
+  padding-right: 20px;
+}
+
+.mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto4 {
+  padding: 15px;
+}
+
+.mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto4 .tituloCrypto4 {
+  padding-right: 44px;
 }
 
 .mainPagProducto .contenedorProducto .evolucionPrecio {
@@ -453,6 +503,7 @@ body {
   background-color: #cca61f;
   border-radius: .6em;
   padding: 5px;
+  font-family: Staatliches;
 }
 
 /*# sourceMappingURL=index.034b6250.css.map */

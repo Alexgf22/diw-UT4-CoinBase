@@ -558,39 +558,87 @@ body {
 .mainPagProducto {
   background-color: $color-terciario;
   width: 100%;
-  padding-top: 200px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 
   .contenedorProducto {
     background-color: $color-primario;
-    width: 400px;
+    width: 550px;
+    height: 360px;
+    padding: 10px;
 
     h2 {
       font-size: 22px;
       font-family: $fuente-titulos;
       color: white;
+      text-align: center;
+      padding-top: 36px;
     }
 
     img {
       width: 50px;
+      margin-left: 50px;
     }
 
     p {
       font-size: 16px;
       color: white;
       font-family: $fuente-parrafos;
+      display: inline;
     }
 
     h3 {
       color: white;
       font-size: 16px;
       font-family: $fuente-titulos;
+      display: inline;
+    }
+
+    .contenedorInfoCrypto {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      
+      .infoCrypto1 {
+        padding: 15px;
+        .tituloCrypto1 {
+          padding-right: 160px;
+        }
+      }
+
+      .infoCrypto2 {
+        padding: 15px;
+        .tituloCrypto2 {
+          padding-right: 70px;
+        }
+      }
+
+      .infoCrypto3 {
+        padding: 15px;
+        .tituloCrypto3 {
+          padding-right: 20px;
+        }
+      }
+
+      .infoCrypto4 {
+        padding: 15px;
+        .tituloCrypto4 {
+          padding-right: 44px;
+        }
+      }
     }
 
     .evolucionPrecio {
       padding: 5px;
       width: 40px;
       background-color: $color-secundario;
+      font-family: $fuente-titulos;
       border-radius: 0.6em;
       color: black;
     }
