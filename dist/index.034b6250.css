@@ -258,52 +258,62 @@ body {
 
 .mainPagContacto {
   width: 100%;
+  min-height: 100vh;
   background-color: #6978ff;
-}
-
-.mainPagContacto .formularioContacto {
-  width: 100%;
-  max-width: 600px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 88px 30px 80px;
   display: flex;
+}
+
+.mainPagContacto .formularioContacto {
+  text-align: center;
+  padding: 30px;
 }
 
 .mainPagContacto .formularioContacto h2 {
   color: #fff;
   text-align: center;
+  padding-top: 30px;
   font-family: Inter, sans-serif;
   font-size: 18px;
 }
 
-.mainPagContacto .formularioContacto .flechaAbajo {
-  width: 18px;
+.mainPagContacto .formularioContacto h2:after {
+  content: "👇";
 }
 
 .mainPagContacto .formularioContacto fieldset {
-  width: 400px;
+  width: 550px;
+  height: 540px;
   background-color: #1b2580;
   border: #cca61f;
-  margin: 0 auto;
+  padding: 10px;
 }
 
 .mainPagContacto .formularioContacto input {
+  width: 220px;
+  height: 30px;
   background-color: #cca61f;
   border: #cca61f;
 }
 
 .mainPagContacto .formularioContacto label {
   color: #fff;
+  padding-right: 22px;
   font-family: Inter, sans-serif;
   font-size: 16px;
 }
 
+.mainPagContacto .formularioContacto p {
+  padding: 28px 6px 6px;
+}
+
 .mainPagContacto .formularioContacto #BotonEnviar {
-  width: 80px;
+  width: 95px;
   height: 35px;
-  border-radius: .8em;
+  border-radius: 1.2em;
+  margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
@@ -316,12 +326,26 @@ body {
 }
 
 .mainPagContacto .formularioContacto textarea {
+  width: 220px;
   height: 100px;
   background-color: #cca61f;
 }
 
+.mainPagContacto .formularioContacto .parrafoTelefono {
+  padding-bottom: 0;
+  padding-left: 100px;
+  display: inline;
+}
+
+.mainPagContacto .formularioContacto .parrafoCorreo {
+  padding-top: 2px;
+  padding-left: 67px;
+  display: inline-block;
+}
+
 .mainPagContacto .formularioContacto .iconoWhatsapp, .mainPagContacto .formularioContacto .iconoGmail {
   width: 18px;
+  margin-right: 20px;
 }
 
 .mainPagListado {

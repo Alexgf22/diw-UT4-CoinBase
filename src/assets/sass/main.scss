@@ -339,51 +339,64 @@ body {
 .mainPagContacto {
   background-color: $color-terciario;
   width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   .formularioContacto {
-    padding-top: 88px;
-    padding-bottom: 80px;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 100%;
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 30px;
 
     h2 {
       color: white;
       font-family: $fuente-parrafos;
       font-size: 18px;
       text-align: center;
+      padding-top: 30px;
     }
 
-    .flechaAbajo {
+    /*.flechaAbajo {
       width: 18px;
+    }*/
+
+    h2::after {
+      //content: "⬇";
+      content: "👇"
     }
 
     fieldset {
       background-color: $color-primario;
       border: $color-secundario;
-      width: 400px;
-      margin:0 auto;
+      width: 550px;
+      height: 540px;
+      padding: 10px;
     }
 
     input {
       background-color: $color-secundario;
       border: $color-secundario;
+      width: 220px;
+      height: 30px;
     }
 
     label {
       color:white;
       font-family: $fuente-parrafos;
       font-size: 16px;
+      padding-right: 22px;
+    }
+
+    p {
+      padding: 6px;
+      padding-top: 28px;
     }
 
     #BotonEnviar {
-      border-radius: 0.8em;
-      width: 80px;
+      border-radius: 1.2em;
+      margin-bottom: 25px;
+      width: 95px;
       height: 35px;
       padding: 10px;
       display: block;
@@ -403,15 +416,30 @@ body {
 
     textarea {
       background-color: $color-secundario;
+      width: 220px;
       height: 100px;
+    }
+
+    .parrafoTelefono {
+      padding-bottom:0px;
+      padding-left: 100px;
+      display: inline;
+    }
+
+    .parrafoCorreo {
+      padding-top: 2px;
+      padding-left: 67px;
+      display: inline-block;
     }
 
     .iconoWhatsapp {
       width: 18px;
+      margin-right: 20px;
     }
 
     .iconoGmail {
       width: 18px;
+      margin-right: 20px;
     }
   }
 }
