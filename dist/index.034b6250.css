@@ -349,37 +349,38 @@ body {
 }
 
 .mainPagListado {
+  width: 100%;
+  min-height: 100vh;
   background-color: #6978ff;
-  padding-top: 255px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-.mainPagListado .contenedorCryptos {
-  width: 400px;
+.mainPagListado section {
+  width: 600px;
+  height: 320px;
+  text-align: center;
   background-color: #1b2580;
-  grid-template-rows: 33% 33% 33%;
-  grid-template-columns: 33% 33% 33%;
-  padding-bottom: 500px;
-  display: grid;
+  padding: 20px;
 }
 
-.mainPagListado .contenedorCryptos h2 {
+.mainPagListado section h2 {
   color: #fff;
+  padding-top: 6px;
   font-family: Staatliches;
   font-size: 18px;
 }
 
-.mainPagListado .contenedorCryptos p {
+.mainPagListado section p {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 14px;
 }
 
-.mainPagListado .contenedorCryptos .logoBitcoin, .mainPagListado .contenedorCryptos .logoCardano, .mainPagListado .contenedorCryptos .logoTether, .mainPagListado .contenedorCryptos .logoEthereum, .mainPagListado .contenedorCryptos .logoSolana, .mainPagListado .contenedorCryptos .logoBNB, .mainPagListado .contenedorCryptos .logoLitecoin, .mainPagListado .contenedorCryptos .logoChainlink, .mainPagListado .contenedorCryptos .logoUSDCoin {
-  width: 42px;
-}
-
-.mainPagListado .contenedorBuscar {
-  width: 140px;
+.mainPagListado section .contenedorBuscar {
+  width: 160px;
   background-color: #fff;
   border-radius: .6em;
   flex-direction: column;
@@ -387,17 +388,30 @@ body {
   justify-self: flex-end;
   align-items: center;
   gap: 30px;
+  margin-top: -30px;
+  margin-left: 390px;
   padding: 6px;
   display: flex;
 }
 
-.mainPagListado .contenedorBuscar b {
+.mainPagListado section .contenedorBuscar b {
   font-family: Staatliches;
   font-size: 16px;
 }
 
-.mainPagListado .contenedorBuscar .iconoBuscar {
+.mainPagListado section .contenedorBuscar .iconoBuscar {
   width: 18px;
+}
+
+.mainPagListado section .contenedorCryptos {
+  grid-template-rows: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%;
+  padding-top: 30px;
+  display: grid;
+}
+
+.mainPagListado section .contenedorCryptos .logoBitcoin, .mainPagListado section .contenedorCryptos .logoCardano, .mainPagListado section .contenedorCryptos .logoTether, .mainPagListado section .contenedorCryptos .logoEthereum, .mainPagListado section .contenedorCryptos .logoSolana, .mainPagListado section .contenedorCryptos .logoBNB, .mainPagListado section .contenedorCryptos .logoLitecoin, .mainPagListado section .contenedorCryptos .logoChainlink, .mainPagListado section .contenedorCryptos .logoUSDCoin {
+  width: 42px;
 }
 
 .mainPagProducto {

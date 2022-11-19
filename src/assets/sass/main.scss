@@ -450,95 +450,105 @@ body {
 
 .mainPagListado {
   background-color: $color-terciario;
-  padding-top: 255px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  .contenedorCryptos {
-    padding-bottom: 500px;
-    width: 400px;
+  section {
+    width: 600px;
+    height: 320px;
+    text-align: center;
+    padding: 20px;
     background-color: $color-primario;
-    /*display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin:0 auto;*/
-
-    display:grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 33% 33% 33%;
 
     h2 {
       font-family: $fuente-titulos;
       color: white;
       font-size: 18px;
+      padding-top: 6px;
     }
-  
+
     p {
       color:white;
       font-family: $fuente-parrafos;
       font-size: 14px;
     }
-  
-    .logoBitcoin {
-      width: 42px;
-    }
-  
-    .logoCardano {
-      width: 42px;
-    }
-  
-    .logoTether {
-      width: 42px;
-    }
-  
-    .logoEthereum {
-      width: 42px;
-    }
-  
-    .logoSolana {
-      width: 42px;
-    }
-  
-    .logoBNB {
-      width: 42px;
-    }
-  
-    .logoLitecoin {
-      width: 42px;
-    }
-  
-    .logoChainlink {
-      width: 42px;
-    }
-  
-    .logoUSDCoin {
-      width: 42px;
-    }
-  }
 
-
-  .contenedorBuscar {
-    width: 140px;
-    background-color: white;
-    padding: 6px;
-    border-radius: 0.6em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-self: flex-end;
-    gap: 30px;
-
+    .contenedorBuscar {
+      width: 160px;
+      margin-left: 390px;
+      margin-top: -30px;
+      background-color: white;
+      padding: 6px;
+      border-radius: 0.6em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      justify-self: flex-end;
+      gap: 30px;
+  
+      
+      b {
+        font-family: $fuente-titulos;
+        font-size: 16px;
+      }
     
-    b {
-      font-family: $fuente-titulos;
-      font-size: 16px;
-    }
+      .iconoBuscar {
+        width: 18px;
+      }
+    
+    } 
   
-    .iconoBuscar {
-      width: 18px;
+
+    .contenedorCryptos {
+      padding-top: 30px;
+      display:grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-rows: 33% 33% 33%;
+
+      .logoBitcoin {
+        width: 42px;
+      }
+    
+      .logoCardano {
+        width: 42px;
+      }
+    
+      .logoTether {
+        width: 42px;
+      }
+    
+      .logoEthereum {
+        width: 42px;
+      }
+    
+      .logoSolana {
+        width: 42px;
+      }
+    
+      .logoBNB {
+        width: 42px;
+      }
+    
+      .logoLitecoin {
+        width: 42px;
+      }
+    
+      .logoChainlink {
+        width: 42px;
+      }
+    
+      .logoUSDCoin {
+        width: 42px;
+      }
+
     }
-  
-  } 
+
+  }
 
 }
 
