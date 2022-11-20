@@ -224,13 +224,29 @@ body {
       color:white;
       font-family: $fuente-parrafos;
       font-size: 16px;
-      padding-right: 22px;
+      //padding-right: 22px;
     }
 
     
     p {
       padding: 6px;
       padding-top: 28px;
+    }
+
+    .name {
+      padding-right: 20px;
+    }
+
+    .apellido {
+      padding-right: 44px;
+    }
+
+    .elCorreo {
+      padding-right: 64px;
+    }
+
+    .laContraseña {
+      padding-right: 30px;
     }
 
     .condicionesUso {

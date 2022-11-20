@@ -163,13 +163,28 @@ body {
 
 .mainPagRegistro .formularioRegistro label {
   color: #fff;
-  padding-right: 22px;
   font-family: Inter, sans-serif;
   font-size: 16px;
 }
 
 .mainPagRegistro .formularioRegistro p {
   padding: 28px 6px 6px;
+}
+
+.mainPagRegistro .formularioRegistro .name {
+  padding-right: 20px;
+}
+
+.mainPagRegistro .formularioRegistro .apellido {
+  padding-right: 44px;
+}
+
+.mainPagRegistro .formularioRegistro .elCorreo {
+  padding-right: 64px;
+}
+
+.mainPagRegistro .formularioRegistro .laContraseña {
+  padding-right: 30px;
 }
 
 .mainPagRegistro .formularioRegistro .condicionesUso {
