@@ -412,6 +412,18 @@ body {
       padding-right: 22px;
     }
 
+    .name {
+      padding-right: 40px;
+    }
+
+    .elCorreo {
+      padding-right: 50px;
+    }
+
+    .laDuda {
+      padding-right: 62px;
+    }
+
     p {
       padding: 6px;
       padding-top: 28px;
@@ -442,6 +454,7 @@ body {
       background-color: $color-secundario;
       width: 220px;
       height: 100px;
+      border: $color-secundario;
     }
 
     .parrafoTelefono {

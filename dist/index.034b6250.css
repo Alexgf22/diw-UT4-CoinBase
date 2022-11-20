@@ -328,6 +328,18 @@ body {
   font-size: 16px;
 }
 
+.mainPagContacto .formularioContacto .name {
+  padding-right: 40px;
+}
+
+.mainPagContacto .formularioContacto .elCorreo {
+  padding-right: 50px;
+}
+
+.mainPagContacto .formularioContacto .laDuda {
+  padding-right: 62px;
+}
+
 .mainPagContacto .formularioContacto p {
   padding: 28px 6px 6px;
 }
@@ -352,6 +364,7 @@ body {
   width: 220px;
   height: 100px;
   background-color: #cca61f;
+  border: #cca61f;
 }
 
 .mainPagContacto .formularioContacto .parrafoTelefono {
