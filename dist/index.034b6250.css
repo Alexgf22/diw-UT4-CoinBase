@@ -395,8 +395,8 @@ body {
 }
 
 .mainPagListado section {
-  width: 600px;
-  height: 320px;
+  width: 570px;
+  height: 290px;
   text-align: center;
   background-color: #1b2580;
   padding: 20px;
@@ -425,7 +425,7 @@ body {
   align-items: center;
   gap: 30px;
   margin-top: -30px;
-  margin-left: 390px;
+  margin-left: 370px;
   padding: 6px;
   display: flex;
 }
@@ -440,9 +440,10 @@ body {
 }
 
 .mainPagListado section .contenedorCryptos {
-  grid-template-rows: 33% 33% 33%;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 44% 44% 44% 44% 44% 44%;
+  grid-template-columns: 14% 14% 14% 14% 14% 14%;
   padding-top: 30px;
+  padding-left: 65px;
   display: grid;
 }
 
@@ -461,9 +462,10 @@ body {
 }
 
 .mainPagProducto .contenedorProducto {
-  width: 550px;
+  width: 574px;
   height: 360px;
   background-color: #1b2580;
+  margin: 20px;
   padding: 10px;
 }
 
@@ -478,6 +480,12 @@ body {
 .mainPagProducto .contenedorProducto img {
   width: 50px;
   margin-left: 50px;
+}
+
+.mainPagProducto .contenedorProducto #crypto-widget-CoinList {
+  width: 190px;
+  margin-top: -100px;
+  margin-left: 330px;
 }
 
 .mainPagProducto .contenedorProducto p {
@@ -540,6 +548,7 @@ body {
   border-radius: .6em;
   padding: 5px;
   font-family: Staatliches;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=index.034b6250.css.map */

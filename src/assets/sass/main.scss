@@ -495,8 +495,8 @@ body {
   align-items: center;
 
   section {
-    width: 600px;
-    height: 320px;
+    width: 570px;
+    height: 290px;
     text-align: center;
     padding: 20px;
     background-color: $color-primario;
@@ -516,7 +516,7 @@ body {
 
     .contenedorBuscar {
       width: 160px;
-      margin-left: 390px;
+      margin-left: 370px;
       margin-top: -30px;
       background-color: white;
       padding: 6px;
@@ -544,13 +544,16 @@ body {
     .contenedorCryptos {
       padding-top: 30px;
       display:grid;
-      grid-template-columns: 33% 33% 33%;
-      grid-template-rows: 33% 33% 33%;
+      //grid-template-columns: 33% 33% 33%;
+      //grid-template-rows: 33% 33% 33%;
+      grid-template-columns: 14% 14% 14% 14% 14% 14%;
+      grid-template-rows: 44% 44% 44% 44% 44% 44%;
+      padding-left: 65px;
 
       .logoBitcoin {
         width: 42px;
       }
-    
+
       .logoCardano {
         width: 42px;
       }
@@ -604,9 +607,10 @@ body {
 
   .contenedorProducto {
     background-color: $color-primario;
-    width: 550px;
+    width: 574px;
     height: 360px;
     padding: 10px;
+    margin: 20px;
 
     h2 {
       font-size: 22px;
@@ -619,6 +623,12 @@ body {
     img {
       width: 50px;
       margin-left: 50px;
+    }
+
+    #crypto-widget-CoinList {
+      width: 190px;
+      margin-left: 330px;
+      margin-top: -100px;
     }
 
     p {
@@ -674,6 +684,7 @@ body {
     .evolucionPrecio {
       padding: 5px;
       width: 40px;
+      text-decoration: underline;
       background-color: $color-secundario;
       font-family: $fuente-titulos;
       border-radius: 0.6em;
