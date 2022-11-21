@@ -309,42 +309,34 @@ body {
 .mainPagContacto .formularioContacto fieldset {
   width: 550px;
   height: 540px;
+  justify-content: center;
+  gap: 20px;
+  align-items: space-between;
   background-color: #1b2580;
   border: #cca61f;
+  flex-direction: column;
   padding: 10px;
+  display: flex;
 }
 
-.mainPagContacto .formularioContacto input {
+.mainPagContacto .formularioContacto fieldset p {
+  width: 100%;
+}
+
+.mainPagContacto .formularioContacto fieldset input {
   width: 220px;
   height: 30px;
   background-color: #cca61f;
   border: #cca61f;
 }
 
-.mainPagContacto .formularioContacto label {
+.mainPagContacto .formularioContacto fieldset label {
   color: #fff;
-  padding-right: 22px;
   font-family: Inter, sans-serif;
   font-size: 16px;
 }
 
-.mainPagContacto .formularioContacto .name {
-  padding-right: 40px;
-}
-
-.mainPagContacto .formularioContacto .elCorreo {
-  padding-right: 50px;
-}
-
-.mainPagContacto .formularioContacto .laDuda {
-  padding-right: 62px;
-}
-
-.mainPagContacto .formularioContacto p {
-  padding: 28px 6px 6px;
-}
-
-.mainPagContacto .formularioContacto #BotonEnviar {
+.mainPagContacto .formularioContacto fieldset #BotonEnviar {
   width: 95px;
   height: 35px;
   border-radius: 1.2em;
@@ -355,31 +347,31 @@ body {
   display: block;
 }
 
-.mainPagContacto .formularioContacto #telefonoContacto, .mainPagContacto .formularioContacto #gmailContacto {
+.mainPagContacto .formularioContacto fieldset #telefonoContacto, .mainPagContacto .formularioContacto fieldset #gmailContacto {
   color: #fff;
   background-color: #1b2580;
 }
 
-.mainPagContacto .formularioContacto textarea {
+.mainPagContacto .formularioContacto fieldset textarea {
   width: 220px;
   height: 100px;
   background-color: #cca61f;
   border: #cca61f;
 }
 
-.mainPagContacto .formularioContacto .parrafoTelefono {
+.mainPagContacto .formularioContacto fieldset .parrafoTelefono {
   padding-bottom: 0;
   padding-left: 100px;
   display: inline;
 }
 
-.mainPagContacto .formularioContacto .parrafoCorreo {
+.mainPagContacto .formularioContacto fieldset .parrafoCorreo {
   padding-top: 2px;
   padding-left: 67px;
   display: inline-block;
 }
 
-.mainPagContacto .formularioContacto .iconoWhatsapp, .mainPagContacto .formularioContacto .iconoGmail {
+.mainPagContacto .formularioContacto fieldset .iconoWhatsapp, .mainPagContacto .formularioContacto fieldset .iconoGmail {
   width: 18px;
   margin-right: 20px;
 }
