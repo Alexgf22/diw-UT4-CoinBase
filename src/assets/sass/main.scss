@@ -186,92 +186,109 @@ body {
     text-align: center;
     padding: 20px;
 
-    h2 {
-      color: white;
-      font-family: $fuente-parrafos;
-      font-size: 18px;
-      text-align: center;
-      padding-top: 30px;
-    }
-
-    /*.flechaAbajo {
-      width: 18px;
-    }*/
-
-    h2::after {
-      //content: "⬇";
-      content: "🡻"
-    }
-
+    
     fieldset {
       background-color: $color-primario;
       border: $color-secundario;
       width: 550px;
       height: 440px;
       padding: 10px;
-    }
 
-    input {
-      background-color: $color-secundario;
-      border: $color-secundario;
-      width: 250px;
-      height: 30px;
-    }
+      h2 {
+        color: white;
+        font-family: $fuente-parrafos;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 30px;
+      }
+  
+      h2::after {
+        content: "🡻"
+      }
 
-   
+      .parrafoNombrePila {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        padding-top: 25px;
 
-    label {
-      color:white;
-      font-family: $fuente-parrafos;
-      font-size: 16px;
-      //padding-right: 22px;
-    }
 
-    
-    p {
-      padding: 6px;
-      padding-top: 28px;
-    }
+      }
 
-    .name {
-      padding-right: 20px;
-    }
+      .parrafoApellidos {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap : 24px;
+        padding: 10px;
 
-    .apellido {
-      padding-right: 44px;
-    }
+      }
 
-    .elCorreo {
-      padding-right: 64px;
-    }
+      .parrafoDelCorreo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 44px;
+        padding: 10px;
 
-    .laContraseña {
-      padding-right: 30px;
-    }
+      }
 
-    .condicionesUso {
-      color: white;
-      font-family: $fuente-parrafos;
-      padding-left: 330px;
-      padding-right: 60px;
-      margin-top: -95px;
-    }
+      .parrafoContraseña {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        padding-bottom: 50px;
 
-    #condiciones {
-      width: 15px;
-      margin-left: 110px;
-      margin-top: -110px;
-    }
+      }
 
-    
-    #BotonEnviar {
-      border-radius: 1.2em;
-      width: 96px;
-      height: 42px;
-      padding: 10px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      .parrafoEnviarYcheck {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+        #condiciones {
+          width: 14px;
+          margin-left: 8px;
+          align-self: flex-start;
+        }
+
+        .labelCondiciones {
+          color: white;
+          font-family: $fuente-parrafos;
+          padding-right: 35px;
+        }
+
+        #BotonEnviar {
+          border-radius: 1.2em;
+          width: 120px;
+          height: 42px;
+          padding: 10px;
+          margin-left: 220px;
+          //justify-self: flex-end;
+        }
+
+      }
+      
+      
+      input {
+        background-color: $color-secundario;
+        border: $color-secundario;
+        width: 250px;
+        height: 30px;
+      }
+
+      label {
+        color:white;
+        font-family: $fuente-parrafos;
+        font-size: 16px;
+        //padding-right: 22px;
+      }
+
+     
     }
   }
 }
@@ -293,66 +310,68 @@ body {
     text-align: center;
     
   
-    h2 {
-      color: white;
-      font-family: $fuente-parrafos;
-      font-size: 18px;
-      text-align: center;
-      padding-top: 30px;
-    }
-
-    h2::after {
-      //content: "⬇";
-      content: "🡻"
-    }
-
-    /*.flechaAbajo {
-      width: 18px;
-      margin-left: 150px;
-    }*/
-
     fieldset {
       background-color: $color-primario;
       border: $color-secundario;
       width: 580px;
       height: 300px;
-    }
 
-    input {
-      background-color: $color-secundario;
-      border: $color-secundario;
-      width: 250px;
-      height: 30px;
-    }
-
-    label {
-      color:white;
-      font-family: $fuente-parrafos;
-      font-size: 16px;
-    }
-
-    .name {
-      padding-right: 20px;
-    }
-
-    .laContraseña {
-      padding-right: 26px;
-    }
-
-    p {
-      padding: 25px;
-      padding-top: 28px;
-    }
+      h2 {
+        color: white;
+        font-family: $fuente-parrafos;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 30px;
+      }
   
-    #BotonEnviar {
-      border-radius: 1.2em;
-      width: 96px;
-      height: 35px;
-      padding: 10px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
+      h2::after {
+        content: "🡻"
+      }
+
+      .parrafoNombrePila {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 10px;
+        padding-top: 45px;
+        padding-bottom: 20px;
+      }
+
+      .parrafoContraseña {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 34px;
+        padding: 10px;
+        padding-bottom: 40px;
+      }
+    
+      input {
+        background-color: $color-secundario;
+        border: $color-secundario;
+        width: 250px;
+        height: 30px;
+      }
+
+      label {
+        color:white;
+        font-family: $fuente-parrafos;
+        font-size: 16px;
+      }
+
+      
+      #BotonEnviar {
+        border-radius: 1.2em;
+        width: 96px;
+        height: 35px;
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+  }
   }
 }
     
@@ -394,12 +413,45 @@ body {
       border: $color-secundario;
       width: 550px;
       height: 540px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 20px;
-      align-items: space-between;
       padding: 10px;
+
+      .parrafoNombre {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 6px;
+        padding:15px;
+        padding-top: 30px;
+      }
+
+      .parrafoCorreoForm {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        padding:15px;
+      }
+
+      .parrafoDuda {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 24px;
+        padding:10px;
+        padding-bottom: 30px;
+
+        .laDuda {
+          align-self: start;
+        }
+
+        textarea {
+          background-color: $color-secundario;
+          width: 220px;
+          height: 100px;
+          border: $color-secundario;
+        }
+      }
 
       p {
         width:100%;
@@ -431,18 +483,13 @@ body {
       }
 
       
-      textarea {
-        background-color: $color-secundario;
-        width: 220px;
-        height: 100px;
-        border: $color-secundario;
-      }
-
+    
       .parrafoTelefono {
         display: flex;
         justify-content: center;
         align-items:center;
         gap: 15px;
+        padding-bottom: 12px;
 
         .telefonoContacto {
           color: white;

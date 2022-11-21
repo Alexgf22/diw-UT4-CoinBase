@@ -134,18 +134,6 @@ body {
   padding: 20px;
 }
 
-.mainPagRegistro .formularioRegistro h2 {
-  color: #fff;
-  text-align: center;
-  padding-top: 30px;
-  font-family: Inter, sans-serif;
-  font-size: 18px;
-}
-
-.mainPagRegistro .formularioRegistro h2:after {
-  content: "🡻";
-}
-
 .mainPagRegistro .formularioRegistro fieldset {
   width: 550px;
   height: 440px;
@@ -154,61 +142,86 @@ body {
   padding: 10px;
 }
 
-.mainPagRegistro .formularioRegistro input {
+.mainPagRegistro .formularioRegistro fieldset h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+}
+
+.mainPagRegistro .formularioRegistro fieldset h2:after {
+  content: "🡻";
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila {
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px 10px 10px;
+  display: flex;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoApellidos {
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+  padding: 10px;
+  display: flex;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo {
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 44px;
+  padding: 10px;
+  display: flex;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoContraseña {
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px 50px;
+  display: flex;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoEnviarYcheck {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoEnviarYcheck #condiciones {
+  width: 14px;
+  align-self: flex-start;
+  margin-left: 8px;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoEnviarYcheck .labelCondiciones {
+  color: #fff;
+  padding-right: 35px;
+  font-family: Inter, sans-serif;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoEnviarYcheck #BotonEnviar {
+  width: 120px;
+  height: 42px;
+  border-radius: 1.2em;
+  margin-left: 220px;
+  padding: 10px;
+}
+
+.mainPagRegistro .formularioRegistro fieldset input {
   width: 250px;
   height: 30px;
   background-color: #cca61f;
   border: #cca61f;
 }
 
-.mainPagRegistro .formularioRegistro label {
+.mainPagRegistro .formularioRegistro fieldset label {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 16px;
-}
-
-.mainPagRegistro .formularioRegistro p {
-  padding: 28px 6px 6px;
-}
-
-.mainPagRegistro .formularioRegistro .name {
-  padding-right: 20px;
-}
-
-.mainPagRegistro .formularioRegistro .apellido {
-  padding-right: 44px;
-}
-
-.mainPagRegistro .formularioRegistro .elCorreo {
-  padding-right: 64px;
-}
-
-.mainPagRegistro .formularioRegistro .laContraseña {
-  padding-right: 30px;
-}
-
-.mainPagRegistro .formularioRegistro .condicionesUso {
-  color: #fff;
-  margin-top: -95px;
-  padding-left: 330px;
-  padding-right: 60px;
-  font-family: Inter, sans-serif;
-}
-
-.mainPagRegistro .formularioRegistro #condiciones {
-  width: 15px;
-  margin-top: -110px;
-  margin-left: 110px;
-}
-
-.mainPagRegistro .formularioRegistro #BotonEnviar {
-  width: 96px;
-  height: 42px;
-  border-radius: 1.2em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  display: block;
 }
 
 .mainPagInicioSesion {
@@ -225,18 +238,6 @@ body {
   text-align: center;
 }
 
-.mainPagInicioSesion .formularioInicioSesion h2 {
-  color: #fff;
-  text-align: center;
-  padding-top: 30px;
-  font-family: Inter, sans-serif;
-  font-size: 18px;
-}
-
-.mainPagInicioSesion .formularioInicioSesion h2:after {
-  content: "🡻";
-}
-
 .mainPagInicioSesion .formularioInicioSesion fieldset {
   width: 580px;
   height: 300px;
@@ -244,32 +245,48 @@ body {
   border: #cca61f;
 }
 
-.mainPagInicioSesion .formularioInicioSesion input {
+.mainPagInicioSesion .formularioInicioSesion fieldset h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+}
+
+.mainPagInicioSesion .formularioInicioSesion fieldset h2:after {
+  content: "🡻";
+}
+
+.mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 45px 10px 20px;
+  display: flex;
+}
+
+.mainPagInicioSesion .formularioInicioSesion fieldset .parrafoContraseña {
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  padding: 10px 10px 40px;
+  display: flex;
+}
+
+.mainPagInicioSesion .formularioInicioSesion fieldset input {
   width: 250px;
   height: 30px;
   background-color: #cca61f;
   border: #cca61f;
 }
 
-.mainPagInicioSesion .formularioInicioSesion label {
+.mainPagInicioSesion .formularioInicioSesion fieldset label {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 16px;
 }
 
-.mainPagInicioSesion .formularioInicioSesion .name {
-  padding-right: 20px;
-}
-
-.mainPagInicioSesion .formularioInicioSesion .laContraseña {
-  padding-right: 26px;
-}
-
-.mainPagInicioSesion .formularioInicioSesion p {
-  padding: 28px 25px 25px;
-}
-
-.mainPagInicioSesion .formularioInicioSesion #BotonEnviar {
+.mainPagInicioSesion .formularioInicioSesion fieldset #BotonEnviar {
   width: 96px;
   height: 35px;
   border-radius: 1.2em;
@@ -309,14 +326,45 @@ body {
 .mainPagContacto .formularioContacto fieldset {
   width: 550px;
   height: 540px;
-  justify-content: center;
-  gap: 20px;
-  align-items: space-between;
   background-color: #1b2580;
   border: #cca61f;
-  flex-direction: column;
   padding: 10px;
+}
+
+.mainPagContacto .formularioContacto fieldset .parrafoNombre {
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 6px;
+  padding: 30px 15px 15px;
   display: flex;
+}
+
+.mainPagContacto .formularioContacto fieldset .parrafoCorreoForm {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  display: flex;
+}
+
+.mainPagContacto .formularioContacto fieldset .parrafoDuda {
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+  padding: 10px 10px 30px;
+  display: flex;
+}
+
+.mainPagContacto .formularioContacto fieldset .parrafoDuda .laDuda {
+  align-self: start;
+}
+
+.mainPagContacto .formularioContacto fieldset .parrafoDuda textarea {
+  width: 220px;
+  height: 100px;
+  background-color: #cca61f;
+  border: #cca61f;
 }
 
 .mainPagContacto .formularioContacto fieldset p {
@@ -347,17 +395,11 @@ body {
   display: block;
 }
 
-.mainPagContacto .formularioContacto fieldset textarea {
-  width: 220px;
-  height: 100px;
-  background-color: #cca61f;
-  border: #cca61f;
-}
-
 .mainPagContacto .formularioContacto fieldset .parrafoTelefono {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  padding-bottom: 12px;
   display: flex;
 }
 
