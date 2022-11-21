@@ -368,7 +368,7 @@ body {
 }
 
 .mainPagContacto .formularioContacto fieldset .parrafoTelefono span {
-  padding-left: 15px;
+  padding-left: 44px;
 }
 
 .mainPagContacto .formularioContacto fieldset .parrafoTelefono .iconoWhatsapp {
@@ -382,13 +382,18 @@ body {
   display: flex;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoCorreo .iconoGmail {
-  width: 18px;
+.mainPagContacto .formularioContacto fieldset .parrafoCorreo .correoContacto {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  text-decoration: none;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoCorreo #gmailContacto {
-  color: #fff;
-  background-color: #1b2580;
+.mainPagContacto .formularioContacto fieldset .parrafoCorreo span {
+  padding-left: 26px;
+}
+
+.mainPagContacto .formularioContacto fieldset .parrafoCorreo .iconoGmail {
+  width: 18px;
 }
 
 .mainPagListado {

@@ -451,7 +451,7 @@ body {
         }
 
         span {
-          padding-left:15px;
+          padding-left:44px;
         }
 
         .iconoWhatsapp {
@@ -466,14 +466,20 @@ body {
         align-items: center;
         gap: 15px;
 
+        .correoContacto {
+          color: white;
+          text-decoration: none;
+          font-family: $fuente-parrafos;
+        }
+
+        span {
+          padding-left:26px;
+        }
+
         .iconoGmail {
           width: 18px;
         }
 
-        #gmailContacto {
-          background-color: $color-primario;
-          color: white;
-        }
       }
 
       
