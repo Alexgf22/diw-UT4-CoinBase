@@ -347,11 +347,6 @@ body {
   display: block;
 }
 
-.mainPagContacto .formularioContacto fieldset #telefonoContacto, .mainPagContacto .formularioContacto fieldset #gmailContacto {
-  color: #fff;
-  background-color: #1b2580;
-}
-
 .mainPagContacto .formularioContacto fieldset textarea {
   width: 220px;
   height: 100px;
@@ -360,20 +355,40 @@ body {
 }
 
 .mainPagContacto .formularioContacto fieldset .parrafoTelefono {
-  padding-bottom: 0;
-  padding-left: 100px;
-  display: inline;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  display: flex;
+}
+
+.mainPagContacto .formularioContacto fieldset .parrafoTelefono .telefonoContacto {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  text-decoration: none;
+}
+
+.mainPagContacto .formularioContacto fieldset .parrafoTelefono span {
+  padding-left: 15px;
+}
+
+.mainPagContacto .formularioContacto fieldset .parrafoTelefono .iconoWhatsapp {
+  width: 18px;
 }
 
 .mainPagContacto .formularioContacto fieldset .parrafoCorreo {
-  padding-top: 2px;
-  padding-left: 67px;
-  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  display: flex;
 }
 
-.mainPagContacto .formularioContacto fieldset .iconoWhatsapp, .mainPagContacto .formularioContacto fieldset .iconoGmail {
+.mainPagContacto .formularioContacto fieldset .parrafoCorreo .iconoGmail {
   width: 18px;
-  margin-right: 20px;
+}
+
+.mainPagContacto .formularioContacto fieldset .parrafoCorreo #gmailContacto {
+  color: #fff;
+  background-color: #1b2580;
 }
 
 .mainPagListado {

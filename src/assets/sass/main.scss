@@ -386,7 +386,6 @@ body {
     }*/
 
     h2::after {
-      //content: "⬇";
       content: "👇"
     }
 
@@ -417,26 +416,9 @@ body {
         color:white;
         font-family: $fuente-parrafos;
         font-size: 16px;
-        //padding-right: 22px;
       }
 
-      /*.name {
-        padding-right: 40px;
-      }
-
-      .elCorreo {
-        padding-right: 50px;
-      }
-
-      .laDuda {
-        padding-right: 62px;
-      }
-
-      p {
-        padding: 6px;
-        padding-top: 28px;
-      }*/
-
+      
       #BotonEnviar {
         border-radius: 1.2em;
         margin-bottom: 25px;
@@ -448,16 +430,7 @@ body {
         margin-right: auto;
       }
 
-      #telefonoContacto {
-        background-color: $color-primario;
-        color: white;
-      }
-
-      #gmailContacto {
-        background-color: $color-primario;
-        color: white;
-      }
-
+      
       textarea {
         background-color: $color-secundario;
         width: 220px;
@@ -466,26 +439,44 @@ body {
       }
 
       .parrafoTelefono {
-        padding-bottom:0px;
-        padding-left: 100px;
-        display: inline;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        gap: 15px;
+
+        .telefonoContacto {
+          color: white;
+          text-decoration: none;
+          font-family: $fuente-parrafos;
+        }
+
+        span {
+          padding-left:15px;
+        }
+
+        .iconoWhatsapp {
+          width: 18px;
+        }
       }
 
+      
       .parrafoCorreo {
-        padding-top: 2px;
-        padding-left: 67px;
-        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+        .iconoGmail {
+          width: 18px;
+        }
+
+        #gmailContacto {
+          background-color: $color-primario;
+          color: white;
+        }
       }
 
-      .iconoWhatsapp {
-        width: 18px;
-        margin-right: 20px;
-      }
-
-      .iconoGmail {
-        width: 18px;
-        margin-right: 20px;
-      }
+      
   }
 }
 }
