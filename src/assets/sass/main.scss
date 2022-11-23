@@ -191,7 +191,7 @@ body {
       background-color: $color-primario;
       border: $color-secundario;
       width: 550px;
-      height: 440px;
+      height: 430px;
       padding: 10px;
 
       h2 {
@@ -240,39 +240,31 @@ body {
         align-items: center;
         padding: 10px;
         gap: 10px;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
 
       }
 
-      .parrafoEnviarYcheck {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
         
         #condiciones {
-          width: 14px;
-          margin-left: 8px;
-          align-self: flex-start;
+          width: 10px;
         }
 
         .labelCondiciones {
           color: white;
           font-family: $fuente-parrafos;
-          padding-right: 35px;
         }
 
         #BotonEnviar {
           border-radius: 1.2em;
-          width: 120px;
+          width: 100px;
           height: 42px;
           padding: 10px;
-          margin-left: 220px;
-          //justify-self: flex-end;
+          margin-top: 20px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
         }
 
-      }
-      
       
       input {
         background-color: $color-secundario;

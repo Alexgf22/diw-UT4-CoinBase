@@ -136,7 +136,7 @@ body {
 
 .mainPagRegistro .formularioRegistro fieldset {
   width: 550px;
-  height: 440px;
+  height: 430px;
   background-color: #1b2580;
   border: #cca61f;
   padding: 10px;
@@ -181,34 +181,28 @@ body {
   justify-content: space-evenly;
   align-items: center;
   gap: 10px;
-  padding: 10px 10px 50px;
+  padding: 10px 10px 30px;
   display: flex;
 }
 
-.mainPagRegistro .formularioRegistro fieldset .parrafoEnviarYcheck {
-  justify-content: center;
-  align-items: center;
-  display: flex;
+.mainPagRegistro .formularioRegistro fieldset #condiciones {
+  width: 10px;
 }
 
-.mainPagRegistro .formularioRegistro fieldset .parrafoEnviarYcheck #condiciones {
-  width: 14px;
-  align-self: flex-start;
-  margin-left: 8px;
-}
-
-.mainPagRegistro .formularioRegistro fieldset .parrafoEnviarYcheck .labelCondiciones {
+.mainPagRegistro .formularioRegistro fieldset .labelCondiciones {
   color: #fff;
-  padding-right: 35px;
   font-family: Inter, sans-serif;
 }
 
-.mainPagRegistro .formularioRegistro fieldset .parrafoEnviarYcheck #BotonEnviar {
-  width: 120px;
+.mainPagRegistro .formularioRegistro fieldset #BotonEnviar {
+  width: 100px;
   height: 42px;
   border-radius: 1.2em;
-  margin-left: 220px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px;
+  display: block;
 }
 
 .mainPagRegistro .formularioRegistro fieldset input {
