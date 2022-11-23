@@ -209,6 +209,7 @@ body {
   height: 30px;
   background-color: #cca61f;
   border: #cca61f;
+  border-radius: .4em;
 }
 
 .mainPagRegistro .formularioRegistro fieldset label {
@@ -271,6 +272,7 @@ body {
   height: 30px;
   background-color: #cca61f;
   border: #cca61f;
+  border-radius: .4em;
 }
 
 .mainPagInicioSesion .formularioInicioSesion fieldset label {
@@ -357,6 +359,7 @@ body {
   height: 100px;
   background-color: #cca61f;
   border: #cca61f;
+  border-radius: .4em;
 }
 
 .mainPagContacto .formularioContacto fieldset p {
@@ -368,6 +371,7 @@ body {
   height: 30px;
   background-color: #cca61f;
   border: #cca61f;
+  border-radius: .4em;
 }
 
 .mainPagContacto .formularioContacto fieldset label {
