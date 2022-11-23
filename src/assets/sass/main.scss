@@ -1,9 +1,4 @@
-$fuente-parrafos: 'Inter', sans-serif;
-$fuente-titulos: 'Staatliches';
-$color-primario: rgba(27, 37, 128, 1);
-$color-secundario: rgba(204, 166, 31, 1);
-$color-terciario: rgba(105, 120, 255, 1);
-
+@import url(_variables.scss);
 
 .logoPag {
   width: 45px;
@@ -28,7 +23,7 @@ body {
 
 .cabecera {
 
-  background-color: $color-primario;
+  background-color: $azul-mas-saturado;
   width: 100%;
   position:sticky;
   padding: 10px;
@@ -78,8 +73,8 @@ body {
     width: 50px;
     border-radius: 0.5em;
     padding:6px;
-    color: $color-primario;
-    background-color: $color-secundario;
+    color: $azul-mas-saturado;
+    background-color: $amarillo-menos-saturado;
   }
 
   
@@ -88,7 +83,7 @@ body {
 
 
 .piePagina {
-    background-color: $color-primario;
+    background-color: $azul-mas-saturado;
     position: sticky;
     width: 100%;
     height: 55px;
@@ -154,7 +149,7 @@ body {
     text-align: center;
 
     a {
-      background-color: $color-secundario;
+      background-color: $amarillo-menos-saturado;
       color: black;
       border-radius: 0.6em;
       padding: 12px;
@@ -172,7 +167,7 @@ body {
 // Main página registro
 
 .mainPagRegistro {
-  background-color: $color-terciario;
+  background-color: $azul-menos-saturado;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -186,8 +181,8 @@ body {
 
     
     fieldset {
-      background-color: $color-primario;
-      border: $color-secundario;
+      background-color: $azul-mas-saturado;
+      border: $amarillo-menos-saturado;
       width: 550px;
       padding: 10px;
       padding-bottom: 30px;
@@ -265,8 +260,8 @@ body {
 
       
       input {
-        background-color: $color-secundario;
-        border: $color-secundario;
+        background-color: $amarillo-menos-saturado;
+        border: $amarillo-menos-saturado;
         width: 250px;
         height: 30px;
         border-radius: 0.4em;
@@ -289,7 +284,7 @@ body {
 // Main Página inicio sesión
 
 .mainPagInicioSesion {
-  background-color: $color-terciario;
+  background-color: $azul-menos-saturado;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -302,8 +297,8 @@ body {
     
   
     fieldset {
-      background-color: $color-primario;
-      border: $color-secundario;
+      background-color: $azul-mas-saturado;
+      border: $amarillo-menos-saturado;
       width: 580px;
       padding-bottom: 25px;
 
@@ -339,8 +334,8 @@ body {
       }
     
       input {
-        background-color: $color-secundario;
-        border: $color-secundario;
+        background-color: $amarillo-menos-saturado;
+        border: $amarillo-menos-saturado;
         width: 250px;
         height: 30px;
         border-radius: 0.4em;
@@ -372,7 +367,7 @@ body {
 // Main página contacto
 
 .mainPagContacto {
-  background-color: $color-terciario;
+  background-color: $azul-menos-saturado;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -401,8 +396,8 @@ body {
     }
 
     fieldset {
-      background-color: $color-primario;
-      border: $color-secundario;
+      background-color: $azul-mas-saturado;
+      border: $amarillo-menos-saturado;
       width: 550px;
       padding: 10px;
       padding-bottom: 35px;
@@ -438,10 +433,10 @@ body {
         }
 
         textarea {
-          background-color: $color-secundario;
+          background-color: $amarillo-menos-saturado;
           width: 220px;
           height: 100px;
-          border: $color-secundario;
+          border: $amarillo-menos-saturado;
           border-radius: 0.4em;
         }
       }
@@ -451,8 +446,8 @@ body {
       }
     
       input {
-        background-color: $color-secundario;
-        border: $color-secundario;
+        background-color: $amarillo-menos-saturado;
+        border: $amarillo-menos-saturado;
         width: 220px;
         height: 30px;
         border-radius: 0.4em;
@@ -533,7 +528,7 @@ body {
 // Main página listado
 
 .mainPagListado {
-  background-color: $color-terciario;
+  background-color: $azul-menos-saturado;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -546,7 +541,7 @@ body {
     text-align: center;
     padding: 20px;
     padding-bottom: 60px;
-    background-color: $color-primario;
+    background-color: $azul-mas-saturado;
 
     h2 {
       font-family: $fuente-titulos;
@@ -644,7 +639,7 @@ body {
 // Main página producto
 
 .mainPagProducto {
-  background-color: $color-terciario;
+  background-color: $azul-menos-saturado;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -654,7 +649,7 @@ body {
 
 
   .contenedorProducto {
-    background-color: $color-primario;
+    background-color: $azul-mas-saturado;
     width: 574px;
     padding: 20px;
     margin: 20px;
@@ -732,7 +727,7 @@ body {
       padding: 5px;
       width: 40px;
       text-decoration: underline;
-      background-color: $color-secundario;
+      background-color: $amarillo-menos-saturado;
       font-family: $fuente-titulos;
       border-radius: 0.6em;
       color: black;
