@@ -516,23 +516,28 @@ body {
   padding: 20px;
 }
 
-.mainPagProducto .contenedorProducto h2 {
+.mainPagProducto .contenedorProducto .contenedorTitulo {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+.mainPagProducto .contenedorProducto .contenedorTitulo h2 {
   color: #fff;
-  text-align: center;
   padding-top: 36px;
   font-family: Staatliches;
   font-size: 22px;
 }
 
-.mainPagProducto .contenedorProducto img {
+.mainPagProducto .contenedorProducto .contenedorTitulo img {
   width: 50px;
-  margin-left: 50px;
 }
 
 .mainPagProducto .contenedorProducto #crypto-widget-CoinList {
   width: 190px;
-  margin-top: -100px;
-  margin-left: 330px;
+  margin: 20px auto 0;
 }
 
 .mainPagProducto .contenedorProducto p {

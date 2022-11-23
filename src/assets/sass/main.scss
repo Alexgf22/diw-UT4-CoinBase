@@ -1,4 +1,4 @@
-@import url(_variables.scss);
+@import "_variables.scss";
 
 .logoPag {
   width: 45px;
@@ -654,23 +654,30 @@ body {
     padding: 20px;
     margin: 20px;
 
-    h2 {
-      font-size: 22px;
-      font-family: $fuente-titulos;
-      color: white;
-      text-align: center;
-      padding-top: 36px;
-    }
+    .contenedorTitulo {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
 
-    img {
-      width: 50px;
-      margin-left: 50px;
-    }
+      h2 {
+        font-size: 22px;
+        font-family: $fuente-titulos;
+        color: white;
+        //text-align: center;
+        padding-top: 36px;
+      }
+
+      img {
+        width: 50px;
+      }
+  }
 
     #crypto-widget-CoinList {
       width: 190px;
-      margin-left: 330px;
-      margin-top: -100px;
+      margin:0 auto;
+      margin-top: 20px;
     }
 
     p {
@@ -736,6 +743,28 @@ body {
   }
 }
 
+
+
+// Responsive
+
+
+/*@media screen and (max-width: 640px) {
+  .menu {
+    background: blue;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+  .menu {
+    background: red;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .menu {
+    background: green;
+  }
+}*/
 
 
 
