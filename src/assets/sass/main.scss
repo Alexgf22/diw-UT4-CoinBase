@@ -549,7 +549,7 @@ body {
 
   section {
     width: 570px;
-    height: 290px;
+    height: 310px;
     text-align: center;
     padding: 20px;
     background-color: $color-primario;
@@ -597,11 +597,12 @@ body {
     .contenedorCryptos {
       padding-top: 30px;
       display:grid;
-      //grid-template-columns: 33% 33% 33%;
-      //grid-template-rows: 33% 33% 33%;
-      grid-template-columns: 14% 14% 14% 14% 14% 14%;
-      grid-template-rows: 44% 44% 44% 44% 44% 44%;
-      padding-left: 65px;
+      //grid-template-columns: 14% 14% 14% 14% 14% 14%;
+      //grid-template-rows: 44% 44% 44% 44% 44% 44%;
+      grid-template-columns: 11% 11% 11% 11% 11% 11%;
+      grid-template-rows: 40% 40% 40% 40% 40% 40%;
+      align-items: center;
+      justify-content: center;
 
       .logoBitcoin {
         width: 42px;

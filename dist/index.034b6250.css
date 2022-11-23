@@ -450,7 +450,7 @@ body {
 
 .mainPagListado section {
   width: 570px;
-  height: 290px;
+  height: 310px;
   text-align: center;
   background-color: #1b2580;
   padding: 20px;
@@ -494,10 +494,11 @@ body {
 }
 
 .mainPagListado section .contenedorCryptos {
-  grid-template-rows: 44% 44% 44% 44% 44% 44%;
-  grid-template-columns: 14% 14% 14% 14% 14% 14%;
+  grid-template-rows: 40% 40% 40% 40% 40% 40%;
+  grid-template-columns: 11% 11% 11% 11% 11% 11%;
+  justify-content: center;
+  align-items: center;
   padding-top: 30px;
-  padding-left: 65px;
   display: grid;
 }
 
