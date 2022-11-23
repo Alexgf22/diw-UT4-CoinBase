@@ -136,10 +136,9 @@ body {
 
 .mainPagRegistro .formularioRegistro fieldset {
   width: 550px;
-  height: 430px;
   background-color: #1b2580;
   border: #cca61f;
-  padding: 10px;
+  padding: 10px 10px 30px;
 }
 
 .mainPagRegistro .formularioRegistro fieldset h2 {
@@ -234,9 +233,9 @@ body {
 
 .mainPagInicioSesion .formularioInicioSesion fieldset {
   width: 580px;
-  height: 300px;
   background-color: #1b2580;
   border: #cca61f;
+  padding-bottom: 25px;
 }
 
 .mainPagInicioSesion .formularioInicioSesion fieldset h2 {
@@ -319,10 +318,9 @@ body {
 
 .mainPagContacto .formularioContacto fieldset {
   width: 550px;
-  height: 540px;
   background-color: #1b2580;
   border: #cca61f;
-  padding: 10px;
+  padding: 10px 10px 35px;
 }
 
 .mainPagContacto .formularioContacto fieldset .parrafoNombre {
@@ -444,10 +442,9 @@ body {
 
 .mainPagListado section {
   width: 570px;
-  height: 310px;
   text-align: center;
   background-color: #1b2580;
-  padding: 20px;
+  padding: 20px 20px 60px;
 }
 
 .mainPagListado section h2 {
@@ -512,10 +509,9 @@ body {
 
 .mainPagProducto .contenedorProducto {
   width: 574px;
-  height: 360px;
   background-color: #1b2580;
   margin: 20px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .mainPagProducto .contenedorProducto h2 {
