@@ -36,9 +36,8 @@ body {
   .listaCabecera {
     display:flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items:center;
-    gap: 25px;
     width: 100%;
     /*border-bottom: 2px solid rgb(196, 182, 182);
     padding: 10px;*/
@@ -96,9 +95,8 @@ body {
     padding:10px;
     display:flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:center;
-    gap: 15px;
 
     a {
         color:  #ffffff;
