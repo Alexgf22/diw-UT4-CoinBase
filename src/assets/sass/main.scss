@@ -659,10 +659,10 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 20px;
+      gap: 12px;
 
       h2 {
-        font-size: 22px;
+        font-size: 30px;
         font-family: $fuente-titulos;
         color: white;
         //text-align: center;
@@ -670,12 +670,13 @@ body {
       }
 
       img {
-        width: 50px;
+        width: 40px;
+        align-self: flex-end;
       }
   }
 
     #crypto-widget-CoinList {
-      width: 190px;
+      width: 268px;
       margin:0 auto;
       margin-top: 20px;
     }
@@ -695,6 +696,7 @@ body {
     }
 
     .contenedorInfoCrypto {
+      padding-top: 30px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -703,36 +705,40 @@ body {
       
       .infoCrypto1 {
         padding: 15px;
-        .tituloCrypto1 {
-          padding-right: 160px;
-        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
       }
 
       .infoCrypto2 {
         padding: 15px;
-        .tituloCrypto2 {
-          padding-right: 70px;
-        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
       }
 
       .infoCrypto3 {
         padding: 15px;
-        .tituloCrypto3 {
-          padding-right: 20px;
-        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
       }
 
       .infoCrypto4 {
         padding: 15px;
-        .tituloCrypto4 {
-          padding-right: 44px;
-        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
       }
     }
 
     .evolucionPrecio {
       padding: 5px;
-      width: 40px;
+      width: 96px;
       text-decoration: underline;
       background-color: $amarillo-menos-saturado;
       font-family: $fuente-titulos;
