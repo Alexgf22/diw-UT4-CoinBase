@@ -754,23 +754,42 @@ body {
 // Responsive
 
 
-/*@media screen and (max-width: 640px) {
-  .menu {
-    background: blue;
+
+// Vista desktop
+/*@media screen and (min-width: 1024px) {
+  .mainPagContacto {
+    background-color: rgb(20, 105, 20);
   }
+
+
 }
 
-@media screen and (min-width: 640px) and (max-width: 1280px) {
-  .menu {
-    background: red;
+
+
+// Vista tablet
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+  .mainPagContacto {
+    background-color: rgb(158, 182, 50);
   }
+
 }
 
-@media screen and (min-width: 1280px) {
-  .menu {
-    background: green;
+
+
+
+// Vista móvil
+@media screen and (max-width: 640px) {
+  
+  .mainPagContacto {
+    background-color: rgb(211, 152, 96);
   }
+
 }*/
+
+
+
+
+
 
 
 
