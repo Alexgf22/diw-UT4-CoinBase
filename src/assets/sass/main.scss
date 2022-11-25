@@ -676,7 +676,8 @@ body {
   }
 
     #crypto-widget-CoinList {
-      width: 268px;
+      //width: 268px;
+      width: 54%;
       margin:0 auto;
       margin-top: 20px;
     }
@@ -704,35 +705,39 @@ body {
 
       
       .infoCrypto1 {
+        width: 60%;
         padding: 15px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 80px;
+        //gap: 80px;
       }
 
       .infoCrypto2 {
+        width: 60%;
         padding: 15px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 40px;
+        //gap: 40px;
       }
 
       .infoCrypto3 {
+        width: 60%;
         padding: 15px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 40px;
+        //gap: 40px;
       }
 
       .infoCrypto4 {
+        width: 60%;
         padding: 15px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 50px;
+        //gap: 50px;
       }
     }
 
