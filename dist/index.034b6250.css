@@ -333,7 +333,6 @@ body {
 .mainPagContacto .formularioContacto fieldset .parrafoNombre {
   justify-content: space-evenly;
   align-items: center;
-  gap: 6px;
   padding: 30px 15px 15px;
   display: flex;
 }
@@ -342,7 +341,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  gap: 15px;
+  gap: 12px;
   padding: 15px;
   display: flex;
 }
