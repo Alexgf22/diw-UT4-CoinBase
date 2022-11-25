@@ -182,13 +182,20 @@ body {
   display: flex;
 }
 
-.mainPagRegistro .formularioRegistro fieldset #condiciones {
-  width: 10px;
+.mainPagRegistro .formularioRegistro fieldset .parrafoAceptarCondiciones {
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  display: flex;
 }
 
-.mainPagRegistro .formularioRegistro fieldset .labelCondiciones {
+.mainPagRegistro .formularioRegistro fieldset .parrafoAceptarCondiciones .labelCondiciones {
   color: #fff;
   font-family: Inter, sans-serif;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoAceptarCondiciones #condiciones {
+  width: 10px;
 }
 
 .mainPagRegistro .formularioRegistro fieldset #BotonEnviar {

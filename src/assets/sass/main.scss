@@ -237,15 +237,22 @@ body {
 
       }
 
-        
-        #condiciones {
-          width: 10px;
-        }
+      .parrafoAceptarCondiciones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
 
         .labelCondiciones {
           color: white;
           font-family: $fuente-parrafos;
         }
+
+        #condiciones {
+          width: 10px;
+        }
+        
+      }
 
         #BotonEnviar {
           border-radius: 1.2em;
