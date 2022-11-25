@@ -597,4 +597,108 @@ body {
   text-decoration: underline;
 }
 
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .mainPagProducto {
+    background-color: #146914;
+  }
+
+  .mainPagProducto .contenedorProducto {
+    width: 500px;
+    margin: 20px;
+  }
+
+  .mainPagContacto {
+    background-color: #146914;
+  }
+
+  .mainPagContacto .formularioContacto fieldset {
+    width: 470px;
+  }
+}
+
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .mainPagProducto {
+    background-color: #c3dd16;
+  }
+
+  .mainPagProducto .contenedorProducto {
+    width: 360px;
+    margin: 20px;
+  }
+
+  .mainPagProducto .contenedorProducto #crypto-widget-CoinList {
+    width: 180px;
+  }
+
+  .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto1, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto2, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto3, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto4 {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .mainPagContacto {
+    background-color: #c3dd16;
+  }
+
+  .mainPagContacto .formularioContacto fieldset {
+    width: 360px;
+  }
+
+  .mainPagContacto .formularioContacto fieldset .parrafoNombre {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .mainPagContacto .formularioContacto fieldset .parrafoNombre .name {
+    padding-bottom: 6px;
+  }
+
+  .mainPagContacto .formularioContacto fieldset .parrafoCorreoForm, .mainPagContacto .formularioContacto fieldset .parrafoDuda {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .mainPagContacto .formularioContacto fieldset .parrafoDuda .laDuda {
+    margin: 0 auto;
+  }
+
+  .mainPagContacto .formularioContacto fieldset .parrafoTelefono .telefonoContacto span, .mainPagContacto .formularioContacto fieldset .parrafoCorreo .correoContacto span {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .mainPagProducto {
+    background-color: #0ff;
+  }
+
+  .mainPagProducto .contenedorProducto {
+    width: 260px;
+  }
+
+  .mainPagProducto .contenedorProducto #crypto-widget-CoinList {
+    width: 170px;
+  }
+
+  .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto1, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto2 {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto3, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto4 {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .mainPagContacto {
+    background-color: #0ff;
+  }
+
+  .mainPagContacto .formularioContacto fieldset {
+    width: 240px;
+  }
+}
+
 /*# sourceMappingURL=index.034b6250.css.map */
