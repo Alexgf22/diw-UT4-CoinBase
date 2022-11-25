@@ -586,47 +586,20 @@ body {
     .contenedorCryptos {
       padding-top: 30px;
       display:grid;
-      //grid-template-columns: 14% 14% 14% 14% 14% 14%;
-      //grid-template-rows: 44% 44% 44% 44% 44% 44%;
-      grid-template-columns: 11% 11% 11% 11% 11% 11%;
-      grid-template-rows: 40% 40% 40% 40% 40% 40%;
+      //grid-template-columns: 16% 1% 16% 1% 16% 1%;
+      //grid-template-rows: 40% 40% 40% 40% 40% 40%;
+      grid-template-columns: 23% 23% 23%;
+      grid-template-rows: 40% 40% 40%;
       align-items: center;
       justify-content: center;
 
-      .logoBitcoin {
+
+      img {
         width: 42px;
       }
 
-      .logoCardano {
-        width: 42px;
-      }
-    
-      .logoTether {
-        width: 42px;
-      }
-    
-      .logoEthereum {
-        width: 42px;
-      }
-    
-      .logoSolana {
-        width: 42px;
-      }
-    
-      .logoBNB {
-        width: 42px;
-      }
-    
-      .logoLitecoin {
-        width: 42px;
-      }
-    
-      .logoChainlink {
-        width: 42px;
-      }
-    
-      .logoUSDCoin {
-        width: 42px;
+      p {
+        display: inline-block;
       }
 
     }
