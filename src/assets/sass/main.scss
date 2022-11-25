@@ -850,6 +850,20 @@ body {
 
   }
 
+
+  .mainPagRegistro {
+    background-color: rgb(20, 105, 20);
+
+    .formularioRegistro {
+
+      fieldset {
+        width: 470px;
+      }
+
+    }
+
+  }
+
 }
 
 
@@ -1069,6 +1083,69 @@ body {
           align-items: center;  
         }
 
+      }
+
+    }
+
+  }
+
+
+  .mainPagRegistro {
+    background-color: rgb(195, 221, 22);
+
+    .formularioRegistro {
+
+      fieldset {
+        width: 360px;
+
+        .parrafoNombrePila {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+          .name {
+            padding-bottom: 10px;
+          }
+
+        }
+
+        .parrafoApellidos {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+          .apellido {
+            padding-top: 10px;
+          }
+
+        }
+
+        .parrafoDelCorreo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+          .elCorreo {
+            margin-top: 10px;
+          }
+
+          #email {
+            margin-bottom: 30px;
+
+          }
+
+        }
+
+        .parrafoContraseña {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+        }
       }
 
     }
@@ -1304,6 +1381,85 @@ body {
           }
         }
 
+      }
+
+    }
+
+  }
+
+
+  .mainPagRegistro {
+    background-color: aqua;
+
+    .formularioRegistro {
+
+      fieldset {
+        width: 240px;
+
+        .parrafoNombrePila {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+          .name {
+            padding-bottom: 10px;
+          }
+
+          input {
+            width: 200px;
+          }
+
+        }
+
+        .parrafoApellidos {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+          .apellido {
+            padding-top: 10px;
+          }
+
+          input {
+            width: 200px;
+          }
+
+        }
+
+        .parrafoDelCorreo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+          .elCorreo {
+            margin-top: 10px;
+          }
+
+          input {
+            width: 200px;
+          }
+
+          #email {
+            margin-bottom: 30px;
+
+          }
+
+        }
+
+        .parrafoContraseña {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          input {
+            width: 200px;
+          }
+
+        }
       }
 
     }
