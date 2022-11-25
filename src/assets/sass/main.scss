@@ -586,12 +586,65 @@ body {
     .contenedorCryptos {
       padding-top: 30px;
       display:grid;
-      //grid-template-columns: 16% 1% 16% 1% 16% 1%;
-      //grid-template-rows: 40% 40% 40% 40% 40% 40%;
       grid-template-columns: 23% 23% 23%;
       grid-template-rows: 40% 40% 40%;
       align-items: center;
       justify-content: center;
+
+
+      .contenedorBitcoin {
+        display:flex;
+        align-items: center;
+        gap: 3px;
+      }
+
+      .contenedorCardano {
+        display:flex;
+        align-items: center;
+        gap: 3px;
+      }
+
+      .contenedorTether {
+        display:flex;
+        align-items: center;
+        gap: 3px;
+      }
+
+      .contenedorEthereum {
+        display:flex;
+        align-items: center;
+        gap: 3px;
+      }
+
+      .contenedorSolana {
+        display:flex;
+        align-items: center;
+        gap: 3px;
+      }
+
+      .contenedorBNB {
+        display:flex;
+        align-items: center;
+        gap: 3px;
+      }
+
+      .contenedorLitecoin {
+        display:flex;
+        align-items: center;
+        gap: 3px;
+      }
+
+      .contenedorChainlink {
+        display:flex;
+        align-items: center;
+        gap: 3px;
+      }
+
+      .contenedorUSDCoin {
+        display:flex;
+        align-items: center;
+        gap: 3px;
+      }
 
 
       img {

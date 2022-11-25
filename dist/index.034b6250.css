@@ -495,6 +495,12 @@ body {
   display: grid;
 }
 
+.mainPagListado section .contenedorCryptos .contenedorBitcoin, .mainPagListado section .contenedorCryptos .contenedorCardano, .mainPagListado section .contenedorCryptos .contenedorTether, .mainPagListado section .contenedorCryptos .contenedorEthereum, .mainPagListado section .contenedorCryptos .contenedorSolana, .mainPagListado section .contenedorCryptos .contenedorBNB, .mainPagListado section .contenedorCryptos .contenedorLitecoin, .mainPagListado section .contenedorCryptos .contenedorChainlink, .mainPagListado section .contenedorCryptos .contenedorUSDCoin {
+  align-items: center;
+  gap: 3px;
+  display: flex;
+}
+
 .mainPagListado section .contenedorCryptos img {
   width: 42px;
 }
