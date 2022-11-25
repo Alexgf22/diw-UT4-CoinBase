@@ -697,7 +697,31 @@ body {
   }
 
   .mainPagContacto .formularioContacto fieldset {
-    width: 240px;
+    width: 220px;
+  }
+
+  .mainPagContacto .formularioContacto fieldset .parrafoNombre {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .mainPagContacto .formularioContacto fieldset .parrafoNombre .name {
+    padding-bottom: 6px;
+  }
+
+  .mainPagContacto .formularioContacto fieldset .parrafoCorreoForm, .mainPagContacto .formularioContacto fieldset .parrafoDuda {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .mainPagContacto .formularioContacto fieldset .parrafoDuda .laDuda {
+    margin: 0 auto;
+  }
+
+  .mainPagContacto .formularioContacto fieldset .parrafoTelefono .telefonoContacto span, .mainPagContacto .formularioContacto fieldset .parrafoCorreo .correoContacto span {
+    display: block;
   }
 }
 
