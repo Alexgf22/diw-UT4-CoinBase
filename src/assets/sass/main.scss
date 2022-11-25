@@ -836,6 +836,20 @@ body {
   
   }
 
+  .mainPagInicioSesion {
+    background-color: rgb(20, 105, 20);
+
+    .formularioInicioSesion {
+
+      fieldset {
+        width: 470px;
+
+      }
+
+    }
+
+  }
+
 }
 
 
@@ -1030,6 +1044,35 @@ body {
 
     }
   
+  }
+
+
+  .mainPagInicioSesion {
+    background-color: rgb(195, 221, 22);
+
+    .formularioInicioSesion {
+
+      fieldset {
+        width: 360px;
+
+        .parrafoNombrePila {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .parrafoContraseña {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;  
+        }
+
+      }
+
+    }
+
   }
   
 }
@@ -1230,10 +1273,44 @@ body {
   
   }
 
-    
 
-  
-  
+  .mainPagInicioSesion {
+    background-color: aqua;
+
+    .formularioInicioSesion {
+
+      fieldset {
+        width: 240px;
+
+        .parrafoNombrePila {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          input {
+            width: 200px;
+          }
+        }
+
+        .parrafoContraseña {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          input {
+            width: 200px;
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+    
 }
 
 

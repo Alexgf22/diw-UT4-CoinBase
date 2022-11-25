@@ -626,6 +626,14 @@ body {
   .mainPagListado section {
     width: 500px;
   }
+
+  .mainPagInicioSesion {
+    background-color: #146914;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset {
+    width: 470px;
+  }
 }
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
@@ -710,6 +718,21 @@ body {
 
   .mainPagListado section .contenedorCryptos img {
     width: 42px;
+  }
+
+  .mainPagInicioSesion {
+    background-color: #c3dd16;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset {
+    width: 360px;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila, .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoContraseña {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
 }
 
@@ -803,6 +826,36 @@ body {
 
   .mainPagListado section .contenedorCryptos img {
     width: 42px;
+  }
+
+  .mainPagInicioSesion {
+    background-color: #0ff;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset {
+    width: 240px;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila input {
+    width: 200px;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoContraseña {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoContraseña input {
+    width: 200px;
   }
 }
 
