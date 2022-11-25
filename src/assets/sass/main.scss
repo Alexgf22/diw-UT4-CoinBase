@@ -554,7 +554,7 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 50px;
+      gap: 30px;
 
       h2 {
         font-family: $fuente-titulos;
@@ -833,10 +833,7 @@ body {
       width: 500px;
 
     }
-    
-
-
-
+  
   }
 
 }
@@ -940,6 +937,100 @@ body {
   }
 
   }
+
+
+  .mainPagListado {
+    background-color: rgb(195, 221, 22);
+
+    section {
+      width: 350px;
+
+      .contenedorTituloYbuscar {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .contenedorCryptos {
+        padding-top: 30px;
+        display:grid;
+        grid-template-columns: 23% 23% 23%;
+        grid-template-rows: 40% 40% 40%;
+        align-items: center;
+        justify-content: center;
+  
+  
+        .contenedorBitcoin {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorCardano {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorTether {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorEthereum {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorSolana {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorBNB {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorLitecoin {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorChainlink {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorUSDCoin {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        img {
+          width: 42px;
+        }
+  
+      }
+
+    }
+  
+  }
   
 }
 
@@ -1041,6 +1132,107 @@ body {
   }
 
   }
+
+
+  .mainPagListado {
+    background-color: aqua;
+    height: 600px;
+
+    section {
+      width: 240px;
+      height: 530px;
+      margin: 20px;
+
+      .contenedorTituloYbuscar {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .contenedorCryptos {
+        padding-top: 30px;
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20%;
+        align-items: center;
+        justify-content: center;
+  
+  
+        .contenedorBitcoin {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorCardano {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorTether {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorEthereum {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorSolana {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorBNB {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorLitecoin {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorChainlink {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorUSDCoin {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        img {
+          width: 42px;
+        }
+  
+      }
+
+    }
+  
+  }
+
+    
+
+  
   
 }
 
