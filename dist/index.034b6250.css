@@ -455,41 +455,45 @@ body {
   padding: 20px 20px 60px;
 }
 
-.mainPagListado section h2 {
+.mainPagListado section .contenedorTituloYbuscar {
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  display: flex;
+}
+
+.mainPagListado section .contenedorTituloYbuscar h2 {
   color: #fff;
   padding-top: 6px;
   font-family: Staatliches;
   font-size: 18px;
 }
 
-.mainPagListado section p {
-  color: #fff;
-  font-family: Inter, sans-serif;
-  font-size: 14px;
-}
-
-.mainPagListado section .contenedorBuscar {
+.mainPagListado section .contenedorTituloYbuscar .contenedorBuscar {
   width: 160px;
   background-color: #fff;
   border-radius: .6em;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  justify-self: flex-end;
   align-items: center;
-  gap: 30px;
-  margin-top: -30px;
-  margin-left: 370px;
+  gap: 5px;
   padding: 6px;
   display: flex;
 }
 
-.mainPagListado section .contenedorBuscar b {
+.mainPagListado section .contenedorTituloYbuscar .contenedorBuscar b {
   font-family: Staatliches;
   font-size: 16px;
 }
 
-.mainPagListado section .contenedorBuscar .iconoBuscar {
+.mainPagListado section .contenedorTituloYbuscar .contenedorBuscar .iconoBuscar {
   width: 18px;
+}
+
+.mainPagListado section p {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
 }
 
 .mainPagListado section .contenedorCryptos {
@@ -613,6 +617,14 @@ body {
 
   .mainPagContacto .formularioContacto fieldset {
     width: 470px;
+  }
+
+  .mainPagListado {
+    background-color: #146914;
+  }
+
+  .mainPagListado section {
+    width: 500px;
   }
 }
 

@@ -549,12 +549,46 @@ body {
     padding-bottom: 60px;
     background-color: $azul-mas-saturado;
 
-    h2 {
-      font-family: $fuente-titulos;
-      color: white;
-      font-size: 18px;
-      padding-top: 6px;
+    .contenedorTituloYbuscar {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+
+      h2 {
+        font-family: $fuente-titulos;
+        color: white;
+        font-size: 18px;
+        padding-top: 6px;
+      }
+
+      .contenedorBuscar {
+        width: 160px;
+        background-color: white;
+        padding: 6px;
+        border-radius: 0.6em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    
+        
+        b {
+          font-family: $fuente-titulos;
+          font-size: 16px;
+        }
+      
+        .iconoBuscar {
+          width: 18px;
+        }
+      
+      } 
+
     }
+
+    
 
     p {
       color:white;
@@ -562,33 +596,8 @@ body {
       font-size: 14px;
     }
 
-    .contenedorBuscar {
-      width: 160px;
-      margin-left: 370px;
-      margin-top: -30px;
-      background-color: white;
-      padding: 6px;
-      border-radius: 0.6em;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      justify-self: flex-end;
-      gap: 30px;
-  
-      
-      b {
-        font-family: $fuente-titulos;
-        font-size: 16px;
-      }
     
-      .iconoBuscar {
-        width: 18px;
-      }
-    
-    } 
   
-
     .contenedorCryptos {
       padding-top: 30px;
       display:grid;
@@ -813,6 +822,20 @@ body {
         width: 470px;
       }
   }
+
+  }
+
+
+  .mainPagListado {
+    background-color: rgb(20, 105, 20);
+
+    section {
+      width: 500px;
+
+    }
+    
+
+
 
   }
 
