@@ -1,3 +1,12 @@
+.titulo404 {
+  text-align: center;
+  color: #00f;
+}
+
+.tituloNotFound, .parrafoError, .enlaceAinicio {
+  text-align: center;
+}
+
 .logoPag {
   width: 45px;
 }
