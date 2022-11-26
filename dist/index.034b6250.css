@@ -1,10 +1,52 @@
 .titulo404 {
   text-align: center;
-  color: #00f;
+  color: red;
+  padding-top: 30px;
+  font-family: Staatliches;
+  animation-name: slidein;
+  animation-duration: 3s;
 }
 
-.tituloNotFound, .parrafoError, .enlaceAinicio {
+.tituloNotFound {
   text-align: center;
+  padding-top: 10px;
+  font-family: Staatliches;
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+
+.parrafoError {
+  text-align: center;
+  padding-top: 26px;
+  font-family: Inter, sans-serif;
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+
+.enlaceHaciaInicio {
+  text-align: center;
+  padding-top: 20px;
+  font-family: Inter, sans-serif;
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+
+.enlaceHaciaInicio .enlaceAinicio {
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+
+@keyframes slidein {
+  from {
+    width: 300%;
+    margin-left: 100%;
+  }
+
+  to {
+    width: 100%;
+    margin-left: 0%;
+  }
 }
 
 .logoPag {

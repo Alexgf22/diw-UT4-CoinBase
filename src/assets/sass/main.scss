@@ -1,5 +1,68 @@
 @import "_variables.scss";
-@import "_paginaError.scss";
+
+
+
+// Página 404
+
+.titulo404 {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  padding-top: 30px;
+  font-family: $fuente-titulos;
+  animation-duration: 3s;
+  animation-name: slidein;
+
+}
+
+
+.tituloNotFound {
+  text-align: center;
+  padding-top: 10px;
+  font-family: $fuente-titulos;
+  animation-duration: 3s;
+  animation-name: slidein;
+
+}
+
+
+.parrafoError {
+  text-align: center;
+  padding-top: 26px;
+  font-family: $fuente-parrafos;
+  animation-duration: 3s;
+  animation-name: slidein;
+
+
+}
+
+
+.enlaceHaciaInicio {
+  text-align: center;
+  padding-top: 20px;
+  font-family: $fuente-parrafos;
+  animation-duration: 3s;
+  animation-name: slidein;
+
+  .enlaceAinicio {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 .logoPag {
   width: 45px;
@@ -795,6 +858,8 @@ body {
     
   }
 }
+
+
 
 
 
