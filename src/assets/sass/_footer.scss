@@ -1,0 +1,44 @@
+.piePagina {
+    background-color: $azul-mas-saturado;
+    position: sticky;
+    width: 100%;
+    height: 55px;
+    padding:10px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items:center;
+
+    a {
+        color:  #ffffff;
+        font-family: $fuente-titulos;
+        font-size: 12px;   
+    }
+
+    .inviertePiePag {
+      justify-self: flex-end;
+    }
+
+    .iconoInsta {
+      width: 18px;
+    }
+
+    .iconoFacebook {
+      width: 18px;
+    }
+
+    .textoInstaPie {
+      justify-self: flex-start;
+
+    }
+
+    .textoFacebookPie {
+      justify-self: center;
+
+    }
+
+    .contenedorRedesSociales {
+      justify-self: flex-start;
+    }
+    
+}

@@ -1,0 +1,301 @@
+// Main página registro
+
+.mainPagRegistro {
+    background-color: $azul-menos-saturado;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .formularioRegistro {
+      text-align: center;
+      padding: 20px;
+  
+      
+      fieldset {
+        background-color: $azul-mas-saturado;
+        border: $amarillo-menos-saturado;
+        width: 550px;
+        padding: 10px;
+        padding-bottom: 30px;
+  
+        h2 {
+          color: white;
+          font-family: $fuente-parrafos;
+          font-size: 18px;
+          text-align: center;
+          padding-top: 30px;
+        }
+    
+        h2::after {
+          content: "🡻"
+        }
+  
+        .parrafoNombrePila {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          padding: 10px;
+          padding-top: 25px;
+  
+  
+        }
+  
+        .parrafoApellidos {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          gap : 24px;
+          padding: 10px;
+  
+        }
+  
+        .parrafoDelCorreo {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          gap: 44px;
+          padding: 10px;
+  
+        }
+  
+        .parrafoContraseña {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          padding: 10px;
+          gap: 10px;
+          padding-bottom: 30px;
+  
+        }
+  
+        .parrafoAceptarCondiciones {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 6px;
+  
+          .labelCondiciones {
+            color: white;
+            font-family: $fuente-parrafos;
+          }
+  
+          #condiciones {
+            width: 10px;
+          }
+          
+        }
+  
+          #BotonEnviar {
+            border-radius: 1.2em;
+            width: 100px;
+            height: 42px;
+            padding: 10px;
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+  
+        
+        input {
+          background-color: $amarillo-menos-saturado;
+          border: $amarillo-menos-saturado;
+          width: 250px;
+          height: 30px;
+          border-radius: 0.4em;
+        }
+  
+        label {
+          color:white;
+          font-family: $fuente-parrafos;
+          font-size: 16px;
+          //padding-right: 22px;
+        }
+  
+       
+      }
+    }
+  }
+
+
+
+
+// Responsive
+
+
+
+// Primer punto de ruptura
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .mainPagRegistro {
+    background-color: rgb(20, 105, 20);
+
+    .formularioRegistro {
+
+      fieldset {
+        width: 470px;
+      }
+
+    }
+
+  }
+
+}
+
+
+
+// Segundo punto de ruptura
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .mainPagRegistro {
+    background-color: rgb(195, 221, 22);
+
+    .formularioRegistro {
+
+      fieldset {
+        width: 360px;
+
+        .parrafoNombrePila {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+          .name {
+            padding-bottom: 10px;
+          }
+
+        }
+
+        .parrafoApellidos {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+          .apellido {
+            padding-top: 10px;
+          }
+
+        }
+
+        .parrafoDelCorreo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+          .elCorreo {
+            margin-top: 10px;
+          }
+
+          #email {
+            margin-bottom: 30px;
+
+          }
+
+        }
+
+        .parrafoContraseña {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+        }
+      }
+
+    }
+
+  }
+
+
+}
+
+
+
+// Tercer punto de ruptura
+@media screen and (max-width: 378px) {
+  .mainPagRegistro {
+    background-color: aqua;
+
+    .formularioRegistro {
+
+      fieldset {
+        width: 240px;
+
+        .parrafoNombrePila {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+          .name {
+            padding-bottom: 10px;
+          }
+
+          input {
+            width: 200px;
+          }
+
+        }
+
+        .parrafoApellidos {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+          .apellido {
+            padding-top: 10px;
+          }
+
+          input {
+            width: 200px;
+          }
+
+        }
+
+        .parrafoDelCorreo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; 
+
+          .elCorreo {
+            margin-top: 10px;
+          }
+
+          input {
+            width: 200px;
+          }
+
+          #email {
+            margin-bottom: 30px;
+
+          }
+
+        }
+
+        .parrafoContraseña {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          input {
+            width: 200px;
+          }
+
+        }
+      }
+
+    }
+
+  }
+
+
+
+
+}

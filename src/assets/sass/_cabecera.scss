@@ -1,0 +1,70 @@
+.logoPag {
+    width: 45px;
+  
+  }
+  
+  
+  
+  .nombrePag {
+    color: white;
+  }
+  
+  
+  .cabecera {
+  
+    background-color: $azul-mas-saturado;
+    width: 100%;
+    position:sticky;
+    padding: 10px;
+  
+    .listaCabecera {
+      display:flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items:center;
+      width: 100%;
+      /*border-bottom: 2px solid rgb(196, 182, 182);
+      padding: 10px;*/
+  
+    }
+  }
+  
+  .menuNavegacionNav {
+  
+   /*ul {
+      
+      gap: 25px;
+      width: 100%;
+      border-bottom: 2px solid rgb(196, 182, 182);
+      padding: 10px;
+      padding-bottom:20px;
+   }*/
+  
+  
+    li {
+      /*text-decoration: underline #CC0000 3px;*/
+      list-style-type: none;
+      font-family: $fuente-titulos;
+    }
+  
+  
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  
+  
+    .listaCabecera {
+      font-size:14px;
+    }
+  
+    .enlaceRegistro {
+      width: 50px;
+      border-radius: 0.5em;
+      padding:6px;
+      color: $azul-mas-saturado;
+      background-color: $amarillo-menos-saturado;
+    }
+  
+    
+  }

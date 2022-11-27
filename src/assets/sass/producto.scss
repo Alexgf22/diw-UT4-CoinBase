@@ -1,0 +1,225 @@
+// Main página producto
+
+.mainPagProducto {
+    background-color: $azul-menos-saturado;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  
+    .contenedorProducto {
+      background-color: $azul-mas-saturado;
+      width: 574px;
+      padding: 20px;
+      margin: 20px;
+  
+      .contenedorTitulo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+  
+        h2 {
+          font-size: 30px;
+          font-family: $fuente-titulos;
+          color: white;
+          //text-align: center;
+          padding-top: 36px;
+        }
+  
+        img {
+          width: 40px;
+          align-self: flex-end;
+        }
+    }
+  
+      #crypto-widget-CoinList {
+        //width: 268px;
+        width: 54%;
+        margin:0 auto;
+        margin-top: 20px;
+      }
+  
+      p {
+        font-size: 16px;
+        color: white;
+        font-family: $fuente-parrafos;
+        display: inline;
+      }
+  
+      h3 {
+        color: white;
+        font-size: 16px;
+        font-family: $fuente-titulos;
+        display: inline;
+      }
+  
+      .contenedorInfoCrypto {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  
+        
+        .infoCrypto1 {
+          width: 60%;
+          padding: 15px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          //gap: 80px;
+        }
+  
+        .infoCrypto2 {
+          width: 60%;
+          padding: 15px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          //gap: 40px;
+        }
+  
+        .infoCrypto3 {
+          width: 60%;
+          padding: 15px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          //gap: 40px;
+        }
+  
+        .infoCrypto4 {
+          width: 60%;
+          padding: 15px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          //gap: 50px;
+        }
+      }
+  
+      .evolucionPrecio {
+        padding: 5px;
+        width: 96px;
+        text-decoration: underline;
+        background-color: $amarillo-menos-saturado;
+        font-family: $fuente-titulos;
+        border-radius: 0.6em;
+        color: black;
+      }
+      
+    }
+  }
+  
+
+
+
+// Responsive
+
+
+
+// Primer punto de ruptura
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .mainPagProducto {
+    background-color: rgb(20, 105, 20);
+
+    .contenedorProducto {
+    width: 500px;
+    margin: 0 auto;
+    margin: 20px;
+    }
+  }
+
+}
+
+
+
+
+// Segundo punto de ruptura
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .mainPagProducto {
+    background-color: rgb(195, 221, 22);
+
+    .contenedorProducto {
+    width: 360px;
+    margin: 0 auto;
+    margin: 20px;
+
+    #crypto-widget-CoinList {
+      width: 180px;
+    }
+
+    .contenedorInfoCrypto {
+    .infoCrypto1 {
+      display:flex;
+      flex-direction: column;
+    }
+
+    .infoCrypto2 {
+      display:flex;
+      flex-direction: column;
+    }
+
+    .infoCrypto3 {
+      display:flex;
+      flex-direction: column;
+    }
+
+    .infoCrypto4 {
+      display:flex;
+      flex-direction: column;
+    }
+    }
+
+    }
+  }
+
+}
+
+
+
+// Tercer punto de ruptura
+@media screen and (max-width: 378px) {
+  .mainPagProducto {
+    background-color: aqua;
+
+    .contenedorProducto {
+      width: 260px;
+
+      #crypto-widget-CoinList {
+        width: 170px;
+      }
+  
+      .contenedorInfoCrypto {
+        .infoCrypto1 {
+          display:flex;
+          justify-content: center;
+          flex-direction: column;
+        }
+    
+        .infoCrypto2 {
+          display:flex;
+          justify-content: center;
+          flex-direction: column;
+        }
+    
+        .infoCrypto3 {
+          display:flex;
+          flex-direction: column;
+        }
+    
+        .infoCrypto4 {
+          display:flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+
+}

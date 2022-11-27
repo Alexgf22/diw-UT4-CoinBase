@@ -1,0 +1,366 @@
+// Main página listado
+
+.mainPagListado {
+    background-color: $azul-menos-saturado;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    section {
+      width: 570px;
+      text-align: center;
+      padding: 20px;
+      padding-bottom: 60px;
+      background-color: $azul-mas-saturado;
+  
+      .contenedorTituloYbuscar {
+  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+  
+        h2 {
+          font-family: $fuente-titulos;
+          color: white;
+          font-size: 18px;
+          padding-top: 6px;
+        }
+  
+        .contenedorBuscar {
+          width: 160px;
+          background-color: white;
+          padding: 6px;
+          border-radius: 0.6em;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+      
+          
+          b {
+            font-family: $fuente-titulos;
+            font-size: 16px;
+          }
+        
+          .iconoBuscar {
+            width: 18px;
+          }
+        
+        } 
+  
+      }
+  
+      
+  
+      p {
+        color:white;
+        font-family: $fuente-parrafos;
+        font-size: 14px;
+      }
+  
+      
+    
+      .contenedorCryptos {
+        padding-top: 30px;
+        display:grid;
+        grid-template-columns: 23% 23% 23%;
+        grid-template-rows: 40% 40% 40%;
+        align-items: center;
+        justify-content: center;
+  
+  
+        .contenedorBitcoin {
+          display:flex;
+          align-items: center;
+          gap: 3px;
+        }
+  
+        .contenedorCardano {
+          display:flex;
+          align-items: center;
+          gap: 3px;
+        }
+  
+        .contenedorTether {
+          display:flex;
+          align-items: center;
+          gap: 3px;
+        }
+  
+        .contenedorEthereum {
+          display:flex;
+          align-items: center;
+          gap: 3px;
+        }
+  
+        .contenedorSolana {
+          display:flex;
+          align-items: center;
+          gap: 3px;
+        }
+  
+        .contenedorBNB {
+          display:flex;
+          align-items: center;
+          gap: 3px;
+        }
+  
+        .contenedorLitecoin {
+          display:flex;
+          align-items: center;
+          gap: 3px;
+        }
+  
+        .contenedorChainlink {
+          display:flex;
+          align-items: center;
+          gap: 3px;
+        }
+  
+        .contenedorUSDCoin {
+          display:flex;
+          align-items: center;
+          gap: 3px;
+        }
+  
+  
+        img {
+          width: 42px;
+        }
+  
+        p {
+          display: inline-block;
+        }
+  
+      }
+  
+    }
+  
+  }
+
+
+
+// Responsive
+
+
+
+// Primer punto de ruptura
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .mainPagListado {
+    background-color: rgb(20, 105, 20);
+
+    section {
+      width: 500px;
+
+    }
+  
+  }
+
+}
+
+
+
+// Segundo punto de ruptura
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .mainPagListado {
+    background-color: rgb(195, 221, 22);
+
+    section {
+      width: 350px;
+
+      .contenedorTituloYbuscar {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .contenedorCryptos {
+        padding-top: 30px;
+        display:grid;
+        grid-template-columns: 23% 23% 23%;
+        grid-template-rows: 40% 40% 40%;
+        align-items: center;
+        justify-content: center;
+  
+  
+        .contenedorBitcoin {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorCardano {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorTether {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorEthereum {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorSolana {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorBNB {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorLitecoin {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorChainlink {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorUSDCoin {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        img {
+          width: 42px;
+        }
+  
+      }
+
+    }
+  
+  }
+
+
+}
+
+
+
+// Tercer punto de ruptura
+@media screen and (max-width: 378px) {
+  .mainPagListado {
+    background-color: aqua;
+    height: 600px;
+
+    section {
+      width: 240px;
+      height: 530px;
+      margin: 20px;
+
+      .contenedorTituloYbuscar {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .contenedorCryptos {
+        padding-top: 30px;
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20%;
+        align-items: center;
+        justify-content: center;
+  
+  
+        .contenedorBitcoin {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorCardano {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorTether {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorEthereum {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorSolana {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorBNB {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorLitecoin {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorChainlink {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        .contenedorUSDCoin {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+        }
+  
+        img {
+          width: 42px;
+        }
+  
+      }
+
+    }
+  
+  }
+
+}

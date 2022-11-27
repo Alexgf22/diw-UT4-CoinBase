@@ -1,0 +1,313 @@
+// Main página contacto
+
+.mainPagContacto {
+    background-color: $azul-menos-saturado;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .formularioContacto {
+      text-align: center;
+      padding: 30px;
+  
+      h2 {
+        color: white;
+        font-family: $fuente-parrafos;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 30px;
+      }
+  
+      /*.flechaAbajo {
+        width: 18px;
+      }*/
+  
+      h2::after {
+        content: "👇"
+      }
+  
+      fieldset {
+        background-color: $azul-mas-saturado;
+        border: $amarillo-menos-saturado;
+        width: 550px;
+        padding: 10px;
+        padding-bottom: 35px;
+  
+        .parrafoNombre {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          padding:15px;
+          padding-top: 30px;
+        }
+  
+        .parrafoCorreoForm {
+          display: flex;
+          justify-content: space-evenly;
+          flex-direction: row;
+          align-items: center;
+          gap: 12px;
+          padding:15px;
+        }
+  
+        .parrafoDuda {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          gap: 24px;
+          padding:10px;
+          padding-bottom: 30px;
+  
+          .laDuda {
+            align-self: start;
+          }
+  
+          textarea {
+            background-color: $amarillo-menos-saturado;
+            width: 220px;
+            height: 100px;
+            border: $amarillo-menos-saturado;
+            border-radius: 0.4em;
+          }
+        }
+  
+        p {
+          width:100%;
+        }
+      
+        input {
+          background-color: $amarillo-menos-saturado;
+          border: $amarillo-menos-saturado;
+          width: 220px;
+          height: 30px;
+          border-radius: 0.4em;
+        }
+  
+        label {
+          color:white;
+          font-family: $fuente-parrafos;
+          font-size: 16px;
+        }
+  
+        
+        #BotonEnviar {
+          border-radius: 1.2em;
+          margin-bottom: 25px;
+          width: 95px;
+          height: 35px;
+          padding: 10px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+  
+        
+      
+        .parrafoTelefono {
+          display: flex;
+          justify-content: center;
+          align-items:center;
+          gap: 15px;
+          padding-bottom: 12px;
+  
+          .telefonoContacto {
+            color: white;
+            text-decoration: none;
+            font-family: $fuente-parrafos;
+          }
+  
+          span {
+            padding-left:44px;
+          }
+  
+          .iconoWhatsapp {
+            width: 18px;
+          }
+        }
+  
+        
+        .parrafoCorreo {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 15px;
+  
+          .correoContacto {
+            color: white;
+            text-decoration: none;
+            font-family: $fuente-parrafos;
+          }
+  
+          span {
+            padding-left:26px;
+          }
+  
+          .iconoGmail {
+            width: 18px;
+          }
+  
+        }
+  
+        
+    }
+  }
+  }
+
+
+
+
+// Responsive
+
+
+
+// Primer punto de ruptura
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .mainPagContacto {
+    background-color: rgb(20, 105, 20);
+
+    .formularioContacto {
+      fieldset {
+        width: 470px;
+      }
+  }
+
+  }
+
+}
+
+
+
+
+// Segundo punto de ruptura
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .mainPagContacto {
+    background-color: rgb(195, 221, 22);
+
+    .formularioContacto {
+      fieldset {
+        width: 360px;
+
+        .parrafoNombre {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          .name {
+            padding-bottom: 6px;
+          }
+
+        }
+
+        .parrafoCorreoForm {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+        }
+
+        .parrafoDuda {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          .laDuda {
+            margin:0 auto;
+          }
+
+        }
+
+        .parrafoTelefono {
+
+          .telefonoContacto {
+            span {
+              display: block;
+            }
+          }
+
+        }
+
+        .parrafoCorreo {
+          
+          .correoContacto {
+            span {
+              display: block;
+            }
+          }
+        }
+      }
+  }
+
+  }
+
+
+}
+
+
+
+// Tercer punto de ruptura
+@media screen and (max-width: 378px) {
+  .mainPagContacto {
+    background-color: aqua;
+
+    .formularioContacto {
+      fieldset {
+        width: 220px;
+        
+        .parrafoNombre {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          .name {
+            padding-bottom: 6px;
+          }
+
+        }
+
+        .parrafoCorreoForm {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+        }
+
+        .parrafoDuda {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          .laDuda {
+            margin:0 auto;
+          }
+
+        }
+
+        .parrafoTelefono {
+
+          .telefonoContacto {
+            span {
+              display: block;
+            }
+          }
+
+        }
+
+        .parrafoCorreo {
+          
+          .correoContacto {
+            span {
+              display: block;
+            }
+          }
+        }
+      }
+  }
+
+  }
+
+
+
+}
