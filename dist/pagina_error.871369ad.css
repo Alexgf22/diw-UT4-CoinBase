@@ -92,29 +92,55 @@ body {
   justify-self: flex-start;
 }
 
-.mainPagInicio section {
-  position: relative;
-}
-
-.mainPagInicio .imagenPagInicio {
-  width: 100%;
-  object-fit: cover;
-  margin-bottom: -5px;
-}
-
-.mainPagInicio .contenedor-encimaImagen {
-  width: 100%;
+.titulo404 {
   text-align: center;
-  position: absolute;
-  top: 46%;
-}
-
-.mainPagInicio .contenedor-encimaImagen a {
-  color: #000;
-  background-color: #cca61f;
-  border-radius: .6em;
-  padding: 12px;
+  color: red;
+  padding-top: 30px;
   font-family: Staatliches;
+  animation-name: slidein;
+  animation-duration: 3s;
 }
 
-/*# sourceMappingURL=index.034b6250.css.map */
+.tituloNotFound {
+  text-align: center;
+  padding-top: 10px;
+  font-family: Staatliches;
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+
+.parrafoError {
+  text-align: center;
+  padding-top: 26px;
+  font-family: Inter, sans-serif;
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+
+.enlaceHaciaInicio {
+  text-align: center;
+  padding-top: 20px;
+  font-family: Inter, sans-serif;
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+
+.enlaceHaciaInicio .enlaceAinicio {
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+
+@keyframes slidein {
+  from {
+    width: 300%;
+    margin-left: 100%;
+  }
+
+  to {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+/*# sourceMappingURL=pagina_error.871369ad.css.map */

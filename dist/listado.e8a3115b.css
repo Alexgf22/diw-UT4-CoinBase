@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.logoPag {
+  width: 45px;
+}
+
+.nombrePag {
+  color: #fff;
+}
+
+.cabecera {
+  width: 100%;
+  background-color: #1b2580;
+  padding: 10px;
+  position: sticky;
+}
+
+.cabecera .listaCabecera {
+  width: 100%;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.menuNavegacionNav li {
+  font-family: Staatliches;
+  list-style-type: none;
+}
+
+.menuNavegacionNav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menuNavegacionNav .listaCabecera {
+  font-size: 14px;
+}
+
+.menuNavegacionNav .enlaceRegistro {
+  width: 50px;
+  color: #1b2580;
+  background-color: #cca61f;
+  border-radius: .5em;
+  padding: 6px;
+}
+
+.piePagina {
+  width: 100%;
+  height: 55px;
+  background-color: #1b2580;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  position: sticky;
+}
+
+.piePagina a {
+  color: #fff;
+  font-family: Staatliches;
+  font-size: 12px;
+}
+
+.piePagina .inviertePiePag {
+  justify-self: flex-end;
+}
+
+.piePagina .iconoInsta, .piePagina .iconoFacebook {
+  width: 18px;
+}
+
+.piePagina .textoInstaPie {
+  justify-self: flex-start;
+}
+
+.piePagina .textoFacebookPie {
+  justify-self: center;
+}
+
+.piePagina .contenedorRedesSociales {
+  justify-self: flex-start;
+}
+
+.mainPagListado {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #6978ff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.mainPagListado section {
+  width: 570px;
+  text-align: center;
+  background-color: #1b2580;
+  padding: 20px 20px 60px;
+}
+
+.mainPagListado section .contenedorTituloYbuscar {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  display: flex;
+}
+
+.mainPagListado section .contenedorTituloYbuscar h2 {
+  color: #fff;
+  padding-top: 6px;
+  font-family: Staatliches;
+  font-size: 18px;
+}
+
+.mainPagListado section .contenedorTituloYbuscar .contenedorBuscar {
+  width: 160px;
+  background-color: #fff;
+  border-radius: .6em;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 6px;
+  display: flex;
+}
+
+.mainPagListado section .contenedorTituloYbuscar .contenedorBuscar b {
+  font-family: Staatliches;
+  font-size: 16px;
+}
+
+.mainPagListado section .contenedorTituloYbuscar .contenedorBuscar .iconoBuscar {
+  width: 18px;
+}
+
+.mainPagListado section p {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+}
+
+.mainPagListado section .contenedorCryptos {
+  grid-template-rows: 40% 40% 40%;
+  grid-template-columns: 23% 23% 23%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  display: grid;
+}
+
+.mainPagListado section .contenedorCryptos .contenedorBitcoin, .mainPagListado section .contenedorCryptos .contenedorCardano, .mainPagListado section .contenedorCryptos .contenedorTether, .mainPagListado section .contenedorCryptos .contenedorEthereum, .mainPagListado section .contenedorCryptos .contenedorSolana, .mainPagListado section .contenedorCryptos .contenedorBNB, .mainPagListado section .contenedorCryptos .contenedorLitecoin, .mainPagListado section .contenedorCryptos .contenedorChainlink, .mainPagListado section .contenedorCryptos .contenedorUSDCoin {
+  align-items: center;
+  gap: 3px;
+  display: flex;
+}
+
+.mainPagListado section .contenedorCryptos img {
+  width: 42px;
+}
+
+.mainPagListado section .contenedorCryptos p {
+  display: inline-block;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .mainPagListado {
+    background-color: #146914;
+  }
+
+  .mainPagListado section {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .mainPagListado {
+    background-color: #c3dd16;
+  }
+
+  .mainPagListado section {
+    width: 350px;
+  }
+
+  .mainPagListado section .contenedorTituloYbuscar {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .mainPagListado section .contenedorCryptos {
+    grid-template-rows: 40% 40% 40%;
+    grid-template-columns: 23% 23% 23%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    display: grid;
+  }
+
+  .mainPagListado section .contenedorCryptos .contenedorBitcoin, .mainPagListado section .contenedorCryptos .contenedorCardano, .mainPagListado section .contenedorCryptos .contenedorTether, .mainPagListado section .contenedorCryptos .contenedorEthereum, .mainPagListado section .contenedorCryptos .contenedorSolana, .mainPagListado section .contenedorCryptos .contenedorBNB, .mainPagListado section .contenedorCryptos .contenedorLitecoin, .mainPagListado section .contenedorCryptos .contenedorChainlink, .mainPagListado section .contenedorCryptos .contenedorUSDCoin {
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    display: flex;
+  }
+
+  .mainPagListado section .contenedorCryptos img {
+    width: 42px;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .mainPagListado {
+    height: 600px;
+    background-color: #0ff;
+  }
+
+  .mainPagListado section {
+    width: 240px;
+    height: 530px;
+    margin: 20px;
+  }
+
+  .mainPagListado section .contenedorTituloYbuscar {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .mainPagListado section .contenedorCryptos {
+    grid-template-rows: 20% 20%;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    display: grid;
+  }
+
+  .mainPagListado section .contenedorCryptos .contenedorBitcoin, .mainPagListado section .contenedorCryptos .contenedorCardano, .mainPagListado section .contenedorCryptos .contenedorTether, .mainPagListado section .contenedorCryptos .contenedorEthereum, .mainPagListado section .contenedorCryptos .contenedorSolana, .mainPagListado section .contenedorCryptos .contenedorBNB, .mainPagListado section .contenedorCryptos .contenedorLitecoin, .mainPagListado section .contenedorCryptos .contenedorChainlink, .mainPagListado section .contenedorCryptos .contenedorUSDCoin {
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    display: flex;
+  }
+
+  .mainPagListado section .contenedorCryptos img {
+    width: 42px;
+  }
+}
+
+/*# sourceMappingURL=listado.e8a3115b.css.map */

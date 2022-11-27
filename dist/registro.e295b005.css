@@ -1,0 +1,335 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.logoPag {
+  width: 45px;
+}
+
+.nombrePag {
+  color: #fff;
+}
+
+.cabecera {
+  width: 100%;
+  background-color: #1b2580;
+  padding: 10px;
+  position: sticky;
+}
+
+.cabecera .listaCabecera {
+  width: 100%;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.menuNavegacionNav li {
+  font-family: Staatliches;
+  list-style-type: none;
+}
+
+.menuNavegacionNav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menuNavegacionNav .listaCabecera {
+  font-size: 14px;
+}
+
+.menuNavegacionNav .enlaceRegistro {
+  width: 50px;
+  color: #1b2580;
+  background-color: #cca61f;
+  border-radius: .5em;
+  padding: 6px;
+}
+
+.piePagina {
+  width: 100%;
+  height: 55px;
+  background-color: #1b2580;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  position: sticky;
+}
+
+.piePagina a {
+  color: #fff;
+  font-family: Staatliches;
+  font-size: 12px;
+}
+
+.piePagina .inviertePiePag {
+  justify-self: flex-end;
+}
+
+.piePagina .iconoInsta, .piePagina .iconoFacebook {
+  width: 18px;
+}
+
+.piePagina .textoInstaPie {
+  justify-self: flex-start;
+}
+
+.piePagina .textoFacebookPie {
+  justify-self: center;
+}
+
+.piePagina .contenedorRedesSociales {
+  justify-self: flex-start;
+}
+
+.mainPagRegistro {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #6978ff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.mainPagRegistro .formularioRegistro {
+  text-align: center;
+  padding: 20px;
+}
+
+.mainPagRegistro .formularioRegistro fieldset {
+  width: 550px;
+  background-color: #1b2580;
+  border: #cca61f;
+  padding: 10px 10px 30px;
+}
+
+.mainPagRegistro .formularioRegistro fieldset h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+}
+
+.mainPagRegistro .formularioRegistro fieldset h2:after {
+  content: "🡻";
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila {
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px 10px 10px;
+  display: flex;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoApellidos {
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
+  padding: 10px;
+  display: flex;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo {
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 44px;
+  padding: 10px;
+  display: flex;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoContraseña {
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px 30px;
+  display: flex;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoAceptarCondiciones {
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  display: flex;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoAceptarCondiciones .labelCondiciones {
+  color: #fff;
+  font-family: Inter, sans-serif;
+}
+
+.mainPagRegistro .formularioRegistro fieldset .parrafoAceptarCondiciones #condiciones {
+  width: 10px;
+}
+
+.mainPagRegistro .formularioRegistro fieldset #BotonEnviar {
+  width: 100px;
+  height: 42px;
+  border-radius: 1.2em;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  display: block;
+}
+
+.mainPagRegistro .formularioRegistro fieldset input {
+  width: 250px;
+  height: 30px;
+  background-color: #cca61f;
+  border: #cca61f;
+  border-radius: .4em;
+}
+
+.mainPagRegistro .formularioRegistro fieldset label {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .mainPagRegistro {
+    background-color: #146914;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset {
+    width: 470px;
+  }
+}
+
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .mainPagRegistro {
+    background-color: #c3dd16;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset {
+    width: 360px;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila .name {
+    padding-bottom: 10px;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoApellidos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoApellidos .apellido {
+    padding-top: 10px;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo .elCorreo {
+    margin-top: 10px;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo #email {
+    margin-bottom: 30px;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoContraseña {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .mainPagRegistro {
+    background-color: #0ff;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset {
+    width: 240px;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila .name {
+    padding-bottom: 10px;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila input {
+    width: 200px;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoApellidos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoApellidos .apellido {
+    padding-top: 10px;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoApellidos input {
+    width: 200px;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo .elCorreo {
+    margin-top: 10px;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo input {
+    width: 200px;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo #email {
+    margin-bottom: 30px;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoContraseña {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mainPagRegistro .formularioRegistro fieldset .parrafoContraseña input {
+    width: 200px;
+  }
+}
+
+/*# sourceMappingURL=registro.e295b005.css.map */

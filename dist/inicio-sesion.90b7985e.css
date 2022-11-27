@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.logoPag {
+  width: 45px;
+}
+
+.nombrePag {
+  color: #fff;
+}
+
+.cabecera {
+  width: 100%;
+  background-color: #1b2580;
+  padding: 10px;
+  position: sticky;
+}
+
+.cabecera .listaCabecera {
+  width: 100%;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.menuNavegacionNav li {
+  font-family: Staatliches;
+  list-style-type: none;
+}
+
+.menuNavegacionNav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menuNavegacionNav .listaCabecera {
+  font-size: 14px;
+}
+
+.menuNavegacionNav .enlaceRegistro {
+  width: 50px;
+  color: #1b2580;
+  background-color: #cca61f;
+  border-radius: .5em;
+  padding: 6px;
+}
+
+.piePagina {
+  width: 100%;
+  height: 55px;
+  background-color: #1b2580;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  position: sticky;
+}
+
+.piePagina a {
+  color: #fff;
+  font-family: Staatliches;
+  font-size: 12px;
+}
+
+.piePagina .inviertePiePag {
+  justify-self: flex-end;
+}
+
+.piePagina .iconoInsta, .piePagina .iconoFacebook {
+  width: 18px;
+}
+
+.piePagina .textoInstaPie {
+  justify-self: flex-start;
+}
+
+.piePagina .textoFacebookPie {
+  justify-self: center;
+}
+
+.piePagina .contenedorRedesSociales {
+  justify-self: flex-start;
+}
+
+.mainPagInicioSesion {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #6978ff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.mainPagInicioSesion .formularioInicioSesion {
+  text-align: center;
+}
+
+.mainPagInicioSesion .formularioInicioSesion fieldset {
+  width: 580px;
+  background-color: #1b2580;
+  border: #cca61f;
+  padding-bottom: 25px;
+}
+
+.mainPagInicioSesion .formularioInicioSesion fieldset h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+}
+
+.mainPagInicioSesion .formularioInicioSesion fieldset h2:after {
+  content: "🡻";
+}
+
+.mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 45px 10px 20px;
+  display: flex;
+}
+
+.mainPagInicioSesion .formularioInicioSesion fieldset .parrafoContraseña {
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  padding: 10px 10px 40px;
+  display: flex;
+}
+
+.mainPagInicioSesion .formularioInicioSesion fieldset input {
+  width: 250px;
+  height: 30px;
+  background-color: #cca61f;
+  border: #cca61f;
+  border-radius: .4em;
+}
+
+.mainPagInicioSesion .formularioInicioSesion fieldset label {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+}
+
+.mainPagInicioSesion .formularioInicioSesion fieldset #BotonEnviar {
+  width: 96px;
+  height: 35px;
+  border-radius: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  display: block;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .mainPagInicioSesion {
+    background-color: #146914;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset {
+    width: 470px;
+  }
+}
+
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .mainPagInicioSesion {
+    background-color: #c3dd16;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset {
+    width: 360px;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila, .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoContraseña {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .mainPagInicioSesion {
+    background-color: #0ff;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset {
+    width: 240px;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila input {
+    width: 200px;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoContraseña {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoContraseña input {
+    width: 200px;
+  }
+}
+
+/*# sourceMappingURL=inicio-sesion.90b7985e.css.map */
