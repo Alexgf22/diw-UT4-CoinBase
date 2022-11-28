@@ -8,9 +8,28 @@
 
 // Página 404
 
+
+.mainPagError {
+  background-color: $azul-menos-saturado;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    section {
+      width: 690px;
+      background-color: $azul-mas-saturado;
+    }
+
+}
+
+
+
 .titulo404 {
+    color: white;
     text-align: center;
-    color: rgb(255, 0, 0);
     padding-top: 30px;
     font-family: $fuente-titulos;
     animation-duration: 3s;
@@ -20,8 +39,9 @@
   
   
   .tituloNotFound {
-    text-align: center;
     padding-top: 10px;
+    text-align: center;
+    color: white;
     font-family: $fuente-titulos;
     animation-duration: 3s;
     animation-name: slidein;
@@ -30,8 +50,9 @@
   
   
   .parrafoError {
-    text-align: center;
     padding-top: 26px;
+    text-align: center;
+    color: white;
     font-family: $fuente-parrafos;
     animation-duration: 3s;
     animation-name: slidein;
@@ -41,16 +62,22 @@
   
   
   .enlaceHaciaInicio {
-    text-align: center;
     padding-top: 20px;
+    color: white;
+    text-align: center;
     font-family: $fuente-parrafos;
     animation-duration: 3s;
     animation-name: slidein;
   
     .enlaceAinicio {
-      text-align: center;
       text-decoration: none;
-      color: black;
+      color: white;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index:1;
+      padding-bottom: 20px;
     }
   }
   
