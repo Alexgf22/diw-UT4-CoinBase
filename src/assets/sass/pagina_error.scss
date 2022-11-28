@@ -94,3 +94,56 @@
       width: 100%;
     }
   }
+
+
+
+// Responsive
+
+
+
+// Primer punto de ruptura
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .mainPagError {
+    background-color: rgb(20, 105, 20);
+
+    section {
+      width: 500px;
+
+    }
+  
+  }
+
+
+}
+
+
+
+
+// Segundo punto de ruptura
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .mainPagError {
+    background-color: rgb(195, 221, 22);
+
+    section {
+      width: 350px;
+    }
+  
+  }
+
+}
+
+
+
+
+// Tercer punto de ruptura
+@media screen and (max-width: 378px) {
+  .mainPagError {
+    background-color: aqua;
+
+    section {
+      width: 240px;
+      margin: 20px;
+    }
+  }
+
+}
