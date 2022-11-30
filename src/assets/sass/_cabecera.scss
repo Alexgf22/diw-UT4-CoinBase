@@ -7,6 +7,15 @@
   
   .nombrePag {
     color: white;
+    display: inline-block;
+  }
+
+  .elemento-lista-imagen-y-nombre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    height: auto;
   }
   
   
@@ -68,3 +77,20 @@
   
     
   }
+
+
+
+  // Segundo punto de ruptura
+@media screen and (min-width: 378px) and (max-width: 520px) {
+
+
+
+}
+
+
+
+// Tercer punto de ruptura
+/*@media screen and (max-width: 378px) {
+
+
+}*/

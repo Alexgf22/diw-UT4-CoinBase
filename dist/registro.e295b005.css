@@ -15,6 +15,15 @@ body {
 
 .nombrePag {
   color: #fff;
+  display: inline-block;
+}
+
+.elemento-lista-imagen-y-nombre {
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  display: flex;
 }
 
 .cabecera {
