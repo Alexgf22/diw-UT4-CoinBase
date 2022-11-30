@@ -199,6 +199,15 @@ body {
     width: 500px;
     transition-duration: .5s;
   }
+
+  .mainPagListado section .contenedorCryptos {
+    grid-template-rows: 40% 40% 40%;
+    grid-template-columns: 24% 24% 24%;
+  }
+
+  .mainPagListado section .contenedorCryptos .contenedorEthereum, .mainPagListado section .contenedorCryptos .contenedorUSDCoin {
+    gap: 0;
+  }
 }
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
@@ -247,7 +256,7 @@ body {
 
   .mainPagListado section {
     width: 240px;
-    height: 530px;
+    height: 570px;
     margin: 20px;
     transition-duration: .5s;
   }
@@ -258,7 +267,7 @@ body {
   }
 
   .mainPagListado section .contenedorCryptos {
-    grid-template-rows: 20% 20%;
+    grid-template-rows: 23% 23%;
     grid-template-columns: 50% 50%;
     justify-content: center;
     align-items: center;
@@ -266,10 +275,34 @@ body {
     display: grid;
   }
 
-  .mainPagListado section .contenedorCryptos .contenedorBitcoin, .mainPagListado section .contenedorCryptos .contenedorCardano, .mainPagListado section .contenedorCryptos .contenedorTether, .mainPagListado section .contenedorCryptos .contenedorEthereum, .mainPagListado section .contenedorCryptos .contenedorSolana, .mainPagListado section .contenedorCryptos .contenedorBNB, .mainPagListado section .contenedorCryptos .contenedorLitecoin, .mainPagListado section .contenedorCryptos .contenedorChainlink, .mainPagListado section .contenedorCryptos .contenedorUSDCoin {
+  .mainPagListado section .contenedorCryptos .contenedorBitcoin, .mainPagListado section .contenedorCryptos .contenedorCardano, .mainPagListado section .contenedorCryptos .contenedorTether, .mainPagListado section .contenedorCryptos .contenedorEthereum {
     flex-direction: column;
     align-items: center;
     gap: 3px;
+    display: flex;
+  }
+
+  .mainPagListado section .contenedorCryptos .contenedorSolana, .mainPagListado section .contenedorCryptos .contenedorBNB {
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    margin-top: 5px;
+    display: flex;
+  }
+
+  .mainPagListado section .contenedorCryptos .contenedorLitecoin, .mainPagListado section .contenedorCryptos .contenedorChainlink {
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    margin-top: 8px;
+    display: flex;
+  }
+
+  .mainPagListado section .contenedorCryptos .contenedorUSDCoin {
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    margin-top: 10px;
     display: flex;
   }
 
