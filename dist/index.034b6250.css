@@ -18,6 +18,15 @@ body {
   display: inline-block;
 }
 
+.elemento-lista-imagen-y-nombre {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  font-family: Staatliches;
+  display: flex;
+}
+
 .cabecera {
   width: 100%;
   background-color: #1b2580;
@@ -25,7 +34,7 @@ body {
   position: sticky;
 }
 
-.cabecera .listaCabecera, .cabecera .listaCabecera .menu-hamburguesa {
+.cabecera .listaCabecera {
   width: 100%;
   flex-flow: wrap;
   justify-content: space-between;

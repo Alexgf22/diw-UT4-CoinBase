@@ -137,11 +137,13 @@
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .mainPagRegistro {
     background-color: rgb(20, 105, 20);
+    transition-duration: 0.5s;
 
     .formularioRegistro {
 
       fieldset {
         width: 470px;
+        transition-duration: 0.5s;
       }
 
     }
@@ -156,11 +158,13 @@
 @media screen and (min-width: 378px) and (max-width: 520px) {
   .mainPagRegistro {
     background-color: rgb(195, 221, 22);
+    transition-duration: 0.5s;
 
     .formularioRegistro {
 
       fieldset {
         width: 360px;
+        transition-duration: 0.5s;
 
         .parrafoNombrePila {
           display: flex;
@@ -225,11 +229,13 @@
 @media screen and (max-width: 378px) {
   .mainPagRegistro {
     background-color: aqua;
+    transition-duration: 0.5s;
 
     .formularioRegistro {
 
       fieldset {
         width: 240px;
+        transition-duration: 0.5s;
 
         .parrafoNombrePila {
           display: flex;

@@ -134,11 +134,13 @@
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .mainPagProducto {
     background-color: rgb(20, 105, 20);
+    transition-duration: 0.5s;
 
     .contenedorProducto {
     width: 500px;
     margin: 0 auto;
     margin: 20px;
+    transition-duration: 0.5s;
     }
   }
 
@@ -151,11 +153,13 @@
 @media screen and (min-width: 378px) and (max-width: 520px) {
   .mainPagProducto {
     background-color: rgb(195, 221, 22);
+    transition-duration: 0.5s;
 
     .contenedorProducto {
     width: 360px;
     margin: 0 auto;
     margin: 20px;
+    transition-duration: 0.5s;
 
     #crypto-widget-CoinList {
       width: 180px;
@@ -194,9 +198,11 @@
 @media screen and (max-width: 378px) {
   .mainPagProducto {
     background-color: aqua;
+    transition-duration: 0.5s;
 
     .contenedorProducto {
       width: 260px;
+      transition-duration: 0.5s;
 
       #crypto-widget-CoinList {
         width: 170px;

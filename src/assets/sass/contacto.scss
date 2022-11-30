@@ -173,10 +173,12 @@
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .mainPagContacto {
     background-color: rgb(20, 105, 20);
+    transition-duration: 0.5s;
 
     .formularioContacto {
       fieldset {
         width: 470px;
+        transition-duration: 0.5s;
       }
   }
 
@@ -191,10 +193,12 @@
 @media screen and (min-width: 378px) and (max-width: 520px) {
   .mainPagContacto {
     background-color: rgb(195, 221, 22);
+    transition-duration: 0.5s;
 
     .formularioContacto {
       fieldset {
         width: 360px;
+        transition-duration: 0.5s;
 
         .parrafoNombre {
           display: flex;
@@ -257,10 +261,12 @@
 @media screen and (max-width: 378px) {
   .mainPagContacto {
     background-color: aqua;
+    transition-duration: 0.5s;
 
     .formularioContacto {
       fieldset {
         width: 220px;
+        transition-duration: 0.5s;
         
         .parrafoNombre {
           display: flex;
