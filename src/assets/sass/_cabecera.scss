@@ -16,6 +16,8 @@
     align-items: center;
     gap: 3px;
     height: auto;
+    color: white;
+    font-family: $fuente-titulos;
   }
   
   
@@ -27,13 +29,21 @@
     padding: 10px;
   
     .listaCabecera {
+
       display:flex;
       flex-flow: row wrap;
       justify-content: space-between;
       align-items:center;
       width: 100%;
-      /*border-bottom: 2px solid rgb(196, 182, 182);
-      padding: 10px;*/
+      .menu-hamburguesa {
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items:center;
+        width: 100%;
+        /*border-bottom: 2px solid rgb(196, 182, 182);
+        padding: 10px;*/
+      }
   
     }
   }
@@ -82,6 +92,16 @@
 
   // Segundo punto de ruptura
 @media screen and (min-width: 378px) and (max-width: 520px) {
+  .cabecera {
+  
+    .listaCabecera {
+      .menu-hamburguesa {
+        flex-direction: column;
+      }
+  
+    }
+
+  }
 
 
 

@@ -18,14 +18,6 @@ body {
   display: inline-block;
 }
 
-.elemento-lista-imagen-y-nombre {
-  height: auto;
-  justify-content: center;
-  align-items: center;
-  gap: 3px;
-  display: flex;
-}
-
 .cabecera {
   width: 100%;
   background-color: #1b2580;
@@ -33,7 +25,7 @@ body {
   position: sticky;
 }
 
-.cabecera .listaCabecera {
+.cabecera .listaCabecera, .cabecera .listaCabecera .menu-hamburguesa {
   width: 100%;
   flex-flow: wrap;
   justify-content: space-between;
@@ -61,6 +53,12 @@ body {
   background-color: #cca61f;
   border-radius: .5em;
   padding: 6px;
+}
+
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .cabecera .listaCabecera .menu-hamburguesa {
+    flex-direction: column;
+  }
 }
 
 .piePagina {
