@@ -184,31 +184,37 @@ body {
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .mainPagError {
     background-color: #146914;
+    transition-duration: .5s;
   }
 
   .mainPagError section {
     width: 500px;
+    transition-duration: .5s;
   }
 }
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
   .mainPagError {
     background-color: #c3dd16;
+    transition-duration: .5s;
   }
 
   .mainPagError section {
     width: 350px;
+    transition-duration: .5s;
   }
 }
 
 @media screen and (max-width: 378px) {
   .mainPagError {
     background-color: #0ff;
+    transition-duration: .5s;
   }
 
   .mainPagError section {
     width: 240px;
     margin: 20px;
+    transition-duration: .5s;
   }
 }
 

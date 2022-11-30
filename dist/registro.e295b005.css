@@ -217,20 +217,24 @@ body {
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .mainPagRegistro {
     background-color: #146914;
+    transition-duration: .5s;
   }
 
   .mainPagRegistro .formularioRegistro fieldset {
     width: 470px;
+    transition-duration: .5s;
   }
 }
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
   .mainPagRegistro {
     background-color: #c3dd16;
+    transition-duration: .5s;
   }
 
   .mainPagRegistro .formularioRegistro fieldset {
     width: 360px;
+    transition-duration: .5s;
   }
 
   .mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila {
@@ -281,10 +285,12 @@ body {
 @media screen and (max-width: 378px) {
   .mainPagRegistro {
     background-color: #0ff;
+    transition-duration: .5s;
   }
 
   .mainPagRegistro .formularioRegistro fieldset {
     width: 240px;
+    transition-duration: .5s;
   }
 
   .mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila {

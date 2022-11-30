@@ -201,6 +201,8 @@ body {
 
   .mainPagInicioSesion .formularioInicioSesion fieldset {
     width: 360px;
+    margin: 20px;
+    transition-duration: .5s;
   }
 
   .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila, .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoContraseña {
@@ -214,10 +216,13 @@ body {
 @media screen and (max-width: 378px) {
   .mainPagInicioSesion {
     background-color: #0ff;
+    transition-duration: .5s;
   }
 
   .mainPagInicioSesion .formularioInicioSesion fieldset {
     width: 240px;
+    margin: 20px;
+    transition-duration: .5s;
   }
 
   .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila {
