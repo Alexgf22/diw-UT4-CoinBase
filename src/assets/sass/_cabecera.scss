@@ -85,16 +85,19 @@
   .cabecera {
   
     .listaCabecera {
-      .menu-hamburguesa {
         flex-direction: column;
+        padding-bottom: 30px;
+        background-color: rgb(37, 110, 43);
+
+        .elemento-lista-imagen-y-nombre {
+          padding-right: 500px;
+          padding-top: 30px;
+        }
       }
   
     }
 
-  }
-
-
-
+  
 }
 
 
