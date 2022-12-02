@@ -58,6 +58,11 @@
           }
         }
 
+        .icono-hamburguesa {
+          display: none;
+          width: 30px;
+        } 
+
 
         .elemento-lista-imagen-y-nombre {
           color: white;
@@ -67,7 +72,8 @@
           align-items: center;
           gap: 3px;
         }
-          
+
+        
       }
       }
   
@@ -86,9 +92,41 @@
     .menuNavegacionNav {
   
       .listaCabecera {
-        background-color: rgb(37, 110, 43);
+        position: relative;
         .menu-hamburguesa {
           flex-flow: column wrap;
+          background-color: $amarillo-menos-saturado;
+          margin-left: 300px;
+          margin-top: 220px;
+          width: 160px;
+          height: 250px;
+          padding-top: 35px;
+          padding-bottom: 35px;
+          position: absolute;
+
+          li {
+            a {
+              color: black;
+            }
+          }
+          
+
+          
+          .enlaceRegistro {
+            color: rgb(0, 0, 0);
+            background-color: $amarillo-menos-saturado;
+            border-radius:0;
+            padding:0;
+          }
+        }
+
+        .icono-hamburguesa {
+          display: flex;
+          top: 0;
+          right: 0;
+          padding: 5px;
+          cursor: pointer;
+          background-color: $amarillo-menos-saturado;
         }
   
         }
