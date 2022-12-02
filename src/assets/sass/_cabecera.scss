@@ -4,12 +4,11 @@
   }
   
   
-  .nombrePag {
-    color: white;
-    display: inline-block;
-  }
+.nombrePag {
+  color: white;
+  display: inline-block;
+}
 
-  
   
   .cabecera {
   
@@ -58,10 +57,17 @@
           }
         }
 
-        .icono-hamburguesa {
+
+        .toggle-menu {
           display: none;
-          width: 30px;
-        } 
+          .icono-hamburguesa {
+            width: 30px;
+          } 
+      }
+
+      .menu-hamburguesa--show {
+        transform: translateY(0);
+      }
 
 
         .elemento-lista-imagen-y-nombre {
@@ -103,6 +109,8 @@
           padding-top: 35px;
           padding-bottom: 35px;
           position: absolute;
+          transition: transform 0.3s;
+          transform: translateY(-100%);
 
           li {
             a {

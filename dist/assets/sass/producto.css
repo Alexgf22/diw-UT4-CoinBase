@@ -60,16 +60,9 @@ body {
   padding: 6px;
 }
 
-.cabecera .menuNavegacionNav .listaCabecera .toggle-menu {
-  display: none;
-}
-
-.cabecera .menuNavegacionNav .listaCabecera .toggle-menu .icono-hamburguesa {
+.cabecera .menuNavegacionNav .listaCabecera .icono-hamburguesa {
   width: 30px;
-}
-
-.cabecera .menuNavegacionNav .listaCabecera .menu-hamburguesa--show {
-  transform: translateY(0);
+  display: none;
 }
 
 .cabecera .menuNavegacionNav .listaCabecera .elemento-lista-imagen-y-nombre {
@@ -95,9 +88,7 @@ body {
     margin-left: 300px;
     padding-top: 35px;
     padding-bottom: 35px;
-    transition: transform .3s;
     position: absolute;
-    transform: translateY(-100%);
   }
 
   .cabecera .menuNavegacionNav .listaCabecera .menu-hamburguesa li a {
@@ -168,114 +159,148 @@ body {
   font-size: 12px;
 }
 
-.mainPagError {
+.mainPagProducto {
   width: 100%;
   min-height: 100vh;
   background-color: #6978ff;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-.mainPagError section {
-  width: 690px;
+.mainPagProducto .contenedorProducto {
+  width: 574px;
   background-color: #1b2580;
+  margin: 20px;
+  padding: 20px;
 }
 
-.titulo404 {
-  color: #fff;
-  text-align: center;
-  padding-top: 30px;
-  font-family: Staatliches;
-  animation-name: slidein;
-  animation-duration: 3s;
-}
-
-.tituloNotFound {
-  text-align: center;
-  color: #fff;
-  padding-top: 10px;
-  font-family: Staatliches;
-  animation-name: slidein;
-  animation-duration: 3s;
-}
-
-.parrafoError {
-  text-align: center;
-  color: #fff;
-  padding-top: 26px;
-  font-family: Inter, sans-serif;
-  animation-name: slidein;
-  animation-duration: 3s;
-}
-
-.enlaceHaciaInicio {
-  color: #fff;
-  text-align: center;
-  padding-top: 20px;
-  font-family: Inter, sans-serif;
-  animation-name: slidein;
-  animation-duration: 3s;
-}
-
-.enlaceHaciaInicio .enlaceAinicio {
-  color: #fff;
-  text-align: center;
-  z-index: 1;
+.mainPagProducto .contenedorProducto .contenedorTitulo {
+  width: 100%;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
-  text-decoration: none;
+  gap: 12px;
   display: flex;
 }
 
-@keyframes slidein {
-  from {
-    width: 300%;
-    margin-left: 100%;
-  }
+.mainPagProducto .contenedorProducto .contenedorTitulo h2 {
+  color: #fff;
+  padding-top: 36px;
+  font-family: Staatliches;
+  font-size: 30px;
+}
 
-  to {
-    width: 100%;
-    margin-left: 0%;
-  }
+.mainPagProducto .contenedorProducto .contenedorTitulo img {
+  width: 40px;
+  align-self: flex-end;
+}
+
+.mainPagProducto .contenedorProducto #crypto-widget-CoinList {
+  width: 54%;
+  margin: 20px auto 0;
+}
+
+.mainPagProducto .contenedorProducto p {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  display: inline;
+}
+
+.mainPagProducto .contenedorProducto h3 {
+  color: #fff;
+  font-family: Staatliches;
+  font-size: 16px;
+  display: inline;
+}
+
+.mainPagProducto .contenedorProducto .contenedorInfoCrypto {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  display: flex;
+}
+
+.mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto1, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto2, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto3, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto4 {
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+}
+
+.mainPagProducto .contenedorProducto .evolucionPrecio {
+  width: 96px;
+  color: #000;
+  background-color: #cca61f;
+  border-radius: .6em;
+  padding: 5px;
+  font-family: Staatliches;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
-  .mainPagError {
+  .mainPagProducto {
     background-color: #146914;
     transition-duration: .5s;
   }
 
-  .mainPagError section {
+  .mainPagProducto .contenedorProducto {
     width: 500px;
-    transition-duration: .5s;
-  }
-}
-
-@media screen and (min-width: 378px) and (max-width: 520px) {
-  .mainPagError {
-    background-color: #c3dd16;
-    transition-duration: .5s;
-  }
-
-  .mainPagError section {
-    width: 350px;
-    transition-duration: .5s;
-  }
-}
-
-@media screen and (max-width: 378px) {
-  .mainPagError {
-    background-color: #0ff;
-    transition-duration: .5s;
-  }
-
-  .mainPagError section {
-    width: 240px;
     margin: 20px;
     transition-duration: .5s;
   }
 }
 
-/*# sourceMappingURL=pagina_error.871369ad.css.map */
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .mainPagProducto {
+    background-color: #c3dd16;
+    transition-duration: .5s;
+  }
+
+  .mainPagProducto .contenedorProducto {
+    width: 360px;
+    margin: 20px;
+    transition-duration: .5s;
+  }
+
+  .mainPagProducto .contenedorProducto #crypto-widget-CoinList {
+    width: 180px;
+  }
+
+  .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto1, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto2, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto3, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto4 {
+    flex-direction: column;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .mainPagProducto {
+    background-color: #0ff;
+    transition-duration: .5s;
+  }
+
+  .mainPagProducto .contenedorProducto {
+    width: 260px;
+    transition-duration: .5s;
+  }
+
+  .mainPagProducto .contenedorProducto #crypto-widget-CoinList {
+    width: 170px;
+  }
+
+  .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto1, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto2 {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto3, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto4 {
+    flex-direction: column;
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=producto.css.map */

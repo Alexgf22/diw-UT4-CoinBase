@@ -60,9 +60,16 @@ body {
   padding: 6px;
 }
 
-.cabecera .menuNavegacionNav .listaCabecera .icono-hamburguesa {
-  width: 30px;
+.cabecera .menuNavegacionNav .listaCabecera .toggle-menu {
   display: none;
+}
+
+.cabecera .menuNavegacionNav .listaCabecera .toggle-menu .icono-hamburguesa {
+  width: 30px;
+}
+
+.cabecera .menuNavegacionNav .listaCabecera .menu-hamburguesa--show {
+  transform: translateY(0);
 }
 
 .cabecera .menuNavegacionNav .listaCabecera .elemento-lista-imagen-y-nombre {
@@ -88,7 +95,9 @@ body {
     margin-left: 300px;
     padding-top: 35px;
     padding-bottom: 35px;
+    transition: transform .3s;
     position: absolute;
+    transform: translateY(-100%);
   }
 
   .cabecera .menuNavegacionNav .listaCabecera .menu-hamburguesa li a {
