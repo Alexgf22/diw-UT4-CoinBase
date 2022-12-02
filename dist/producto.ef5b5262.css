@@ -81,7 +81,7 @@ body {
   }
 }
 
-.piePagina {
+.pie-pagina {
   width: 100%;
   height: 55px;
   background-color: #1b2580;
@@ -93,30 +93,39 @@ body {
   position: sticky;
 }
 
-.piePagina a {
+.pie-pagina .pie-pagina__contenedor-redes-sociales {
+  justify-self: flex-start;
+}
+
+.pie-pagina .pie-pagina__contenedor-redes-sociales a {
   color: #fff;
   font-family: Staatliches;
   font-size: 12px;
 }
 
-.piePagina .inviertePiePag {
-  justify-self: flex-end;
-}
-
-.piePagina .iconoInsta, .piePagina .iconoFacebook {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono-insta, .pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono_facebook {
   width: 18px;
 }
 
-.piePagina .textoInstaPie {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__enlace-insta {
   justify-self: flex-start;
 }
 
-.piePagina .textoFacebookPie {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__enlace-facebook {
   justify-self: center;
 }
 
-.piePagina .contenedorRedesSociales {
-  justify-self: flex-start;
+.pie-pagina .pie-pagina__enlace-invierte {
+  color: #fff;
+  justify-self: flex-end;
+  font-family: Staatliches;
+  font-size: 12px;
+}
+
+.pie-pagina .pie-pagina__enlace-pag-404 {
+  color: #fff;
+  font-family: Staatliches;
+  font-size: 12px;
 }
 
 .mainPagProducto {

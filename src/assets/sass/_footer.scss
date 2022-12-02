@@ -1,4 +1,4 @@
-.piePagina {
+.pie-pagina {
     background-color: $azul-mas-saturado;
     position: sticky;
     width: 100%;
@@ -9,36 +9,52 @@
     justify-content: space-between;
     align-items:center;
 
-    a {
+
+    .pie-pagina__contenedor-redes-sociales {
+      justify-self: flex-start;
+
+      a {
         color:  #ffffff;
         font-family: $fuente-titulos;
         font-size: 12px;   
     }
 
-    .inviertePiePag {
-      justify-self: flex-end;
-    }
-
-    .iconoInsta {
+    
+    .contenedor-redes-sociales__icono-insta {
       width: 18px;
     }
 
-    .iconoFacebook {
+    .contenedor-redes-sociales__icono_facebook {
       width: 18px;
     }
 
-    .textoInstaPie {
+    .contenedor-redes-sociales__enlace-insta {
       justify-self: flex-start;
 
     }
 
-    .textoFacebookPie {
+    .contenedor-redes-sociales__enlace-facebook {
       justify-self: center;
 
     }
 
-    .contenedorRedesSociales {
-      justify-self: flex-start;
     }
+
+    
+    .pie-pagina__enlace-invierte {
+      justify-self: flex-end;
+      color:  #ffffff;
+      font-family: $fuente-titulos;
+      font-size: 12px; 
+    }
+
+    .pie-pagina__enlace-pag-404 {
+      color:  #ffffff;
+      font-family: $fuente-titulos;
+      font-size: 12px;   
+    }
+
+
+    
     
 }
