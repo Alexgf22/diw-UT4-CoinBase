@@ -43,7 +43,10 @@
         width: 100%;
 
         .menu-hamburguesa {
+          display: flex;
           flex-flow: row wrap;
+          justify-content: space-between;
+          align-items: center;
 
           .enlaceRegistro {
             width: 50px;
@@ -78,22 +81,19 @@
   // Segundo punto de ruptura
 @media screen and (min-width: 378px) and (max-width: 520px) {
   .cabecera {
+
+    .menuNavegacionNav {
   
-    .listaCabecera {
-
-      .menu-hamburguesa {
-        flex-flow: column wrap;
-      }
-        padding-bottom: 30px;
+      .listaCabecera {
         background-color: rgb(37, 110, 43);
-
-        .elemento-lista-imagen-y-nombre {
-          padding-right: 500px;
-          padding-top: 30px;
+        .menu-hamburguesa {
+          flex-flow: column wrap;
         }
-      }
+  
+        }
   
     }
+  }
 
   
 }

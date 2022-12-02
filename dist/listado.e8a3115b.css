@@ -46,6 +46,9 @@ body {
 
 .cabecera .menuNavegacionNav .listaCabecera .menu-hamburguesa {
   flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
 
 .cabecera .menuNavegacionNav .listaCabecera .menu-hamburguesa .enlaceRegistro {
@@ -66,18 +69,12 @@ body {
 }
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
-  .cabecera .listaCabecera {
+  .cabecera .menuNavegacionNav .listaCabecera {
     background-color: #256e2b;
-    padding-bottom: 30px;
   }
 
-  .cabecera .listaCabecera .menu-hamburguesa {
+  .cabecera .menuNavegacionNav .listaCabecera .menu-hamburguesa {
     flex-flow: column wrap;
-  }
-
-  .cabecera .listaCabecera .elemento-lista-imagen-y-nombre {
-    padding-top: 30px;
-    padding-right: 500px;
   }
 }
 
