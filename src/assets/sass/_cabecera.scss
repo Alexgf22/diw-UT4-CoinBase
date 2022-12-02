@@ -4,20 +4,11 @@
   }
   
   
-  
   .nombrePag {
     color: white;
     display: inline-block;
   }
 
-  .elemento-lista-imagen-y-nombre {
-    color: white;
-    font-family: $fuente-titulos;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
-  }
   
   
   .cabecera {
@@ -27,56 +18,60 @@
     position:sticky;
     padding: 10px;
   
-    .listaCabecera {
+    .menuNavegacionNav {
+    
+    
+      li {
+        list-style-type: none;
+        font-family: $fuente-titulos;
+      }
+    
+    
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    
+    
+      .listaCabecera {
+        font-size:14px;
 
-      display:flex;
-      flex-flow: row wrap;
-      justify-content: space-between;
-      align-items:center;
-      width: 100%;
-  
-    }
-  }
-  
-  .menuNavegacionNav {
-  
-   /*ul {
-      
-      gap: 25px;
-      width: 100%;
-      border-bottom: 2px solid rgb(196, 182, 182);
-      padding: 10px;
-      padding-bottom:20px;
-   }*/
-  
-  
-    li {
-      /*text-decoration: underline #CC0000 3px;*/
-      list-style-type: none;
-      font-family: $fuente-titulos;
-    }
-  
-  
-    a {
-      text-decoration: none;
-      color: white;
-    }
-  
-  
-    .listaCabecera {
-      font-size:14px;
-    }
-  
-    .enlaceRegistro {
-      width: 50px;
-      border-radius: 0.5em;
-      padding:6px;
-      color: $azul-mas-saturado;
-      background-color: $amarillo-menos-saturado;
-    }
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items:center;
+        width: 100%;
+
+        .menu-hamburguesa {
+          flex-flow: row wrap;
+
+          .enlaceRegistro {
+            width: 50px;
+            border-radius: 0.5em;
+            padding:6px;
+            color: $azul-mas-saturado;
+            background-color: $amarillo-menos-saturado;
+          }
+        }
+
+
+        .elemento-lista-imagen-y-nombre {
+          color: white;
+          font-family: $fuente-titulos;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 3px;
+        }
+          
+      }
+      }
   
     
   }
+
+
+  
 
 
 
@@ -85,7 +80,10 @@
   .cabecera {
   
     .listaCabecera {
-        flex-direction: column;
+
+      .menu-hamburguesa {
+        flex-flow: column wrap;
+      }
         padding-bottom: 30px;
         background-color: rgb(37, 110, 43);
 
