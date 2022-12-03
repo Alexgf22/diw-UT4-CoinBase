@@ -395,7 +395,7 @@ body {
     display: flex;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre .name {
+  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre .parrafo-nombre__label-nombre {
     padding-bottom: 6px;
   }
 
@@ -431,7 +431,7 @@ body {
     display: flex;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre .name {
+  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre .parrafo-nombre__label-nombre {
     padding-bottom: 6px;
   }
 
