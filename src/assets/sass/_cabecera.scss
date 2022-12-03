@@ -1,10 +1,10 @@
-.logoPag {
+.contenedor-logo-y-nombre__logo-pagina {
     width: 45px;
   
   }
   
   
-.nombrePag {
+.contenedor-logo-y-nombre__nombre-pagina {
   color: white;
   display: inline-block;
 }
@@ -17,7 +17,7 @@
     position:sticky;
     padding: 10px;
   
-    .menuNavegacionNav {
+    .cabecera__menu-navegacion-nav {
     
     
       li {
@@ -32,7 +32,7 @@
       }
     
     
-      .listaCabecera {
+      .menu-navegacion-nav__lista-cabecera {
         font-size:14px;
 
         display:flex;
@@ -41,14 +41,14 @@
         align-items:center;
         width: 100%;
 
-        .menu-hamburguesa {
+        .lista-cabecera__menu-hamburguesa {
           display: flex;
           flex-flow: row wrap;
           align-items: center;
           justify-content: space-between;
           width: 79%;
 
-          .enlaceRegistro {
+          .menu-hamburguesa__enlaceRegistro {
             width: 50px;
             border-radius: 0.5em;
             padding:6px;
@@ -58,16 +58,16 @@
         }
 
 
-        .nav__label, .nav__input {
+        .lista-cabecera__nav-label, .lista-cabecera__nav-input {
           display: none;
         }
 
-        .icono-hamburguesa {
+        .nav-label__icono-hamburguesa {
           width: 30px;
         } 
         
 
-        .elemento-lista-imagen-y-nombre {
+        .lista-cabecera__contenedor-logo-y-nombre {
           color: white;
           font-family: $fuente-titulos;
           display: flex;
@@ -92,16 +92,16 @@
 @media screen and (min-width: 378px) and (max-width: 520px) {
   .cabecera {
 
-    .menuNavegacionNav {
+    .cabecera__menu-navegacion-nav {
   
-      .listaCabecera {
+      .menu-navegacion-nav__lista-cabecera {
 
-        .nav__label {
+        .lista-cabecera__nav-label {
           display: block;
           cursor: pointer;
         }
 
-        .menu-hamburguesa {
+        .lista-cabecera__menu-hamburguesa {
           display: flex;
           justify-content: space-evenly;
           align-items: center;
@@ -124,7 +124,7 @@
           
 
           
-          .enlaceRegistro {
+          .menu-hamburguesa__enlaceRegistro {
             color: rgb(0, 0, 0);
             background-color: $amarillo-menos-saturado;
             border-radius:0;
@@ -132,7 +132,7 @@
           }
         }
 
-        .icono-hamburguesa {
+        .nav-label__icono-hamburguesa {
           display: flex;
           top: 0;
           right: 0;
@@ -146,7 +146,7 @@
         }
 
 
-        .nav__input:checked + .menu-hamburguesa {
+        .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
           clip-path: circle(100% at center);
         }
   
@@ -163,19 +163,19 @@
 
   .cabecera {
 
-    .menuNavegacionNav {
+    .cabecera__menu-navegacion-nav {
   
-      .listaCabecera {
+      .menu-navegacion-nav__lista-cabecera {
         position: relative;
 
         
-        .nav__label {
+        .lista-cabecera__nav-label {
           display: block;
           cursor: pointer;
         }
 
 
-        .menu-hamburguesa {
+        .lista-cabecera__menu-hamburguesa {
           flex-flow: column wrap;
           background-color: $amarillo-menos-saturado;
           margin-left: 180px;
@@ -196,7 +196,7 @@
           
 
           
-          .enlaceRegistro {
+          .menu-hamburguesa__enlaceRegistro {
             color: rgb(0, 0, 0);
             background-color: $amarillo-menos-saturado;
             border-radius:0;
@@ -204,7 +204,7 @@
           }
         }
 
-        .icono-hamburguesa {
+        .nav-label__icono-hamburguesa {
           display: flex;
           top: 0;
           right: 0;
@@ -218,7 +218,7 @@
         }
 
 
-        .nav__input:checked + .menu-hamburguesa {
+        .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
           clip-path: circle(100% at center);
         }
   

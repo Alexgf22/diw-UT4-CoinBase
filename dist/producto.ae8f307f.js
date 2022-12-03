@@ -532,7 +532,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"eLmMk":[function(require,module,exports) {
-const menuHamburguesa = document.getElementById("menu-hamburguesa");
+const menuHamburguesa = document.getElementById("lista-cabecera__menu-hamburguesa");
 menuHamburguesa.addEventListener("click", ()=>{
     menuHamburguesa.classList.toggle("menu-hamburgesa--show");
 });
