@@ -1,0 +1,29 @@
+@import "_variables.scss";
+@import "_body_y_box.scss";
+@import "_cabecera.scss";
+@import "_footer.scss";
+
+
+
+.main-pagina-perfil-usuario {
+    background-color: $azul-menos-saturado;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    .main-pagina-perfil-usuario__section {
+        background-color: $azul-mas-saturado;
+        width: 574px;
+        padding: 20px;
+        margin: 20px;
+
+        .section__icono-usuario {
+            width: 40px;
+        }
+    }
+
+}
