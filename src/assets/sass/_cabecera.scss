@@ -58,17 +58,14 @@
         }
 
 
-        .toggle-menu {
+        .nav__label, .nav__input {
           display: none;
-          .icono-hamburguesa {
-            width: 30px;
-          } 
-      }
+        }
 
-      .menu-hamburguesa--show {
-        transform: translateY(0);
-      }
-
+        .icono-hamburguesa {
+          width: 30px;
+        } 
+        
 
         .elemento-lista-imagen-y-nombre {
           color: white;
@@ -98,19 +95,26 @@
     .menuNavegacionNav {
   
       .listaCabecera {
-        position: relative;
+
+        .nav__label {
+          display: block;
+          cursor: pointer;
+        }
+
         .menu-hamburguesa {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
           flex-flow: column wrap;
           background-color: $amarillo-menos-saturado;
-          margin-left: 300px;
-          margin-top: 220px;
+          margin-left: 250px;
+          margin-right: 20px;
+          margin-top: 210px;
           width: 160px;
           height: 250px;
-          padding-top: 35px;
-          padding-bottom: 35px;
           position: absolute;
-          transition: transform 0.3s;
-          transform: translateY(-100%);
+          clip-path: circle(0 at center);
+          transition: clip-path 1s ease-in-out;
 
           li {
             a {
@@ -135,8 +139,15 @@
           padding: 5px;
           cursor: pointer;
           background-color: $amarillo-menos-saturado;
+          position:relative;
+          z-index: 1;
         }
   
+        }
+
+
+        .nav__input:checked + .menu-hamburguesa {
+          clip-path: circle(100% at center);
         }
   
     }
@@ -148,7 +159,71 @@
 
 
 // Tercer punto de ruptura
-/*@media screen and (max-width: 378px) {
+@media screen and (max-width: 378px) {
+
+  .cabecera {
+
+    .menuNavegacionNav {
+  
+      .listaCabecera {
+        position: relative;
+
+        
+        .nav__label {
+          display: block;
+          cursor: pointer;
+        }
 
 
-}*/
+        .menu-hamburguesa {
+          flex-flow: column wrap;
+          background-color: $amarillo-menos-saturado;
+          margin-left: 180px;
+          margin-top: 220px;
+          width: 130px;
+          height: 250px;
+          padding-top: 35px;
+          padding-bottom: 35px;
+          position: fixed;
+          clip-path: circle(0 at center);
+          transition: clip-path 1s ease-in-out;
+
+          li {
+            a {
+              color: black;
+            }
+          }
+          
+
+          
+          .enlaceRegistro {
+            color: rgb(0, 0, 0);
+            background-color: $amarillo-menos-saturado;
+            border-radius:0;
+            padding:0;
+          }
+        }
+
+        .icono-hamburguesa {
+          display: flex;
+          top: 0;
+          right: 0;
+          padding: 5px;
+          cursor: pointer;
+          background-color: $amarillo-menos-saturado;
+          position:absolute;
+          z-index: 1;
+        }
+  
+        }
+
+
+        .nav__input:checked + .menu-hamburguesa {
+          clip-path: circle(100% at center);
+        }
+  
+    }
+  }
+
+
+}

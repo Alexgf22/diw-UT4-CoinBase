@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Staatliches&display=swap" rel="stylesheet">
     <title>Document</title>
-    <script src="menu_hambur.js"></script>
     <link href="assets/sass/producto.scss" rel="stylesheet">
     <script src="https://crypto.com/price/static/widget/index.js"></script>
     
@@ -26,16 +25,15 @@
                     <img src="assets/img/logo (1).png" class="logoPag">
                     <p class="nombrePag">Coinbase</p></div>
 
-                <div class="toggle-menu" id="toggle-menu">
-                    <label for= "toggle-menu-checkbox">
-                        <img class="icono-hamburguesa"  src="./assets/img/icono_hamburguesa.png">
-                    </label>
-                    <input type="checkbox" class="toggle-menu__checkbox" id="toggle-menu-checkbox">
-                </div>
+                
+                <label for= "menu" class="nav__label">
+                    <img class="icono-hamburguesa"  src="./assets/img/icono_hamburguesa.png">
+                </label>
 
+                <input type="checkbox" class="nav__input" id="menu">
                 
 
-                <div class="menu-hamburguesa" id = "menu-hamburguesa">
+                <div class="menu-hamburguesa">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="producto.html">Producto</a></li>
                     <li><a href="contacto.html">Contacto</a></li>

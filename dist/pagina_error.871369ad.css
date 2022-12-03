@@ -60,16 +60,12 @@ body {
   padding: 6px;
 }
 
-.cabecera .menuNavegacionNav .listaCabecera .toggle-menu {
+.cabecera .menuNavegacionNav .listaCabecera .nav__label, .cabecera .menuNavegacionNav .listaCabecera .nav__input {
   display: none;
 }
 
-.cabecera .menuNavegacionNav .listaCabecera .toggle-menu .icono-hamburguesa {
+.cabecera .menuNavegacionNav .listaCabecera .icono-hamburguesa {
   width: 30px;
-}
-
-.cabecera .menuNavegacionNav .listaCabecera .menu-hamburguesa--show {
-  transform: translateY(0);
 }
 
 .cabecera .menuNavegacionNav .listaCabecera .elemento-lista-imagen-y-nombre {
@@ -82,22 +78,25 @@ body {
 }
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
-  .cabecera .menuNavegacionNav .listaCabecera {
-    position: relative;
+  .cabecera .menuNavegacionNav .listaCabecera .nav__label {
+    cursor: pointer;
+    display: block;
   }
 
   .cabecera .menuNavegacionNav .listaCabecera .menu-hamburguesa {
     width: 160px;
     height: 250px;
+    clip-path: circle(0);
     background-color: #cca61f;
     flex-flow: column wrap;
-    margin-top: 220px;
-    margin-left: 300px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    transition: transform .3s;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 210px;
+    margin-left: 250px;
+    margin-right: 20px;
+    transition: clip-path 1s ease-in-out;
+    display: flex;
     position: absolute;
-    transform: translateY(-100%);
   }
 
   .cabecera .menuNavegacionNav .listaCabecera .menu-hamburguesa li a {
@@ -113,11 +112,68 @@ body {
 
   .cabecera .menuNavegacionNav .listaCabecera .icono-hamburguesa {
     cursor: pointer;
+    z-index: 1;
     background-color: #cca61f;
     padding: 5px;
     display: flex;
+    position: relative;
     top: 0;
     right: 0;
+  }
+
+  .cabecera .menuNavegacionNav .nav__input:checked + .menu-hamburguesa {
+    clip-path: circle(100%);
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .cabecera .menuNavegacionNav .listaCabecera {
+    position: relative;
+  }
+
+  .cabecera .menuNavegacionNav .listaCabecera .nav__label {
+    cursor: pointer;
+    display: block;
+  }
+
+  .cabecera .menuNavegacionNav .listaCabecera .menu-hamburguesa {
+    width: 130px;
+    height: 250px;
+    clip-path: circle(0);
+    background-color: #cca61f;
+    flex-flow: column wrap;
+    margin-top: 220px;
+    margin-left: 180px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    transition: clip-path 1s ease-in-out;
+    position: fixed;
+  }
+
+  .cabecera .menuNavegacionNav .listaCabecera .menu-hamburguesa li a {
+    color: #000;
+  }
+
+  .cabecera .menuNavegacionNav .listaCabecera .menu-hamburguesa .enlaceRegistro {
+    color: #000;
+    background-color: #cca61f;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .cabecera .menuNavegacionNav .listaCabecera .icono-hamburguesa {
+    cursor: pointer;
+    z-index: 1;
+    background-color: #cca61f;
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .cabecera .menuNavegacionNav .nav__input:checked + .menu-hamburguesa {
+    clip-path: circle(100%);
   }
 }
 
