@@ -159,7 +159,7 @@ body {
   font-size: 12px;
 }
 
-.mainPagProducto {
+.main-pagina-producto {
   width: 100%;
   min-height: 100vh;
   background-color: #6978ff;
@@ -169,14 +169,14 @@ body {
   display: flex;
 }
 
-.mainPagProducto .contenedorProducto {
+.main-pagina-producto .section__contenedor-producto {
   width: 574px;
   background-color: #1b2580;
   margin: 20px;
   padding: 20px;
 }
 
-.mainPagProducto .contenedorProducto .contenedorTitulo {
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__logo-bitcoin-y-titulo {
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -184,38 +184,38 @@ body {
   display: flex;
 }
 
-.mainPagProducto .contenedorProducto .contenedorTitulo h2 {
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__logo-bitcoin-y-titulo h2 {
   color: #fff;
   padding-top: 36px;
   font-family: Staatliches;
   font-size: 30px;
 }
 
-.mainPagProducto .contenedorProducto .contenedorTitulo img {
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__logo-bitcoin-y-titulo img {
   width: 40px;
   align-self: flex-end;
 }
 
-.mainPagProducto .contenedorProducto #crypto-widget-CoinList {
+.main-pagina-producto .section__contenedor-producto #contenedor-producto__crypto-widget-coin-list {
   width: 54%;
   margin: 20px auto 0;
 }
 
-.mainPagProducto .contenedorProducto p {
+.main-pagina-producto .section__contenedor-producto p {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 16px;
   display: inline;
 }
 
-.mainPagProducto .contenedorProducto h3 {
+.main-pagina-producto .section__contenedor-producto h3 {
   color: #fff;
   font-family: Staatliches;
   font-size: 16px;
   display: inline;
 }
 
-.mainPagProducto .contenedorProducto .contenedorInfoCrypto {
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -223,7 +223,7 @@ body {
   display: flex;
 }
 
-.mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto1, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto2, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto3, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto4 {
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__primer-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__segundo-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__tercer-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__cuarto-dato-crypto {
   width: 60%;
   justify-content: space-between;
   align-items: center;
@@ -231,7 +231,7 @@ body {
   display: flex;
 }
 
-.mainPagProducto .contenedorProducto .evolucionPrecio {
+.main-pagina-producto .section__contenedor-producto .cuarto-dato-crypto__enlace-evolucion-precio {
   width: 96px;
   color: #000;
   background-color: #cca61f;
@@ -242,12 +242,12 @@ body {
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
-  .mainPagProducto {
+  .main-pagina-producto {
     background-color: #146914;
     transition-duration: .5s;
   }
 
-  .mainPagProducto .contenedorProducto {
+  .main-pagina-producto .section__contenedor-producto {
     width: 500px;
     margin: 20px;
     transition-duration: .5s;
@@ -255,49 +255,49 @@ body {
 }
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
-  .mainPagProducto {
+  .main-pagina-producto {
     background-color: #c3dd16;
     transition-duration: .5s;
   }
 
-  .mainPagProducto .contenedorProducto {
+  .main-pagina-producto .section__contenedor-producto {
     width: 360px;
     margin: 20px;
     transition-duration: .5s;
   }
 
-  .mainPagProducto .contenedorProducto #crypto-widget-CoinList {
+  .main-pagina-producto .section__contenedor-producto #contenedor-producto__crypto-widget-coin-list {
     width: 180px;
   }
 
-  .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto1, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto2, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto3, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto4 {
+  .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__primer-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__segundo-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__tercer-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__cuarto-dato-crypto {
     flex-direction: column;
     display: flex;
   }
 }
 
 @media screen and (max-width: 378px) {
-  .mainPagProducto {
+  .main-pagina-producto {
     background-color: #0ff;
     transition-duration: .5s;
   }
 
-  .mainPagProducto .contenedorProducto {
+  .main-pagina-producto .section__contenedor-producto {
     width: 260px;
     transition-duration: .5s;
   }
 
-  .mainPagProducto .contenedorProducto #crypto-widget-CoinList {
+  .main-pagina-producto .section__contenedor-producto #contenedor-producto__crypto-widget-coin-list {
     width: 170px;
   }
 
-  .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto1, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto2 {
+  .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__primer-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__segundo-dato-crypto {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto3, .mainPagProducto .contenedorProducto .contenedorInfoCrypto .infoCrypto4 {
+  .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__tercer-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__cuarto-dato-crypto {
     flex-direction: column;
     display: flex;
   }
