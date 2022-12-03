@@ -258,7 +258,7 @@ body {
   content: "🡻";
 }
 
-.mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombrePila {
+.mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombre-pila {
   justify-content: space-evenly;
   align-items: center;
   padding: 25px 10px 10px;
@@ -281,7 +281,7 @@ body {
   display: flex;
 }
 
-.mainPagRegistro .formularioRegistro fieldset .parrafoContraseña {
+.mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-contraseña {
   justify-content: space-evenly;
   align-items: center;
   gap: 10px;
@@ -353,14 +353,14 @@ body {
     transition-duration: .5s;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombrePila {
+  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombre-pila {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombrePila .name {
+  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombre-pila .name {
     padding-bottom: 10px;
   }
 
@@ -390,7 +390,7 @@ body {
     margin-bottom: 30px;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoContraseña {
+  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-contraseña {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -409,18 +409,18 @@ body {
     transition-duration: .5s;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombrePila {
+  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombre-pila {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombrePila .name {
+  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombre-pila .name {
     padding-bottom: 10px;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombrePila input {
+  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombre-pila input {
     width: 200px;
   }
 
@@ -458,14 +458,14 @@ body {
     margin-bottom: 30px;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoContraseña {
+  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-contraseña {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoContraseña input {
+  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-contraseña input {
     width: 200px;
   }
 }

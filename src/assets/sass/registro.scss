@@ -39,7 +39,7 @@
           content: "🡻"
         }
   
-        .fieldset__parrafo-nombrePila {
+        .fieldset__parrafo-nombre-pila {
           display: flex;
           justify-content: space-evenly;
           align-items: center;
@@ -67,7 +67,7 @@
   
         }
   
-        .parrafoContraseña {
+        .fieldset__parrafo-contraseña {
           display: flex;
           justify-content: space-evenly;
           align-items: center;
@@ -166,7 +166,7 @@
         width: 360px;
         transition-duration: 0.5s;
 
-        .fieldset__parrafo-nombrePila {
+        .fieldset__parrafo-nombre-pila {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -207,7 +207,7 @@
 
         }
 
-        .parrafoContraseña {
+        .fieldset__parrafo-contraseña {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -237,7 +237,7 @@
         width: 240px;
         transition-duration: 0.5s;
 
-        .fieldset__parrafo-nombrePila {
+        .fieldset__parrafo-nombre-pila {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -290,7 +290,7 @@
 
         }
 
-        .parrafoContraseña {
+        .fieldset__parrafo-contraseña {
           display: flex;
           flex-direction: column;
           justify-content: center;

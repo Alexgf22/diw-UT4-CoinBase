@@ -7,7 +7,7 @@
 
 // Main Página inicio sesión
 
-.main-pagina-inicioSesion {
+.main-pagina-inicio-sesion {
     background-color: $azul-menos-saturado;
     width: 100%;
     min-height: 100vh;
@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
   
-    .formularioInicioSesion {
+    .section__form-inicio-sesion {
       text-align: center;
       
     
@@ -38,7 +38,7 @@
           content: "🡻"
         }
   
-        .fieldset__parrafo-nombrePila {
+        .fieldset__parrafo-nombre-pila {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -48,7 +48,7 @@
           padding-bottom: 20px;
         }
   
-        .parrafoContraseña {
+        .fieldset__parrafo-contraseña {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -95,11 +95,11 @@
 
 // Primer punto de ruptura
 @media screen and (min-width: 400px) and (max-width: 600px) {
-  .main-pagina-inicioSesion {
+  .main-pagina-inicio-sesion {
     background-color: rgb(20, 105, 20);
     transition-duration: 0.5s;
 
-    .formularioInicioSesion {
+    .section__form-inicio-sesion {
 
       fieldset {
         width: 470px;
@@ -118,25 +118,25 @@
 
 // Segundo punto de ruptura
 @media screen and (min-width: 378px) and (max-width: 520px) {
-  .main-pagina-inicioSesion {
+  .main-pagina-inicio-sesion {
     background-color: rgb(195, 221, 22);
     transition-duration: 0.5s;
 
-    .formularioInicioSesion {
+    .section__form-inicio-sesion {
 
       fieldset {
         width: 360px;
         margin: 20px;
         transition-duration: 0.5s;
 
-        .fieldset__parrafo-nombrePila {
+        .fieldset__parrafo-nombre-pila {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
         }
 
-        .parrafoContraseña {
+        .fieldset__parrafo-contraseña {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -157,18 +157,18 @@
 
 // Tercer punto de ruptura
 @media screen and (max-width: 378px) {
-  .main-pagina-inicioSesion {
+  .main-pagina-inicio-sesion {
     background-color: aqua;
     transition-duration: 0.5s;
 
-    .formularioInicioSesion {
+    .section__form-inicio-sesion {
 
       fieldset {
         width: 240px;
         margin: 20px;
         transition-duration: 0.5s;
 
-        .fieldset__parrafo-nombrePila {
+        .fieldset__parrafo-nombre-pila {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -179,7 +179,7 @@
           }
         }
 
-        .parrafoContraseña {
+        .fieldset__parrafo-contraseña {
           display: flex;
           flex-direction: column;
           justify-content: center;
