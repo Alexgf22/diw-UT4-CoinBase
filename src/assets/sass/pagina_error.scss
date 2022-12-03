@@ -9,7 +9,7 @@
 // Página 404
 
 
-.mainPagError {
+.main-pagina-error {
   background-color: $azul-menos-saturado;
     width: 100%;
     min-height: 100vh;
@@ -27,7 +27,7 @@
 
 
 
-.titulo404 {
+.section__titulo-404 {
     color: white;
     text-align: center;
     padding-top: 30px;
@@ -38,7 +38,7 @@
   }
   
   
-  .tituloNotFound {
+  .section__titulo-not-found {
     padding-top: 10px;
     text-align: center;
     color: white;
@@ -49,7 +49,7 @@
   }
   
   
-  .parrafoError {
+  .section__parrafo-error {
     padding-top: 26px;
     text-align: center;
     color: white;
@@ -61,7 +61,7 @@
   }
   
   
-  .enlaceHaciaInicio {
+  .section__parrafo-enlace-inicio {
     padding-top: 20px;
     color: white;
     text-align: center;
@@ -69,7 +69,7 @@
     animation-duration: 3s;
     animation-name: slidein;
   
-    .enlaceAinicio {
+    .parrafo-enlace-inicio__enlace {
       text-decoration: none;
       color: white;
       text-align: center;
@@ -103,7 +103,7 @@
 
 // Primer punto de ruptura
 @media screen and (min-width: 400px) and (max-width: 600px) {
-  .mainPagError {
+  .main-pagina-error {
     background-color: rgb(20, 105, 20);
     transition-duration: 0.5s;
 
@@ -123,7 +123,7 @@
 
 // Segundo punto de ruptura
 @media screen and (min-width: 378px) and (max-width: 520px) {
-  .mainPagError {
+  .main-pagina-error {
     background-color: rgb(195, 221, 22);
     transition-duration: 0.5s;
 
@@ -141,7 +141,7 @@
 
 // Tercer punto de ruptura
 @media screen and (max-width: 378px) {
-  .mainPagError {
+  .main-pagina-error {
     background-color: aqua;
     transition-duration: 0.5s;
 

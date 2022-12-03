@@ -224,7 +224,7 @@ body {
   font-size: 12px;
 }
 
-.mainPagError {
+.main-pagina-error {
   width: 100%;
   min-height: 100vh;
   background-color: #6978ff;
@@ -233,12 +233,12 @@ body {
   display: flex;
 }
 
-.mainPagError section {
+.main-pagina-error section {
   width: 690px;
   background-color: #1b2580;
 }
 
-.titulo404 {
+.section__titulo-404 {
   color: #fff;
   text-align: center;
   padding-top: 30px;
@@ -247,7 +247,7 @@ body {
   animation-duration: 3s;
 }
 
-.tituloNotFound {
+.section__titulo-not-found {
   text-align: center;
   color: #fff;
   padding-top: 10px;
@@ -256,7 +256,7 @@ body {
   animation-duration: 3s;
 }
 
-.parrafoError {
+.section__parrafo-error {
   text-align: center;
   color: #fff;
   padding-top: 26px;
@@ -265,7 +265,7 @@ body {
   animation-duration: 3s;
 }
 
-.enlaceHaciaInicio {
+.section__parrafo-enlace-inicio {
   color: #fff;
   text-align: center;
   padding-top: 20px;
@@ -274,7 +274,7 @@ body {
   animation-duration: 3s;
 }
 
-.enlaceHaciaInicio .enlaceAinicio {
+.section__parrafo-enlace-inicio .parrafo-enlace-inicio__enlace {
   color: #fff;
   text-align: center;
   z-index: 1;
@@ -298,36 +298,36 @@ body {
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
-  .mainPagError {
+  .main-pagina-error {
     background-color: #146914;
     transition-duration: .5s;
   }
 
-  .mainPagError section {
+  .main-pagina-error section {
     width: 500px;
     transition-duration: .5s;
   }
 }
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
-  .mainPagError {
+  .main-pagina-error {
     background-color: #c3dd16;
     transition-duration: .5s;
   }
 
-  .mainPagError section {
+  .main-pagina-error section {
     width: 350px;
     transition-duration: .5s;
   }
 }
 
 @media screen and (max-width: 378px) {
-  .mainPagError {
+  .main-pagina-error {
     background-color: #0ff;
     transition-duration: .5s;
   }
 
-  .mainPagError section {
+  .main-pagina-error section {
     width: 240px;
     margin: 20px;
     transition-duration: .5s;
