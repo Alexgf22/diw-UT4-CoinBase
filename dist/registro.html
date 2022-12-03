@@ -47,9 +47,9 @@
 
     </header>
 
-    <main class="mainPagRegistro">
+    <main class="main-pagina-registro">
         <section>
-            <form class="formularioRegistro" method="post" action="mailto:iesrafaelalberti@prueba.es" enctype="text/plain">
+            <form class="section__form-registro" method="post" action="mailto:iesrafaelalberti@prueba.es" enctype="text/plain">
     
 
                 <fieldset>
@@ -57,13 +57,13 @@
                     <h2>Regístrate</h2>
                     <!--<img class = "flechaAbajo" src="assets/img/🦆 icon _arrow down_.png">-->
                     <p class="fieldset__parrafo-nombre-pila">
-                        <label for="nombrePila" class="name">Nombre pila:</label> 
-                        <input type="text" name="nombre" id="nombrePila" required="">
+                        <label for="parrafo-nombre-pila__nombre" class="parrafo-nombre-pila__label-name">Nombre pila:</label>
+                        <input type="text" name="nombre" id="parrafo-nombre-pila__nombre" required="">
                     </p>
                     
-                    <p class="parrafoApellidos">
-                        <label for="surnames" class="apellido">Apellidos:</label><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
-                        <input type="text" name="apellidos" id="surnames" required="">
+                    <p class="fieldset__parrafo-apellidos">
+                        <label for="parrafo-apellidos__surnames" class="parrafo-apellidos__label">Apellidos:</label><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                        <input type="text" name="apellidos" id="parrafo-apellidos__surnames" required="">
                     </p>
 
                     <p class="parrafoDparrafo-correo__email">
@@ -73,16 +73,15 @@
     
 
                     <p class="fieldset__parrafo-contraseña">
-                        <label for="password" class="parrafo-contraseña__passw">Contraseña:</label><!--&nbsp;-->
-                        <input type="password" name="contraseña" id="password" required="">
-
+                        <label for="parrafo-contraseña__password" class="parrafo-contraseña__label">Contraseña:</label>
+                        <input type="password" name="contraseña" id="parrafo-contraseña__password" required="">
                     </p>
     
 
 
-                    <p class="parrafoAceptarCondiciones">
-                        <input type="checkbox" name="aceptar" id="condiciones">
-                        <label for="condiciones" class="labelCondiciones">Acepto  condiciones de uso</label>
+                    <p class="fieldset__parrafo-aceptar-condiciones">
+                        <input type="checkbox" name="aceptar" id="parrafo-aceptar-condiciones__union">
+                        <label for="parrafo-aceptar-condiciones__union" class="parrafo-aceptar-condiciones__label">Acepto  condiciones de uso</label>
                     </p>
                 
                     <label for="P__boton-enviar"></label>
