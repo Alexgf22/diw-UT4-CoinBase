@@ -245,4 +245,9 @@ body {
   width: 40px;
 }
 
+.main-pagina-perfil-usuario .main-pagina-perfil-usuario__section .section__parrafo-info, .main-pagina-perfil-usuario .main-pagina-perfil-usuario__section .section__parrafo-info-2 {
+  color: #fff;
+  font-size: 12px;
+}
+
 /*# sourceMappingURL=perfil-usuario.99c9e5ff.css.map */
