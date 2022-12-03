@@ -4,20 +4,20 @@
 @import "_footer.scss";
 
 
-.mainPagInicio {
+.main-pagina-inicio {
 
   section {
     position: relative;
   }
 
-  .imagenPagInicio {
+  .section__imagen-coinbase-inicio {
     width: 100%;
     //min-height: 100vh;
     margin-bottom: -5px;
     object-fit: cover;
   }
   
-  .contenedor-encimaImagen {
+  .section__contenedor-encima-img {
     position: absolute;
     top: 46%;
     width: 100%;

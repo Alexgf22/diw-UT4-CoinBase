@@ -7,7 +7,7 @@
 
 // Main Página inicio sesión
 
-.mainPagInicioSesion {
+.main-pagina-inicioSesion {
     background-color: $azul-menos-saturado;
     width: 100%;
     min-height: 100vh;
@@ -95,7 +95,7 @@
 
 // Primer punto de ruptura
 @media screen and (min-width: 400px) and (max-width: 600px) {
-  .mainPagInicioSesion {
+  .main-pagina-inicioSesion {
     background-color: rgb(20, 105, 20);
     transition-duration: 0.5s;
 
@@ -118,7 +118,7 @@
 
 // Segundo punto de ruptura
 @media screen and (min-width: 378px) and (max-width: 520px) {
-  .mainPagInicioSesion {
+  .main-pagina-inicioSesion {
     background-color: rgb(195, 221, 22);
     transition-duration: 0.5s;
 
@@ -157,7 +157,7 @@
 
 // Tercer punto de ruptura
 @media screen and (max-width: 378px) {
-  .mainPagInicioSesion {
+  .main-pagina-inicioSesion {
     background-color: aqua;
     transition-duration: 0.5s;
 

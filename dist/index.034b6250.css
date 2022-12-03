@@ -224,24 +224,24 @@ body {
   font-size: 12px;
 }
 
-.mainPagInicio section {
+.main-pagina-inicio section {
   position: relative;
 }
 
-.mainPagInicio .imagenPagInicio {
+.main-pagina-inicio .section__imagen-coinbase-inicio {
   width: 100%;
   object-fit: cover;
   margin-bottom: -5px;
 }
 
-.mainPagInicio .contenedor-encimaImagen {
+.main-pagina-inicio .section__contenedor-encima-img {
   width: 100%;
   text-align: center;
   position: absolute;
   top: 46%;
 }
 
-.mainPagInicio .contenedor-encimaImagen a {
+.main-pagina-inicio .section__contenedor-encima-img a {
   color: #000;
   background-color: #cca61f;
   border-radius: .6em;
