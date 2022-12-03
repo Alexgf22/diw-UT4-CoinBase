@@ -273,7 +273,7 @@ body {
   display: flex;
 }
 
-.main-pagina-registro .section__form-registro fieldset .parrafoDparrafo-correo__email {
+.main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro {
   justify-content: space-evenly;
   align-items: center;
   gap: 44px;
@@ -301,7 +301,7 @@ body {
   font-family: Inter, sans-serif;
 }
 
-.main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-aceptar-condiciones #condiciones {
+.main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-aceptar-condiciones #parrafo-aceptar-condiciones__union {
   width: 10px;
 }
 
@@ -360,7 +360,7 @@ body {
     display: flex;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-nombre-pila .name {
+  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-nombre-pila .parrafo-nombre-pila__label-name {
     padding-bottom: 10px;
   }
 
@@ -371,22 +371,22 @@ body {
     display: flex;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-apellidos .apellido {
+  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-apellidos .parrafo-apellidos__label {
     padding-top: 10px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .parrafoDparrafo-correo__email {
+  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .parrafoDparrafo-correo__email .parrafo-correo__email {
+  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro .parrafo-correo__email {
     margin-top: 10px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .parrafoDparrafo-correo__email #email {
+  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro #email {
     margin-bottom: 30px;
   }
 
@@ -439,22 +439,22 @@ body {
     width: 200px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .parrafoDparrafo-correo__email {
+  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .parrafoDparrafo-correo__email .parrafo-correo__email {
+  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro .parrafo-correo__email {
     margin-top: 10px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .parrafoDparrafo-correo__email input {
+  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro input {
     width: 200px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .parrafoDparrafo-correo__email #email {
+  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro #email {
     margin-bottom: 30px;
   }
 

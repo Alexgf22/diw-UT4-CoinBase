@@ -58,7 +58,7 @@
   
         }
   
-        .parrafoDparrafo-correo__email {
+        .fieldset__parrafo-correo-registro {
           display: flex;
           justify-content: space-evenly;
           align-items: center;
@@ -88,7 +88,7 @@
             font-family: $fuente-parrafos;
           }
   
-          #condiciones {
+          #parrafo-aceptar-condiciones__union {
             width: 10px;
           }
           
@@ -172,7 +172,7 @@
           justify-content: center;
           align-items: center; 
 
-          .name {
+          .parrafo-nombre-pila__label-name {
             padding-bottom: 10px;
           }
 
@@ -184,23 +184,23 @@
           justify-content: center;
           align-items: center; 
 
-          .apellido {
+          .parrafo-apellidos__label {
             padding-top: 10px;
           }
 
         }
 
-        .parrafoDparrafo-correo__email {
+        .fieldset__parrafo-correo-registro {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center; 
 
-          .parrafo-correo__email {
+          .parrafo-correo-registro__label {
             margin-top: 10px;
           }
 
-          #email {
+          #parrafo-correo-registro__email {
             margin-bottom: 30px;
 
           }
@@ -243,7 +243,7 @@
           justify-content: center;
           align-items: center; 
 
-          .name {
+          .parrafo-nombre-pila__label-name {
             padding-bottom: 10px;
           }
 
@@ -259,7 +259,7 @@
           justify-content: center;
           align-items: center; 
 
-          .apellido {
+          .parrafo-apellidos__label {
             padding-top: 10px;
           }
 
@@ -269,13 +269,13 @@
 
         }
 
-        .parrafoDparrafo-correo__email {
+        .fieldset__parrafo-correo-registro {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center; 
 
-          .parrafo-correo__email {
+          .parrafo-correo-registro__label {
             margin-top: 10px;
           }
 
@@ -283,7 +283,7 @@
             width: 200px;
           }
 
-          #email {
+          #parrafo-correo-registro__email {
             margin-bottom: 30px;
 
           }
