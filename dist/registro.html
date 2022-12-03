@@ -20,15 +20,27 @@
     
         <nav class="cabecera__menu-navegacion-nav">
             <ul class="menu-navegacion-nav__lista-cabecera">
-                <li class="lista-cabecera__contenedor-logo-y-nombre">
+                <div class="lista-cabecera__contenedor-logo-y-nombre">
                     <img src="/logo%20(1).4b7c1951.png" class="contenedor-logo-y-nombre__logo-pagina">
-                <p class="contenedor-logo-y-nombre__nombre-pagina">Coinbase</p></li>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/producto.html">Producto</a></li>
-                <li><a href="/contacto.html">Contacto</a></li>
-                <li><a href="/listado.html">Listado</a></li>
-                <li><a href="/inicio-sesion.html">Iniciar sesión</a></li>
-                <li><a class="menu-hamburguesa__enlaceRegistro" href="/registro.html">¡Regístrate!</a></li>
+                    <p class="contenedor-logo-y-nombre__nombre-pagina">Coinbase</p></div>
+
+                
+                <label for="lista-cabecera__menu" class="lista-cabecera__nav-label">
+                    <img class="nav-label__icono-hamburguesa" src="/icono_hamburguesa.b7c93fe1.png">
+                </label>
+
+                <input type="checkbox" class="lista-cabecera__nav-input" id="lista-cabecera__menu">
+                
+
+                <div class="lista-cabecera__menu-hamburguesa">
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/producto.html">Producto</a></li>
+                    <li><a href="/contacto.html">Contacto</a></li>
+                    <li><a href="/listado.html">Listado</a></li>
+                    <li><a href="/inicio-sesion.html">Iniciar sesión</a></li>
+                    <li><a class="menu-hamburguesa__enlaceRegistro" href="/registro.html">¡Regístrate!</a></li>
+                </div>
+                
             </ul>
 
         </nav>
@@ -44,7 +56,7 @@
                     <!--<legend>Regístrate </legend>-->
                     <h2>Regístrate</h2>
                     <!--<img class = "flechaAbajo" src="assets/img/🦆 icon _arrow down_.png">-->
-                    <p class="parrafoNombrePila">
+                    <p class="fieldset__parrafo-nombrePila">
                         <label for="nombrePila" class="name">Nombre pila:</label> 
                         <input type="text" name="nombre" id="nombrePila" required="">
                     </p>
@@ -54,8 +66,8 @@
                         <input type="text" name="apellidos" id="surnames" required="">
                     </p>
 
-                    <p class="parrafoDelCorreo">
-                        <label for="email" class="elCorreo">Correo:</label><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                    <p class="parrafoDparrafo-correo__email">
+                        <label for="email" class="parrafo-correo__email">Correo:</label><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
                         <input type="email" name="correo" id="email" required="">
                     </p>
     
@@ -73,8 +85,8 @@
                         <label for="condiciones" class="labelCondiciones">Acepto  condiciones de uso</label>
                     </p>
                 
-                    <label for="BotonEnviar"></label>
-                    <input type="submit" name="mandar" id="BotonEnviar" value="Enviar">
+                    <label for="P__boton-enviar"></label>
+                    <input type="submit" name="mandar" id="P__boton-enviar" value="Enviar">
                    
                         
                         

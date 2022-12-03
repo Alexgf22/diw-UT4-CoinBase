@@ -258,7 +258,7 @@ body {
   content: "🡻";
 }
 
-.mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila {
+.mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombrePila {
   justify-content: space-evenly;
   align-items: center;
   padding: 25px 10px 10px;
@@ -273,7 +273,7 @@ body {
   display: flex;
 }
 
-.mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo {
+.mainPagRegistro .formularioRegistro fieldset .parrafoDparrafo-correo__email {
   justify-content: space-evenly;
   align-items: center;
   gap: 44px;
@@ -305,7 +305,7 @@ body {
   width: 10px;
 }
 
-.mainPagRegistro .formularioRegistro fieldset #BotonEnviar {
+.mainPagRegistro .formularioRegistro fieldset #P__boton-enviar {
   width: 100px;
   height: 42px;
   border-radius: 1.2em;
@@ -353,14 +353,14 @@ body {
     transition-duration: .5s;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila {
+  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombrePila {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila .name {
+  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombrePila .name {
     padding-bottom: 10px;
   }
 
@@ -375,18 +375,18 @@ body {
     padding-top: 10px;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo {
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDparrafo-correo__email {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo .elCorreo {
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDparrafo-correo__email .parrafo-correo__email {
     margin-top: 10px;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo #email {
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDparrafo-correo__email #email {
     margin-bottom: 30px;
   }
 
@@ -409,18 +409,18 @@ body {
     transition-duration: .5s;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila {
+  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombrePila {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila .name {
+  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombrePila .name {
     padding-bottom: 10px;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoNombrePila input {
+  .mainPagRegistro .formularioRegistro fieldset .fieldset__parrafo-nombrePila input {
     width: 200px;
   }
 
@@ -439,22 +439,22 @@ body {
     width: 200px;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo {
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDparrafo-correo__email {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo .elCorreo {
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDparrafo-correo__email .parrafo-correo__email {
     margin-top: 10px;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo input {
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDparrafo-correo__email input {
     width: 200px;
   }
 
-  .mainPagRegistro .formularioRegistro fieldset .parrafoDelCorreo #email {
+  .mainPagRegistro .formularioRegistro fieldset .parrafoDparrafo-correo__email #email {
     margin-bottom: 30px;
   }
 

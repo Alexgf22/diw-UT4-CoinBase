@@ -224,7 +224,7 @@ body {
   font-size: 12px;
 }
 
-.mainPagContacto {
+.main-pagina-contacto {
   width: 100%;
   min-height: 100vh;
   background-color: #6978ff;
@@ -234,12 +234,12 @@ body {
   display: flex;
 }
 
-.mainPagContacto .formularioContacto {
+.main-pagina-contacto .section__formulario-contacto {
   text-align: center;
   padding: 30px;
 }
 
-.mainPagContacto .formularioContacto h2 {
+.main-pagina-contacto .section__formulario-contacto h2 {
   color: #fff;
   text-align: center;
   padding-top: 30px;
@@ -247,25 +247,25 @@ body {
   font-size: 18px;
 }
 
-.mainPagContacto .formularioContacto h2:after {
+.main-pagina-contacto .section__formulario-contacto h2:after {
   content: "👇";
 }
 
-.mainPagContacto .formularioContacto fieldset {
+.main-pagina-contacto .section__formulario-contacto fieldset {
   width: 550px;
   background-color: #1b2580;
   border: #cca61f;
   padding: 10px 10px 35px;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoNombre {
+.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre {
   justify-content: space-evenly;
   align-items: center;
   padding: 30px 15px 15px;
   display: flex;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoCorreoForm {
+.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
@@ -274,7 +274,7 @@ body {
   display: flex;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoDuda {
+.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda {
   justify-content: space-evenly;
   align-items: center;
   gap: 24px;
@@ -282,11 +282,11 @@ body {
   display: flex;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoDuda .laDuda {
+.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda .parrafo-duda__label-duda {
   align-self: start;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoDuda textarea {
+.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda textarea {
   width: 220px;
   height: 100px;
   background-color: #cca61f;
@@ -294,11 +294,11 @@ body {
   border-radius: .4em;
 }
 
-.mainPagContacto .formularioContacto fieldset p {
+.main-pagina-contacto .section__formulario-contacto fieldset p {
   width: 100%;
 }
 
-.mainPagContacto .formularioContacto fieldset input {
+.main-pagina-contacto .section__formulario-contacto fieldset input {
   width: 220px;
   height: 30px;
   background-color: #cca61f;
@@ -306,13 +306,13 @@ body {
   border-radius: .4em;
 }
 
-.mainPagContacto .formularioContacto fieldset label {
+.main-pagina-contacto .section__formulario-contacto fieldset label {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 16px;
 }
 
-.mainPagContacto .formularioContacto fieldset #BotonEnviar {
+.main-pagina-contacto .section__formulario-contacto fieldset #P__boton-enviar {
   width: 95px;
   height: 35px;
   border-radius: 1.2em;
@@ -323,7 +323,7 @@ body {
   display: block;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoTelefono {
+.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-telefono {
   justify-content: center;
   align-items: center;
   gap: 15px;
@@ -331,121 +331,121 @@ body {
   display: flex;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoTelefono .telefonoContacto {
+.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-telefono .parrafo-telefono__telefono-contacto {
   color: #fff;
   font-family: Inter, sans-serif;
   text-decoration: none;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoTelefono span {
+.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-telefono span {
   padding-left: 44px;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoTelefono .iconoWhatsapp {
+.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-telefono .parrafo-telefono__icono-whatsapp {
   width: 18px;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoCorreo {
+.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo-contacto {
   justify-content: center;
   align-items: center;
   gap: 15px;
   display: flex;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoCorreo .correoContacto {
+.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__email {
   color: #fff;
   font-family: Inter, sans-serif;
   text-decoration: none;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoCorreo span {
+.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo-contacto span {
   padding-left: 26px;
 }
 
-.mainPagContacto .formularioContacto fieldset .parrafoCorreo .iconoGmail {
+.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__icono-gmail {
   width: 18px;
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
-  .mainPagContacto {
+  .main-pagina-contacto {
     background-color: #146914;
     transition-duration: .5s;
   }
 
-  .mainPagContacto .formularioContacto fieldset {
+  .main-pagina-contacto .section__formulario-contacto fieldset {
     width: 470px;
     transition-duration: .5s;
   }
 }
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
-  .mainPagContacto {
+  .main-pagina-contacto {
     background-color: #c3dd16;
     transition-duration: .5s;
   }
 
-  .mainPagContacto .formularioContacto fieldset {
+  .main-pagina-contacto .section__formulario-contacto fieldset {
     width: 360px;
     transition-duration: .5s;
   }
 
-  .mainPagContacto .formularioContacto fieldset .parrafoNombre {
+  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .mainPagContacto .formularioContacto fieldset .parrafoNombre .name {
+  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre .name {
     padding-bottom: 6px;
   }
 
-  .mainPagContacto .formularioContacto fieldset .parrafoCorreoForm, .mainPagContacto .formularioContacto fieldset .parrafoDuda {
+  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo, .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .mainPagContacto .formularioContacto fieldset .parrafoDuda .laDuda {
+  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda .parrafo-duda__label-duda {
     margin: 0 auto;
   }
 
-  .mainPagContacto .formularioContacto fieldset .parrafoTelefono .telefonoContacto span, .mainPagContacto .formularioContacto fieldset .parrafoCorreo .correoContacto span {
+  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-telefono .parrafo-telefono__telefono-contacto span, .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__email span {
     display: block;
   }
 }
 
 @media screen and (max-width: 378px) {
-  .mainPagContacto {
+  .main-pagina-contacto {
     background-color: #0ff;
     transition-duration: .5s;
   }
 
-  .mainPagContacto .formularioContacto fieldset {
+  .main-pagina-contacto .section__formulario-contacto fieldset {
     width: 220px;
     transition-duration: .5s;
   }
 
-  .mainPagContacto .formularioContacto fieldset .parrafoNombre {
+  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .mainPagContacto .formularioContacto fieldset .parrafoNombre .name {
+  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre .name {
     padding-bottom: 6px;
   }
 
-  .mainPagContacto .formularioContacto fieldset .parrafoCorreoForm, .mainPagContacto .formularioContacto fieldset .parrafoDuda {
+  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo, .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .mainPagContacto .formularioContacto fieldset .parrafoDuda .laDuda {
+  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda .parrafo-duda__label-duda {
     margin: 0 auto;
   }
 
-  .mainPagContacto .formularioContacto fieldset .parrafoTelefono .telefonoContacto span, .mainPagContacto .formularioContacto fieldset .parrafoCorreo .correoContacto span {
+  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-telefono .parrafo-telefono__telefono-contacto span, .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__email span {
     display: block;
   }
 }

@@ -38,7 +38,7 @@
           content: "🡻"
         }
   
-        .parrafoNombrePila {
+        .fieldset__parrafo-nombrePila {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -72,7 +72,7 @@
         }
   
         
-        #BotonEnviar {
+        #P__boton-enviar {
           border-radius: 1.2em;
           width: 96px;
           height: 35px;
@@ -129,7 +129,7 @@
         margin: 20px;
         transition-duration: 0.5s;
 
-        .parrafoNombrePila {
+        .fieldset__parrafo-nombrePila {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -168,7 +168,7 @@
         margin: 20px;
         transition-duration: 0.5s;
 
-        .parrafoNombrePila {
+        .fieldset__parrafo-nombrePila {
           display: flex;
           flex-direction: column;
           justify-content: center;

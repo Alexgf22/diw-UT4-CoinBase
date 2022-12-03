@@ -39,7 +39,7 @@
           content: "🡻"
         }
   
-        .parrafoNombrePila {
+        .fieldset__parrafo-nombrePila {
           display: flex;
           justify-content: space-evenly;
           align-items: center;
@@ -58,7 +58,7 @@
   
         }
   
-        .parrafoDelCorreo {
+        .parrafoDparrafo-correo__email {
           display: flex;
           justify-content: space-evenly;
           align-items: center;
@@ -94,7 +94,7 @@
           
         }
   
-          #BotonEnviar {
+          #P__boton-enviar {
             border-radius: 1.2em;
             width: 100px;
             height: 42px;
@@ -166,7 +166,7 @@
         width: 360px;
         transition-duration: 0.5s;
 
-        .parrafoNombrePila {
+        .fieldset__parrafo-nombrePila {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -190,13 +190,13 @@
 
         }
 
-        .parrafoDelCorreo {
+        .parrafoDparrafo-correo__email {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center; 
 
-          .elCorreo {
+          .parrafo-correo__email {
             margin-top: 10px;
           }
 
@@ -237,7 +237,7 @@
         width: 240px;
         transition-duration: 0.5s;
 
-        .parrafoNombrePila {
+        .fieldset__parrafo-nombrePila {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -269,13 +269,13 @@
 
         }
 
-        .parrafoDelCorreo {
+        .parrafoDparrafo-correo__email {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center; 
 
-          .elCorreo {
+          .parrafo-correo__email {
             margin-top: 10px;
           }
 

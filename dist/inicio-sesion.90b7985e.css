@@ -257,7 +257,7 @@ body {
   content: "🡻";
 }
 
-.mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila {
+.mainPagInicioSesion .formularioInicioSesion fieldset .fieldset__parrafo-nombrePila {
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -287,7 +287,7 @@ body {
   font-size: 16px;
 }
 
-.mainPagInicioSesion .formularioInicioSesion fieldset #BotonEnviar {
+.mainPagInicioSesion .formularioInicioSesion fieldset #P__boton-enviar {
   width: 96px;
   height: 35px;
   border-radius: 1.2em;
@@ -321,7 +321,7 @@ body {
     transition-duration: .5s;
   }
 
-  .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila, .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoContraseña {
+  .mainPagInicioSesion .formularioInicioSesion fieldset .fieldset__parrafo-nombrePila, .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoContraseña {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -341,14 +341,14 @@ body {
     transition-duration: .5s;
   }
 
-  .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila {
+  .mainPagInicioSesion .formularioInicioSesion fieldset .fieldset__parrafo-nombrePila {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .mainPagInicioSesion .formularioInicioSesion fieldset .parrafoNombrePila input {
+  .mainPagInicioSesion .formularioInicioSesion fieldset .fieldset__parrafo-nombrePila input {
     width: 200px;
   }
 
