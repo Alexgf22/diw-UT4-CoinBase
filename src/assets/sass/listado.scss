@@ -75,6 +75,8 @@
     
       .section__contenedor-cryptos {
         padding-top: 30px;
+        /* La propiedad display grid lo que hace es organizar
+        en una o varias columnas y filas los elementos */
         display:grid;
         grid-template-columns: 23% 23% 23%;
         grid-template-rows: 40% 40% 40%;
@@ -85,6 +87,8 @@
         .contenedor-cryptos__bitcoin {
           display:flex;
           align-items: center;
+          /* La propiedad gap indica el espacio que hay
+          entre los elementos */
           gap: 3px;
         }
   
@@ -142,6 +146,10 @@
         }
   
         p {
+          /* La propiedad display inline-block lo que hace
+          es cambiar el comportamiento del elemento en este
+          caso display block y de esta forma cambiaría de estar
+          debajo a estar al lado de la imagen */
           display: inline-block;
         }
   
@@ -164,6 +172,9 @@
 
     section {
       width: 500px;
+      /* Lo que hace la propiedad transition-duration es indicar
+    el tiempo que tarda en cambiar una propiedad en este caso
+    la anchura del section */
       transition-duration: 0.5s;
 
       .section__contenedor-cryptos {
