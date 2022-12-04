@@ -234,7 +234,7 @@ body {
   display: flex;
 }
 
-.main-pagina-perfil-usuario .section1 {
+.main-pagina-perfil-usuario .main-pagina-perfil-usuario__section1 {
   flex-direction: row wrap;
   width: 120px;
   background-color: #1b2580;
@@ -246,11 +246,11 @@ body {
   display: flex;
 }
 
-.main-pagina-perfil-usuario .section1 .section__icono-usuario {
+.main-pagina-perfil-usuario .main-pagina-perfil-usuario__section1 .section1__icono-usuario {
   width: 80px;
 }
 
-.main-pagina-perfil-usuario .section2 {
+.main-pagina-perfil-usuario .main-pagina-perfil-usuario__section2 {
   flex-direction: row wrap;
   width: 250px;
   background-color: #1b2580;
@@ -261,7 +261,7 @@ body {
   display: flex;
 }
 
-.main-pagina-perfil-usuario .section2 .contenedor-info {
+.main-pagina-perfil-usuario .main-pagina-perfil-usuario__section2 .section2__contenedor-info {
   width: 200px;
   height: 200px;
   flex-direction: column;
@@ -270,12 +270,12 @@ body {
   display: flex;
 }
 
-.main-pagina-perfil-usuario .section2 .contenedor-info .titulo {
+.main-pagina-perfil-usuario .main-pagina-perfil-usuario__section2 .section2__contenedor-info .titulo {
   color: #fff;
   padding-bottom: 20px;
 }
 
-.main-pagina-perfil-usuario .section2 .contenedor-info .nombre {
+.main-pagina-perfil-usuario .main-pagina-perfil-usuario__section2 .section2__contenedor-info .nombre {
   color: #fff;
   justify-content: center;
   gap: 25px;
@@ -284,7 +284,7 @@ body {
   display: flex;
 }
 
-.main-pagina-perfil-usuario .section2 .contenedor-info .apellido {
+.main-pagina-perfil-usuario .main-pagina-perfil-usuario__section2 .section2__contenedor-info .apellido {
   color: #fff;
   justify-content: center;
   gap: 25px;
@@ -294,7 +294,7 @@ body {
   display: flex;
 }
 
-.main-pagina-perfil-usuario .section2 .contenedor-info .fechaNac {
+.main-pagina-perfil-usuario .main-pagina-perfil-usuario__section2 .section2__contenedor-info .fechaNac {
   color: #fff;
   justify-content: center;
   gap: 25px;
