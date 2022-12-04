@@ -231,6 +231,7 @@ body {
 .main-pagina-inicio .section__imagen-coinbase-inicio {
   width: 100%;
   object-fit: cover;
+  object-position: bottom;
   margin-bottom: -5px;
 }
 
@@ -247,6 +248,52 @@ body {
   border-radius: .6em;
   padding: 12px;
   font-family: Staatliches;
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .main-pagina-inicio section .section__contenedor-encima-img {
+    width: 100%;
+  }
+
+  .main-pagina-inicio section .section__contenedor-encima-img a {
+    background-color: green;
+    font-size: 14px;
+    transition-duration: .5s;
+  }
+}
+
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .main-pagina-inicio section .section__imagen-coinbase-inicio {
+    height: 400px;
+    transition-duration: .5s;
+  }
+
+  .main-pagina-inicio section .section__contenedor-encima-img {
+    width: 100%;
+  }
+
+  .main-pagina-inicio section .section__contenedor-encima-img a {
+    background-color: #c9df21;
+    font-size: 12px;
+    transition-duration: .5s;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .main-pagina-inicio section .section__imagen-coinbase-inicio {
+    height: 400px;
+    transition-duration: .5s;
+  }
+
+  .main-pagina-inicio section .section__contenedor-encima-img {
+    width: 100%;
+  }
+
+  .main-pagina-inicio section .section__contenedor-encima-img a {
+    background-color: #21d2df;
+    font-size: 11px;
+    transition-duration: .5s;
+  }
 }
 
 /*# sourceMappingURL=index.034b6250.css.map */

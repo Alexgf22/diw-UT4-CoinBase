@@ -136,7 +136,6 @@
 // Primer punto de ruptura
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .main-pagina-registro {
-    background-color: rgb(20, 105, 20);
     transition-duration: 0.5s;
 
     .section__form-registro {
@@ -157,7 +156,6 @@
 // Segundo punto de ruptura
 @media screen and (min-width: 378px) and (max-width: 520px) {
   .main-pagina-registro {
-    background-color: rgb(195, 221, 22);
     transition-duration: 0.5s;
 
     .section__form-registro {
@@ -228,7 +226,6 @@
 // Tercer punto de ruptura
 @media screen and (max-width: 378px) {
   .main-pagina-registro {
-    background-color: aqua;
     transition-duration: 0.5s;
 
     .section__form-registro {

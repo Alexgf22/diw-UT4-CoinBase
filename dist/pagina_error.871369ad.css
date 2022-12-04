@@ -300,7 +300,6 @@ body {
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .main-pagina-error {
-    background-color: #146914;
     transition-duration: .5s;
   }
 
@@ -312,7 +311,6 @@ body {
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
   .main-pagina-error {
-    background-color: #c3dd16;
     transition-duration: .5s;
   }
 
@@ -324,7 +322,6 @@ body {
 
 @media screen and (max-width: 378px) {
   .main-pagina-error {
-    background-color: #0ff;
     transition-duration: .5s;
   }
 

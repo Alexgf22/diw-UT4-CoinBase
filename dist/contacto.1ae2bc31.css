@@ -368,7 +368,6 @@ body {
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .main-pagina-contacto {
-    background-color: #146914;
     transition-duration: .5s;
   }
 
@@ -380,7 +379,6 @@ body {
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
   .main-pagina-contacto {
-    background-color: #c3dd16;
     transition-duration: .5s;
   }
 
@@ -416,7 +414,6 @@ body {
 
 @media screen and (max-width: 378px) {
   .main-pagina-contacto {
-    background-color: #0ff;
     transition-duration: .5s;
   }
 

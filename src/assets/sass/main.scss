@@ -14,7 +14,8 @@
     width: 100%;
     //min-height: 100vh;
     margin-bottom: -5px;
-    object-fit: cover;
+    object-fit:cover;
+    object-position: bottom;
   }
   
   .section__contenedor-encima-img {
@@ -42,15 +43,46 @@
 
 
 // Primer punto de ruptura
-/*@media screen and (min-width: 400px) and (max-width: 600px) {
-  
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .main-pagina-inicio {
+    section {
+
+      .section__contenedor-encima-img {
+        width: 100%;
+        a {
+          transition-duration: 0.5s;
+          background-color: green;
+          font-size: 14px;
+        }
+      }
+
+    }
+  }
 
 }
 
 
 // Segundo punto de ruptura
 @media screen and (min-width: 378px) and (max-width: 520px) {
-  
+  .main-pagina-inicio {
+    section {
+
+      .section__imagen-coinbase-inicio {
+        height: 400px;
+        transition-duration: 0.5s;
+      }
+
+      .section__contenedor-encima-img {
+        width: 100%;
+        a {
+          transition-duration: 0.5s;
+          background-color: rgb(201, 223, 33);
+          font-size: 12px;
+        }
+      }
+
+    }
+  }
   
 
 }
@@ -58,10 +90,28 @@
 
 // Tercer punto de ruptura
 @media screen and (max-width: 378px) {
-  
+  .main-pagina-inicio {
+    section {
+
+      .section__imagen-coinbase-inicio {
+        height: 400px;
+        transition-duration: 0.5s;
+      }
+
+      .section__contenedor-encima-img {
+        width: 100%;
+        a {
+          transition-duration: 0.5s;
+          background-color: rgb(33, 210, 223);
+          font-size: 11px;
+        }
+      }
+
+    }
+  }
 
 
-}*/
+}
 
 
 
