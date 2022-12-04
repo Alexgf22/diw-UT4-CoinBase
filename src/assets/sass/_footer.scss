@@ -5,12 +5,22 @@
     height: 55px;
     padding:10px;
     display:flex;
+    /* La propiedad flex-direction row lo que hace
+    es indicar que los elementos se coloquen
+    uno detrás de otro en fila */
     flex-flow: row wrap;
+    /* La propiedad justify-content space-between distribuye
+    los elementos de manera uniforme
+    El primer elemento está al ras con el inicio,
+    el último está al ras con el final   */
     justify-content: space-between;
     align-items:center;
 
 
     .pie-pagina__contenedor-redes-sociales {
+      /* La propiedad justify-self lo que hace es mover un único
+      elemento sobre el eje horizontal. En este caso coloca
+      al principio del eje horizontal el elemento   */
       justify-self: flex-start;
 
       a {
@@ -34,6 +44,9 @@
     }
 
     .contenedor-redes-sociales__enlace-facebook {
+      /* La propiedad justify-self lo que hace es mover un único
+      elemento sobre el eje horizontal. En este caso coloca
+      el elemento en el centro del eje horizontal   */
       justify-self: center;
 
     }
@@ -42,6 +55,9 @@
 
     
     .pie-pagina__enlace-invierte {
+      /* La propiedad justify-self lo que hace es mover un único
+      elemento sobre el eje horizontal. En este caso coloca
+      el elemento al final del eje horizontal   */
       justify-self: flex-end;
       color:  #ffffff;
       font-family: $fuente-titulos;

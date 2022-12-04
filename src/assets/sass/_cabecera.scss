@@ -237,6 +237,9 @@
 
 
         .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
+          /*  La propiedad clip-path en este caso lo que hace es indicar
+          que cuando se pulse el input checkbox aparezca el menú
+          hamburguesa */
           clip-path: circle(100% at center);
         }
   
