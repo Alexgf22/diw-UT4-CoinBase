@@ -274,7 +274,7 @@ body {
 
   .main-pagina-inicio section .section__contenedor-encima-img a {
     background-color: #c9df21;
-    font-size: 12px;
+    font-size: 14px;
     transition-duration: .5s;
   }
 }
@@ -291,7 +291,7 @@ body {
 
   .main-pagina-inicio section .section__contenedor-encima-img a {
     background-color: #21d2df;
-    font-size: 11px;
+    font-size: 14px;
     transition-duration: .5s;
   }
 }
