@@ -14,6 +14,9 @@
     El viewport es la parte visible del documento */
     min-height: 100vh;
     display: flex;
+    /* Lo que hace la propiedad flex-direction column
+    es indicar que los elementos de la lista se coloquen
+    uno debajo del otro */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -42,6 +45,9 @@
   
         img {
           width: 40px;
+          /* La propiedad align-self lo que hace es mover en el 
+          eje vertical un único elemento, en este caso coloca
+          el elemento al final del eje vertical  */
           align-self: flex-end;
         }
     }
@@ -49,6 +55,8 @@
       #contenedor-producto__crypto-widget-coin-list {
         //width: 268px;
         width: 54%;
+        /* La propiedad margin 0 auto lo que hace en este caso
+        es centrar el elemento de manera horizontal  */
         margin:0 auto;
         margin-top: 20px;
       }
@@ -57,6 +65,9 @@
         font-size: 16px;
         color: white;
         font-family: $fuente-parrafos;
+        /* La propiedad display inline lo que hace es colocar
+        en linea en este caso un elemento en bloque por lo que
+        el párrafo no pasaría debajo del anterior elemento  */
         display: inline;
       }
   
@@ -79,6 +90,10 @@
           width: 60%;
           padding: 15px;
           display: flex;
+          /* La propiedad justify-content space-between lo que hace
+          es distribuir los elementos de manera uniforme
+          El primer elemento está al ras con el inicio,
+          el último está al ras con el final */
           justify-content: space-between;
           align-items: center;
           //gap: 80px;
