@@ -46,7 +46,15 @@
   
         .fieldset__parrafo-nombre-pila {
           display: flex;
+          /* Con el justify-content space-evenly lo que hace
+          es indicar que los elementos se separen
+          distribuyendo el espacio entre los elementos de manera
+          uniforme. Es similar a space-around pero proporciona
+          un espacio igual en lugar de la mitad del tamaño en los
+          bordes. */
           justify-content: space-evenly;
+          /* La propiedad align-items center lo que hace
+          es centrar los elementos respecto al eje vertical */
           align-items: center;
           padding: 10px;
           padding-top: 25px;
@@ -77,6 +85,8 @@
           justify-content: space-evenly;
           align-items: center;
           padding: 10px;
+          /* La propiedad gap indica el espacio que hay
+          entre los elementos  */
           gap: 10px;
           padding-bottom: 30px;
   
@@ -105,6 +115,9 @@
             height: 42px;
             padding: 10px;
             margin-top: 20px;
+            /* Lo que hace la propiedad display block junto a
+            margin-left auto y margin-right auto es centrar
+            el botón de manera horizontal */
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -147,6 +160,8 @@
 
       fieldset {
         width: 470px;
+        /* La propiedad transition-duration indica la duración
+        total de la transición  */
         transition-duration: 0.5s;
       }
 
