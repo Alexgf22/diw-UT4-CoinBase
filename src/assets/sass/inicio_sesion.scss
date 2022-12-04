@@ -10,6 +10,8 @@
 .main-pagina-inicio-sesion {
     background-color: $azul-menos-saturado;
     width: 100%;
+    /* 100% de la altura del viewport
+    El viewport es la parte visible del documento */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
