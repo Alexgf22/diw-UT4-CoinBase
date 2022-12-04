@@ -227,15 +227,16 @@ body {
 .main-pagina-error {
   width: 100%;
   min-height: 100vh;
-  background-color: #6978ff;
+  background-image: url("imagen-triste.94f14c3c.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
 .main-pagina-error section {
-  width: 690px;
-  background-color: #1b2580;
+  width: 590px;
 }
 
 .section__titulo-404 {

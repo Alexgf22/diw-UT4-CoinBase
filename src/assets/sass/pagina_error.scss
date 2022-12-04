@@ -10,7 +10,9 @@
 
 
 .main-pagina-error {
-  background-color: $azul-menos-saturado;
+    background-image: url("../img/imagen-triste.png");
+    background-repeat: no-repeat;
+	  background-size: cover;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -19,8 +21,7 @@
 
 
     section {
-      width: 690px;
-      background-color: $azul-mas-saturado;
+      width: 590px;
     }
 
 }
