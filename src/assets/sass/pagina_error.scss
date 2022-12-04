@@ -11,7 +11,13 @@
 
 .main-pagina-error {
     background-image: url("../img/imagen-triste.png");
+    /* La propiedad background-repeat indica cómo se repiten
+    las imágenes de fondo, en este caso indicamos que no se repita */
     background-repeat: no-repeat;
+    /* La propiedad background-size establece el tamaño de la
+    imagen de fondo del elemento, en este caso cover lo que hace
+    es: Escala la imagen hasta el que el alto y ancho ocupa
+    por completo el contenedor sin dejar espacios en blanco */
 	  background-size: cover;
     width: 100%;
     /* 100% de la altura del viewport
@@ -35,7 +41,11 @@
     text-align: center;
     padding-top: 30px;
     font-family: $fuente-titulos;
+    /* La propiedad animation-duration lo que hace es indicar
+    el tiempo total que dura la animación  */
     animation-duration: 3s;
+    /* La propiedad animation-name indica el nombre de la animación
+    que se encuentra junto al keyframe  */
     animation-name: slidein;
   
   }
@@ -79,13 +89,20 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      /* La propiedad z-index indica el orden de un elemento
+      posicionado y sus descendientes. Cuando varios elementos
+      se superponen, los elementos con mayor valor z-index cubren
+      aquellos que tienen un menor valor.  */
       z-index:1;
       padding-bottom: 20px;
     }
   }
   
   
-  
+  /* La regla @keyframes controla los pasos intermedios en
+  una secuencia de animación CSS estableciendo estilos para
+  fotogramas clave (o puntos de ruta) a lo largo de la secuencia
+  de animación.  */
   @keyframes slidein {
     from {
       margin-left: 100%;
