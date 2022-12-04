@@ -14,10 +14,16 @@
     width: 100%;
     //min-height: 100vh;
     margin-bottom: -5px;
+    /* La propiedad object-fit indica cómo debe cambiarse
+    el tamaño del contenido de un elemento para que se ajuste
+    al contenedor */
     object-fit:cover;
   }
   
   .section__contenedor-encima-img {
+    /* La propiedad position absolute coloca un elemento en
+    relación con la posición de su padre y cambia el diseño
+    a su alrededor. */
     position: absolute;
     top: 46%;
     width: 100%;
@@ -49,8 +55,10 @@
       .section__contenedor-encima-img {
         width: 100%;
         a {
+          /* La propiedad transition-duration indica el
+          tiempo que tarda en cambiar en este caso el tamaño
+          de la tipografía  */
           transition-duration: 0.5s;
-          background-color: green;
           font-size: 14px;
         }
       }
@@ -75,7 +83,6 @@
         width: 100%;
         a {
           transition-duration: 0.5s;
-          background-color: rgb(201, 223, 33);
           font-size: 14px;
         }
       }
@@ -101,7 +108,6 @@
         width: 100%;
         a {
           transition-duration: 0.5s;
-          background-color: rgb(33, 210, 223);
           font-size: 14px;
         }
       }

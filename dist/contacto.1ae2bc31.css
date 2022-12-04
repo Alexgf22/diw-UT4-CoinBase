@@ -283,7 +283,7 @@ body {
 }
 
 .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda .parrafo-duda__label-duda {
-  align-self: start;
+  align-self: flex-start;
 }
 
 .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda textarea {

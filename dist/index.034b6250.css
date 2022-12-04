@@ -231,7 +231,6 @@ body {
 .main-pagina-inicio .section__imagen-coinbase-inicio {
   width: 100%;
   object-fit: cover;
-  object-position: bottom;
   margin-bottom: -5px;
 }
 
@@ -290,7 +289,6 @@ body {
   }
 
   .main-pagina-inicio section .section__contenedor-encima-img a {
-    background-color: #21d2df;
     font-size: 14px;
     transition-duration: .5s;
   }
