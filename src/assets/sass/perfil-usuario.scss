@@ -19,8 +19,14 @@
 
     .main-pagina-perfil-usuario__section1 {
         display: flex;
+        /* La propiedad flex-direction row wrap lo que hace es
+        colocar los elementos uno detrás de otro en fila  */
         flex-direction: row wrap;
+        /* La propiedad justify-content center lo que hace es
+        centrar de manera horizontal los elementos */
         justify-content: center;
+        /* La propiedad align-items center lo que hace centrar
+        de manera vertical los elementos  */
         align-items: center;
         background-color: $azul-mas-saturado;
         width: 120px;
@@ -47,6 +53,9 @@
 
         .section2__contenedor-info {
             display: flex;
+            /* Lo que hace la propiedad flex-direction column
+            es indicar que los elementos de la lista se coloquen
+            uno debajo del otro */
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -83,6 +92,8 @@
                 font-size: 12px;
                 display: flex;
                 justify-content: center;
+                /* La propiedad gap establece el espacio
+                de separación entre elementos  */
                 gap: 25px;    
             }
         }
