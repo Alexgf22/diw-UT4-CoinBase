@@ -21,14 +21,14 @@
       text-align: center;
       padding: 30px;
 
-      .formulario-contacto__fieldset {
+      &__fieldset {
         background-color: $azul-mas-saturado;
         border: $amarillo-menos-saturado;
         width: 550px;
         padding: 10px;
         padding-bottom: 35px;
 
-        .fieldset__titulo-principal {
+        &__titulo-principal {
           color: white;
           font-family: $fuente-parrafos;
           font-size: 18px;
@@ -36,7 +36,7 @@
           padding-top: 30px;
         }
           
-        .fieldset__titulo-principal::after {
+        &__titulo-principal::after {
           /* Con el h2::after lo que hace es decirle que después
           del título ponga como contenido el elemento que se
           indique en el content */
@@ -44,7 +44,7 @@
         }
 
         
-        .fieldset__parrafo-nombre {
+        &__parrafo-nombre {
           /* La propiedad de display flex, ayuda a colocar
           los elementos como si fueran celdas de tablas, con un
           comportamiento predecible y adaptable. */
@@ -63,7 +63,7 @@
           padding-top: 30px;
         }
   
-        .fieldset__parrafo-correo {
+        &__parrafo-correo {
           display: flex;
           justify-content: space-evenly;
           /* La propiedad flex-direction row lo que hace
@@ -75,7 +75,7 @@
           padding:15px;
         }
   
-        .fieldset__parrafo-duda {
+        &__parrafo-duda {
           display: flex;
           justify-content: space-evenly;
           align-items: center;
@@ -83,14 +83,14 @@
           padding:10px;
           padding-bottom: 30px;
   
-          .parrafo-duda__label-duda {
+          &__label-duda {
             /* La propiedad align-self flex-start lo que hace
             es que el elemento se coloque al principio respecto
             al eje vertical */
             align-self: flex-start;
           }
   
-          textarea {
+          #parrafo-duda__id {
             background-color: $amarillo-menos-saturado;
             width: 220px;
             height: 100px;
@@ -134,7 +134,7 @@
   
         
       
-        .fieldset__parrafo-telefono {
+        &__parrafo-telefono {
           display: flex;
           /* La propiedad justify-content center lo que hace
           es centrar los elementos respecto al eje horizontal */
@@ -143,7 +143,7 @@
           gap: 15px;
           padding-bottom: 12px;
   
-          .parrafo-telefono__telefono-contacto {
+          &__telefono-contacto {
             color: white;
             text-decoration: none;
             font-family: $fuente-parrafos;
@@ -153,19 +153,19 @@
             padding-left:44px;
           }
   
-          .parrafo-telefono__icono-whatsapp {
+          &__icono-whatsapp {
             width: 18px;
           }
         }
   
         
-        .fieldset__parrafo-correo-contacto {
+        &__parrafo-correo-contacto {
           display: flex;
           justify-content: center;
           align-items: center;
           gap: 15px;
   
-          .parrafo-correo-contacto__email {
+          &__email {
             color: white;
             text-decoration: none;
             font-family: $fuente-parrafos;
@@ -175,7 +175,7 @@
             padding-left:26px;
           }
   
-          .parrafo-correo-contacto__icono-gmail {
+          &__icono-gmail {
             width: 18px;
           }
   
@@ -199,7 +199,7 @@
     transition-duration: 0.5s;
 
     .section__formulario-contacto {
-      .formulario-contacto__fieldset {
+      &__fieldset {
         width: 470px;
         /* Lo que hace la propiedad transition-duration es indicar
         el tiempo que tarda en cambiar en este caso la anchura
@@ -221,11 +221,11 @@
     transition-duration: 0.5s;
 
     .section__formulario-contacto {
-      .formulario-contacto__fieldset {
+      &__fieldset {
         width: 360px;
         transition-duration: 0.5s;
 
-        .fieldset__parrafo-nombre {
+        &__parrafo-nombre {
           display: flex;
           /* Lo que hace la propiedad flex-direction column
           es indicar que los elementos de la lista se coloquen
@@ -233,34 +233,34 @@
           flex-direction: column;
           justify-content: center;
 
-          .parrafo-nombre__label-nombre {
+          &__label-nombre {
             padding-bottom: 6px;
           }
 
         }
 
-        .fieldset__parrafo-correo {
+        &__parrafo-correo {
           display: flex;
           flex-direction: column;
           justify-content: center;
 
         }
 
-        .fieldset__parrafo-duda {
+        &__parrafo-duda {
           display: flex;
           flex-direction: column;
           justify-content: center;
 
-          .parrafo-duda__label-duda {
+          &__label-duda {
             margin:0 auto;
           }
 
         }
 
-        .fieldset__parrafo-telefono {
+        &__parrafo-telefono {
 
-          .parrafo-telefono__telefono-contacto {
-            span {
+          &__telefono-contacto {
+            &__span {
               /* Lo que hace la propiedad display block es
               indicar que elemento se comporte como un bloque y
               pase abajo del elemento anterior  */
@@ -270,10 +270,10 @@
 
         }
 
-        .fieldset__parrafo-correo-contacto {
+        &__parrafo-correo-contacto {
           
-          .parrafo-correo-contacto__email {
-            span {
+          &__email {
+            &__span {
               display: block;
             }
           }
@@ -294,53 +294,53 @@
     transition-duration: 0.5s;
 
     .section__formulario-contacto {
-      .formulario-contacto__fieldset {
+      &__fieldset {
         width: 220px;
         transition-duration: 0.5s;
         
-        .fieldset__parrafo-nombre {
+        &__parrafo-nombre {
           display: flex;
           flex-direction: column;
           justify-content: center;
 
-          .parrafo-nombre__label-nombre {
+          &__label-nombre {
             padding-bottom: 6px;
           }
 
         }
 
-        .fieldset__parrafo-correo {
+        &__parrafo-correo {
           display: flex;
           flex-direction: column;
           justify-content: center;
 
         }
 
-        .fieldset__parrafo-duda {
+        &__parrafo-duda {
           display: flex;
           flex-direction: column;
           justify-content: center;
 
-          .parrafo-duda__label-duda {
+          &__label-duda {
             margin:0 auto;
           }
 
         }
 
-        .fieldset__parrafo-telefono {
+        &__parrafo-telefono {
 
-          .parrafo-telefono__telefono-contacto {
-            span {
+          &__telefono-contacto {
+            &__span {
               display: block;
             }
           }
 
         }
 
-        .fieldset__parrafo-correo-contacto {
+        &__parrafo-correo-contacto {
           
-          .parrafo-correo-contacto__email {
-            span {
+          &__email {
+            &__span {
               display: block;
             }
           }
