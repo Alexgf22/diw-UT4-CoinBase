@@ -22,14 +22,14 @@
       padding: 20px;
   
       
-      fieldset {
+      .form-registro__fieldset {
         background-color: $azul-mas-saturado;
         border: $amarillo-menos-saturado;
         width: 550px;
         padding: 10px;
         padding-bottom: 30px;
   
-        h2 {
+        .fieldset__titulo-registro {
           color: rgb(255, 255, 255);
           font-family: $fuente-parrafos;
           font-size: 18px;
@@ -37,7 +37,7 @@
           padding-top: 30px;
         }
     
-        h2::after {
+        .fieldset__titulo-registro::after {
           /* Con el h2::after lo que hace es decirle que después
         del título ponga como contenido el elemento que se
         indique en el content */
@@ -158,7 +158,7 @@
 
     .section__form-registro {
 
-      fieldset {
+      .form-registro__fieldset {
         width: 470px;
         /* La propiedad transition-duration indica la duración
         total de la transición  */
@@ -180,7 +180,7 @@
 
     .section__form-registro {
 
-      fieldset {
+      .form-registro__fieldset {
         width: 360px;
         transition-duration: 0.5s;
 
@@ -250,7 +250,7 @@
 
     .section__form-registro {
 
-      fieldset {
+      .form-registro__fieldset {
         width: 240px;
         transition-duration: 0.5s;
 

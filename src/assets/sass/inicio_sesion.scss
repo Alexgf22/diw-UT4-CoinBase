@@ -22,13 +22,13 @@
       text-align: center;
       
     
-      &__fieldset {
+      .form-inicio-sesion__fieldset {
         background-color: $azul-mas-saturado;
         border: $amarillo-menos-saturado;
         width: 580px;
         padding-bottom: 25px;
   
-        &__titulo-inicio-sesion {
+        .fieldset__titulo-inicio-sesion {
           color: white;
           font-family: $fuente-parrafos;
           font-size: 18px;
@@ -39,14 +39,14 @@
           padding-top: 30px;
         }
     
-        &__titulo-inicio-sesion::after {
+        .fieldset__titulo-inicio-sesion::after {
           /* Con el h2::after lo que hace es decirle que después
         del título ponga como contenido el elemento que se
         indique en el content */
           content: "🡻"
         }
   
-        &__parrafo-nombre-pila {
+        .fieldset__parrafo-nombre-pila {
           display: flex;
           /* La propiedad justify-content center lo que hace
           es centrar los elementos respecto al eje horizontal */
@@ -62,7 +62,7 @@
           padding-bottom: 20px;
         }
   
-        &__parrafo-contrasena {
+        .fieldset__parrafo-contrasena {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -117,7 +117,7 @@
 
     .section__form-inicio-sesion {
 
-      &__fieldset {
+      .form-inicio-sesion__fieldset {
         width: 470px;
         /* Lo que hace la propiedad transition-duration es indicar
         el tiempo que tarda en cambiar en este caso la anchura
@@ -142,12 +142,12 @@
 
     .section__form-inicio-sesion {
 
-      &__fieldset {
+      .form-inicio-sesion__fieldset {
         width: 360px;
         margin: 20px;
         transition-duration: 0.5s;
 
-        &__parrafo-nombre-pila {
+        .fieldset__parrafo-nombre-pila {
           display: flex;
           /* Lo que hace la propiedad flex-direction column
           es indicar que los elementos de la lista se coloquen
@@ -157,7 +157,7 @@
           align-items: center;
         }
 
-        &__parrafo-contrasena {
+        .fieldset__parrafo-contrasena {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -183,12 +183,12 @@
 
     .section__form-inicio-sesion {
 
-      &__fieldset {
+      .form-inicio-sesion__fieldset {
         width: 240px;
         margin: 20px;
         transition-duration: 0.5s;
 
-        &__parrafo-nombre-pila {
+        .fieldset__parrafo-nombre-pila {
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -199,7 +199,7 @@
           }
         }
 
-        &__parrafo-contrasena {
+        .fieldset__parrafo-contrasena {
           display: flex;
           flex-direction: column;
           justify-content: center;

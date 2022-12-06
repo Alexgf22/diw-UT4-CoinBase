@@ -17,28 +17,28 @@
     justify-content: center;
     align-items: center;
   
-    &__section {
+    .main-pagina-listado__section {
       width: 570px;
       text-align: center;
       padding: 20px;
       padding-bottom: 60px;
       background-color: $azul-mas-saturado;
   
-      &__contenedor-titulo-y-buscar {
+      .section__contenedor-titulo-y-buscar {
   
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 30px;
   
-        &__h2 {
+        .contenedor-titulo-y-buscar__h2 {
           font-family: $fuente-titulos;
           color: white;
           font-size: 18px;
           padding-top: 6px;
         }
   
-        &__filtrado {
+        .contenedor-titulo-y-buscar__filtrado {
           width: 160px;
           background-color: white;
           padding: 6px;
@@ -50,12 +50,12 @@
           gap: 5px;
       
           
-          &__b {
+          .filtrado__b {
             font-family: $fuente-titulos;
             font-size: 16px;
           }
         
-          &__icono-buscar {
+          .filtrado__icono-buscar {
             width: 18px;
           }
         
@@ -73,7 +73,7 @@
   
       
     
-      &__contenedor-cryptos {
+      .section__contenedor-cryptos {
         padding-top: 30px;
         /* La propiedad display grid lo que hace es organizar
         en una o varias columnas y filas los elementos */
@@ -84,7 +84,7 @@
         justify-content: center;
   
   
-        &__bitcoin {
+        .contenedor-cryptos__bitcoin {
           display:flex;
           align-items: center;
           /* La propiedad gap indica el espacio que hay
@@ -92,49 +92,49 @@
           gap: 3px;
         }
   
-        &__cardano {
+        .contenedor-cryptos__cardano {
           display:flex;
           align-items: center;
           gap: 3px;
         }
   
-        &__tether {
+        .contenedor-cryptos__tether {
           display:flex;
           align-items: center;
           gap: 3px;
         }
   
-        &__ethereum {
+        .contenedor-cryptos__ethereum {
           display:flex;
           align-items: center;
           gap: 3px;
         }
   
-        &__solana {
+        .contenedor-cryptos__solana {
           display:flex;
           align-items: center;
           gap: 3px;
         }
   
-        &__bnb {
+        .contenedor-cryptos__bnb {
           display:flex;
           align-items: center;
           gap: 3px;
         }
   
-        &__litecoin {
+        .contenedor-cryptos__litecoin {
           display:flex;
           align-items: center;
           gap: 3px;
         }
   
-        &__chainlink {
+        .contenedor-cryptos__chainlink {
           display:flex;
           align-items: center;
           gap: 3px;
         }
   
-        &__usd-coin {
+        .contenedor-cryptos__usd-coin {
           display:flex;
           align-items: center;
           gap: 3px;
@@ -170,23 +170,23 @@
   .main-pagina-listado {
     transition-duration: 0.5s;
 
-    &__section {
+    .main-pagina-listado__section {
       width: 500px;
       /* Lo que hace la propiedad transition-duration es indicar
     el tiempo que tarda en cambiar una propiedad en este caso
     la anchura del section */
       transition-duration: 0.5s;
 
-      &__contenedor-cryptos {
+      .section__contenedor-cryptos {
         grid-template-columns: 24% 24% 24%;
         grid-template-rows: 40% 40% 40%;
 
-        &__ethereum {
+        .contenedor-cryptos__ethereum {
           gap: 0px;
         }
 
 
-        &__usd-coin {
+        .contenedor-cryptos__usd-coin {
           gap: 0px;
         }
 
@@ -206,16 +206,16 @@
   .main-pagina-listado {
     transition-duration: 0.5s;
 
-    &__section {
+    .main-pagina-listado__section {
       width: 350px;
       transition-duration: 0.5s;
 
-      &__contenedor-titulo-y-buscar {
+      .section__contenedor-titulo-y-buscar {
         display: flex;
         flex-direction: column;
       }
 
-      &__contenedor-cryptos {
+      .section__contenedor-cryptos {
         padding-top: 30px;
         display:grid;
         grid-template-columns: 23% 23% 23%;
@@ -224,63 +224,63 @@
         justify-content: center;
   
   
-        &__bitcoin {
+        .contenedor-cryptos__bitcoin {
           display:flex;
           align-items: center;
           flex-direction: column;
           gap: 3px;
         }
   
-        &__cardano {
+        .contenedor-cryptos__cardano {
           display:flex;
           align-items: center;
           flex-direction: column;
           gap: 3px;
         }
   
-        &__tether {
+        .contenedor-cryptos__tether {
           display:flex;
           align-items: center;
           flex-direction: column;
           gap: 3px;
         }
   
-        &__ethereum {
+        .contenedor-cryptos__ethereum {
           display:flex;
           align-items: center;
           flex-direction: column;
           gap: 3px;
         }
   
-        &__solana {
+        .contenedor-cryptos__solana {
           display:flex;
           align-items: center;
           flex-direction: column;
           gap: 3px;
         }
   
-        &__bnb {
+        .contenedor-cryptos__bnb {
           display:flex;
           align-items: center;
           flex-direction: column;
           gap: 3px;
         }
   
-        &__litecoin {
+        .contenedor-cryptos__litecoin {
           display:flex;
           align-items: center;
           flex-direction: column;
           gap: 3px;
         }
   
-        &__chainlink {
+        .contenedor-cryptos__chainlink {
           display:flex;
           align-items: center;
           flex-direction: column;
           gap: 3px;
         }
   
-        &__usd-coin {
+        .contenedor-cryptos__usd-coin {
           display:flex;
           align-items: center;
           flex-direction: column;
@@ -308,18 +308,18 @@
     transition-duration: 0.5s;
     height: 600px;
 
-    &__section {
+    .main-pagina-listado__section {
       width: 240px;
       height: 570px;
       margin: 20px;
       transition-duration: 0.5s;
 
-      &__contenedor-titulo-y-buscar {
+      .section__contenedor-titulo-y-buscar {
         display: flex;
         flex-direction: column;
       }
 
-      &__contenedor-cryptos {
+      .section__contenedor-cryptos {
         padding-top: 30px;
         display:grid;
         grid-template-columns: 50% 50%;
@@ -328,43 +328,35 @@
         justify-content: center;
   
   
-        &__bitcoin {
+        .contenedor-cryptos__bitcoin {
           display:flex;
           align-items: center;
           flex-direction: column;
           gap: 3px;
         }
   
-        &__cardano {
+        .contenedor-cryptos__cardano {
           display:flex;
           align-items: center;
           flex-direction: column;
           gap: 3px;
         }
   
-        &__tether {
+        .contenedor-cryptos__tether {
           display:flex;
           align-items: center;
           flex-direction: column;
           gap: 3px;
         }
   
-        &__ethereum {
+        .contenedor-cryptos__ethereum {
           display:flex;
           align-items: center;
           flex-direction: column;
           gap: 3px;
         }
   
-        &__solana {
-          display:flex;
-          align-items: center;
-          flex-direction: column;
-          gap: 3px;
-          margin-top: 5px;
-        }
-  
-        &__bnb {
+        .contenedor-cryptos__solana {
           display:flex;
           align-items: center;
           flex-direction: column;
@@ -372,7 +364,15 @@
           margin-top: 5px;
         }
   
-        &__litecoin {
+        .contenedor-cryptos__bnb {
+          display:flex;
+          align-items: center;
+          flex-direction: column;
+          gap: 3px;
+          margin-top: 5px;
+        }
+  
+        .contenedor-cryptos__litecoin {
           display:flex;
           align-items: center;
           flex-direction: column;
@@ -380,7 +380,7 @@
           margin-top: 8px;
         }
   
-        &__chainlink {
+        .contenedor-cryptos__chainlink {
           display:flex;
           align-items: center;
           flex-direction: column;
@@ -388,7 +388,7 @@
           margin-top: 8px;
         }
   
-        &__usd-coin {
+        .contenedor-cryptos__usd-coin {
           display:flex;
           align-items: center;
           flex-direction: column;
