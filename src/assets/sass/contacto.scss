@@ -147,12 +147,13 @@
             color: white;
             text-decoration: none;
             font-family: $fuente-parrafos;
+
+            .telefono-contacto__span {
+              padding-left:44px;
+            }
           }
   
-          span {
-            padding-left:44px;
-          }
-  
+        
           .parrafo-telefono__icono-whatsapp {
             width: 18px;
           }
@@ -169,12 +170,13 @@
             color: white;
             text-decoration: none;
             font-family: $fuente-parrafos;
+
+            .email__span {
+              padding-left:26px;
+            }
           }
   
-          span {
-            padding-left:26px;
-          }
-  
+          
           .parrafo-correo-contacto__icono-gmail {
             width: 18px;
           }
@@ -260,6 +262,7 @@
         .fieldset__parrafo-telefono {
 
           .parrafo-telefono__telefono-contacto {
+            
             .telefono-contacto__span {
               /* Lo que hace la propiedad display block es
               indicar que elemento se comporte como un bloque y
