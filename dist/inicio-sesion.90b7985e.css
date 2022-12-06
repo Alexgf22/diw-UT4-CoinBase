@@ -38,7 +38,7 @@ body {
   list-style-type: none;
 }
 
-.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li .li__enlace-registro {
   width: 50px;
   color: #1b2580;
   background-color: #cca61f;
@@ -50,7 +50,7 @@ body {
   display: none;
 }
 
-.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .nav-label__icono-hamburguesa {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-label .nav-label__icono-hamburguesa {
   width: 30px;
 }
 
@@ -100,7 +100,7 @@ body {
     color: #000;
   }
 
-  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li .li__enlace-registro {
     color: #000;
     background-color: #cca61f;
     border-radius: 0;
@@ -120,7 +120,7 @@ body {
     right: 5px;
   }
 
-  .cabecera .cabecera__menu-navegacion-nav .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
     clip-path: circle(100%);
   }
 }
@@ -154,7 +154,7 @@ body {
     color: #000;
   }
 
-  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li .li__enlace-registro {
     color: #000;
     background-color: #cca61f;
     border-radius: 0;
@@ -172,7 +172,7 @@ body {
     right: 0;
   }
 
-  .cabecera .cabecera__menu-navegacion-nav .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
     clip-path: circle(100%);
   }
 }

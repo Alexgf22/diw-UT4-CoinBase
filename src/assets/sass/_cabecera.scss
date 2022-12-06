@@ -26,15 +26,16 @@
           .menu-hamburguesa__li {
             list-style-type: none;
             font-family: $fuente-titulos;
+
+            .li__enlace-registro {
+              width: 50px;
+              border-radius: 0.5em;
+              padding:6px;
+              color: $azul-mas-saturado;
+              background-color: $amarillo-menos-saturado;
+            }
           }
 
-          .menu-hamburguesa__enlaceRegistro {
-            width: 50px;
-            border-radius: 0.5em;
-            padding:6px;
-            color: $azul-mas-saturado;
-            background-color: $amarillo-menos-saturado;
-          }
         }
 
 
@@ -44,9 +45,11 @@
           display: none;
         }
 
-        .nav-label__icono-hamburguesa {
-          width: 30px;
-        } 
+        .lista-cabecera__nav-label {
+          .nav-label__icono-hamburguesa {
+            width: 30px;
+          } 
+        }
         
 
         .lista-cabecera__contenedor-logo-y-nombre {
@@ -126,16 +129,15 @@
             .li__a {
               color: black;
             }
-          }
-          
 
-          
-          .menu-hamburguesa__enlaceRegistro {
-            color: rgb(0, 0, 0);
-            background-color: $amarillo-menos-saturado;
-            border-radius:0;
-            padding:0;
+            .li__enlace-registro {
+              color: rgb(0, 0, 0);
+              background-color: $amarillo-menos-saturado;
+              border-radius:0;
+              padding:0; 
+            }
           }
+          
         }
 
         .lista-cabecera__icono-hamburguesa {
@@ -206,16 +208,16 @@
             .li__a {
               color: black;
             }
+
+            .li__enlace-registro {
+              color: rgb(0, 0, 0);
+              background-color: $amarillo-menos-saturado;
+              border-radius:0;
+              padding:0; 
+            }
           }
           
 
-          
-          .menu-hamburguesa__enlaceRegistro {
-            color: rgb(0, 0, 0);
-            background-color: $amarillo-menos-saturado;
-            border-radius:0;
-            padding:0;
-          }
         }
 
         .lista-cabecera__icono-hamburguesa {
