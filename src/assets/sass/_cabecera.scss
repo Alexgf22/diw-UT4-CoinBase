@@ -5,9 +5,9 @@
     position:sticky;
     padding: 10px;
   
-    &__menu-navegacion-nav {
+    .cabecera__menu-navegacion-nav {
     
-      &__lista-cabecera {
+      .menu-navegacion-nav__lista-cabecera {
         font-size:14px;
 
         display:flex;
@@ -16,19 +16,19 @@
         align-items:center;
         width: 100%;
 
-        &__menu-hamburguesa {
+        .menu-navegacion-nav__menu-hamburguesa {
           display: flex;
           flex-flow: row wrap;
           align-items: center;
           justify-content: space-between;
           width: 79%;
 
-          &__li {
+          .menu-hamburguesa__li {
             list-style-type: none;
             font-family: $fuente-titulos;
           }
 
-          &__enlaceRegistro {
+          .menu-hamburguesa__enlaceRegistro {
             width: 50px;
             border-radius: 0.5em;
             padding:6px;
@@ -38,7 +38,7 @@
         }
 
 
-        &__nav-label, &__nav-input {
+        .lista-cabecera__nav-label, .lista-cabecera__nav-input {
           /* Aquí utilizamos el display none para ocultar el menú
           hamburguesa cuando se encuentra en vista ordenador */
           display: none;
@@ -49,7 +49,7 @@
         } 
         
 
-        &__contenedor-logo-y-nombre {
+        .lista-cabecera__contenedor-logo-y-nombre {
           color: white;
           font-family: $fuente-titulos;
           display: flex;
@@ -57,12 +57,12 @@
           align-items: center;
           gap: 3px;
 
-          &__logo-pagina {
+          .contenedor-logo-y-nombre__logo-pagina {
             width: 45px;
           
           }
           
-          &__nombre-pagina {
+          .contenedor-logo-y-nombre__nombre-pagina {
             color: white;
             /* Aquí utilizamos un display inline-block para
             que el nombre de Coinbase se coloque justo al lado
@@ -87,18 +87,18 @@
 @media screen and (min-width: 378px) and (max-width: 520px) {
   .cabecera {
 
-    &__menu-navegacion-nav {
+    .cabecera__menu-navegacion-nav {
   
-      &__lista-cabecera {
+      .menu-navegacion-nav__lista-cabecera {
 
-        &__nav-label {
+        .lista-cabecera__nav-label {
           display: block;
           /* Aquí especificamos que se ponga el puntero seleccionando
           la imagen del menú hamburguesa cuando pasamos por encima  */
           cursor: pointer;
         }
 
-        &__menu-hamburguesa {
+        .lista-cabecera__menu-hamburguesa {
           display: flex;
           justify-content: space-evenly;
           align-items: center;
@@ -122,15 +122,15 @@
           clip-path: circle(0 at center);
           transition: clip-path 1s ease-in-out;
 
-          &__li {
-            &__a {
+          .menu-hamburguesa__li {
+            .li__a {
               color: black;
             }
           }
           
 
           
-          &__enlaceRegistro {
+          .menu-hamburguesa__enlaceRegistro {
             color: rgb(0, 0, 0);
             background-color: $amarillo-menos-saturado;
             border-radius:0;
@@ -138,7 +138,7 @@
           }
         }
 
-        &__icono-hamburguesa {
+        .lista-cabecera__icono-hamburguesa {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -156,7 +156,7 @@
         }
 
 
-        &__nav-input:checked + &__menu-hamburguesa {
+        .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
           /* Indicamos que aparezca el menú y que vaya cerrándose
           desde el 100% de tamaño hacia el centro
           y que se abra desde el centro hasta el 100% de tamaño cuando
@@ -177,19 +177,19 @@
 
   .cabecera {
 
-    &__menu-navegacion-nav {
+    .cabecera__menu-navegacion-nav {
   
-      &__lista-cabecera {
+      .menu-navegacion-nav__lista-cabecera {
         position: relative;
 
         
-        &__nav-label {
+        .lista-cabecera__nav-label {
           display: block;
           cursor: pointer;
         }
 
 
-        &__menu-hamburguesa {
+        .lista-cabecera__menu-hamburguesa {
           flex-flow: column wrap;
           background-color: $amarillo-menos-saturado;
           top: 5;
@@ -203,15 +203,15 @@
           clip-path: circle(0 at center);
           transition: clip-path 1s ease-in-out;
 
-          &__li {
-            &__a {
+          .menu-hamburguesa__li {
+            .li__a {
               color: black;
             }
           }
           
 
           
-          &__enlaceRegistro {
+          .menu-hamburguesa__enlaceRegistro {
             color: rgb(0, 0, 0);
             background-color: $amarillo-menos-saturado;
             border-radius:0;
@@ -219,7 +219,7 @@
           }
         }
 
-        &__icono-hamburguesa {
+        .lista-cabecera__icono-hamburguesa {
           display: flex;
           top: 5;
           right: 0;
@@ -233,7 +233,7 @@
         }
 
 
-        &__nav-input:checked + &__menu-hamburguesa {
+        .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
           /*  La propiedad clip-path en este caso lo que hace es indicar
           que cuando se pulse el input checkbox aparezca el menú
           hamburguesa */

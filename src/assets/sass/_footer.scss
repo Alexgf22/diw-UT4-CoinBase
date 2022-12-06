@@ -1,81 +1,82 @@
 .pie-pagina {
-    background-color: $azul-mas-saturado;
-    position: sticky;
-    width: 100%;
-    height: 55px;
-    padding:10px;
-    display:flex;
-    /* La propiedad flex-direction row lo que hace
-    es indicar que los elementos se coloquen
-    uno detrás de otro en fila */
-    flex-flow: row wrap;
-    /* La propiedad justify-content space-between distribuye
-    los elementos de manera uniforme
-    El primer elemento está al ras con el inicio,
-    el último está al ras con el final   */
-    justify-content: space-between;
-    align-items:center;
+  background-color: $azul-mas-saturado;
+  position: sticky;
+  width: 100%;
+  height: 55px;
+  padding:10px;
+  display:flex;
+  /* La propiedad flex-direction row lo que hace
+  es indicar que los elementos se coloquen
+  uno detrás de otro en fila */
+  flex-flow: row wrap;
+  /* La propiedad justify-content space-between distribuye
+  los elementos de manera uniforme
+  El primer elemento está al ras con el inicio,
+  el último está al ras con el final   */
+  justify-content: space-between;
+  align-items:center;
 
 
-    &__contenedor-redes-sociales {
-      /* La propiedad justify-self lo que hace es mover un único
-      elemento sobre el eje horizontal. En este caso coloca
-      al principio del eje horizontal el elemento   */
-      justify-self: flex-start;
-    
-      &__icono-insta {
-        width: 18px;
-      }
+  .pie-pagina__contenedor-redes-sociales {
+    /* La propiedad justify-self lo que hace es mover un único
+    elemento sobre el eje horizontal. En este caso coloca
+    al principio del eje horizontal el elemento   */
+    justify-self: flex-start;
 
-      &__icono-facebook {
-        width: 18px;
-      }
-
-      &__enlace-insta {
-        justify-self: flex-start;
-        color:  #ffffff;
-        font-family: $fuente-titulos;
-        font-size: 12px;  
-
-      }
-
-      &__enlace-facebook {
-        /* La propiedad justify-self lo que hace es mover un único
-        elemento sobre el eje horizontal. En este caso coloca
-        el elemento en el centro del eje horizontal   */
-        justify-self: center;
-        color:  #ffffff;
-        font-family: $fuente-titulos;
-        font-size: 12px;  
-
-      }
-
-    }
-
-    
-    &__enlace-invierte {
-      /* La propiedad justify-self lo que hace es mover un único
-      elemento sobre el eje horizontal. En este caso coloca
-      el elemento al final del eje horizontal   */
-      justify-self: flex-end;
-      color:  #ffffff;
-      font-family: $fuente-titulos;
-      font-size: 12px; 
-    }
-
-    &__enlace-pag-404 {
+    a {
       color:  #ffffff;
       font-family: $fuente-titulos;
       font-size: 12px;   
-    }
+  }
 
-    &__enlace-pag-perfil-usuario {
-      color:  #ffffff;
-      font-family: $fuente-titulos;
-      font-size: 12px;  
-    }
+  
+  .contenedor-redes-sociales__icono-insta {
+    width: 18px;
+  }
+
+  .contenedor-redes-sociales__icono_facebook {
+    width: 18px;
+  }
+
+  .contenedor-redes-sociales__enlace-insta {
+    justify-self: flex-start;
+
+  }
+
+  .contenedor-redes-sociales__enlace-facebook {
+    /* La propiedad justify-self lo que hace es mover un único
+    elemento sobre el eje horizontal. En este caso coloca
+    el elemento en el centro del eje horizontal   */
+    justify-self: center;
+
+  }
+
+  }
+
+  
+  .pie-pagina__enlace-invierte {
+    /* La propiedad justify-self lo que hace es mover un único
+    elemento sobre el eje horizontal. En este caso coloca
+    el elemento al final del eje horizontal   */
+    justify-self: flex-end;
+    color:  #ffffff;
+    font-family: $fuente-titulos;
+    font-size: 12px; 
+  }
+
+  .pie-pagina__enlace-pag-404 {
+    color:  #ffffff;
+    font-family: $fuente-titulos;
+    font-size: 12px;   
+  }
+
+  .pie_pagina__enlace-pag-perfil-usuario {
+    color:  #ffffff;
+    font-family: $fuente-titulos;
+    font-size: 12px;  
+  }
 
 
-    
-    
+  
+  
 }

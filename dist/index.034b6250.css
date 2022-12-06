@@ -224,24 +224,24 @@ body {
   font-size: 12px;
 }
 
-.main-pagina-inicio section {
+.main-pagina-inicio__section {
   position: relative;
 }
 
-.main-pagina-inicio .section__imagen-coinbase-inicio {
+.main-pagina-inicio__section__imagen-coinbase-inicio {
   width: 100%;
   object-fit: cover;
   margin-bottom: -5px;
 }
 
-.main-pagina-inicio .section__contenedor-encima-img {
+.main-pagina-inicio__section__contenedor-encima-img {
   width: 100%;
   text-align: center;
   position: absolute;
   top: 46%;
 }
 
-.main-pagina-inicio .section__contenedor-encima-img a {
+.main-pagina-inicio__section__contenedor-encima-img__a {
   color: #000;
   background-color: #cca61f;
   border-radius: .6em;
@@ -250,43 +250,43 @@ body {
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
-  .main-pagina-inicio section .section__contenedor-encima-img {
+  .main-pagina-inicio__section__contenedor-encima-img {
     width: 100%;
   }
 
-  .main-pagina-inicio section .section__contenedor-encima-img a {
+  .main-pagina-inicio__section__contenedor-encima-img__a {
     font-size: 14px;
     transition-duration: .5s;
   }
 }
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
-  .main-pagina-inicio section .section__imagen-coinbase-inicio {
+  .main-pagina-inicio__section__imagen-coinbase-inicio {
     height: 400px;
     transition-duration: .5s;
   }
 
-  .main-pagina-inicio section .section__contenedor-encima-img {
+  .main-pagina-inicio__section__contenedor-encima-img {
     width: 100%;
   }
 
-  .main-pagina-inicio section .section__contenedor-encima-img a {
+  .main-pagina-inicio__section__contenedor-encima-img__a {
     font-size: 14px;
     transition-duration: .5s;
   }
 }
 
 @media screen and (max-width: 378px) {
-  .main-pagina-inicio section .section__imagen-coinbase-inicio {
+  .main-pagina-inicio__section__imagen-coinbase-inicio {
     height: 400px;
     transition-duration: .5s;
   }
 
-  .main-pagina-inicio section .section__contenedor-encima-img {
+  .main-pagina-inicio__section__contenedor-encima-img {
     width: 100%;
   }
 
-  .main-pagina-inicio section .section__contenedor-encima-img a {
+  .main-pagina-inicio__section__contenedor-encima-img__a {
     font-size: 14px;
     transition-duration: .5s;
   }

@@ -239,7 +239,14 @@ body {
   padding: 30px;
 }
 
-.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__titulo-principal {
+.main-pagina-contacto .section__formulario-contacto__fieldset {
+  width: 550px;
+  background-color: #1b2580;
+  border: #cca61f;
+  padding: 10px 10px 35px;
+}
+
+.main-pagina-contacto .section__formulario-contacto__fieldset__titulo-principal {
   color: #fff;
   text-align: center;
   padding-top: 30px;
@@ -247,25 +254,18 @@ body {
   font-size: 18px;
 }
 
-.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__titulo-principal fieldset__titulo-principal:after {
+.main-pagina-contacto .section__formulario-contacto__fieldset__titulo-principal:after {
   content: "👇";
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset {
-  width: 550px;
-  background-color: #1b2580;
-  border: #cca61f;
-  padding: 10px 10px 35px;
-}
-
-.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre {
+.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-nombre {
   justify-content: space-evenly;
   align-items: center;
   padding: 30px 15px 15px;
   display: flex;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo {
+.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
@@ -274,7 +274,7 @@ body {
   display: flex;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda {
+.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda {
   justify-content: space-evenly;
   align-items: center;
   gap: 22px;
@@ -282,11 +282,11 @@ body {
   display: flex;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda .parrafo-duda__label-duda {
+.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda__label-duda {
   align-self: flex-start;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda textarea {
+.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda #parrafo-duda__id {
   width: 220px;
   height: 100px;
   background-color: #cca61f;
@@ -294,11 +294,11 @@ body {
   border-radius: .4em;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset p {
+.main-pagina-contacto .section__formulario-contacto__fieldset p {
   width: 100%;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset input {
+.main-pagina-contacto .section__formulario-contacto__fieldset input {
   width: 220px;
   height: 30px;
   background-color: #cca61f;
@@ -306,13 +306,13 @@ body {
   border-radius: .4em;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset label {
+.main-pagina-contacto .section__formulario-contacto__fieldset label {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 16px;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset #P__boton-enviar {
+.main-pagina-contacto .section__formulario-contacto__fieldset #P__boton-enviar {
   width: 95px;
   height: 35px;
   border-radius: 1.2em;
@@ -323,7 +323,7 @@ body {
   display: block;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-telefono {
+.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-telefono {
   justify-content: center;
   align-items: center;
   gap: 15px;
@@ -331,38 +331,38 @@ body {
   display: flex;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-telefono .parrafo-telefono__telefono-contacto {
+.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-telefono__telefono-contacto {
   color: #fff;
   font-family: Inter, sans-serif;
   text-decoration: none;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-telefono span {
+.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-telefono span {
   padding-left: 44px;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-telefono .parrafo-telefono__icono-whatsapp {
+.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-telefono__icono-whatsapp {
   width: 18px;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo-contacto {
+.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo-contacto {
   justify-content: center;
   align-items: center;
   gap: 15px;
   display: flex;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__email {
+.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo-contacto__email {
   color: #fff;
   font-family: Inter, sans-serif;
   text-decoration: none;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo-contacto span {
+.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo-contacto span {
   padding-left: 26px;
 }
 
-.main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__icono-gmail {
+.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo-contacto__icono-gmail {
   width: 18px;
 }
 
@@ -371,7 +371,7 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset {
+  .main-pagina-contacto .section__formulario-contacto__fieldset {
     width: 470px;
     transition-duration: .5s;
   }
@@ -382,32 +382,32 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset {
+  .main-pagina-contacto .section__formulario-contacto__fieldset {
     width: 360px;
     transition-duration: .5s;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre {
+  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-nombre {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre .parrafo-nombre__label-nombre {
+  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-nombre__label-nombre {
     padding-bottom: 6px;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo, .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda {
+  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo, .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda .parrafo-duda__label-duda {
+  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda__label-duda {
     margin: 0 auto;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-telefono .parrafo-telefono__telefono-contacto span, .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__email span {
+  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-telefono__telefono-contacto__span, .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo-contacto__email__span {
     display: block;
   }
 }
@@ -417,32 +417,32 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset {
+  .main-pagina-contacto .section__formulario-contacto__fieldset {
     width: 220px;
     transition-duration: .5s;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre {
+  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-nombre {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-nombre .parrafo-nombre__label-nombre {
+  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-nombre__label-nombre {
     padding-bottom: 6px;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo, .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda {
+  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo, .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-duda .parrafo-duda__label-duda {
+  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda__label-duda {
     margin: 0 auto;
   }
 
-  .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-telefono .parrafo-telefono__telefono-contacto span, .main-pagina-contacto .section__formulario-contacto fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__email span {
+  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-telefono__telefono-contacto__span, .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo-contacto__email__span {
     display: block;
   }
 }

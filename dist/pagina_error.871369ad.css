@@ -235,11 +235,11 @@ body {
   display: flex;
 }
 
-.main-pagina-error section {
+.main-pagina-error__section {
   width: 590px;
 }
 
-.section__titulo-404 {
+.main-pagina-error__section__titulo-404 {
   color: #fff;
   text-align: center;
   padding-top: 30px;
@@ -248,7 +248,7 @@ body {
   animation-duration: 3s;
 }
 
-.section__titulo-not-found {
+.main-pagina-error__section__titulo-not-found {
   text-align: center;
   color: #fff;
   padding-top: 10px;
@@ -257,7 +257,7 @@ body {
   animation-duration: 3s;
 }
 
-.section__parrafo-error {
+.main-pagina-error__section__parrafo-error {
   text-align: center;
   color: #fff;
   padding-top: 26px;
@@ -266,7 +266,7 @@ body {
   animation-duration: 3s;
 }
 
-.section__parrafo-enlace-inicio {
+.main-pagina-error__section__parrafo-enlace-inicio {
   color: #fff;
   text-align: center;
   padding-top: 20px;
@@ -275,7 +275,7 @@ body {
   animation-duration: 3s;
 }
 
-.section__parrafo-enlace-inicio .parrafo-enlace-inicio__enlace {
+.main-pagina-error__section__parrafo-enlace-inicio__enlace {
   color: #fff;
   text-align: center;
   z-index: 1;
@@ -303,7 +303,7 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-error section {
+  .main-pagina-error__section {
     width: 500px;
     transition-duration: .5s;
   }
@@ -314,7 +314,7 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-error section {
+  .main-pagina-error__section {
     width: 350px;
     transition-duration: .5s;
   }
@@ -325,7 +325,7 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-error section {
+  .main-pagina-error__section {
     width: 240px;
     margin: 20px;
     transition-duration: .5s;

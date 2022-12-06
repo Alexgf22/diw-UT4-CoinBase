@@ -238,14 +238,14 @@ body {
   text-align: center;
 }
 
-.main-pagina-inicio-sesion .section__form-inicio-sesion fieldset {
+.main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset {
   width: 580px;
   background-color: #1b2580;
   border: #cca61f;
   padding-bottom: 25px;
 }
 
-.main-pagina-inicio-sesion .section__form-inicio-sesion fieldset h2 {
+.main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset__titulo-inicio-sesion {
   color: #fff;
   text-align: center;
   padding-top: 30px;
@@ -253,11 +253,11 @@ body {
   font-size: 18px;
 }
 
-.main-pagina-inicio-sesion .section__form-inicio-sesion fieldset h2:after {
+.main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset__titulo-inicio-sesion:after {
   content: "🡻";
 }
 
-.main-pagina-inicio-sesion .section__form-inicio-sesion fieldset .fieldset__parrafo-nombre-pila {
+.main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset__parrafo-nombre-pila {
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -265,7 +265,7 @@ body {
   display: flex;
 }
 
-.main-pagina-inicio-sesion .section__form-inicio-sesion fieldset .fieldset__parrafo-contrasena {
+.main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset__parrafo-contrasena {
   justify-content: center;
   align-items: center;
   gap: 34px;
@@ -273,7 +273,7 @@ body {
   display: flex;
 }
 
-.main-pagina-inicio-sesion .section__form-inicio-sesion fieldset input {
+.main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset input {
   width: 250px;
   height: 30px;
   background-color: #cca61f;
@@ -281,13 +281,13 @@ body {
   border-radius: .4em;
 }
 
-.main-pagina-inicio-sesion .section__form-inicio-sesion fieldset label {
+.main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset label {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 16px;
 }
 
-.main-pagina-inicio-sesion .section__form-inicio-sesion fieldset #P__boton-enviar {
+.main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset #P__boton-enviar {
   width: 96px;
   height: 35px;
   border-radius: 1.2em;
@@ -302,7 +302,7 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-inicio-sesion .section__form-inicio-sesion fieldset {
+  .main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset {
     width: 470px;
     transition-duration: .5s;
   }
@@ -313,13 +313,13 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-inicio-sesion .section__form-inicio-sesion fieldset {
+  .main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset {
     width: 360px;
     margin: 20px;
     transition-duration: .5s;
   }
 
-  .main-pagina-inicio-sesion .section__form-inicio-sesion fieldset .fieldset__parrafo-nombre-pila, .main-pagina-inicio-sesion .section__form-inicio-sesion fieldset .fieldset__parrafo-contrasena {
+  .main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset__parrafo-nombre-pila, .main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset__parrafo-contrasena {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -332,31 +332,31 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-inicio-sesion .section__form-inicio-sesion fieldset {
+  .main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset {
     width: 240px;
     margin: 20px;
     transition-duration: .5s;
   }
 
-  .main-pagina-inicio-sesion .section__form-inicio-sesion fieldset .fieldset__parrafo-nombre-pila {
+  .main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset__parrafo-nombre-pila {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .main-pagina-inicio-sesion .section__form-inicio-sesion fieldset .fieldset__parrafo-nombre-pila input {
+  .main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset__parrafo-nombre-pila #parrafo-nombre-pila__nombre {
     width: 200px;
   }
 
-  .main-pagina-inicio-sesion .section__form-inicio-sesion fieldset .fieldset__parrafo-contrasena {
+  .main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset__parrafo-contrasena {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .main-pagina-inicio-sesion .section__form-inicio-sesion fieldset .fieldset__parrafo-contrasena input {
+  .main-pagina-inicio-sesion .section__form-inicio-sesion__fieldset__parrafo-contrasena #parrafo-contrasena__password {
     width: 200px;
   }
 }
