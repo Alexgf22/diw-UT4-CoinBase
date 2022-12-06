@@ -28,76 +28,73 @@
     align-items: center;
 
 
-    section {
+    &__section {
       width: 590px;
-    }
-
+    
+      &__titulo-404 {
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+        font-family: $fuente-titulos;
+        /* La propiedad animation-duration lo que hace es indicar
+        el tiempo total que dura la animación  */
+        animation-duration: 3s;
+        /* La propiedad animation-name indica el nombre de la animación
+        que se encuentra junto al keyframe  */
+        animation-name: slidein;
+        
+        }
+        
+        
+      &__titulo-not-found {
+        padding-top: 10px;
+        text-align: center;
+        color: white;
+        font-family: $fuente-titulos;
+        animation-duration: 3s;
+        animation-name: slidein;
+      
+      }
+        
+        
+      &__parrafo-error {
+        padding-top: 26px;
+        text-align: center;
+        color: white;
+        font-family: $fuente-parrafos;
+        animation-duration: 3s;
+        animation-name: slidein;
+      
+      
+      }
+        
+        
+      &__parrafo-enlace-inicio {
+        padding-top: 20px;
+        color: white;
+        text-align: center;
+        font-family: $fuente-parrafos;
+        animation-duration: 3s;
+        animation-name: slidein;
+      
+        &__enlace {
+          text-decoration: none;
+          color: white;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          /* La propiedad z-index indica el orden de un elemento
+          posicionado y sus descendientes. Cuando varios elementos
+          se superponen, los elementos con mayor valor z-index cubren
+          aquellos que tienen un menor valor.  */
+          z-index:1;
+          padding-bottom: 20px;
+        }
+}
 }
 
-
-
-.section__titulo-404 {
-    color: white;
-    text-align: center;
-    padding-top: 30px;
-    font-family: $fuente-titulos;
-    /* La propiedad animation-duration lo que hace es indicar
-    el tiempo total que dura la animación  */
-    animation-duration: 3s;
-    /* La propiedad animation-name indica el nombre de la animación
-    que se encuentra junto al keyframe  */
-    animation-name: slidein;
-  
-  }
-  
-  
-  .section__titulo-not-found {
-    padding-top: 10px;
-    text-align: center;
-    color: white;
-    font-family: $fuente-titulos;
-    animation-duration: 3s;
-    animation-name: slidein;
-  
-  }
-  
-  
-  .section__parrafo-error {
-    padding-top: 26px;
-    text-align: center;
-    color: white;
-    font-family: $fuente-parrafos;
-    animation-duration: 3s;
-    animation-name: slidein;
-  
-  
-  }
-  
-  
-  .section__parrafo-enlace-inicio {
-    padding-top: 20px;
-    color: white;
-    text-align: center;
-    font-family: $fuente-parrafos;
-    animation-duration: 3s;
-    animation-name: slidein;
-  
-    .parrafo-enlace-inicio__enlace {
-      text-decoration: none;
-      color: white;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      /* La propiedad z-index indica el orden de un elemento
-      posicionado y sus descendientes. Cuando varios elementos
-      se superponen, los elementos con mayor valor z-index cubren
-      aquellos que tienen un menor valor.  */
-      z-index:1;
-      padding-bottom: 20px;
-    }
-  }
-  
+}
   
   /* La regla @keyframes controla los pasos intermedios en
   una secuencia de animación CSS estableciendo estilos para
@@ -126,7 +123,7 @@
   .main-pagina-error {
     transition-duration: 0.5s;
 
-    section {
+    &__section {
       width: 500px;
       transition-duration: 0.5s;
 
@@ -145,7 +142,7 @@
   .main-pagina-error {
     transition-duration: 0.5s;
 
-    section {
+    &__section {
       width: 350px;
       transition-duration: 0.5s;
     }
@@ -162,7 +159,7 @@
   .main-pagina-error {
     transition-duration: 0.5s;
 
-    section {
+    &__section {
       width: 240px;
       margin: 20px;
       transition-duration: 0.5s;
