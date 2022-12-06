@@ -52,7 +52,7 @@ body {
   display: flex;
 }
 
-.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .li__enlace-registro {
   width: 50px;
   color: #1b2580;
   background-color: #cca61f;
@@ -95,7 +95,7 @@ body {
     color: #000;
   }
 
-  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .li__enlace-registro {
     color: #000;
     background-color: #cca61f;
     border-radius: 0;
@@ -134,7 +134,7 @@ body {
   font-size: 12px;
 }
 
-.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono-insta, .pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono_facebook {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono-insta, .pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono-facebook {
   width: 18px;
 }
 

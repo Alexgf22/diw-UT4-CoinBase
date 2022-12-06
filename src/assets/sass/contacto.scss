@@ -20,30 +20,30 @@
     .section__formulario-contacto {
       text-align: center;
       padding: 30px;
-  
-      h2 {
-        color: white;
-        font-family: $fuente-parrafos;
-        font-size: 18px;
-        text-align: center;
-        padding-top: 30px;
-      }
-  
-  
-      h2::after {
-        /* Con el h2::after lo que hace es decirle que después
-        del título ponga como contenido el elemento que se
-        indique en el content */
-        content: "👇"
-      }
-  
-      fieldset {
+
+      .formulario-contacto__fieldset {
         background-color: $azul-mas-saturado;
         border: $amarillo-menos-saturado;
         width: 550px;
         padding: 10px;
         padding-bottom: 35px;
-  
+
+        .fieldset__titulo-principal {
+          color: white;
+          font-family: $fuente-parrafos;
+          font-size: 18px;
+          text-align: center;
+          padding-top: 30px;
+        }
+          
+        .fieldset__titulo-principal::after {
+          /* Con el h2::after lo que hace es decirle que después
+          del título ponga como contenido el elemento que se
+          indique en el content */
+          content: "👇"
+        }
+
+        
         .fieldset__parrafo-nombre {
           /* La propiedad de display flex, ayuda a colocar
           los elementos como si fueran celdas de tablas, con un
@@ -199,7 +199,7 @@
     transition-duration: 0.5s;
 
     .section__formulario-contacto {
-      fieldset {
+      .formulario-contacto__fieldset {
         width: 470px;
         /* Lo que hace la propiedad transition-duration es indicar
         el tiempo que tarda en cambiar en este caso la anchura
@@ -221,7 +221,7 @@
     transition-duration: 0.5s;
 
     .section__formulario-contacto {
-      fieldset {
+      .formulario-contacto__fieldset {
         width: 360px;
         transition-duration: 0.5s;
 
@@ -294,7 +294,7 @@
     transition-duration: 0.5s;
 
     .section__formulario-contacto {
-      fieldset {
+      .formulario-contacto__fieldset {
         width: 220px;
         transition-duration: 0.5s;
         
