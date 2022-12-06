@@ -23,33 +23,31 @@
     al principio del eje horizontal el elemento   */
     justify-self: flex-start;
 
-    a {
+    .contenedor-redes-sociales__icono-insta {
+      width: 18px;
+    }
+
+    .contenedor-redes-sociales__icono-facebook {
+      width: 18px;
+    }
+
+    .contenedor-redes-sociales__enlace-insta {
+      justify-self: flex-start;
       color:  #ffffff;
       font-family: $fuente-titulos;
-      font-size: 12px;   
-  }
+      font-size: 12px; 
 
-  
-  .contenedor-redes-sociales__icono-insta {
-    width: 18px;
-  }
+    }
 
-  .contenedor-redes-sociales__icono_facebook {
-    width: 18px;
-  }
-
-  .contenedor-redes-sociales__enlace-insta {
-    justify-self: flex-start;
-
-  }
-
-  .contenedor-redes-sociales__enlace-facebook {
-    /* La propiedad justify-self lo que hace es mover un único
-    elemento sobre el eje horizontal. En este caso coloca
-    el elemento en el centro del eje horizontal   */
-    justify-self: center;
-
-  }
+    .contenedor-redes-sociales__enlace-facebook {
+      /* La propiedad justify-self lo que hace es mover un único
+      elemento sobre el eje horizontal. En este caso coloca
+      el elemento en el centro del eje horizontal   */
+      justify-self: center;
+      color:  #ffffff;
+      font-family: $fuente-titulos;
+      font-size: 12px; 
+    }
 
   }
 
