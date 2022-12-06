@@ -16,7 +16,7 @@ body {
   position: sticky;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera {
   width: 100%;
   flex-flow: wrap;
   justify-content: space-between;
@@ -25,7 +25,7 @@ body {
   display: flex;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa {
   width: 79%;
   flex-flow: wrap;
   justify-content: space-between;
@@ -33,12 +33,12 @@ body {
   display: flex;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__li {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li {
   font-family: Staatliches;
   list-style-type: none;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__enlaceRegistro {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
   width: 50px;
   color: #1b2580;
   background-color: #cca61f;
@@ -46,15 +46,15 @@ body {
   padding: 6px;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__nav-label, .cabecera__menu-navegacion-nav__lista-cabecera__nav-input {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-label, .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-input {
   display: none;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera .nav-label__icono-hamburguesa {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .nav-label__icono-hamburguesa {
   width: 30px;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__contenedor-logo-y-nombre {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__contenedor-logo-y-nombre {
   color: #fff;
   justify-content: center;
   align-items: center;
@@ -63,22 +63,22 @@ body {
   display: flex;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__contenedor-logo-y-nombre__logo-pagina {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__contenedor-logo-y-nombre .contenedor-logo-y-nombre__logo-pagina {
   width: 45px;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__contenedor-logo-y-nombre__nombre-pagina {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__contenedor-logo-y-nombre .contenedor-logo-y-nombre__nombre-pagina {
   color: #fff;
   display: inline-block;
 }
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
-  .cabecera__menu-navegacion-nav__lista-cabecera__nav-label {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-label {
     cursor: pointer;
     display: block;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa {
     width: 160px;
     height: 330px;
     float: right;
@@ -96,18 +96,18 @@ body {
     right: 5px;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__li__a {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li .li__a {
     color: #000;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__enlaceRegistro {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
     color: #000;
     background-color: #cca61f;
     border-radius: 0;
     padding: 0;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__icono-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__icono-hamburguesa {
     cursor: pointer;
     z-index: 2;
     background-color: #cca61f;
@@ -120,22 +120,22 @@ body {
     right: 5px;
   }
 
-  .cabecera__menu-navegacion-nav__nav-input:checked + .cabecera__menu-navegacion-nav__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
     clip-path: circle(100%);
   }
 }
 
 @media screen and (max-width: 378px) {
-  .cabecera__menu-navegacion-nav__lista-cabecera {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera {
     position: relative;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__nav-label {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-label {
     cursor: pointer;
     display: block;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa {
     width: 130px;
     height: 290px;
     z-index: 1;
@@ -150,18 +150,18 @@ body {
     right: 0;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__li__a {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li .li__a {
     color: #000;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__enlaceRegistro {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
     color: #000;
     background-color: #cca61f;
     border-radius: 0;
     padding: 0;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__icono-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__icono-hamburguesa {
     cursor: pointer;
     z-index: 2;
     background-color: #cca61f;
@@ -172,7 +172,7 @@ body {
     right: 0;
   }
 
-  .cabecera__menu-navegacion-nav__nav-input:checked + .cabecera__menu-navegacion-nav__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
     clip-path: circle(100%);
   }
 }
@@ -189,36 +189,36 @@ body {
   position: sticky;
 }
 
-.pie-pagina__contenedor-redes-sociales {
+.pie-pagina .pie-pagina__contenedor-redes-sociales {
   justify-self: flex-start;
 }
 
-.pie-pagina__contenedor-redes-sociales__icono-insta, .pie-pagina__contenedor-redes-sociales__icono-facebook {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono-insta, .pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono-facebook {
   width: 18px;
 }
 
-.pie-pagina__contenedor-redes-sociales__enlace-insta {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__enlace-insta {
   color: #fff;
   justify-self: flex-start;
   font-family: Staatliches;
   font-size: 12px;
 }
 
-.pie-pagina__contenedor-redes-sociales__enlace-facebook {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__enlace-facebook {
   color: #fff;
   justify-self: center;
   font-family: Staatliches;
   font-size: 12px;
 }
 
-.pie-pagina__enlace-invierte {
+.pie-pagina .pie-pagina__enlace-invierte {
   color: #fff;
   justify-self: flex-end;
   font-family: Staatliches;
   font-size: 12px;
 }
 
-.pie-pagina__enlace-pag-404, .pie-pagina__enlace-pag-perfil-usuario {
+.pie-pagina .pie-pagina__enlace-pag-404, .pie-pagina .pie_pagina__enlace-pag-perfil-usuario {
   color: #fff;
   font-family: Staatliches;
   font-size: 12px;
@@ -239,14 +239,14 @@ body {
   padding: 30px;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset {
   width: 550px;
   background-color: #1b2580;
   border: #cca61f;
   padding: 10px 10px 35px;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__titulo-principal {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__titulo-principal {
   color: #fff;
   text-align: center;
   padding-top: 30px;
@@ -254,18 +254,18 @@ body {
   font-size: 18px;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__titulo-principal:after {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__titulo-principal:after {
   content: "👇";
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-nombre {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-nombre {
   justify-content: space-evenly;
   align-items: center;
   padding: 30px 15px 15px;
   display: flex;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
@@ -274,7 +274,7 @@ body {
   display: flex;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-duda {
   justify-content: space-evenly;
   align-items: center;
   gap: 22px;
@@ -282,11 +282,11 @@ body {
   display: flex;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda__label-duda {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-duda .parrafo-duda__label-duda {
   align-self: flex-start;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda #parrafo-duda__id {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-duda #parrafo-duda__id {
   width: 220px;
   height: 100px;
   background-color: #cca61f;
@@ -294,11 +294,11 @@ body {
   border-radius: .4em;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset p {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset p {
   width: 100%;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset input {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset input {
   width: 220px;
   height: 30px;
   background-color: #cca61f;
@@ -306,13 +306,13 @@ body {
   border-radius: .4em;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset label {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset label {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 16px;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset #P__boton-enviar {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset #P__boton-enviar {
   width: 95px;
   height: 35px;
   border-radius: 1.2em;
@@ -323,7 +323,7 @@ body {
   display: block;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-telefono {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-telefono {
   justify-content: center;
   align-items: center;
   gap: 15px;
@@ -331,38 +331,38 @@ body {
   display: flex;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-telefono__telefono-contacto {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-telefono .parrafo-telefono__telefono-contacto {
   color: #fff;
   font-family: Inter, sans-serif;
   text-decoration: none;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-telefono span {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-telefono .parrafo-telefono__telefono-contacto .telefono-contacto__span {
   padding-left: 44px;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-telefono__icono-whatsapp {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-telefono .parrafo-telefono__icono-whatsapp {
   width: 18px;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo-contacto {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo-contacto {
   justify-content: center;
   align-items: center;
   gap: 15px;
   display: flex;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo-contacto__email {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__email {
   color: #fff;
   font-family: Inter, sans-serif;
   text-decoration: none;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo-contacto span {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__email .email__span {
   padding-left: 26px;
 }
 
-.main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo-contacto__icono-gmail {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__icono-gmail {
   width: 18px;
 }
 
@@ -371,7 +371,7 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-contacto .section__formulario-contacto__fieldset {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset {
     width: 470px;
     transition-duration: .5s;
   }
@@ -382,32 +382,32 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-contacto .section__formulario-contacto__fieldset {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset {
     width: 360px;
     transition-duration: .5s;
   }
 
-  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-nombre {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-nombre {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-nombre__label-nombre {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-nombre .parrafo-nombre__label-nombre {
     padding-bottom: 6px;
   }
 
-  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo, .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo, .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-duda {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda__label-duda {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-duda .parrafo-duda__label-duda {
     margin: 0 auto;
   }
 
-  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-telefono__telefono-contacto__span, .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo-contacto__email__span {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-telefono .parrafo-telefono__telefono-contacto .telefono-contacto__span, .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__email .email__span {
     display: block;
   }
 }
@@ -417,32 +417,32 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-contacto .section__formulario-contacto__fieldset {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset {
     width: 220px;
     transition-duration: .5s;
   }
 
-  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-nombre {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-nombre {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-nombre__label-nombre {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-nombre .parrafo-nombre__label-nombre {
     padding-bottom: 6px;
   }
 
-  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo, .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo, .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-duda {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-duda__label-duda {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-duda .parrafo-duda__label-duda {
     margin: 0 auto;
   }
 
-  .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-telefono__telefono-contacto__span, .main-pagina-contacto .section__formulario-contacto__fieldset__parrafo-correo-contacto__email__span {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-telefono .parrafo-telefono__telefono-contacto .telefono-contacto__span, .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__email .email__span {
     display: block;
   }
 }

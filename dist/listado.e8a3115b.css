@@ -16,7 +16,7 @@ body {
   position: sticky;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera {
   width: 100%;
   flex-flow: wrap;
   justify-content: space-between;
@@ -25,7 +25,7 @@ body {
   display: flex;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa {
   width: 79%;
   flex-flow: wrap;
   justify-content: space-between;
@@ -33,12 +33,12 @@ body {
   display: flex;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__li {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li {
   font-family: Staatliches;
   list-style-type: none;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__enlaceRegistro {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
   width: 50px;
   color: #1b2580;
   background-color: #cca61f;
@@ -46,15 +46,15 @@ body {
   padding: 6px;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__nav-label, .cabecera__menu-navegacion-nav__lista-cabecera__nav-input {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-label, .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-input {
   display: none;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera .nav-label__icono-hamburguesa {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .nav-label__icono-hamburguesa {
   width: 30px;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__contenedor-logo-y-nombre {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__contenedor-logo-y-nombre {
   color: #fff;
   justify-content: center;
   align-items: center;
@@ -63,22 +63,22 @@ body {
   display: flex;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__contenedor-logo-y-nombre__logo-pagina {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__contenedor-logo-y-nombre .contenedor-logo-y-nombre__logo-pagina {
   width: 45px;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__contenedor-logo-y-nombre__nombre-pagina {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__contenedor-logo-y-nombre .contenedor-logo-y-nombre__nombre-pagina {
   color: #fff;
   display: inline-block;
 }
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
-  .cabecera__menu-navegacion-nav__lista-cabecera__nav-label {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-label {
     cursor: pointer;
     display: block;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa {
     width: 160px;
     height: 330px;
     float: right;
@@ -96,18 +96,18 @@ body {
     right: 5px;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__li__a {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li .li__a {
     color: #000;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__enlaceRegistro {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
     color: #000;
     background-color: #cca61f;
     border-radius: 0;
     padding: 0;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__icono-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__icono-hamburguesa {
     cursor: pointer;
     z-index: 2;
     background-color: #cca61f;
@@ -120,22 +120,22 @@ body {
     right: 5px;
   }
 
-  .cabecera__menu-navegacion-nav__nav-input:checked + .cabecera__menu-navegacion-nav__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
     clip-path: circle(100%);
   }
 }
 
 @media screen and (max-width: 378px) {
-  .cabecera__menu-navegacion-nav__lista-cabecera {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera {
     position: relative;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__nav-label {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-label {
     cursor: pointer;
     display: block;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa {
     width: 130px;
     height: 290px;
     z-index: 1;
@@ -150,18 +150,18 @@ body {
     right: 0;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__li__a {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li .li__a {
     color: #000;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__enlaceRegistro {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
     color: #000;
     background-color: #cca61f;
     border-radius: 0;
     padding: 0;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__icono-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__icono-hamburguesa {
     cursor: pointer;
     z-index: 2;
     background-color: #cca61f;
@@ -172,7 +172,7 @@ body {
     right: 0;
   }
 
-  .cabecera__menu-navegacion-nav__nav-input:checked + .cabecera__menu-navegacion-nav__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
     clip-path: circle(100%);
   }
 }
@@ -189,36 +189,36 @@ body {
   position: sticky;
 }
 
-.pie-pagina__contenedor-redes-sociales {
+.pie-pagina .pie-pagina__contenedor-redes-sociales {
   justify-self: flex-start;
 }
 
-.pie-pagina__contenedor-redes-sociales__icono-insta, .pie-pagina__contenedor-redes-sociales__icono-facebook {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono-insta, .pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono-facebook {
   width: 18px;
 }
 
-.pie-pagina__contenedor-redes-sociales__enlace-insta {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__enlace-insta {
   color: #fff;
   justify-self: flex-start;
   font-family: Staatliches;
   font-size: 12px;
 }
 
-.pie-pagina__contenedor-redes-sociales__enlace-facebook {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__enlace-facebook {
   color: #fff;
   justify-self: center;
   font-family: Staatliches;
   font-size: 12px;
 }
 
-.pie-pagina__enlace-invierte {
+.pie-pagina .pie-pagina__enlace-invierte {
   color: #fff;
   justify-self: flex-end;
   font-family: Staatliches;
   font-size: 12px;
 }
 
-.pie-pagina__enlace-pag-404, .pie-pagina__enlace-pag-perfil-usuario {
+.pie-pagina .pie-pagina__enlace-pag-404, .pie-pagina .pie_pagina__enlace-pag-perfil-usuario {
   color: #fff;
   font-family: Staatliches;
   font-size: 12px;
@@ -234,28 +234,28 @@ body {
   display: flex;
 }
 
-.main-pagina-listado__section {
+.main-pagina-listado .main-pagina-listado__section {
   width: 570px;
   text-align: center;
   background-color: #1b2580;
   padding: 20px 20px 60px;
 }
 
-.main-pagina-listado__section__contenedor-titulo-y-buscar {
+.main-pagina-listado .main-pagina-listado__section .section__contenedor-titulo-y-buscar {
   justify-content: center;
   align-items: center;
   gap: 30px;
   display: flex;
 }
 
-.main-pagina-listado__section__contenedor-titulo-y-buscar__h2 {
+.main-pagina-listado .main-pagina-listado__section .section__contenedor-titulo-y-buscar .contenedor-titulo-y-buscar__h2 {
   color: #fff;
   padding-top: 6px;
   font-family: Staatliches;
   font-size: 18px;
 }
 
-.main-pagina-listado__section__contenedor-titulo-y-buscar__filtrado {
+.main-pagina-listado .main-pagina-listado__section .section__contenedor-titulo-y-buscar .contenedor-titulo-y-buscar__filtrado {
   width: 160px;
   background-color: #fff;
   border-radius: .6em;
@@ -267,22 +267,22 @@ body {
   display: flex;
 }
 
-.main-pagina-listado__section__contenedor-titulo-y-buscar__filtrado__b {
+.main-pagina-listado .main-pagina-listado__section .section__contenedor-titulo-y-buscar .contenedor-titulo-y-buscar__filtrado .filtrado__b {
   font-family: Staatliches;
   font-size: 16px;
 }
 
-.main-pagina-listado__section__contenedor-titulo-y-buscar__filtrado__icono-buscar {
+.main-pagina-listado .main-pagina-listado__section .section__contenedor-titulo-y-buscar .contenedor-titulo-y-buscar__filtrado .filtrado__icono-buscar {
   width: 18px;
 }
 
-.main-pagina-listado__section p {
+.main-pagina-listado .main-pagina-listado__section p {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 14px;
 }
 
-.main-pagina-listado__section__contenedor-cryptos {
+.main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos {
   grid-template-rows: 40% 40% 40%;
   grid-template-columns: 23% 23% 23%;
   justify-content: center;
@@ -291,17 +291,17 @@ body {
   display: grid;
 }
 
-.main-pagina-listado__section__contenedor-cryptos__bitcoin, .main-pagina-listado__section__contenedor-cryptos__cardano, .main-pagina-listado__section__contenedor-cryptos__tether, .main-pagina-listado__section__contenedor-cryptos__ethereum, .main-pagina-listado__section__contenedor-cryptos__solana, .main-pagina-listado__section__contenedor-cryptos__bnb, .main-pagina-listado__section__contenedor-cryptos__litecoin, .main-pagina-listado__section__contenedor-cryptos__chainlink, .main-pagina-listado__section__contenedor-cryptos__usd-coin {
+.main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__bitcoin, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__cardano, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__tether, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__ethereum, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__solana, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__bnb, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__litecoin, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__chainlink, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__usd-coin {
   align-items: center;
   gap: 3px;
   display: flex;
 }
 
-.main-pagina-listado__section__contenedor-cryptos img {
+.main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos img {
   width: 42px;
 }
 
-.main-pagina-listado__section__contenedor-cryptos p {
+.main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos p {
   display: inline-block;
 }
 
@@ -310,17 +310,17 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-listado__section {
+  .main-pagina-listado .main-pagina-listado__section {
     width: 500px;
     transition-duration: .5s;
   }
 
-  .main-pagina-listado__section__contenedor-cryptos {
+  .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos {
     grid-template-rows: 40% 40% 40%;
     grid-template-columns: 24% 24% 24%;
   }
 
-  .main-pagina-listado__section__contenedor-cryptos__ethereum, .main-pagina-listado__section__contenedor-cryptos__usd-coin {
+  .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__ethereum, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__usd-coin {
     gap: 0;
   }
 }
@@ -330,17 +330,17 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-listado__section {
+  .main-pagina-listado .main-pagina-listado__section {
     width: 350px;
     transition-duration: .5s;
   }
 
-  .main-pagina-listado__section__contenedor-titulo-y-buscar {
+  .main-pagina-listado .main-pagina-listado__section .section__contenedor-titulo-y-buscar {
     flex-direction: column;
     display: flex;
   }
 
-  .main-pagina-listado__section__contenedor-cryptos {
+  .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos {
     grid-template-rows: 40% 40% 40%;
     grid-template-columns: 23% 23% 23%;
     justify-content: center;
@@ -349,14 +349,14 @@ body {
     display: grid;
   }
 
-  .main-pagina-listado__section__contenedor-cryptos__bitcoin, .main-pagina-listado__section__contenedor-cryptos__cardano, .main-pagina-listado__section__contenedor-cryptos__tether, .main-pagina-listado__section__contenedor-cryptos__ethereum, .main-pagina-listado__section__contenedor-cryptos__solana, .main-pagina-listado__section__contenedor-cryptos__bnb, .main-pagina-listado__section__contenedor-cryptos__litecoin, .main-pagina-listado__section__contenedor-cryptos__chainlink, .main-pagina-listado__section__contenedor-cryptos__usd-coin {
+  .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__bitcoin, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__cardano, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__tether, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__ethereum, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__solana, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__bnb, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__litecoin, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__chainlink, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__usd-coin {
     flex-direction: column;
     align-items: center;
     gap: 3px;
     display: flex;
   }
 
-  .main-pagina-listado__section__contenedor-cryptos img {
+  .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos img {
     width: 42px;
   }
 }
@@ -367,19 +367,19 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-listado__section {
+  .main-pagina-listado .main-pagina-listado__section {
     width: 240px;
     height: 570px;
     margin: 20px;
     transition-duration: .5s;
   }
 
-  .main-pagina-listado__section__contenedor-titulo-y-buscar {
+  .main-pagina-listado .main-pagina-listado__section .section__contenedor-titulo-y-buscar {
     flex-direction: column;
     display: flex;
   }
 
-  .main-pagina-listado__section__contenedor-cryptos {
+  .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos {
     grid-template-rows: 23% 23%;
     grid-template-columns: 50% 50%;
     justify-content: center;
@@ -388,14 +388,14 @@ body {
     display: grid;
   }
 
-  .main-pagina-listado__section__contenedor-cryptos__bitcoin, .main-pagina-listado__section__contenedor-cryptos__cardano, .main-pagina-listado__section__contenedor-cryptos__tether, .main-pagina-listado__section__contenedor-cryptos__ethereum {
+  .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__bitcoin, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__cardano, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__tether, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__ethereum {
     flex-direction: column;
     align-items: center;
     gap: 3px;
     display: flex;
   }
 
-  .main-pagina-listado__section__contenedor-cryptos__solana, .main-pagina-listado__section__contenedor-cryptos__bnb {
+  .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__solana, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__bnb {
     flex-direction: column;
     align-items: center;
     gap: 3px;
@@ -403,7 +403,7 @@ body {
     display: flex;
   }
 
-  .main-pagina-listado__section__contenedor-cryptos__litecoin, .main-pagina-listado__section__contenedor-cryptos__chainlink {
+  .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__litecoin, .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__chainlink {
     flex-direction: column;
     align-items: center;
     gap: 3px;
@@ -411,7 +411,7 @@ body {
     display: flex;
   }
 
-  .main-pagina-listado__section__contenedor-cryptos__usd-coin {
+  .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos .contenedor-cryptos__usd-coin {
     flex-direction: column;
     align-items: center;
     gap: 3px;
@@ -419,7 +419,7 @@ body {
     display: flex;
   }
 
-  .main-pagina-listado__section__contenedor-cryptos img {
+  .main-pagina-listado .main-pagina-listado__section .section__contenedor-cryptos img {
     width: 42px;
   }
 }

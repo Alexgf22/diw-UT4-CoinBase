@@ -16,7 +16,7 @@ body {
   position: sticky;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera {
   width: 100%;
   flex-flow: wrap;
   justify-content: space-between;
@@ -25,7 +25,7 @@ body {
   display: flex;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa {
   width: 79%;
   flex-flow: wrap;
   justify-content: space-between;
@@ -33,12 +33,12 @@ body {
   display: flex;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__li {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li {
   font-family: Staatliches;
   list-style-type: none;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__enlaceRegistro {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
   width: 50px;
   color: #1b2580;
   background-color: #cca61f;
@@ -46,15 +46,15 @@ body {
   padding: 6px;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__nav-label, .cabecera__menu-navegacion-nav__lista-cabecera__nav-input {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-label, .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-input {
   display: none;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera .nav-label__icono-hamburguesa {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .nav-label__icono-hamburguesa {
   width: 30px;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__contenedor-logo-y-nombre {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__contenedor-logo-y-nombre {
   color: #fff;
   justify-content: center;
   align-items: center;
@@ -63,22 +63,22 @@ body {
   display: flex;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__contenedor-logo-y-nombre__logo-pagina {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__contenedor-logo-y-nombre .contenedor-logo-y-nombre__logo-pagina {
   width: 45px;
 }
 
-.cabecera__menu-navegacion-nav__lista-cabecera__contenedor-logo-y-nombre__nombre-pagina {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__contenedor-logo-y-nombre .contenedor-logo-y-nombre__nombre-pagina {
   color: #fff;
   display: inline-block;
 }
 
 @media screen and (min-width: 378px) and (max-width: 520px) {
-  .cabecera__menu-navegacion-nav__lista-cabecera__nav-label {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-label {
     cursor: pointer;
     display: block;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa {
     width: 160px;
     height: 330px;
     float: right;
@@ -96,18 +96,18 @@ body {
     right: 5px;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__li__a {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li .li__a {
     color: #000;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__enlaceRegistro {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
     color: #000;
     background-color: #cca61f;
     border-radius: 0;
     padding: 0;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__icono-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__icono-hamburguesa {
     cursor: pointer;
     z-index: 2;
     background-color: #cca61f;
@@ -120,22 +120,22 @@ body {
     right: 5px;
   }
 
-  .cabecera__menu-navegacion-nav__nav-input:checked + .cabecera__menu-navegacion-nav__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
     clip-path: circle(100%);
   }
 }
 
 @media screen and (max-width: 378px) {
-  .cabecera__menu-navegacion-nav__lista-cabecera {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera {
     position: relative;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__nav-label {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__nav-label {
     cursor: pointer;
     display: block;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa {
     width: 130px;
     height: 290px;
     z-index: 1;
@@ -150,18 +150,18 @@ body {
     right: 0;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__li__a {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li .li__a {
     color: #000;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__menu-hamburguesa__enlaceRegistro {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__enlaceRegistro {
     color: #000;
     background-color: #cca61f;
     border-radius: 0;
     padding: 0;
   }
 
-  .cabecera__menu-navegacion-nav__lista-cabecera__icono-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__icono-hamburguesa {
     cursor: pointer;
     z-index: 2;
     background-color: #cca61f;
@@ -172,7 +172,7 @@ body {
     right: 0;
   }
 
-  .cabecera__menu-navegacion-nav__nav-input:checked + .cabecera__menu-navegacion-nav__menu-hamburguesa {
+  .cabecera .cabecera__menu-navegacion-nav .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
     clip-path: circle(100%);
   }
 }
@@ -189,36 +189,36 @@ body {
   position: sticky;
 }
 
-.pie-pagina__contenedor-redes-sociales {
+.pie-pagina .pie-pagina__contenedor-redes-sociales {
   justify-self: flex-start;
 }
 
-.pie-pagina__contenedor-redes-sociales__icono-insta, .pie-pagina__contenedor-redes-sociales__icono-facebook {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono-insta, .pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono-facebook {
   width: 18px;
 }
 
-.pie-pagina__contenedor-redes-sociales__enlace-insta {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__enlace-insta {
   color: #fff;
   justify-self: flex-start;
   font-family: Staatliches;
   font-size: 12px;
 }
 
-.pie-pagina__contenedor-redes-sociales__enlace-facebook {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__enlace-facebook {
   color: #fff;
   justify-self: center;
   font-family: Staatliches;
   font-size: 12px;
 }
 
-.pie-pagina__enlace-invierte {
+.pie-pagina .pie-pagina__enlace-invierte {
   color: #fff;
   justify-self: flex-end;
   font-family: Staatliches;
   font-size: 12px;
 }
 
-.pie-pagina__enlace-pag-404, .pie-pagina__enlace-pag-perfil-usuario {
+.pie-pagina .pie-pagina__enlace-pag-404, .pie-pagina .pie_pagina__enlace-pag-perfil-usuario {
   color: #fff;
   font-family: Staatliches;
   font-size: 12px;
@@ -239,14 +239,14 @@ body {
   padding: 20px;
 }
 
-.main-pagina-registro .section__form-registro fieldset {
+.main-pagina-registro .section__form-registro .form-registro__fieldset {
   width: 550px;
   background-color: #1b2580;
   border: #cca61f;
   padding: 10px 10px 30px;
 }
 
-.main-pagina-registro .section__form-registro fieldset h2 {
+.main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__titulo-registro {
   color: #fff;
   text-align: center;
   padding-top: 30px;
@@ -254,18 +254,18 @@ body {
   font-size: 18px;
 }
 
-.main-pagina-registro .section__form-registro fieldset h2:after {
+.main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__titulo-registro:after {
   content: "🡻";
 }
 
-.main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-nombre-pila {
+.main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-nombre-pila {
   justify-content: space-evenly;
   align-items: center;
   padding: 25px 10px 10px;
   display: flex;
 }
 
-.main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-apellidos {
+.main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-apellidos {
   justify-content: space-evenly;
   align-items: center;
   gap: 24px;
@@ -273,7 +273,7 @@ body {
   display: flex;
 }
 
-.main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro {
+.main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-correo-registro {
   justify-content: space-evenly;
   align-items: center;
   gap: 44px;
@@ -281,7 +281,7 @@ body {
   display: flex;
 }
 
-.main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-contrasena {
+.main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-contrasena {
   justify-content: space-evenly;
   align-items: center;
   gap: 10px;
@@ -289,23 +289,23 @@ body {
   display: flex;
 }
 
-.main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-aceptar-condiciones {
+.main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-aceptar-condiciones {
   justify-content: center;
   align-items: center;
   gap: 6px;
   display: flex;
 }
 
-.main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-aceptar-condiciones .parrafo-aceptar-condiciones__label {
+.main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-aceptar-condiciones .parrafo-aceptar-condiciones__label {
   color: #fff;
   font-family: Inter, sans-serif;
 }
 
-.main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-aceptar-condiciones #parrafo-aceptar-condiciones__union {
+.main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-aceptar-condiciones #parrafo-aceptar-condiciones__union {
   width: 10px;
 }
 
-.main-pagina-registro .section__form-registro fieldset #P__boton-enviar {
+.main-pagina-registro .section__form-registro .form-registro__fieldset #P__boton-enviar {
   width: 100px;
   height: 42px;
   border-radius: 1.2em;
@@ -316,7 +316,7 @@ body {
   display: block;
 }
 
-.main-pagina-registro .section__form-registro fieldset input {
+.main-pagina-registro .section__form-registro .form-registro__fieldset input {
   width: 250px;
   height: 30px;
   background-color: #cca61f;
@@ -324,7 +324,7 @@ body {
   border-radius: .4em;
 }
 
-.main-pagina-registro .section__form-registro fieldset label {
+.main-pagina-registro .section__form-registro .form-registro__fieldset label {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 16px;
@@ -335,7 +335,7 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-registro .section__form-registro fieldset {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset {
     width: 470px;
     transition-duration: .5s;
   }
@@ -346,49 +346,49 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-registro .section__form-registro fieldset {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset {
     width: 360px;
     transition-duration: .5s;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-nombre-pila {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-nombre-pila {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-nombre-pila .parrafo-nombre-pila__label-name {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-nombre-pila .parrafo-nombre-pila__label-name {
     padding-bottom: 10px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-apellidos {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-apellidos {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-apellidos .parrafo-apellidos__label {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-apellidos .parrafo-apellidos__label {
     padding-top: 10px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-correo-registro {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro .parrafo-correo-registro__label {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-correo-registro .parrafo-correo-registro__label {
     margin-top: 10px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro #parrafo-correo-registro__email {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-correo-registro #parrafo-correo-registro__email {
     margin-bottom: 30px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-contrasena {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-contrasena {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -401,68 +401,65 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-registro .section__form-registro fieldset {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset {
     width: 240px;
     transition-duration: .5s;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-nombre-pila {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-nombre-pila {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-nombre-pila .parrafo-nombre-pila__label-name {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-nombre-pila .parrafo-nombre-pila__label-name {
     padding-bottom: 10px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-nombre-pila input {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-nombre-pila #parrafo-nombre-pila__nombre {
     width: 200px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-apellidos {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-apellidos {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-apellidos .parrafo-apellidos__label {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-apellidos .parrafo-apellidos__label {
     padding-top: 10px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-apellidos input {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-apellidos #parrafo-apellidos__surnames {
     width: 200px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-correo-registro {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro .parrafo-correo-registro__label {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-correo-registro .parrafo-correo-registro__label {
     margin-top: 10px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro input {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-correo-registro #parrafo-correo-registro__email {
     width: 200px;
-  }
-
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-correo-registro #parrafo-correo-registro__email {
     margin-bottom: 30px;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-contrasena {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-contrasena {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     display: flex;
   }
 
-  .main-pagina-registro .section__form-registro fieldset .fieldset__parrafo-contrasena input {
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-contrasena #parrafo-contrasena__password {
     width: 200px;
   }
 }
