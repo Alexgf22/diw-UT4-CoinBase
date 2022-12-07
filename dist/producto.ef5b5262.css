@@ -43,7 +43,7 @@ body {
   display: flex;
 }
 
-.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li .li__enlace-registro {
+.cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa .menu-hamburguesa__li #li__enlace-registro {
   width: 50px;
   color: #1b2580;
   background-color: #cca61f;
@@ -223,7 +223,7 @@ body {
   font-size: 12px;
 }
 
-.pie-pagina .pie-pagina__enlace-pag-404, .pie-pagina .pie_pagina__enlace-pag-perfil-usuario {
+.pie-pagina .pie-pagina__enlace-pag-404, .pie-pagina .pie-pagina__enlace-pag-perfil-usuario {
   color: #fff;
   font-family: Staatliches;
   font-size: 12px;
