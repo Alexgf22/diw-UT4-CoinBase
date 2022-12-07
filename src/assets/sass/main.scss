@@ -1,17 +1,18 @@
-@import "_variables.scss";
-@import "_body_y_box.scss";
-@import "_cabecera.scss";
-@import "_footer.scss";
+@import "./utilities/variables";
+@import "./base/typo.scss";
+@import "./base/body_y_box";
+@import "./layout/cabecera";
+@import "./layout/footer";
 
 // Importando páginas
-@import "_contacto.scss";
-@import "_index.scss";
-@import "_inicio-sesion.scss";
-@import "_listado.scss";
-@import "_pagina-error.scss";
-@import "_perfil-usuario.scss";
-@import "_producto.scss";
-@import "_registro.scss";
+@import "./views/contacto";
+@import "./views/_index";
+@import "./views/_inicio-sesion";
+@import "./views/_listado";
+@import "./views/_pagina-error";
+@import "./views/_perfil-usuario";
+@import "./views/_producto";
+@import "./views/_registro";
 
 
 
