@@ -229,6 +229,11 @@ body {
   font-size: 12px;
 }
 
+.main-pagina-inicio {
+  z-index: -1;
+  position: relative;
+}
+
 .main-pagina-inicio .main-pagina-inicio__section {
   position: relative;
 }
