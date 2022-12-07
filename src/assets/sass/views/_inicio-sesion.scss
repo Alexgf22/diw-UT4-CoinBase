@@ -20,6 +20,8 @@
         border: $amarillo-menos-saturado;
         width: 580px;
         padding-bottom: 25px;
+        border-radius: 0.4em;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   
         .fieldset__titulo-inicio-sesion {
           color: white;
