@@ -690,7 +690,9 @@ body {
   width: 570px;
   text-align: center;
   background-color: #1b2580;
+  border-radius: .4em;
   padding: 20px 20px 60px;
+  box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
 }
 
 .main-pagina-listado .main-pagina-listado__section .section__contenedor-titulo-y-buscar {
@@ -1075,8 +1077,10 @@ body {
 .main-pagina-producto .section__contenedor-producto {
   width: 574px;
   background-color: #1b2580;
+  border-radius: .4em;
   margin: 20px;
   padding: 20px;
+  box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
 }
 
 .main-pagina-producto .section__contenedor-producto .contenedor-producto__logo-bitcoin-y-titulo {
