@@ -332,6 +332,7 @@ body {
   margin-right: auto;
   padding: 10px;
   display: block;
+  box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
 }
 
 .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-telefono {
@@ -486,6 +487,7 @@ body {
   border-radius: .6em;
   padding: 12px;
   font-family: Staatliches;
+  box-shadow: 0 54px 55px #00000040, 0 -12px 30px #0000001f, 0 4px 6px #0000001f, 0 12px 13px #0000002b, 0 -3px 5px #00000017;
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
@@ -496,6 +498,7 @@ body {
   .main-pagina-inicio .main-pagina-inicio__section .section__contenedor-encima-img .contenedor-encima-img__a {
     font-size: 14px;
     transition-duration: .5s;
+    box-shadow: 0 54px 55px #00000040, 0 -12px 30px #0000001f, 0 4px 6px #0000001f, 0 12px 13px #0000002b, 0 -3px 5px #00000017;
   }
 }
 
@@ -512,6 +515,7 @@ body {
   .main-pagina-inicio .main-pagina-inicio__section .section__contenedor-encima-img .contenedor-encima-img__a {
     font-size: 14px;
     transition-duration: .5s;
+    box-shadow: 0 54px 55px #00000040, 0 -12px 30px #0000001f, 0 4px 6px #0000001f, 0 12px 13px #0000002b, 0 -3px 5px #00000017;
   }
 }
 
@@ -528,6 +532,7 @@ body {
   .main-pagina-inicio .main-pagina-inicio__section .section__contenedor-encima-img .contenedor-encima-img__a {
     font-size: 14px;
     transition-duration: .5s;
+    box-shadow: 0 54px 55px #00000040, 0 -12px 30px #0000001f, 0 4px 6px #0000001f, 0 12px 13px #0000002b, 0 -3px 5px #00000017;
   }
 }
 
@@ -604,6 +609,7 @@ body {
   margin-right: auto;
   padding: 10px;
   display: block;
+  box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
@@ -1136,6 +1142,7 @@ body {
   padding: 5px;
   font-family: Staatliches;
   text-decoration: underline;
+  box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
@@ -1289,6 +1296,7 @@ body {
   margin-right: auto;
   padding: 10px;
   display: block;
+  box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
 }
 
 .main-pagina-registro .section__form-registro .form-registro__fieldset input {
