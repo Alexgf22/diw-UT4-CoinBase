@@ -62,17 +62,22 @@
     font-size: 12px; 
   }
 
-  .pie-pagina__enlace-pag-404 {
-    color:  #ffffff;
+  #pie-pagina__modo-oscuro {
+    color:  #000000;
     font-family: $fuente-titulos;
-    font-size: 12px;   
+    font-size: 12px;
+    border-radius: 1.2em;
+    width: 96px;
+    height: 35px;
+    padding: 10px;
+    background-color: $amarillo-menos-saturado;
+    cursor: pointer;
   }
 
-  .pie-pagina__enlace-pag-perfil-usuario {
-    color:  #ffffff;
-    font-family: $fuente-titulos;
-    font-size: 12px;  
-  }
+
+  #pie-pagina__modo-oscuro:checked{
+    background-color: grey;
+  } 
 
 
   

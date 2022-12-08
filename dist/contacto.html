@@ -51,7 +51,7 @@
             <form class="section__formulario-contacto" method="post" action="mailto:iesrafaelalberti@prueba.es" enctype="text/plain">
     
 
-                <fieldset class="formulario-contacto__fieldset">
+                <fieldset class="formulario-contacto__fieldset" id="formulario-contacto__fieldset--darkmode">
                     <!--<legend>Regístrate </legend>-->
                     <h2 class="fieldset__titulo-principal">Contáctanos para las dudas:</h2>
                     <!--<img class = "flechaAbajo" src="assets/img/🦆 icon _arrow down_.png">-->
@@ -76,8 +76,8 @@
     
                 
                     <p>
-                        <label for="P__boton-enviar"></label>
-                        <input type="submit" name="mandar" id="P__boton-enviar" value="Enviar">
+                        <label for="fieldset__boton-enviar"></label>
+                        <input type="submit" name="mandar" id="fieldset__boton-enviar" value="Enviar">
                     </p>
 
                     
@@ -117,9 +117,7 @@
 
         <a class="pie-pagina__enlace-invierte" href="https://www.coinbase.com/trade">¡Invierte ahora y gana!</a>
 
-        <a class="pie-pagina__enlace-pag-404" href="/pagina_error.html">Página 404</a>
-
-        <a class="pie-pagina__enlace-pag-perfil-usuario" href="/perfil-usuario.html">Página perfil usuario</a>
+        <button id="pie-pagina__modo-oscuro">Modo oscuro</button>
     </footer>
 
 

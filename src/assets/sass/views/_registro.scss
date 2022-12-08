@@ -105,7 +105,7 @@
           
         }
   
-          #P__boton-enviar {
+          #fieldset__boton-enviar {
             border-radius: 1.2em;
             width: 100px;
             height: 42px;
@@ -117,6 +117,10 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
+            background-color: $amarillo-menos-saturado;
+            color: black;
+            text-decoration: none;
+            font-family: $fuente-parrafos;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
           }
   

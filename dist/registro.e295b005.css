@@ -310,7 +310,7 @@ body {
   width: 10px;
 }
 
-.main-pagina-registro .section__form-registro .form-registro__fieldset #P__boton-enviar {
+.main-pagina-registro .section__form-registro .form-registro__fieldset #fieldset__boton-enviar {
   width: 100px;
   height: 42px;
   border-radius: 1.2em;

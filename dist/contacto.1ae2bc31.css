@@ -317,7 +317,7 @@ body {
   font-size: 16px;
 }
 
-.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset #P__boton-enviar {
+.main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset #fieldset__boton-enviar {
   width: 95px;
   height: 35px;
   border-radius: 1.2em;
