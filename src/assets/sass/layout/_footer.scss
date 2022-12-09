@@ -1,5 +1,5 @@
 .pie-pagina {
-  background-color: $color__primary;
+  background-color: var(--color__primary);
   position: sticky;
   width: 100%;
   height: 55px;
@@ -70,16 +70,10 @@
     width: 96px;
     height: 35px;
     padding: 10px;
-    background-color: $color__secondary;
+    background-color: var(--color__secondary);
     cursor: pointer;
   }
 
 
-  #pie-pagina__modo-oscuro:checked{
-    background-color: grey;
-  } 
-
-
-  
   
 }

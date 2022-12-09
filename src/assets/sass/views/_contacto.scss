@@ -1,7 +1,7 @@
 // Main página contacto
 
 .main-pagina-contacto {
-    background-color: $color__tertiary;
+    background-color: var(--color__tertiary);
     width: 100%;
     /* 100% de la altura del viewport
     El viewport es la parte visible del documento */
@@ -16,8 +16,8 @@
       padding: 30px;
 
       .formulario-contacto__fieldset {
-        background-color: $color__primary;
-        border: $color__secondary;
+        background-color: var(--color__primary);
+        border: var(--color__secondary);
         width: 550px;
         padding: 10px;
         padding-bottom: 35px;
@@ -87,10 +87,10 @@
           }
   
           #parrafo-duda__id {
-            background-color: $color__secondary;
+            background-color: var(--color__secondary);
             width: 220px;
             height: 100px;
-            border: $color__secondary;
+            border: var(--color__secondary);
             border-radius: 0.4em;
           }
         }
@@ -100,8 +100,8 @@
         }
       
         input {
-          background-color: $color__secondary;
-          border: $color__secondary;
+          background-color: var(--color__secondary);
+          border: var(--color__secondary);
           width: 220px;
           height: 30px;
           border-radius: 0.4em;

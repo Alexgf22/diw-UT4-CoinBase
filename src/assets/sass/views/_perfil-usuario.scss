@@ -1,5 +1,5 @@
 .main-pagina-perfil-usuario {
-    background-color: $color__tertiary;
+    background-color: var(--color__tertiary);
     width: 100%;
     /* 100% de la altura del viewport
     El viewport es la parte visible del documento */
@@ -21,7 +21,7 @@
         /* La propiedad align-items center lo que hace centrar
         de manera vertical los elementos  */
         align-items: center;
-        background-color: $color__primary;
+        background-color: var(--color__primary);
         width: 120px;
         padding: 20px;
         margin: 20px;
@@ -39,7 +39,7 @@
         flex-direction: row wrap;
         justify-content: center;
         align-items: center;
-        background-color: $color__primary;
+        background-color: var(--color__primary);
         width: 250px;
         margin: 20px;
         border-radius: 0.6em;
