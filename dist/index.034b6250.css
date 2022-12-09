@@ -706,6 +706,14 @@ body {
   }
 }
 
+.theme-pag-listado .main-pagina-listado .main-pagina-listado__section--oscuro {
+  background-color: #000103;
+}
+
+.theme-pag-listado .main-pagina-listado--oscuro {
+  background-color: #515052;
+}
+
 .main-pagina-listado {
   width: 100%;
   min-height: 100vh;

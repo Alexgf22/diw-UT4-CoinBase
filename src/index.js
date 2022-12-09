@@ -44,3 +44,16 @@ function themeDarkProducto() {
 
 
 }
+
+
+
+function themeDarkListado() {
+    // Página listado
+    var sectionListado = document.getElementById("main-pagina-listado__section--darkmode");
+    sectionListado.classList.toggle("main-pagina-listado__section--oscuro");
+
+    var mainListado = document.getElementById("main-pagina-listado--darkmode");
+    mainListado.classList.toggle("main-pagina-listado--oscuro");
+
+
+}

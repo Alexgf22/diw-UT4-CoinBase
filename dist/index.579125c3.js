@@ -26,5 +26,12 @@ function themeDarkProducto() {
     var mainProducto = document.getElementById("main-pagina-producto--darkmode");
     mainProducto.classList.toggle("main-pagina-producto--oscuro");
 }
+function themeDarkListado() {
+    // Página listado
+    var sectionListado = document.getElementById("main-pagina-listado__section--darkmode");
+    sectionListado.classList.toggle("main-pagina-listado__section--oscuro");
+    var mainListado = document.getElementById("main-pagina-listado--darkmode");
+    mainListado.classList.toggle("main-pagina-listado--oscuro");
+}
 
 //# sourceMappingURL=index.579125c3.js.map

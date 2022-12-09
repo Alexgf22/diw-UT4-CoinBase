@@ -1,3 +1,23 @@
+// Modo oscuro página listado
+.theme-pag-listado {
+  .main-pagina-listado {
+    .main-pagina-listado__section--oscuro {
+      background-color: $color__primary--dark;
+    }
+  }
+}
+
+
+.theme-pag-listado {
+  .main-pagina-listado--oscuro {
+    background-color: $color__secondary--dark;
+  }
+}
+
+
+
+
+
 // Main página listado
 
 .main-pagina-listado {
