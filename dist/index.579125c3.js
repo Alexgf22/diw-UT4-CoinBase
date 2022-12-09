@@ -12,5 +12,6 @@ function themeDarkInicioSesion() {
     var mainInicioSesion = document.getElementById("main-pagina-inicio-sesion--darkmode");
     mainInicioSesion.classList.toggle("main-pagina-inicio-sesion--oscuro");
 }
+function themeDarkRegistro() {}
 
 //# sourceMappingURL=index.579125c3.js.map

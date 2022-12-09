@@ -18,3 +18,12 @@ function themeDarkInicioSesion() {
     var mainInicioSesion = document.getElementById("main-pagina-inicio-sesion--darkmode");
     mainInicioSesion.classList.toggle("main-pagina-inicio-sesion--oscuro");
 }
+
+
+
+
+function themeDarkRegistro() {
+    // Página registro
+
+
+}
