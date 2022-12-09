@@ -1,3 +1,17 @@
 $azul-mas-saturado: rgba(27, 37, 128, 1);
 $amarillo-menos-saturado: rgba(204, 166, 31, 1);
 $azul-menos-saturado: rgba(105, 120, 255, 1);
+
+// Colores oscuros
+$color__primary--dark: #000103;
+$color__secondary--dark: #515052;
+
+
+// Tema principal
+.theme {
+  // Tema oscuro
+  .theme--dark {
+    --color__primary: #{$color__primary--dark};
+    --color__secondary: #{$color__secondary--dark};
+  }
+}
