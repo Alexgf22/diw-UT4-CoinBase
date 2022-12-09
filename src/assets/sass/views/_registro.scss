@@ -1,3 +1,22 @@
+// Modo oscuro página registro
+.theme-registro {
+  .main-pagina-registro {
+    .section__form-registro {
+      .form-registro__fieldset--oscuro {
+        background-color: $color__primary--dark;
+      }
+    }
+  }
+}
+
+.theme-registro {
+  .main-pagina-registro--oscuro {
+    background-color: $color__secondary--dark;
+  }
+}
+
+
+
 // Main página registro
 
 .main-pagina-registro {

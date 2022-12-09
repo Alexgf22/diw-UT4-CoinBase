@@ -1238,6 +1238,14 @@ body {
   }
 }
 
+.theme-registro .main-pagina-registro .section__form-registro .form-registro__fieldset--oscuro {
+  background-color: #000103;
+}
+
+.theme-registro .main-pagina-registro--oscuro {
+  background-color: #515052;
+}
+
 .main-pagina-registro {
   width: 100%;
   min-height: 100vh;

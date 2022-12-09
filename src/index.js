@@ -24,6 +24,18 @@ function themeDarkInicioSesion() {
 
 function themeDarkRegistro() {
     // Página registro
+    var fieldsetRegistro = document.getElementById("form-registro__fieldset--darkmode");
+    fieldsetRegistro.classList.toggle("form-registro__fieldset--oscuro");
+
+    var mainRegistro = document.getElementById("main-pagina-registro--darkmode");
+    mainRegistro.classList.toggle("main-pagina-registro--oscuro");
+
+}
 
 
+
+function themeDarkProducto() {
+
+
+    
 }
