@@ -1,7 +1,7 @@
 // Main página producto
 
 .main-pagina-producto {
-    background-color: $azul-menos-saturado;
+    background-color: $color__tertiary;
     width: 100%;
     /* 100% de la altura del viewport
     El viewport es la parte visible del documento */
@@ -16,7 +16,7 @@
   
   
     .section__contenedor-producto {
-      background-color: $azul-mas-saturado;
+      background-color: $color__primary;
       width: 574px;
       padding: 20px;
       margin: 20px;
@@ -126,7 +126,7 @@
         padding: 5px;
         width: 96px;
         text-decoration: underline;
-        background-color: $amarillo-menos-saturado;
+        background-color: $color__secondary;
         font-family: $fuente-titulos;
         border-radius: 0.6em;
         color: black;
