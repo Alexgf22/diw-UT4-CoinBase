@@ -1,3 +1,12 @@
+// Modo oscuro cabecera
+.cabecera--oscuro {
+  background-color: $color__primary--dark;
+}
+
+
+
+
+
 // Cambiar
 
 .cabecera {
@@ -8,19 +17,6 @@
   padding: 10px;
 
   .cabecera__menu-navegacion-nav {
-  
-  
-    li {
-      list-style-type: none;
-      font-family: $fuente-titulos;
-    }
-  
-  
-    a {
-      text-decoration: none;
-      color: white;
-    }
-  
   
     .menu-navegacion-nav__lista-cabecera {
       font-size:14px;
@@ -39,6 +35,8 @@
         width: 79%;
 
         .menu-hamburguesa__li {
+          list-style-type: none;
+          font-family: $fuente-titulos;
           #li__enlace-registro {
             width: 50px;
             border-radius: 0.5em;
@@ -46,7 +44,12 @@
             color: $color__primary;
             background-color: $color__secondary;
           }
-      }
+
+          .li__a {
+            text-decoration: none;
+            color: white;
+          }
+        }
       }
 
 
@@ -136,20 +139,19 @@
         clip-path: circle(0 at center);
         transition: clip-path 1s ease-in-out;
 
-        li {
-          a {
+        .menu-hamburguesa__li {
+          .li__a {
             color: black;
+          }
+
+          #li__enlace-registro {
+            color: rgb(0, 0, 0);
+            background-color: $color__secondary;
+            border-radius:0;
+            padding:0;
           }
         }
         
-
-        
-        .menu-hamburguesa__enlaceRegistro {
-          color: rgb(0, 0, 0);
-          background-color: $color__secondary;
-          border-radius:0;
-          padding:0;
-        }
       }
 
       .nav-label__icono-hamburguesa {
@@ -219,20 +221,20 @@
         clip-path: circle(0 at center);
         transition: clip-path 1s ease-in-out;
 
-        li {
-          a {
+        .menu-hamburguesa__li {
+          .li__a {
             color: black;
+          }
+
+          #li__enlace-registro {
+            color: rgb(0, 0, 0);
+            background-color: $color__secondary;
+            border-radius:0;
+            padding:0;
           }
         }
         
 
-        
-        .menu-hamburguesa__enlaceRegistro {
-          color: rgb(0, 0, 0);
-          background-color: $color__secondary;
-          border-radius:0;
-          padding:0;
-        }
       }
 
       .nav-label__icono-hamburguesa {

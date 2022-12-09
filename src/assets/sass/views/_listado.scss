@@ -1,5 +1,5 @@
 // Modo oscuro página listado
-.theme-pag-listado {
+.theme {
   .main-pagina-listado {
     .main-pagina-listado__section--oscuro {
       background-color: $color__primary--dark;
@@ -8,7 +8,7 @@
 }
 
 
-.theme-pag-listado {
+.theme {
   .main-pagina-listado--oscuro {
     background-color: $color__secondary--dark;
   }

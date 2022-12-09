@@ -1,3 +1,20 @@
+function themeDarkCabecera() {
+    // Header página
+    var cabecera = document.getElementById("cabecera--darkmode");
+    cabecera.classList.toggle("cabecera--oscuro");
+
+}
+
+
+function themeDarkPiePagina() {
+    // Footer página
+    var footer = document.getElementById("cabecera--darkmode");
+    footer.classList.toggle("cabecera--oscuro");
+
+}
+
+
+
 function themeDarkContacto(){
     // Página contacto
     var fieldsetContacto = document.getElementById("formulario-contacto__fieldset--darkmode");

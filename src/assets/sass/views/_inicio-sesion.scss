@@ -1,5 +1,5 @@
 // Modo oscuro página inicio sesión
-.theme-inicio-sesion {
+.theme {
   .main-pagina-inicio-sesion {
     .section__form-inicio-sesion {
       .form-inicio-sesion__fieldset--oscuro {
@@ -9,7 +9,7 @@
   }
 }
 
-.theme-inicio-sesion {
+.theme {
   .main-pagina-inicio-sesion--oscuro {
     background-color: $color__secondary--dark;
   }
