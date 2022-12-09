@@ -1,6 +1,8 @@
 // Modo oscuro cabecera
-.cabecera--oscuro {
-  background-color: $color__primary--dark;
+.theme {
+  .cabecera--oscuro {
+    background-color: $color__primary--dark;
+  }
 }
 
 

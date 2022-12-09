@@ -8,14 +8,16 @@ function themeDarkCabecera() {
 
 function themeDarkPiePagina() {
     // Footer página
-    var footer = document.getElementById("cabecera--darkmode");
-    footer.classList.toggle("cabecera--oscuro");
+    var footer = document.getElementById("pie-pagina--darkmode");
+    footer.classList.toggle("pie-pagina--oscuro");
 
 }
 
 
 
 function themeDarkContacto(){
+    themeDarkCabecera();
+    themeDarkPiePagina();
     // Página contacto
     var fieldsetContacto = document.getElementById("formulario-contacto__fieldset--darkmode");
     fieldsetContacto.classList.toggle("formulario-contacto__fieldset--oscuro");
@@ -28,6 +30,8 @@ function themeDarkContacto(){
 
 
 function themeDarkInicioSesion() {
+    themeDarkCabecera();
+    themeDarkPiePagina();
     // Página inicio sesión
     var fieldsetInicioSesion = document.getElementById("form-inicio-sesion__fieldset--darkmode");
     fieldsetInicioSesion.classList.toggle("form-inicio-sesion__fieldset--oscuro");
@@ -40,6 +44,8 @@ function themeDarkInicioSesion() {
 
 
 function themeDarkRegistro() {
+    themeDarkCabecera();
+    themeDarkPiePagina();
     // Página registro
     var fieldsetRegistro = document.getElementById("form-registro__fieldset--darkmode");
     fieldsetRegistro.classList.toggle("form-registro__fieldset--oscuro");
@@ -52,6 +58,8 @@ function themeDarkRegistro() {
 
 
 function themeDarkProducto() {
+    themeDarkCabecera();
+    themeDarkPiePagina();
     // Página producto
     var contenedorProducto = document.getElementById("section__contenedor-producto--darkmode");
     contenedorProducto.classList.toggle("section__contenedor-producto--oscuro");
@@ -65,6 +73,8 @@ function themeDarkProducto() {
 
 
 function themeDarkListado() {
+    themeDarkCabecera();
+    themeDarkPiePagina();
     // Página listado
     var sectionListado = document.getElementById("main-pagina-listado__section--darkmode");
     sectionListado.classList.toggle("main-pagina-listado__section--oscuro");

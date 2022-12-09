@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-.tema-claro-body, .cabecera--oscuro {
+.tema-claro-body, .theme .cabecera--oscuro {
   background-color: #000103;
 }
 
@@ -188,6 +188,10 @@ body {
   .cabecera .cabecera__menu-navegacion-nav .lista-cabecera__nav-input:checked + .lista-cabecera__menu-hamburguesa {
     clip-path: circle(100%);
   }
+}
+
+.theme .pie-pagina--oscuro {
+  background-color: #000103;
 }
 
 .pie-pagina {

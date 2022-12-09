@@ -1,3 +1,12 @@
+// Modo oscuro pie página
+.theme {
+  .pie-pagina--oscuro {
+    background-color: $color__primary--dark;
+  }
+}
+
+
+
 .pie-pagina {
   background-color: $color__primary;
   position: sticky;
