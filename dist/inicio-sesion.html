@@ -46,7 +46,7 @@
 
     </header>
 
-    <main class="main-pagina-inicio-sesion">
+    <main class="main-pagina-inicio-sesion" id="main-pagina-inicio-sesion--darkmode">
         <section>
             <form class="section__form-inicio-sesion" method="post" action="mailto:iesrafaelalberti@prueba.es" enctype="text/plain">
     
@@ -97,7 +97,8 @@
 
         <a class="pie-pagina__enlace-invierte" href="https://www.coinbase.com/trade">¡Invierte ahora y gana!</a>
 
-        <button is-click="class:toggle('theme--dark', 'body')" id="pie-pagina__modo-oscuro">Modo oscuro</button>
+
+        <button id="pie-pagina__modo-oscuro" onclick="themeDark()">Modo oscuro</button>
     </footer>
 
 

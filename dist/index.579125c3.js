@@ -21,11 +21,17 @@ function load() {
     function store(value) {
         localStorage.setItem('theme--dark',value);
     }
-    */ function darkMode() {
-    var elementb = document.body;
-    elementb.classList.toggle("body-dark-mode");
-    var elementh = document.getElementById("formulario-contacto__fieldset--darkmode");
-    elementh.classList.toggle("formulario-contacto__fieldset--oscuro");
+    */ function themeDark() {
+    // Página contacto
+    var fieldsetContacto = document.getElementById("formulario-contacto__fieldset--darkmode");
+    fieldsetContacto.classList.toggle("formulario-contacto__fieldset--oscuro");
+    var mainContacto = document.getElementById("main-pagina-contacto--darkmode");
+    mainContacto.classList.toggle("main-pagina-contacto--oscuro");
+    // Página inicio sesión
+    var fieldsetInicioSesion = document.getElementById("form-inicio-sesion__fieldset--darkmode");
+    fieldsetInicioSesion.classList.toggle("form-inicio-sesion__fieldset--oscuro");
+    var mainInicioSesion = document.getElementById("main-pagina-inicio-sesion--darkmode");
+    mainInicioSesion.classList.toggle("main-pagina-inicio-sesion--oscuro");
 }
 
 //# sourceMappingURL=index.579125c3.js.map

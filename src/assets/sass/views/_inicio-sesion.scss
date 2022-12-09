@@ -1,3 +1,19 @@
+// Modo oscuro página inicio sesión
+.theme {
+  .main-pagina-inicio-sesion--oscuro {
+    background-color: $color__secondary--dark;
+    .section__formulario-contacto {
+      .form-inicio-sesion__fieldset--oscuro {
+        background-color: $color__primary--dark;
+      }
+    }
+  }
+}
+
+
+
+
+
 // Main Página inicio sesión
 
 .main-pagina-inicio-sesion {

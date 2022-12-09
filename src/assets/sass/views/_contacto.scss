@@ -1,13 +1,15 @@
 // Modo oscuro página contacto
 .theme {
-.main-pagina-contacto {
-  .section__formulario-contacto {
-    .formulario-contacto__fieldset--oscuro {
-      background-color: $color__primary--dark;
+  .main-pagina-contacto--oscuro {
+    background-color: $color__secondary--dark;
+    .section__formulario-contacto {
+      .formulario-contacto__fieldset--oscuro {
+        background-color: $color__primary--dark;
+      }
     }
   }
 }
-}
+
 
     
   
