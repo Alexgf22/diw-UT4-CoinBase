@@ -35,7 +35,12 @@ function themeDarkRegistro() {
 
 
 function themeDarkProducto() {
+    // Página producto
+    var contenedorProducto = document.getElementById("section__contenedor-producto--darkmode");
+    contenedorProducto.classList.toggle("section__contenedor-producto--oscuro");
+
+    var mainProducto = document.getElementById("main-pagina-producto--darkmode");
+    mainProducto.classList.toggle("main-pagina-producto--oscuro");
 
 
-    
 }

@@ -1094,6 +1094,14 @@ body {
   display: flex;
 }
 
+.theme-pag-producto .main-pagina-producto .section__contenedor-producto--oscuro {
+  background-color: #000103;
+}
+
+.theme-pag-producto .main-pagina-producto--oscuro {
+  background-color: #515052;
+}
+
 .main-pagina-producto {
   width: 100%;
   min-height: 100vh;
