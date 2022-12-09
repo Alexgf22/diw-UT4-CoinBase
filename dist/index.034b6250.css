@@ -554,12 +554,12 @@ body {
   }
 }
 
-.theme .main-pagina-inicio-sesion--oscuro {
-  background-color: #515052;
+.theme-inicio-sesion .main-pagina-inicio-sesion .section__form-inicio-sesion .form-inicio-sesion__fieldset--oscuro {
+  background-color: #000103;
 }
 
-.theme .main-pagina-inicio-sesion--oscuro .section__formulario-contacto .form-inicio-sesion__fieldset--oscuro {
-  background-color: #000103;
+.theme-inicio-sesion .main-pagina-inicio-sesion--oscuro {
+  background-color: #515052;
 }
 
 .main-pagina-inicio-sesion {
