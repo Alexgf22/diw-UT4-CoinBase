@@ -7,5 +7,9 @@
   body {
     width: 100%;
     margin: 0px;
-    background-color: var(--color__primary);
+  }
+
+
+  .tema-claro-body {
+    background-color: $color__primary--dark;
   }
