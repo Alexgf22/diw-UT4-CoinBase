@@ -22,8 +22,21 @@ function load() {
         localStorage.setItem('theme--dark',value);
     }
     */ function darkMode() {
-    var elementb = document.getElementById("#tema-claro-body");
-    elementb.classList.toggle("body-dark-mode");
+    var elementb = document.getElementById("#pie-pagina__modo-oscuro");
+    elementb.classList.toggle("cambio-modo-oscuro");
+    load();
+    elementb.addEventListener("click", (e)=>{
+        body.classList.toggle("theme--dark");
+        store(body.classList.contains("theme--dark"));
+    });
+    function load() {
+        const darkmode = localStorage.getItem("theme--dark");
+        if (!darkmode) store("false");
+        else if (darkmode == "true") body.classList.add("theme--dark");
+    }
+    function store(value) {
+        localStorage.setItem("theme--dark", value);
+    }
 //var elementh = document.getElementById("bot-img-darkMode");
 //elementh.classList.toggle("boton-generar__bot-img-darkMode");
 }

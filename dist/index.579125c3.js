@@ -21,12 +21,11 @@ function load() {
     function store(value) {
         localStorage.setItem('theme--dark',value);
     }
-    */
+    */ function darkMode() {
+    var elementb = document.body;
+    elementb.classList.toggle("body-dark-mode");
+    var elementh = document.getElementById("formulario-contacto__fieldset--darkmode");
+    elementh.classList.toggle("formulario-contacto__fieldset--oscuro");
+}
 
-
-    function darkMode(){
-        var elementb = document.body;
-        elementb.classList.toggle("body-dark-mode");
-        var elementh = document.getElementById("formulario-contacto__fieldset--darkmode");
-        elementh.classList.toggle("formulario-contacto__fieldset--oscuro");
-    }
+//# sourceMappingURL=index.579125c3.js.map

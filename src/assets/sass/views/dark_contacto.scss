@@ -2,12 +2,12 @@
 
     .main-pagina-contacto {
 
-        background-color: var(--color__primary);
+        background-color: $color__primary;
 
         .section__formulario-contacto {
 
             .formulario-contacto__fieldset {
-                background-color: var(--color__secondary);
+                background-color: $color__secondary;
 
             }
 
