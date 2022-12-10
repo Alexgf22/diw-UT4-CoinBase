@@ -84,3 +84,17 @@ function themeDarkListado() {
 
 
 }
+
+
+
+function themeDarkPaginaInicio() {
+    themeDarkCabecera();
+    themeDarkPiePagina();    
+}
+
+
+
+function themeDarkPaginaError() {
+    themeDarkCabecera();
+    themeDarkPiePagina();    
+}

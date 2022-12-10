@@ -53,5 +53,13 @@ function themeDarkListado() {
     var mainListado = document.getElementById("main-pagina-listado--darkmode");
     mainListado.classList.toggle("main-pagina-listado--oscuro");
 }
+function themeDarkPaginaInicio() {
+    themeDarkCabecera();
+    themeDarkPiePagina();
+}
+function themeDarkPaginaError() {
+    themeDarkCabecera();
+    themeDarkPiePagina();
+}
 
 //# sourceMappingURL=index.579125c3.js.map
