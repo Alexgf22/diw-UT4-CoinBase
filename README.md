@@ -19,5 +19,9 @@ A continuación se mencionarán los cambios realizados en comparación a la vers
   - En octavo lugar, también se les ha aplicado un border-radius y una sombra al menú hamburguesa en el responsive.
 
   - En noveno lugar, se ha colocado en el footer un botón de modo oscuro que realiza una llamada a la función correspondiente, dependiendo de la página donde esté el usuario y cambia los azules con mayor saturación y menor luminosidad por un negro con mayor saturación y menor luminosidad y los azules con menor saturación y mayor luminosidad por un negro con menor saturación y mayor luminosidad.
+  
+  - En décimo lugar, se ha creado la página 404 de error, donde se le ha aplicado una animación de entrada al título y al texto. Además se le indica al usuario que regrese a la página de inicio mediante un enlace.
+  
+  - En último lugar, se ha creado la página de perfil de usuario que se accede mediante el botón de enviar que está localizado en la página de registro e inicio de sesión. En dicha página se halla información básica sobre el usuario.
 
 
