@@ -509,11 +509,6 @@ body {
   }
 }
 
-.main-pagina-inicio {
-  z-index: -1;
-  position: relative;
-}
-
 .main-pagina-inicio .main-pagina-inicio__section {
   position: relative;
 }
@@ -1195,20 +1190,6 @@ body {
   margin: 20px auto 0;
 }
 
-.main-pagina-producto .section__contenedor-producto p {
-  color: #fff;
-  font-family: Inter, sans-serif;
-  font-size: 16px;
-  display: inline;
-}
-
-.main-pagina-producto .section__contenedor-producto h3 {
-  color: #fff;
-  font-family: Staatliches;
-  font-size: 16px;
-  display: inline;
-}
-
 .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin {
   flex-direction: column;
   justify-content: center;
@@ -1217,7 +1198,7 @@ body {
   display: flex;
 }
 
-.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__primer-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__segundo-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__tercer-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__cuarto-dato-crypto {
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__primer-dato-crypto {
   width: 60%;
   justify-content: space-between;
   align-items: center;
@@ -1225,7 +1206,80 @@ body {
   display: flex;
 }
 
-.main-pagina-producto .section__contenedor-producto .cuarto-dato-crypto__enlace-evolucion-precio {
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__primer-dato-crypto .primer-dato-crypto__titulo {
+  color: #fff;
+  font-family: Staatliches;
+  font-size: 16px;
+  display: inline;
+}
+
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__primer-dato-crypto .primer-dato-crypto__parrafo {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  display: inline;
+}
+
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__segundo-dato-crypto {
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+}
+
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__segundo-dato-crypto .segundo-dato-crypto__titulo {
+  color: #fff;
+  font-family: Staatliches;
+  font-size: 16px;
+  display: inline;
+}
+
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__segundo-dato-crypto .segundo-dato-crypto__parrafo {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  display: inline;
+}
+
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__tercer-dato-crypto {
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+}
+
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__tercer-dato-crypto .tercer-dato-crypto__titulo {
+  color: #fff;
+  font-family: Staatliches;
+  font-size: 16px;
+  display: inline;
+}
+
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__tercer-dato-crypto .tercer-dato-crypto__parrafo {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  display: inline;
+}
+
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__cuarto-dato-crypto {
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+}
+
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__cuarto-dato-crypto .cuarto-dato-crypto__titulo {
+  color: #fff;
+  font-family: Staatliches;
+  font-size: 16px;
+  display: inline;
+}
+
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__cuarto-dato-crypto .cuarto-dato-crypto__enlace-evolucion-precio {
   width: 96px;
   color: #000;
   background-color: #cca61f;

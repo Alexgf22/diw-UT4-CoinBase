@@ -75,23 +75,7 @@
         margin-top: 20px;
       }
   
-      p {
-        font-size: 16px;
-        color: white;
-        font-family: $fuente-parrafos;
-        /* La propiedad display inline lo que hace es colocar
-        en linea en este caso un elemento en bloque por lo que
-        el párrafo no pasaría debajo del anterior elemento  */
-        display: inline;
-      }
-  
-      h3 {
-        color: white;
-        font-size: 16px;
-        font-family: $fuente-titulos;
-        display: inline;
-      }
-  
+      
       .contenedor-producto__info-crypto-bitcoin {
         padding-top: 30px;
         display: flex;
@@ -111,6 +95,24 @@
           justify-content: space-between;
           align-items: center;
           //gap: 80px;
+
+          .primer-dato-crypto__titulo {
+            color: white;
+            font-size: 16px;
+            font-family: $fuente-titulos;
+            display: inline;
+          }
+
+          .primer-dato-crypto__parrafo {
+            font-size: 16px;
+            color: white;
+            font-family: $fuente-parrafos;
+            /* La propiedad display inline lo que hace es colocar
+            en linea en este caso un elemento en bloque por lo que
+            el párrafo no pasaría debajo del anterior elemento  */
+            display: inline;
+          }
+
         }
   
         .info-crypto-bitcoin__segundo-dato-crypto {
@@ -120,6 +122,24 @@
           justify-content: space-between;
           align-items: center;
           //gap: 40px;
+
+          .segundo-dato-crypto__titulo {
+            color: white;
+            font-size: 16px;
+            font-family: $fuente-titulos;
+            display: inline;
+          }
+
+          .segundo-dato-crypto__parrafo {
+            font-size: 16px;
+            color: white;
+            font-family: $fuente-parrafos;
+            /* La propiedad display inline lo que hace es colocar
+            en linea en este caso un elemento en bloque por lo que
+            el párrafo no pasaría debajo del anterior elemento  */
+            display: inline;
+          }
+
         }
   
         .info-crypto-bitcoin__tercer-dato-crypto {
@@ -129,6 +149,24 @@
           justify-content: space-between;
           align-items: center;
           //gap: 40px;
+
+          .tercer-dato-crypto__titulo {
+            color: white;
+            font-size: 16px;
+            font-family: $fuente-titulos;
+            display: inline;
+          }
+
+          .tercer-dato-crypto__parrafo {
+            font-size: 16px;
+            color: white;
+            font-family: $fuente-parrafos;
+            /* La propiedad display inline lo que hace es colocar
+            en linea en este caso un elemento en bloque por lo que
+            el párrafo no pasaría debajo del anterior elemento  */
+            display: inline;
+          }
+
         }
   
         .info-crypto-bitcoin__cuarto-dato-crypto {
@@ -138,19 +176,29 @@
           justify-content: space-between;
           align-items: center;
           //gap: 50px;
+
+          .cuarto-dato-crypto__titulo {
+            color: white;
+            font-size: 16px;
+            font-family: $fuente-titulos;
+            display: inline;
+          }
+
+          .cuarto-dato-crypto__enlace-evolucion-precio {
+            padding: 5px;
+            width: 96px;
+            text-decoration: underline;
+            background-color: $color__secondary;
+            font-family: $fuente-titulos;
+            border-radius: 0.6em;
+            color: black;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+          }
+          
         }
       }
   
-      .cuarto-dato-crypto__enlace-evolucion-precio {
-        padding: 5px;
-        width: 96px;
-        text-decoration: underline;
-        background-color: $color__secondary;
-        font-family: $fuente-titulos;
-        border-radius: 0.6em;
-        color: black;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-      }
+      
       
     }
   }
