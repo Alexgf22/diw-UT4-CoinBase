@@ -1173,14 +1173,14 @@ body {
   display: flex;
 }
 
-.main-pagina-producto .section__contenedor-producto .contenedor-producto__logo-bitcoin-y-titulo h2 {
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__logo-bitcoin-y-titulo .logo-bitcoin-y-titulo__h2 {
   color: #fff;
   padding-top: 36px;
   font-family: Staatliches;
   font-size: 30px;
 }
 
-.main-pagina-producto .section__contenedor-producto .contenedor-producto__logo-bitcoin-y-titulo img {
+.main-pagina-producto .section__contenedor-producto .contenedor-producto__logo-bitcoin-y-titulo .logo-bitcoin-y-titulo__icono-bitcoin {
   width: 40px;
   align-self: flex-end;
 }
