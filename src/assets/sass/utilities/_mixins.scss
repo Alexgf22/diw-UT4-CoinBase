@@ -1,6 +1,26 @@
 @mixin estiloBotonEnviar {
+    border-radius: 1.2em;
+    width: 100px;
+    height: 42px;
+    padding: 10px;
+    margin-top: 20px;
+    text-decoration: none;
     background-color: $color__secondary;
     color: black;
     font-family: $fuente-parrafos;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+@mixin estiloInput {
+    background-color: $color__secondary;
+    border: $color__secondary;
+    width: 250px;
+    height: 30px;
+    border-radius: 0.4em;
+}
+
+@mixin estiloLabel {
+    color:white;
+    font-family: $fuente-parrafos;
+    font-size: 16px;
 }

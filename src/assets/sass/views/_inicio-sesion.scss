@@ -88,32 +88,21 @@
         }
       
         input {
-          background-color: $color__secondary;
-          border: $color__secondary;
-          width: 250px;
-          height: 30px;
-          border-radius: 0.4em;
+          @include estiloInput;
         }
   
         label {
-          color:white;
-          font-family: $fuente-parrafos;
-          font-size: 16px;
+          @include estiloLabel;
         }
   
         
         #fieldset__boton-enviar {
-          border-radius: 1.2em;
-          width: 96px;
-          height: 35px;
-          padding: 10px;
           /* Lo que hace la propiedad display block junto a
           margin-left auto y margin-right auto es centrar
           el botón de manera horizontal */
           display: block;
           margin-left: auto;
           margin-right: auto;
-          text-decoration: none;
           @include estiloBotonEnviar;
         }
   
