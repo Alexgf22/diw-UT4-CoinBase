@@ -49,7 +49,7 @@
         align-items: center;
         gap: 12px;
   
-        h2 {
+        .logo-bitcoin-y-titulo__h2 {
           font-size: 30px;
           font-family: $fuente-titulos;
           color: white;
@@ -57,7 +57,7 @@
           padding-top: 36px;
         }
   
-        img {
+        .logo-bitcoin-y-titulo__icono-bitcoin {
           width: 40px;
           /* La propiedad align-self lo que hace es mover en el 
           eje vertical un único elemento, en este caso coloca
