@@ -32,30 +32,37 @@
     al principio del eje horizontal el elemento   */
     justify-self: flex-start;
 
-    .contenedor-redes-sociales__icono-insta {
-      width: 18px;
+    .contenedor-redes-sociales__instagram {
+
+      .instagram__icono {
+        width: 18px;
+      }
+
+      .instagram__enlace {
+        justify-self: flex-start;
+        color:  #ffffff;
+        font-family: $fuente-titulos;
+        font-size: 12px; 
+
+      }
     }
 
-    .contenedor-redes-sociales__icono-facebook {
-      width: 18px;
-    }
 
-    .contenedor-redes-sociales__enlace-insta {
-      justify-self: flex-start;
-      color:  #ffffff;
-      font-family: $fuente-titulos;
-      font-size: 12px; 
+    .contenedor-redes-sociales__facebook {
 
-    }
+      .facebook__icono {
+        width: 18px;
+      }
 
-    .contenedor-redes-sociales__enlace-facebook {
-      /* La propiedad justify-self lo que hace es mover un único
-      elemento sobre el eje horizontal. En este caso coloca
-      el elemento en el centro del eje horizontal   */
-      justify-self: center;
-      color:  #ffffff;
-      font-family: $fuente-titulos;
-      font-size: 12px; 
+      .facebook__enlace {
+        /* La propiedad justify-self lo que hace es mover un único
+        elemento sobre el eje horizontal. En este caso coloca
+        el elemento en el centro del eje horizontal   */
+        justify-self: center;
+        color:  #ffffff;
+        font-family: $fuente-titulos;
+        font-size: 12px; 
+      }
     }
 
   }
@@ -104,30 +111,42 @@
 
 
 // Segundo punto de ruptura
-//@media screen and (min-width: 378px) and (max-width: 520px) {
-  //.pie-pagina {
-    //height: 60px;
-    /*.pie-pagina__contenedor-redes-sociales {
-      .contenedor-redes-sociales__icono-facebook {
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .pie-pagina {
+    height: 60px;
+    .pie-pagina__contenedor-redes-sociales {
+  
+      .contenedor-redes-sociales__facebook {
         display: block;
       }
+    }
 
-      .contenedor-redes-sociales__enlace-facebook {
-        display: inline-block;
-      }
+    .pie-pagina__enlace-invierte {
+      display: none;
+    }
 
-    }*/
+  }
 
-  //}
-
-//}
+}
 
 
 
 // Tercer punto de ruptura
-/*@media screen and (max-width: 378px) {
+@media screen and (max-width: 378px) {
   .pie-pagina {
     height: 70px;
+
+    .pie-pagina__enlace-invierte {
+      display: none;
+    }
+
+    .pie-pagina__contenedor-redes-sociales {
+  
+      .contenedor-redes-sociales__facebook {
+        display: block;
+      }
+    }
+
   }
 
-}*/
+}

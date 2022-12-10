@@ -210,18 +210,22 @@ body {
   justify-self: flex-start;
 }
 
-.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono-insta, .pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__icono-facebook {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__instagram .instagram__icono {
   width: 18px;
 }
 
-.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__enlace-insta {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__instagram .instagram__enlace {
   color: #fff;
   justify-self: flex-start;
   font-family: Staatliches;
   font-size: 12px;
 }
 
-.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__enlace-facebook {
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__facebook .facebook__icono {
+  width: 18px;
+}
+
+.pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__facebook .facebook__enlace {
   color: #fff;
   justify-self: center;
   font-family: Staatliches;
@@ -245,6 +249,34 @@ body {
   padding: 10px;
   font-family: Staatliches;
   font-size: 12px;
+}
+
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .pie-pagina {
+    height: 60px;
+  }
+
+  .pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__facebook {
+    display: block;
+  }
+
+  .pie-pagina .pie-pagina__enlace-invierte {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .pie-pagina {
+    height: 70px;
+  }
+
+  .pie-pagina .pie-pagina__enlace-invierte {
+    display: none;
+  }
+
+  .pie-pagina .pie-pagina__contenedor-redes-sociales .contenedor-redes-sociales__facebook {
+    display: block;
+  }
 }
 
 .theme .main-pagina-contacto--oscuro {
@@ -632,11 +664,12 @@ body {
 }
 
 .main-pagina-inicio-sesion .section__form-inicio-sesion .form-inicio-sesion__fieldset #fieldset__boton-enviar {
-  width: 96px;
-  height: 35px;
+  width: 100px;
+  height: 42px;
   color: #000;
   background-color: #cca61f;
   border-radius: 1.2em;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
