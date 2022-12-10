@@ -247,6 +247,18 @@ body {
   font-size: 12px;
 }
 
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .pie-pagina {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .pie-pagina {
+    height: 70px;
+  }
+}
+
 .theme .main-pagina-contacto--oscuro {
   background-color: #515052;
 }

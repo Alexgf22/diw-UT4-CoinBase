@@ -86,3 +86,48 @@
 
   
 }
+
+
+
+// Responsive
+
+
+
+// Primer punto de ruptura
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  
+
+
+
+}
+
+
+
+// Segundo punto de ruptura
+@media screen and (min-width: 378px) and (max-width: 520px) {
+  .pie-pagina {
+    height: 60px;
+    /*.pie-pagina__contenedor-redes-sociales {
+      .contenedor-redes-sociales__icono-facebook {
+        display: block;
+      }
+
+      .contenedor-redes-sociales__enlace-facebook {
+        display: inline-block;
+      }
+
+    }*/
+
+  }
+
+}
+
+
+
+// Tercer punto de ruptura
+@media screen and (max-width: 378px) {
+  .pie-pagina {
+    height: 70px;
+  }
+
+}
