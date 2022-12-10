@@ -1,8 +1,10 @@
 @import "./utilities/variables";
+@import "./utilities/mixins";
 @import "./base/typo.scss";
 @import "./base/body_y_box";
 @import "./layout/cabecera";
 @import "./layout/footer";
+
 
 // Importando páginas
 @import "./views/contacto";
