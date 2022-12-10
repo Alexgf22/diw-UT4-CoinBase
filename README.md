@@ -17,3 +17,7 @@ A continuación se mencionarán los cambios realizados en comparación a la vers
   - En séptimo lugar, tanto los inputs como los fieldset se les ha aplicado un border-radius y una sombra para darle un mayor contraste. También se les ha aplicado una sombra a los botones de los formularios.
   
   - En octavo lugar, también se les ha aplicado un border-radius y una sombra al menú hamburguesa en el responsive.
+
+  - En noveno lugar, se ha colocado en el footer un botón de modo oscuro que realiza una llamada a la función correspondiente, dependiendo de la página donde esté el usuario y cambia los azules con mayor saturación y menor luminosidad por un negro con mayor saturación y menor luminosidad y los azules con menor saturación y mayor luminosidad por un negro con menor saturación y mayor luminosidad.
+
+
