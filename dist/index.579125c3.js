@@ -61,5 +61,16 @@ function themeDarkPaginaError() {
     themeDarkCabecera();
     themeDarkPiePagina();
 }
+function themeDarkPerfilUsuario() {
+    themeDarkCabecera();
+    themeDarkPiePagina();
+    // Página perfil usuario
+    var sectionPerfilUsuario1 = document.getElementById("main-pagina-perfil-usuario__section1--darkmode");
+    sectionPerfilUsuario1.classList.toggle("main-pagina-perfil-usuario__section1--oscuro");
+    var sectionPerfilUsuario2 = document.getElementById("main-pagina-perfil-usuario__section2--darkmode");
+    sectionPerfilUsuario2.classList.toggle("main-pagina-perfil-usuario__section2--oscuro");
+    var mainPerfilUsuario = document.getElementById("main-pagina-perfil-usuario--darkmode");
+    mainPerfilUsuario.classList.toggle("main-pagina-perfil-usuario--oscuro");
+}
 
 //# sourceMappingURL=index.579125c3.js.map

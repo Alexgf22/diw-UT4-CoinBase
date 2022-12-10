@@ -1,3 +1,32 @@
+// Modo oscuro perfil usuario
+.theme {
+    .main-pagina-perfil-usuario {
+        .main-pagina-perfil-usuario__section1--oscuro {
+            background-color: $color__primary--dark;
+        }
+    }
+}
+
+
+.theme {
+    .main-pagina-perfil-usuario {
+        .main-pagina-perfil-usuario__section2--oscuro {
+            background-color: $color__primary--dark;
+        }
+    }
+}
+
+
+.theme {
+    .main-pagina-perfil-usuario--oscuro {
+        background-color: $color__secondary--dark;
+    }
+}
+
+
+
+
+// Página perfil usuario
 .main-pagina-perfil-usuario {
     background-color: $color__tertiary;
     width: 100%;
