@@ -1028,6 +1028,14 @@ body {
   }
 }
 
+.theme .main-pagina-perfil-usuario .main-pagina-perfil-usuario__section1--oscuro, .theme .main-pagina-perfil-usuario .main-pagina-perfil-usuario__section2--oscuro {
+  background-color: #000103;
+}
+
+.theme .main-pagina-perfil-usuario--oscuro {
+  background-color: #515052;
+}
+
 .main-pagina-perfil-usuario {
   width: 100%;
   min-height: 100vh;
