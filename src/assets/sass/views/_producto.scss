@@ -32,174 +32,176 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    .main-pagina-producto__section {
   
-  
-    .section__contenedor-producto {
-      background-color: $color__primary;
-      width: 574px;
-      padding: 20px;
-      margin: 20px;
-      border-radius: 0.4em;
+      .section__contenedor-producto {
+        background-color: $color__primary;
+        width: 574px;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 0.4em;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-  
-      .contenedor-producto__logo-bitcoin-y-titulo {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 12px;
-  
-        .logo-bitcoin-y-titulo__h2 {
-          font-size: 30px;
-          font-family: $fuente-titulos;
-          color: white;
-          //text-align: center;
-          padding-top: 36px;
-        }
-  
-        .logo-bitcoin-y-titulo__icono-bitcoin {
-          width: 40px;
-          /* La propiedad align-self lo que hace es mover en el 
-          eje vertical un único elemento, en este caso coloca
-          el elemento al final del eje vertical  */
-          align-self: flex-end;
-        }
-    }
-  
-      #contenedor-producto__crypto-widget-coin-list {
-        //width: 268px;
-        width: 54%;
-        /* La propiedad margin 0 auto lo que hace en este caso
-        es centrar el elemento de manera horizontal  */
-        margin:0 auto;
-        margin-top: 20px;
+    
+        .contenedor-producto__logo-bitcoin-y-titulo {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 12px;
+    
+          .logo-bitcoin-y-titulo__h2 {
+            font-size: 30px;
+            font-family: $fuente-titulos;
+            color: white;
+            //text-align: center;
+            padding-top: 36px;
+          }
+    
+          .logo-bitcoin-y-titulo__icono-bitcoin {
+            width: 40px;
+            /* La propiedad align-self lo que hace es mover en el 
+            eje vertical un único elemento, en este caso coloca
+            el elemento al final del eje vertical  */
+            align-self: flex-end;
+          }
       }
-  
-      
-      .contenedor-producto__info-crypto-bitcoin {
-        padding-top: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-  
+    
+        #contenedor-producto__crypto-widget-coin-list {
+          //width: 268px;
+          width: 54%;
+          /* La propiedad margin 0 auto lo que hace en este caso
+          es centrar el elemento de manera horizontal  */
+          margin:0 auto;
+          margin-top: 20px;
+        }
+    
         
-        .info-crypto-bitcoin__primer-dato-crypto {
-          width: 60%;
-          padding: 15px;
+        .contenedor-producto__info-crypto-bitcoin {
+          padding-top: 30px;
           display: flex;
-          /* La propiedad justify-content space-between lo que hace
-          es distribuir los elementos de manera uniforme
-          El primer elemento está al ras con el inicio,
-          el último está al ras con el final */
-          justify-content: space-between;
+          flex-direction: column;
+          justify-content: center;
           align-items: center;
-          //gap: 80px;
-
-          .primer-dato-crypto__titulo {
-            color: white;
-            font-size: 16px;
-            font-family: $fuente-titulos;
-            display: inline;
-          }
-
-          .primer-dato-crypto__parrafo {
-            font-size: 16px;
-            color: white;
-            font-family: $fuente-parrafos;
-            /* La propiedad display inline lo que hace es colocar
-            en linea en este caso un elemento en bloque por lo que
-            el párrafo no pasaría debajo del anterior elemento  */
-            display: inline;
-          }
-
-        }
-  
-        .info-crypto-bitcoin__segundo-dato-crypto {
-          width: 60%;
-          padding: 15px;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          //gap: 40px;
-
-          .segundo-dato-crypto__titulo {
-            color: white;
-            font-size: 16px;
-            font-family: $fuente-titulos;
-            display: inline;
-          }
-
-          .segundo-dato-crypto__parrafo {
-            font-size: 16px;
-            color: white;
-            font-family: $fuente-parrafos;
-            /* La propiedad display inline lo que hace es colocar
-            en linea en este caso un elemento en bloque por lo que
-            el párrafo no pasaría debajo del anterior elemento  */
-            display: inline;
-          }
-
-        }
-  
-        .info-crypto-bitcoin__tercer-dato-crypto {
-          width: 60%;
-          padding: 15px;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          //gap: 40px;
-
-          .tercer-dato-crypto__titulo {
-            color: white;
-            font-size: 16px;
-            font-family: $fuente-titulos;
-            display: inline;
-          }
-
-          .tercer-dato-crypto__parrafo {
-            font-size: 16px;
-            color: white;
-            font-family: $fuente-parrafos;
-            /* La propiedad display inline lo que hace es colocar
-            en linea en este caso un elemento en bloque por lo que
-            el párrafo no pasaría debajo del anterior elemento  */
-            display: inline;
-          }
-
-        }
-  
-        .info-crypto-bitcoin__cuarto-dato-crypto {
-          width: 60%;
-          padding: 15px;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          //gap: 50px;
-
-          .cuarto-dato-crypto__titulo {
-            color: white;
-            font-size: 16px;
-            font-family: $fuente-titulos;
-            display: inline;
-          }
-
-          .cuarto-dato-crypto__enlace-evolucion-precio {
-            padding: 5px;
-            width: 96px;
-            text-decoration: underline;
-            background-color: $color__secondary;
-            font-family: $fuente-titulos;
-            border-radius: 0.6em;
-            color: black;
-            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-          }
+    
           
+          .info-crypto-bitcoin__primer-dato-crypto {
+            width: 60%;
+            padding: 15px;
+            display: flex;
+            /* La propiedad justify-content space-between lo que hace
+            es distribuir los elementos de manera uniforme
+            El primer elemento está al ras con el inicio,
+            el último está al ras con el final */
+            justify-content: space-between;
+            align-items: center;
+            //gap: 80px;
+
+            .primer-dato-crypto__titulo {
+              color: white;
+              font-size: 16px;
+              font-family: $fuente-titulos;
+              display: inline;
+            }
+
+            .primer-dato-crypto__parrafo {
+              font-size: 16px;
+              color: white;
+              font-family: $fuente-parrafos;
+              /* La propiedad display inline lo que hace es colocar
+              en linea en este caso un elemento en bloque por lo que
+              el párrafo no pasaría debajo del anterior elemento  */
+              display: inline;
+            }
+
+          }
+    
+          .info-crypto-bitcoin__segundo-dato-crypto {
+            width: 60%;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            //gap: 40px;
+
+            .segundo-dato-crypto__titulo {
+              color: white;
+              font-size: 16px;
+              font-family: $fuente-titulos;
+              display: inline;
+            }
+
+            .segundo-dato-crypto__parrafo {
+              font-size: 16px;
+              color: white;
+              font-family: $fuente-parrafos;
+              /* La propiedad display inline lo que hace es colocar
+              en linea en este caso un elemento en bloque por lo que
+              el párrafo no pasaría debajo del anterior elemento  */
+              display: inline;
+            }
+
+          }
+    
+          .info-crypto-bitcoin__tercer-dato-crypto {
+            width: 60%;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            //gap: 40px;
+
+            .tercer-dato-crypto__titulo {
+              color: white;
+              font-size: 16px;
+              font-family: $fuente-titulos;
+              display: inline;
+            }
+
+            .tercer-dato-crypto__parrafo {
+              font-size: 16px;
+              color: white;
+              font-family: $fuente-parrafos;
+              /* La propiedad display inline lo que hace es colocar
+              en linea en este caso un elemento en bloque por lo que
+              el párrafo no pasaría debajo del anterior elemento  */
+              display: inline;
+            }
+
+          }
+    
+          .info-crypto-bitcoin__cuarto-dato-crypto {
+            width: 60%;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            //gap: 50px;
+
+            .cuarto-dato-crypto__titulo {
+              color: white;
+              font-size: 16px;
+              font-family: $fuente-titulos;
+              display: inline;
+            }
+
+            .cuarto-dato-crypto__enlace-evolucion-precio {
+              padding: 5px;
+              width: 96px;
+              text-decoration: underline;
+              background-color: $color__secondary;
+              font-family: $fuente-titulos;
+              border-radius: 0.6em;
+              color: black;
+              box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            }
+            
+          }
         }
+    
+        
+        
       }
-  
-      
-      
     }
   }
   
@@ -216,10 +218,10 @@
     transition-duration: 0.5s;
 
     .section__contenedor-producto {
-    width: 500px;
-    margin: 0 auto;
-    margin: 20px;
-    transition-duration: 0.5s;
+      width: 500px;
+      margin: 0 auto;
+      margin: 20px;
+      transition-duration: 0.5s;
     }
   }
 
@@ -236,37 +238,37 @@
     transition-duration: 0.5s;
 
     .section__contenedor-producto {
-    width: 360px;
-    margin: 0 auto;
-    margin: 20px;
-    transition-duration: 0.5s;
+      width: 360px;
+      margin: 0 auto;
+      margin: 20px;
+      transition-duration: 0.5s;
 
-    #contenedor-producto__crypto-widget-coin-list {
-      width: 180px;
-    }
-
-    .contenedor-producto__info-crypto-bitcoin {
-
-      .info-crypto-bitcoin__primer-dato-crypto {
-        display:flex;
-        flex-direction: column;
+      #contenedor-producto__crypto-widget-coin-list {
+        width: 180px;
       }
 
-      .info-crypto-bitcoin__segundo-dato-crypto {
-        display:flex;
-        flex-direction: column;
-      }
+      .contenedor-producto__info-crypto-bitcoin {
 
-      .info-crypto-bitcoin__tercer-dato-crypto {
-        display:flex;
-        flex-direction: column;
-      }
+        .info-crypto-bitcoin__primer-dato-crypto {
+          display:flex;
+          flex-direction: column;
+        }
 
-      .info-crypto-bitcoin__cuarto-dato-crypto {
-        display:flex;
-        flex-direction: column;
+        .info-crypto-bitcoin__segundo-dato-crypto {
+          display:flex;
+          flex-direction: column;
+        }
+
+        .info-crypto-bitcoin__tercer-dato-crypto {
+          display:flex;
+          flex-direction: column;
+        }
+
+        .info-crypto-bitcoin__cuarto-dato-crypto {
+          display:flex;
+          flex-direction: column;
+        }
       }
-    }
 
     }
   }
