@@ -91,7 +91,7 @@ body {
     width: 160px;
     height: 330px;
     float: right;
-    z-index: 1;
+    z-index: 2;
     clip-path: circle(0);
     background-color: #cca61f;
     border-radius: .4em;
@@ -120,7 +120,7 @@ body {
 
   .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .nav-label__icono-hamburguesa {
     cursor: pointer;
-    z-index: 2;
+    z-index: 3;
     background-color: #cca61f;
     justify-content: center;
     align-items: center;
@@ -149,7 +149,7 @@ body {
   .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .lista-cabecera__menu-hamburguesa {
     width: 130px;
     height: 290px;
-    z-index: 1;
+    z-index: 2;
     clip-path: circle(0);
     background-color: #cca61f;
     border-radius: .4em;
@@ -176,7 +176,7 @@ body {
 
   .cabecera .cabecera__menu-navegacion-nav .menu-navegacion-nav__lista-cabecera .nav-label__icono-hamburguesa {
     cursor: pointer;
-    z-index: 2;
+    z-index: 3;
     background-color: #cca61f;
     padding: 5px;
     display: flex;
@@ -507,6 +507,11 @@ body {
   .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-telefono .parrafo-telefono__telefono-contacto .telefono-contacto__span, .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo-contacto .parrafo-correo-contacto__email .email__span {
     display: block;
   }
+}
+
+.main-pagina-inicio {
+  z-index: -1;
+  position: relative;
 }
 
 .main-pagina-inicio .main-pagina-inicio__section {
