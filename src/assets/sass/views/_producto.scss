@@ -1,8 +1,10 @@
 // Modo oscuro página producto
 .theme {
   .main-pagina-producto {
-    .section__contenedor-producto--oscuro {
-      background-color: $color__primary--dark;
+    .main-pagina-producto__section {
+      .section__contenedor-producto--oscuro {
+        background-color: $color__primary--dark;
+      }
     }
   }
 }

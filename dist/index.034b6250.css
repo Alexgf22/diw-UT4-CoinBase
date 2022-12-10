@@ -1138,7 +1138,7 @@ body {
   display: flex;
 }
 
-.theme .main-pagina-producto .section__contenedor-producto--oscuro {
+.theme .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto--oscuro {
   background-color: #000103;
 }
 
