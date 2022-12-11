@@ -13,6 +13,8 @@
         el tamaño del contenido de un elemento para que se ajuste
         al contenedor */
         object-fit:cover;
+        z-index: -1;
+        position: relative;
       }
       
       .section__contenedor-encima-img {
@@ -26,6 +28,7 @@
   
         .contenedor-encima-img__a {
           background-color: $color__secondary;
+          z-index: 1;
           color: black;
           border-radius: 0.6em;
           padding: 12px;

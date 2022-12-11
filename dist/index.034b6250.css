@@ -521,7 +521,9 @@ body {
 .main-pagina-inicio .main-pagina-inicio__section .section__imagen-coinbase-inicio {
   width: 100%;
   object-fit: cover;
+  z-index: -1;
   margin-bottom: -5px;
+  position: relative;
 }
 
 .main-pagina-inicio .main-pagina-inicio__section .section__contenedor-encima-img {
@@ -532,6 +534,7 @@ body {
 }
 
 .main-pagina-inicio .main-pagina-inicio__section .section__contenedor-encima-img .contenedor-encima-img__a {
+  z-index: 1;
   color: #000;
   background-color: #cca61f;
   border-radius: .6em;
