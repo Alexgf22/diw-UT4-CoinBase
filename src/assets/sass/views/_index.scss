@@ -1,7 +1,7 @@
 
 .main-pagina-inicio {
-    z-index: -1;
-    position: relative;
+    //z-index: -1;
+    //position: relative;
     .main-pagina-inicio__section {
       position: relative;
     
@@ -79,6 +79,8 @@
   // Segundo punto de ruptura
   @media screen and (min-width: 378px) and (max-width: 520px) {
     .main-pagina-inicio {
+      z-index: -1;
+      position: relative;
       .main-pagina-inicio__section {
   
         .section__imagen-coinbase-inicio {
@@ -107,6 +109,8 @@
   // Tercer punto de ruptura
   @media screen and (max-width: 378px) {
     .main-pagina-inicio {
+      z-index: -1;
+      position: relative;
       .main-pagina-inicio__section {
         .section__imagen-coinbase-inicio {
           height: 400px;
