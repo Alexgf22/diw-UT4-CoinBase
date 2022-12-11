@@ -480,7 +480,8 @@ body {
   }
 
   .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset {
-    width: 220px;
+    width: 200px;
+    margin: 20px;
     transition-duration: .5s;
   }
 
@@ -1303,7 +1304,7 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-producto .section__contenedor-producto {
+  .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto {
     width: 500px;
     margin: 20px;
     transition-duration: .5s;
@@ -1315,17 +1316,17 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-producto .section__contenedor-producto {
+  .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto {
     width: 360px;
     margin: 20px;
     transition-duration: .5s;
   }
 
-  .main-pagina-producto .section__contenedor-producto #contenedor-producto__crypto-widget-coin-list {
+  .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto #contenedor-producto__crypto-widget-coin-list {
     width: 180px;
   }
 
-  .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__primer-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__segundo-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__tercer-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__cuarto-dato-crypto {
+  .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__primer-dato-crypto, .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__segundo-dato-crypto, .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__tercer-dato-crypto, .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__cuarto-dato-crypto {
     flex-direction: column;
     display: flex;
   }
@@ -1336,22 +1337,22 @@ body {
     transition-duration: .5s;
   }
 
-  .main-pagina-producto .section__contenedor-producto {
+  .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto {
     width: 260px;
     transition-duration: .5s;
   }
 
-  .main-pagina-producto .section__contenedor-producto #contenedor-producto__crypto-widget-coin-list {
+  .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto #contenedor-producto__crypto-widget-coin-list {
     width: 170px;
   }
 
-  .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__primer-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__segundo-dato-crypto {
+  .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__primer-dato-crypto, .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__segundo-dato-crypto {
     flex-direction: column;
     justify-content: center;
     display: flex;
   }
 
-  .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__tercer-dato-crypto, .main-pagina-producto .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__cuarto-dato-crypto {
+  .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__tercer-dato-crypto, .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto .contenedor-producto__info-crypto-bitcoin .info-crypto-bitcoin__cuarto-dato-crypto {
     flex-direction: column;
     display: flex;
   }
