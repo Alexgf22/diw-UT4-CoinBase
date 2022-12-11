@@ -219,11 +219,14 @@
   .main-pagina-producto {
     transition-duration: 0.5s;
 
-    .section__contenedor-producto {
-      width: 500px;
-      margin: 0 auto;
-      margin: 20px;
-      transition-duration: 0.5s;
+    .main-pagina-producto__section {
+
+      .section__contenedor-producto {
+        width: 500px;
+        margin: 0 auto;
+        margin: 20px;
+        transition-duration: 0.5s;
+      }
     }
   }
 
@@ -239,41 +242,44 @@
   .main-pagina-producto {
     transition-duration: 0.5s;
 
-    .section__contenedor-producto {
-      width: 360px;
-      margin: 0 auto;
-      margin: 20px;
-      transition-duration: 0.5s;
+    .main-pagina-producto__section {
 
-      #contenedor-producto__crypto-widget-coin-list {
-        width: 180px;
+      .section__contenedor-producto {
+        width: 360px;
+        margin: 0 auto;
+        margin: 20px;
+        transition-duration: 0.5s;
+
+        #contenedor-producto__crypto-widget-coin-list {
+          width: 180px;
+        }
+
+        .contenedor-producto__info-crypto-bitcoin {
+
+          .info-crypto-bitcoin__primer-dato-crypto {
+            display:flex;
+            flex-direction: column;
+          }
+
+          .info-crypto-bitcoin__segundo-dato-crypto {
+            display:flex;
+            flex-direction: column;
+          }
+
+          .info-crypto-bitcoin__tercer-dato-crypto {
+            display:flex;
+            flex-direction: column;
+          }
+
+          .info-crypto-bitcoin__cuarto-dato-crypto {
+            display:flex;
+            flex-direction: column;
+          }
+        }
+
       }
-
-      .contenedor-producto__info-crypto-bitcoin {
-
-        .info-crypto-bitcoin__primer-dato-crypto {
-          display:flex;
-          flex-direction: column;
-        }
-
-        .info-crypto-bitcoin__segundo-dato-crypto {
-          display:flex;
-          flex-direction: column;
-        }
-
-        .info-crypto-bitcoin__tercer-dato-crypto {
-          display:flex;
-          flex-direction: column;
-        }
-
-        .info-crypto-bitcoin__cuarto-dato-crypto {
-          display:flex;
-          flex-direction: column;
-        }
-      }
-
-    }
-  }
+    } 
+  }  
 
 }
 
@@ -284,36 +290,39 @@
   .main-pagina-producto {
     transition-duration: 0.5s;
 
-    .section__contenedor-producto {
-      width: 260px;
-      transition-duration: 0.5s;
+    .main-pagina-producto__section {
 
-      #contenedor-producto__crypto-widget-coin-list {
-        width: 170px;
-      }
-  
-      .contenedor-producto__info-crypto-bitcoin {
-        
-        .info-crypto-bitcoin__primer-dato-crypto {
-          display:flex;
-          justify-content: center;
-          flex-direction: column;
+      .section__contenedor-producto {
+        width: 260px;
+        transition-duration: 0.5s;
+
+        #contenedor-producto__crypto-widget-coin-list {
+          width: 170px;
         }
     
-        .info-crypto-bitcoin__segundo-dato-crypto {
-          display:flex;
-          justify-content: center;
-          flex-direction: column;
-        }
-    
-        .info-crypto-bitcoin__tercer-dato-crypto {
-          display:flex;
-          flex-direction: column;
-        }
-    
-        .info-crypto-bitcoin__cuarto-dato-crypto {
-          display:flex;
-          flex-direction: column;
+        .contenedor-producto__info-crypto-bitcoin {
+          
+          .info-crypto-bitcoin__primer-dato-crypto {
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+          }
+      
+          .info-crypto-bitcoin__segundo-dato-crypto {
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+          }
+      
+          .info-crypto-bitcoin__tercer-dato-crypto {
+            display:flex;
+            flex-direction: column;
+          }
+      
+          .info-crypto-bitcoin__cuarto-dato-crypto {
+            display:flex;
+            flex-direction: column;
+          }
         }
       }
     }
