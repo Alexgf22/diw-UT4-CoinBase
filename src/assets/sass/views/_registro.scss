@@ -192,7 +192,11 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
-          align-items: center; 
+          align-items: center;
+          
+          .parrafo-nombre-pila__el-nombre {
+            margin-top: 10px;
+          }
 
           .parrafo-nombre-pila__label-name {
             padding-bottom: 10px;
@@ -222,8 +226,9 @@
             margin-top: 10px;
           }
 
-          #parrafo-correo-registro__email {
-            margin-bottom: 30px;
+          .parrafo-correo-registro__gmail {
+            margin-bottom: 22px;
+            margin-top: -20px;
 
           }
 
@@ -233,7 +238,11 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
-          align-items: center; 
+          align-items: center;
+          
+          .parrafo-contrasena__the-password {
+            margin-top: 10px;
+          }
 
         }
       }
@@ -262,7 +271,11 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
-          align-items: center; 
+          align-items: center;
+          
+          .parrafo-nombre-pila__el-nombre {
+            margin-top: 10px;
+          }
 
           .parrafo-nombre-pila__label-name {
             padding-bottom: 10px;
@@ -302,7 +315,12 @@
 
           #parrafo-correo-registro__email {
             width: 200px;
-            margin-bottom: 30px;
+          }
+
+          .parrafo-correo-registro__gmail {
+            margin-bottom: 22px;
+            margin-top: -20px;
+
           }
 
         }
@@ -312,6 +330,10 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
+
+          .parrafo-contrasena__the-password {
+            margin-top: 10px;
+          }
 
           #parrafo-contrasena__password {
             width: 200px;

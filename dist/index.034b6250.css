@@ -455,11 +455,25 @@ body {
     display: flex;
   }
 
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-nombre .parrafo-nombre__the-name {
+    margin-top: 12px;
+  }
+
   .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-nombre .parrafo-nombre__label-nombre {
     padding-bottom: 6px;
   }
 
-  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo, .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-duda {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo .parrafo-correo__gmail {
+    margin-top: 12px;
+  }
+
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-duda {
     flex-direction: column;
     justify-content: center;
     display: flex;
@@ -491,11 +505,25 @@ body {
     display: flex;
   }
 
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-nombre .parrafo-nombre__the-name {
+    margin-top: 12px;
+  }
+
   .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-nombre .parrafo-nombre__label-nombre {
     padding-bottom: 6px;
   }
 
-  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo, .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-duda {
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-correo .parrafo-correo__gmail {
+    margin-top: 12px;
+  }
+
+  .main-pagina-contacto .section__formulario-contacto .formulario-contacto__fieldset .fieldset__parrafo-duda {
     flex-direction: column;
     justify-content: center;
     display: flex;
@@ -1170,7 +1198,7 @@ body {
   background-color: #1b2580;
   border-radius: .4em;
   margin: 20px;
-  padding: 20px;
+  padding-bottom: 10px;
   box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
 }
 
@@ -1338,7 +1366,7 @@ body {
   }
 
   .main-pagina-producto .main-pagina-producto__section .section__contenedor-producto {
-    width: 260px;
+    width: 263px;
     transition-duration: .5s;
   }
 
@@ -1507,6 +1535,10 @@ body {
     display: flex;
   }
 
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-nombre-pila .parrafo-nombre-pila__el-nombre {
+    margin-top: 10px;
+  }
+
   .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-nombre-pila .parrafo-nombre-pila__label-name {
     padding-bottom: 10px;
   }
@@ -1533,8 +1565,9 @@ body {
     margin-top: 10px;
   }
 
-  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-correo-registro #parrafo-correo-registro__email {
-    margin-bottom: 30px;
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-correo-registro .parrafo-correo-registro__gmail {
+    margin-top: -20px;
+    margin-bottom: 22px;
   }
 
   .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-contrasena {
@@ -1542,6 +1575,10 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+  }
+
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-contrasena .parrafo-contrasena__the-password {
+    margin-top: 10px;
   }
 }
 
@@ -1560,6 +1597,10 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+  }
+
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-nombre-pila .parrafo-nombre-pila__el-nombre {
+    margin-top: 10px;
   }
 
   .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-nombre-pila .parrafo-nombre-pila__label-name {
@@ -1598,7 +1639,11 @@ body {
 
   .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-correo-registro #parrafo-correo-registro__email {
     width: 200px;
-    margin-bottom: 30px;
+  }
+
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-correo-registro .parrafo-correo-registro__gmail {
+    margin-top: -20px;
+    margin-bottom: 22px;
   }
 
   .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-contrasena {
@@ -1606,6 +1651,10 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+  }
+
+  .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-contrasena .parrafo-contrasena__the-password {
+    margin-top: 10px;
   }
 
   .main-pagina-registro .section__form-registro .form-registro__fieldset .fieldset__parrafo-contrasena #parrafo-contrasena__password {
